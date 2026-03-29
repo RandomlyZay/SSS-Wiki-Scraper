@@ -7667,5 +7667,11 @@
       }
     }
   ],
+  "Errors": [
+    {
+      "name": "Hawk Blur Trail",
+      "type": "Trail"
+    }
+  ],
   "error": true
 }

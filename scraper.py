@@ -56,7 +56,7 @@ def parse_stat_string(s):
                 r"([+-]?[\d,.]+K?M?)\s*(?:"
                 r"\[\[File:[^\]]*?" + keyword + r"[^\]]*?\]\]|"
                 r"\{\{Icons\|" + keyword + r"\}\}|"
-                r"\b" + keyword + r"\b"
+                r"" + keyword + r""
                 r")"
             )
             # Use re.IGNORECASE for both value suffixes and keyword matches
@@ -199,7 +199,7 @@ def main():
     expected_friends = len(friends_list)
     expected_trails = len(trails_list)
 
-    data = {"Friends": [], "Trails": [], "error": False}
+    data = {"Friends": [], "Trails": [], "Errors": [], "error": False}
 
     print(f"Processing {expected_friends} Friends...")
     for i, title in enumerate(friends_list):
@@ -210,6 +210,7 @@ def main():
             data["Friends"].append(res)
         else:
             print(f"  Warning: No stats found for Friend: {title}")
+            data["Errors"].append({"name": title, "type": "Friend"})
             data["error"] = True
         time.sleep(0.05)
 
@@ -222,6 +223,7 @@ def main():
             data["Trails"].append(res)
         else:
             print(f"  Warning: No stats found for Trail: {title}")
+            data["Errors"].append({"name": title, "type": "Trail"})
             data["error"] = True
         time.sleep(0.05)
 
