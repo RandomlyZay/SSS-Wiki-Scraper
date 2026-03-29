@@ -1,33 +1,13 @@
-import requests
+import httpx
+import asyncio
 import re
 import json
-import time
 import os
 
 API_URL = "https://sonic-speed-simulator.fandom.com/api.php"
-HEADERS = {"User-Agent": "SSS-Stats-Scraper/1.0"}
+HEADERS = {"User-Agent": "SSS-Stats-Scraper/2.0"}
 IMAGES_DIR = "images"
-
-
-def get_category_members(category):
-    params = {
-        "action": "query",
-        "list": "categorymembers",
-        "cmtitle": f"Category:{category}",
-        "cmlimit": "max",
-        "format": "json",
-    }
-    members = []
-    while True:
-        response = requests.get(API_URL, params=params, headers=HEADERS).json()
-        if "query" not in response:
-            break
-        members.extend(response["query"]["categorymembers"])
-        if "continue" in response:
-            params.update(response["continue"])
-        else:
-            break
-    return [m["title"] for m in members]
+CONCURRENCY = 20
 
 
 def parse_stat_string(s):
@@ -163,7 +143,7 @@ def extract_image_filename(wikitext):
     return None
 
 
-def get_image_url(filename):
+async def get_image_url(filename, client):
     if not filename:
         return None
     params = {
@@ -174,7 +154,7 @@ def get_image_url(filename):
         "format": "json",
     }
     try:
-        response = requests.get(API_URL, params=params, headers=HEADERS).json()
+        response = (await client.get("", params=params)).json()
         pages = response.get("query", {}).get("pages", {})
         for p in pages.values():
             if "imageinfo" in p:
@@ -184,12 +164,8 @@ def get_image_url(filename):
     return None
 
 
-def download_image(filename, name):
+async def download_image(filename, name, client):
     if not filename:
-        return None
-
-    url = get_image_url(filename)
-    if not url:
         return None
 
     # Sanitize name for filename
@@ -201,27 +177,32 @@ def download_image(filename, name):
     if os.path.exists(local_path):
         return local_path
 
+    url = await get_image_url(filename, client)
+    if not url:
+        return None
+
     try:
-        resp = requests.get(url, headers=HEADERS, stream=True)
-        if resp.status_code == 200:
-            with open(local_path, "wb") as f:
-                for chunk in resp.iter_content(1024):
-                    f.write(chunk)
-            return local_path
+        async with client.stream("GET", url) as resp:
+            if resp.status_code == 200:
+                with open(local_path, "wb") as f:
+                    async for chunk in resp.aiter_bytes(1024):
+                        f.write(chunk)
+                return local_path
     except Exception:
         pass
     return None
 
 
-def get_page_stats(title):
-    params = {"action": "parse", "page": title, "prop": "wikitext", "format": "json"}
-    try:
-        response = requests.get(API_URL, params=params, headers=HEADERS).json()
-        if "error" in response:
+async def get_page_stats(title, client, semaphore):
+    async with semaphore:
+        params = {"action": "parse", "page": title, "prop": "wikitext", "format": "json"}
+        try:
+            response = (await client.get("", params=params)).json()
+            if "error" in response:
+                return None
+            wikitext = response["parse"]["wikitext"]["*"]
+        except Exception:
             return None
-        wikitext = response["parse"]["wikitext"]["*"]
-    except Exception:
-        return None
 
     stats = {
         "name": title,
@@ -240,7 +221,14 @@ def get_page_stats(title):
 
     stats["rarity"] = extract_rarity(wikitext, field_dict)
     img_filename = extract_image_filename(wikitext)
-    stats["image"] = download_image(img_filename, title)
+    
+    # Download image (this will also call get_image_url)
+    # We use the same semaphore or a separate one for image downloads?
+    # Let's just do it here for simplicity, the semaphore limits concurrent API calls.
+    # Note: image download itself isn't limited by 'semaphore' here but by being inside get_page_stats.
+    # Actually, let's put it inside the semaphore if it's an API call, but download_image has get_image_url which is an API call.
+    # To be safe, we'll run it here.
+    stats["image"] = await download_image(img_filename, title, client)
 
     def get_val(key):
         val = field_dict.get(key.lower(), "0").replace(",", "").replace("+", "").strip()
@@ -324,16 +312,34 @@ def get_page_stats(title):
                 if isinstance(max_dict, dict):
                     max_dict.update(parsed)
 
-    # If we still have no stats, maybe it's a different field name or not an item page
     if not stats["base"] and not stats["max"] and not stats["max_fused"]:
-        # Characters like Sonic might just be a base character without unique stats sometimes,
-        # but usually they have 'tier'. If nothing found, return None to avoid clutter.
         return None
 
     return stats
 
 
-def main():
+async def get_category_members(category, client):
+    params = {
+        "action": "query",
+        "list": "categorymembers",
+        "cmtitle": f"Category:{category}",
+        "cmlimit": "max",
+        "format": "json",
+    }
+    members = []
+    while True:
+        response = (await client.get("", params=params)).json()
+        if "query" not in response:
+            break
+        members.extend(response["query"]["categorymembers"])
+        if "continue" in response:
+            params.update(response["continue"])
+        else:
+            break
+    return [m["title"] for m in members if not m["title"].startswith("Category:")]
+
+
+async def main():
     if not os.path.exists(IMAGES_DIR):
         os.makedirs(IMAGES_DIR)
 
@@ -348,29 +354,39 @@ def main():
     errors = []
     has_error = False
 
-    for cat_key, cat_name in categories.items():
-        print(f"Fetching {cat_name} list from Wiki...")
-        items_list = get_category_members(cat_name)
-        items_list = [i for i in items_list if not i.startswith("Category:")]
-        expected = len(items_list)
+    async with httpx.AsyncClient(base_url=API_URL, headers=HEADERS, timeout=60.0) as client:
+        semaphore = asyncio.Semaphore(CONCURRENCY)
+        
+        for cat_key, cat_name in categories.items():
+            print(f"Fetching {cat_name} list from Wiki...")
+            items_list = await get_category_members(cat_name, client)
+            expected = len(items_list)
 
-        print(f"Processing {expected} {cat_name}...")
-        for i, title in enumerate(items_list):
-            if i % 20 == 0:
-                print(f"  Progress: {i}/{expected}")
-            res = get_page_stats(title)
-            if res:
-                results[cat_key].append(res)
-            else:
-                print(f"  Warning: No stats found for {cat_key}: {title}")
-                errors.append({"name": title, "type": cat_key})
-                has_error = True
-            time.sleep(0.05)
+            print(f"Processing {expected} {cat_name} concurrently...")
+            
+            results[cat_key] = []
+            
+            async def wrapped_task(title):
+                res = await get_page_stats(title, client, semaphore)
+                return title, res
 
-        scraped = len(results[cat_key])
-        if scraped != expected:
-            # One trail being a stub is expected to cause a mismatch
-            print(f"Notice: {cat_name} count mismatch ({scraped}/{expected})")
+            tasks = [wrapped_task(title) for title in items_list]
+            completed = 0
+            for task in asyncio.as_completed(tasks):
+                title, res = await task
+                completed += 1
+                if completed % 25 == 0:
+                    print(f"  Progress: {completed}/{expected}")
+                
+                if res:
+                    results[cat_key].append(res)
+                else:
+                    errors.append({"name": title, "type": cat_key})
+                    has_error = True
+
+            scraped = len(results[cat_key])
+            if scraped != expected:
+                print(f"Notice: {cat_name} count mismatch ({scraped}/{expected})")
 
     print("Saving to stats.json...")
     data = {**results, "Errors": errors, "error": has_error}
@@ -384,4 +400,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
