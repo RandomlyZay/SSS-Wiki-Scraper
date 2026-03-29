@@ -1,0 +1,7153 @@
+{
+  "Friends": [
+    {
+      "name": "Adventurer Chao",
+      "base": {
+        "xp": 360,
+        "rings": 300,
+        "damage": 48
+      },
+      "max": {
+        "xp": 1800,
+        "rings": 1500,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 9000,
+        "rings": 7500,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Air Ninja Chao",
+      "base": {
+        "xp": 262,
+        "damage": 60
+      },
+      "max": {
+        "xp": 6000,
+        "damage": 600
+      },
+      "max_fused": {
+        "xp": 30000,
+        "damage": 3000
+      }
+    },
+    {
+      "name": "Amaranth Chao",
+      "base": {
+        "damage": 120
+      },
+      "max": {
+        "damage": 240
+      },
+      "max_fused": {
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Amy Chao",
+      "base": {
+        "xp": 172,
+        "damage": 80,
+        "luck": 1
+      },
+      "max": {
+        "xp": 8600,
+        "damage": 403,
+        "luck": 5
+      },
+      "max_fused": {
+        "xp": 43000,
+        "damage": 2015,
+        "luck": 25
+      }
+    },
+    {
+      "name": "Apple Chao",
+      "base": {
+        "damage": 2
+      },
+      "max": {
+        "damage": 100
+      },
+      "max_fused": {
+        "damage": 500
+      }
+    },
+    {
+      "name": "Apricot Chao",
+      "base": {
+        "rings": 7
+      },
+      "max": {
+        "rings": 312
+      },
+      "max_fused": {
+        "rings": 1560
+      }
+    },
+    {
+      "name": "Arctic Chao",
+      "base": {
+        "xp": 22,
+        "rings": 22
+      },
+      "max": {
+        "xp": 225,
+        "rings": 225
+      },
+      "max_fused": {
+        "xp": 1125,
+        "rings": 1125
+      }
+    },
+    {
+      "name": "Armorer Chao",
+      "base": {
+        "xp": 800,
+        "rings": 399,
+        "damage": 159
+      },
+      "max": {
+        "xp": 4000,
+        "rings": 1900,
+        "damage": 799
+      },
+      "max_fused": {
+        "xp": 20000,
+        "rings": 9500,
+        "damage": 3995
+      }
+    },
+    {
+      "name": "Astral Chao",
+      "base": {
+        "xp": 12000,
+        "rings": 12000
+      },
+      "max": {
+        "xp": 120000,
+        "rings": 120000
+      },
+      "max_fused": {
+        "xp": 600000,
+        "rings": 600000
+      }
+    },
+    {
+      "name": "Autumn Chao",
+      "base": {
+        "rings": 180,
+        "damage": 108
+      },
+      "max": {
+        "rings": 9000,
+        "damage": 216
+      },
+      "max_fused": {
+        "rings": 45000,
+        "damage": 1080
+      }
+    },
+    {
+      "name": "Avocado Chao",
+      "base": {
+        "rings": 5
+      },
+      "max": {
+        "rings": 250
+      },
+      "max_fused": {
+        "rings": 1250
+      }
+    },
+    {
+      "name": "Banana Chao",
+      "base": {
+        "xp": 50,
+        "rings": 50,
+        "damage": 9
+      },
+      "max": {
+        "xp": 500,
+        "rings": 500,
+        "damage": 90
+      },
+      "max_fused": {
+        "xp": 2500,
+        "rings": 2500,
+        "damage": 450
+      }
+    },
+    {
+      "name": "Bandit Chao",
+      "base": {
+        "xp": 240,
+        "damage": 7
+      },
+      "max": {
+        "xp": 1200,
+        "damage": 360
+      },
+      "max_fused": {
+        "xp": 6000,
+        "damage": 1800
+      }
+    },
+    {
+      "name": "Beach Chao",
+      "base": {
+        "xp": 15,
+        "rings": 2
+      },
+      "max": {
+        "xp": 750,
+        "rings": 125
+      },
+      "max_fused": {
+        "xp": 3750,
+        "rings": 625
+      }
+    },
+    {
+      "name": "Bee Chao",
+      "base": {
+        "xp": 6,
+        "rings": 9
+      },
+      "max": {
+        "xp": 312,
+        "rings": 468
+      },
+      "max_fused": {
+        "xp": 1560,
+        "rings": 2340
+      }
+    },
+    {
+      "name": "Berry Chao",
+      "base": {
+        "xp": 840,
+        "rings": 780
+      },
+      "max": {
+        "xp": 4200,
+        "rings": 3900
+      },
+      "max_fused": {
+        "xp": 21000,
+        "rings": 19500
+      }
+    },
+    {
+      "name": "Birthday Chao",
+      "base": {
+        "xp": 40,
+        "rings": 19,
+        "damage": 7
+      },
+      "max": {
+        "xp": 4008,
+        "rings": 1998,
+        "damage": 799
+      },
+      "max_fused": {
+        "xp": 20040,
+        "rings": 9990,
+        "damage": 3995
+      }
+    },
+    {
+      "name": "Black Chao",
+      "base": {
+        "xp": 30
+      },
+      "max": {
+        "xp": 750
+      },
+      "max_fused": {
+        "xp": 3750
+      }
+    },
+    {
+      "name": "Black Karate Chao",
+      "base": {
+        "xp": 240,
+        "damage": 24
+      },
+      "max": {
+        "xp": 360,
+        "damage": 120
+      },
+      "max_fused": {
+        "xp": 1800,
+        "damage": 600
+      }
+    },
+    {
+      "name": "Black Knight Chao",
+      "base": {
+        "xp": 75,
+        "damage": 15
+      },
+      "max": {
+        "xp": 7500,
+        "damage": 150
+      },
+      "max_fused": {
+        "xp": 37500,
+        "damage": 750
+      }
+    },
+    {
+      "name": "Blackberry Chao",
+      "base": {
+        "xp": 10
+      },
+      "max": {
+        "xp": 500
+      },
+      "max_fused": {
+        "xp": 2500
+      }
+    },
+    {
+      "name": "Blaze Chao",
+      "base": {
+        "xp": 15,
+        "rings": 6,
+        "damage": 24,
+        "luck": 2
+      },
+      "max": {
+        "xp": 150,
+        "rings": 60,
+        "damage": 240,
+        "luck": 8
+      },
+      "max_fused": {
+        "xp": 750,
+        "rings": 300,
+        "damage": 1200,
+        "luck": 40
+      }
+    },
+    {
+      "name": "Bloxian Chao",
+      "base": {
+        "xp": 48,
+        "rings": 12,
+        "damage": 9
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 1200,
+        "damage": 960
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 6000,
+        "damage": 4800
+      }
+    },
+    {
+      "name": "Blue Chao",
+      "base": {
+        "xp": 1
+      },
+      "max": {
+        "xp": 25
+      },
+      "max_fused": {
+        "xp": 125
+      }
+    },
+    {
+      "name": "Blue Pumpkin Chao",
+      "base": {
+        "xp": 2000,
+        "rings": 2000,
+        "damage": 134
+      },
+      "max": {
+        "xp": 20000,
+        "rings": 20000,
+        "damage": 1340
+      },
+      "max_fused": {
+        "xp": 100000,
+        "rings": 100000,
+        "damage": 6700
+      }
+    },
+    {
+      "name": "Blue Racer Chao",
+      "base": {
+        "xp": 640,
+        "damage": 15
+      },
+      "max": {
+        "xp": 10000,
+        "damage": 150
+      },
+      "max_fused": {
+        "xp": 50000,
+        "damage": 750
+      }
+    },
+    {
+      "name": "Blue Shadow Omochao",
+      "base": {
+        "xp": 5000,
+        "rings": 5000,
+        "damage": 110
+      },
+      "max": {
+        "xp": 132000,
+        "rings": 132000,
+        "damage": 1100
+      },
+      "max_fused": {
+        "xp": 660000,
+        "rings": 660000,
+        "damage": 5500
+      }
+    },
+    {
+      "name": "Blue Wisp",
+      "base": {
+        "xp": 72,
+        "rings": 36,
+        "damage": 11
+      },
+      "max": {
+        "xp": 360,
+        "rings": 180,
+        "damage": 576
+      },
+      "max_fused": {
+        "xp": 1800,
+        "rings": 900,
+        "damage": 2880
+      }
+    },
+    {
+      "name": "Blueberry Chao",
+      "base": {
+        "xp": 7,
+        "rings": 1
+      },
+      "max": {
+        "xp": 375,
+        "rings": 62
+      },
+      "max_fused": {
+        "xp": 1875,
+        "rings": 310
+      }
+    },
+    {
+      "name": "Boxy Chao",
+      "base": {
+        "xp": 48,
+        "rings": 24,
+        "damage": 4
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 2400,
+        "damage": 480
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 12000,
+        "damage": 2400
+      }
+    },
+    {
+      "name": "Broccoli Chao",
+      "base": {
+        "rings": 450
+      },
+      "max": {
+        "rings": 4536
+      },
+      "max_fused": {
+        "rings": 22680
+      }
+    },
+    {
+      "name": "Business Chao",
+      "base": {
+        "xp": 3246000,
+        "rings": 6492,
+        "damage": 2036000,
+        "luck": 2
+      },
+      "max": {
+        "xp": 47835,
+        "rings": 10620,
+        "damage": 3186,
+        "luck": 6
+      },
+      "max_fused": {
+        "xp": 730410,
+        "rings": 146070,
+        "damage": 967220,
+        "luck": 12
+      }
+    },
+    {
+      "name": "Camembert Chao",
+      "base": {
+        "xp": 8,
+        "rings": 16
+      },
+      "max": {
+        "xp": 600,
+        "rings": 1200
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 6000
+      }
+    },
+    {
+      "name": "Candy Corn Chao",
+      "base": {
+        "xp": 10,
+        "rings": 20
+      },
+      "max": {
+        "xp": 750,
+        "rings": 1500
+      },
+      "max_fused": {
+        "xp": 3750,
+        "rings": 7500
+      }
+    },
+    {
+      "name": "Cardboard Cutout Chao",
+      "base": {
+        "xp": 17083,
+        "rings": 1708,
+        "damage": 32157
+      },
+      "max": {
+        "xp": 153757,
+        "rings": 15375,
+        "damage": 611000
+      },
+      "max_fused": {
+        "xp": 384392,
+        "rings": 38437,
+        "damage": 1527500
+      }
+    },
+    {
+      "name": "Carrot Chao",
+      "base": {
+        "xp": 500,
+        "rings": 500
+      },
+      "max": {
+        "xp": 4536,
+        "rings": 4536
+      },
+      "max_fused": {
+        "xp": 22680,
+        "rings": 22680
+      }
+    },
+    {
+      "name": "Cauliflower Chao",
+      "base": {
+        "xp": 450,
+        "rings": 450,
+        "damage": 20
+      },
+      "max": {
+        "xp": 4500,
+        "rings": 4500,
+        "damage": 200
+      },
+      "max_fused": {
+        "xp": 22500,
+        "rings": 22500,
+        "damage": 1000
+      }
+    },
+    {
+      "name": "Cerulean Chao",
+      "base": {
+        "xp": 2,
+        "rings": 2
+      },
+      "max": {
+        "xp": 93,
+        "rings": 141
+      },
+      "max_fused": {
+        "xp": 465,
+        "rings": 705
+      }
+    },
+    {
+      "name": "Charged Black Chao",
+      "base": {
+        "xp": 240
+      },
+      "max": {
+        "xp": 120000
+      },
+      "max_fused": {
+        "xp": 600000
+      }
+    },
+    {
+      "name": "Charged Blue Chao",
+      "base": {
+        "xp": 75
+      },
+      "max": {
+        "xp": 7500
+      },
+      "max_fused": {
+        "xp": 37500
+      }
+    },
+    {
+      "name": "Charged Cyan Chao",
+      "base": {
+        "rings": 90,
+        "damage": 108
+      },
+      "max": {
+        "rings": 4500,
+        "damage": 540
+      },
+      "max_fused": {
+        "rings": 22500,
+        "damage": 2700
+      }
+    },
+    {
+      "name": "Charged Green Chao",
+      "base": {
+        "xp": 25,
+        "rings": 12,
+        "damage": 4
+      },
+      "max": {
+        "xp": 2500,
+        "rings": 1249,
+        "damage": 499
+      },
+      "max_fused": {
+        "xp": 12500,
+        "rings": 6245,
+        "damage": 2495
+      }
+    },
+    {
+      "name": "Charged Orange Chao",
+      "base": {
+        "xp": 288,
+        "rings": 72,
+        "damage": 57
+      },
+      "max": {
+        "xp": 1400,
+        "rings": 3600,
+        "damage": 288
+      },
+      "max_fused": {
+        "xp": 7000,
+        "rings": 18000,
+        "damage": 1440
+      }
+    },
+    {
+      "name": "Charged Peach Chao",
+      "base": {
+        "xp": 500
+      },
+      "max": {
+        "xp": 12000
+      },
+      "max_fused": {
+        "xp": 60000
+      }
+    },
+    {
+      "name": "Charged Pink Chao",
+      "base": {
+        "xp": 320,
+        "rings": 159,
+        "damage": 63
+      },
+      "max": {
+        "xp": 1600,
+        "rings": 7999,
+        "damage": 319
+      },
+      "max_fused": {
+        "xp": 8000,
+        "rings": 39995,
+        "damage": 1595
+      }
+    },
+    {
+      "name": "Charged Purple Chao",
+      "base": {
+        "xp": 22,
+        "rings": 33
+      },
+      "max": {
+        "xp": 2250,
+        "rings": 3375
+      },
+      "max_fused": {
+        "xp": 11250,
+        "rings": 16875
+      }
+    },
+    {
+      "name": "Charged Red Chao",
+      "base": {
+        "xp": 320
+      },
+      "max": {
+        "xp": 3240
+      },
+      "max_fused": {
+        "xp": 16200
+      }
+    },
+    {
+      "name": "Charged Yellow Chao",
+      "base": {
+        "rings": 300
+      },
+      "max": {
+        "rings": 1500
+      },
+      "max_fused": {
+        "rings": 7500
+      }
+    },
+    {
+      "name": "Cheese Cake Chao",
+      "base": {
+        "xp": 11,
+        "rings": 2
+      },
+      "max": {
+        "xp": 562,
+        "rings": 93
+      },
+      "max_fused": {
+        "xp": 2810,
+        "rings": 465
+      }
+    },
+    {
+      "name": "Cheetah Chao",
+      "base": {
+        "xp": 60,
+        "damage": 18
+      },
+      "max": {
+        "xp": 6000,
+        "damage": 180
+      },
+      "max_fused": {
+        "xp": 30000,
+        "damage": 900
+      }
+    },
+    {
+      "name": "Chemical Plant Master Chao",
+      "base": {
+        "xp": 427,
+        "rings": 106
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 961
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 4805
+      }
+    },
+    {
+      "name": "Cherry Tea Chao",
+      "base": {
+        "xp": 25,
+        "rings": 12
+      },
+      "max": {
+        "xp": 1875,
+        "rings": 937
+      },
+      "max_fused": {
+        "xp": 9375,
+        "rings": 4685
+      }
+    },
+    {
+      "name": "Chicory Chao",
+      "base": {
+        "xp": 720
+      },
+      "max": {
+        "xp": 3600
+      },
+      "max_fused": {
+        "xp": 18000
+      }
+    },
+    {
+      "name": "Chrome Metal Sonic Omochao",
+      "base": {
+        "xp": 576,
+        "rings": 288,
+        "damage": 92,
+        "luck": 2
+      },
+      "max": {
+        "xp": 2880,
+        "rings": 1440,
+        "damage": 460,
+        "luck": 7
+      },
+      "max_fused": {
+        "xp": 14400,
+        "rings": 7200,
+        "damage": 2300,
+        "luck": 35
+      }
+    },
+    {
+      "name": "Chrome Omochao",
+      "base": {
+        "xp": 384,
+        "rings": 96,
+        "damage": 76
+      },
+      "max": {
+        "xp": 1920,
+        "rings": 4800,
+        "damage": 384
+      },
+      "max_fused": {
+        "xp": 9600,
+        "rings": 24000,
+        "damage": 1920
+      }
+    },
+    {
+      "name": "Circuit Chao",
+      "base": {
+        "xp": 900,
+        "damage": 60
+      },
+      "max": {
+        "xp": 4500,
+        "damage": 300
+      },
+      "max_fused": {
+        "xp": 22500,
+        "damage": 1500
+      }
+    },
+    {
+      "name": "Classic Amy Chao",
+      "base": {
+        "xp": 172,
+        "rings": 144,
+        "damage": 172,
+        "luck": 1
+      },
+      "max": {
+        "xp": 8600,
+        "rings": 7200,
+        "damage": 864,
+        "luck": 5
+      },
+      "max_fused": {
+        "xp": 43000,
+        "rings": 36000,
+        "damage": 4320,
+        "luck": 25
+      }
+    },
+    {
+      "name": "Cloud Chao",
+      "base": {
+        "xp": 18,
+        "rings": 3
+      },
+      "max": {
+        "xp": 937,
+        "rings": 156
+      },
+      "max_fused": {
+        "xp": 4685,
+        "rings": 780
+      }
+    },
+    {
+      "name": "Clover Chao",
+      "base": {
+        "xp": 4,
+        "rings": 8
+      },
+      "max": {
+        "xp": 200,
+        "rings": 4000
+      },
+      "max_fused": {
+        "xp": 1000,
+        "rings": 20000
+      }
+    },
+    {
+      "name": "Clucky",
+      "base": {
+        "xp": 1400,
+        "rings": 1400,
+        "damage": 300
+      },
+      "max": {
+        "xp": 36000,
+        "rings": 36000,
+        "damage": 3000
+      },
+      "max_fused": {
+        "xp": 180000,
+        "rings": 180000,
+        "damage": 15000
+      }
+    },
+    {
+      "name": "Cookies and Cream Chao",
+      "base": {
+        "xp": 32,
+        "rings": 4
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 300
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 1500
+      }
+    },
+    {
+      "name": "Coral Chao",
+      "base": {
+        "xp": 18
+      },
+      "max": {
+        "xp": 450
+      },
+      "max_fused": {
+        "xp": 2250
+      }
+    },
+    {
+      "name": "Cotton Candy Chao",
+      "base": {
+        "xp": 340,
+        "rings": 340
+      },
+      "max": {
+        "xp": 3402,
+        "rings": 3402
+      },
+      "max_fused": {
+        "xp": 17010,
+        "rings": 17010
+      }
+    },
+    {
+      "name": "Crimson Chao",
+      "base": {
+        "xp": 7,
+        "rings": 1
+      },
+      "max": {
+        "xp": 375,
+        "rings": 62
+      },
+      "max_fused": {
+        "xp": 1875,
+        "rings": 310
+      }
+    },
+    {
+      "name": "Crimson Omochao",
+      "base": {
+        "xp": 2600,
+        "rings": 2600,
+        "damage": 215
+      },
+      "max": {
+        "xp": 26000,
+        "rings": 26000,
+        "damage": 2175
+      },
+      "max_fused": {
+        "xp": 130000,
+        "rings": 130000,
+        "damage": 10875
+      }
+    },
+    {
+      "name": "Crimson Wisp",
+      "base": {
+        "xp": 230,
+        "rings": 864,
+        "damage": 34,
+        "luck": 2
+      },
+      "max": {
+        "xp": 110000,
+        "rings": 4300,
+        "damage": 172,
+        "luck": 10
+      },
+      "max_fused": {
+        "xp": 550000,
+        "rings": 21500,
+        "damage": 860,
+        "luck": 50
+      }
+    },
+    {
+      "name": "Crystal Chao",
+      "base": {
+        "xp": 30,
+        "rings": 5
+      },
+      "max": {
+        "xp": 2250,
+        "rings": 375
+      },
+      "max_fused": {
+        "xp": 11250,
+        "rings": 1875
+      }
+    },
+    {
+      "name": "Cucumber Chao",
+      "base": {
+        "xp": 480
+      },
+      "max": {
+        "xp": 2400
+      },
+      "max_fused": {
+        "xp": 12000
+      }
+    },
+    {
+      "name": "Cyan Chao",
+      "base": {
+        "rings": 54
+      },
+      "max": {
+        "rings": 1350
+      },
+      "max_fused": {
+        "rings": 6750
+      }
+    },
+    {
+      "name": "Cyan Wisp",
+      "base": {
+        "xp": 504,
+        "rings": 54,
+        "damage": 21
+      },
+      "max": {
+        "xp": 2500,
+        "rings": 270,
+        "damage": 108
+      },
+      "max_fused": {
+        "xp": 12500,
+        "rings": 1350,
+        "damage": 540
+      }
+    },
+    {
+      "name": "Cyber Omochao",
+      "base": {
+        "xp": 192,
+        "rings": 240,
+        "damage": 57
+      },
+      "max": {
+        "xp": 960,
+        "rings": 1200,
+        "damage": 288
+      },
+      "max_fused": {
+        "xp": 4800,
+        "rings": 6000,
+        "damage": 1440
+      }
+    },
+    {
+      "name": "Daffodil Chao",
+      "base": {
+        "rings": 480
+      },
+      "max": {
+        "rings": 2400
+      },
+      "max_fused": {
+        "rings": 12000
+      }
+    },
+    {
+      "name": "Daisy Chao",
+      "base": {
+        "rings": 980
+      },
+      "max": {
+        "rings": 32600
+      },
+      "max_fused": {
+        "rings": 163000
+      }
+    },
+    {
+      "name": "Dark Aquatic Chao",
+      "base": {
+        "xp": 120,
+        "rings": 120,
+        "damage": 25
+      },
+      "max": {
+        "xp": 3500,
+        "rings": 3500,
+        "damage": 250
+      },
+      "max_fused": {
+        "xp": 17500,
+        "rings": 17500,
+        "damage": 1250
+      }
+    },
+    {
+      "name": "Dark Chao",
+      "base": {
+        "xp": 6,
+        "rings": 6
+      },
+      "max": {
+        "xp": 150,
+        "rings": 150
+      },
+      "max_fused": {
+        "xp": 750,
+        "rings": 750
+      }
+    },
+    {
+      "name": "Detective Chao",
+      "base": {
+        "xp": 50
+      },
+      "max": {
+        "xp": 3750
+      },
+      "max_fused": {
+        "xp": 18750
+      }
+    },
+    {
+      "name": "Detective Tails Chao",
+      "base": {
+        "xp": 72,
+        "rings": 72
+      },
+      "max": {
+        "xp": 1800,
+        "rings": 1800
+      },
+      "max_fused": {
+        "xp": 9000,
+        "rings": 9000
+      }
+    },
+    {
+      "name": "User blog:DevThom/Page Auto Update Program Test",
+      "base": {
+        "rings": 854,
+        "damage": 569
+      },
+      "max": {
+        "rings": 7688,
+        "damage": 48226
+      },
+      "max_fused": {
+        "rings": 19220,
+        "damage": 120565
+      }
+    },
+    {
+      "name": "DJ Knuckles Chao",
+      "base": {
+        "rings": 72,
+        "damage": 11
+      },
+      "max": {
+        "rings": 360,
+        "damage": 576
+      },
+      "max_fused": {
+        "rings": 1800,
+        "damage": 2880
+      }
+    },
+    {
+      "name": "Dragon Fruit Chao",
+      "base": {
+        "xp": 5,
+        "rings": 7
+      },
+      "max": {
+        "xp": 250,
+        "rings": 375
+      },
+      "max_fused": {
+        "xp": 1250,
+        "rings": 1875
+      }
+    },
+    {
+      "name": "Earth Ninja Chao",
+      "base": {
+        "rings": 45,
+        "damage": 6
+      },
+      "max": {
+        "rings": 450,
+        "damage": 600
+      },
+      "max_fused": {
+        "rings": 2250,
+        "damage": 3000
+      }
+    },
+    {
+      "name": "Easter Egg Chao",
+      "base": {
+        "xp": 191,
+        "rings": 480,
+        "luck": 2
+      },
+      "max": {
+        "xp": 9500,
+        "rings": 2400,
+        "luck": 7
+      },
+      "max_fused": {
+        "xp": 47500,
+        "rings": 12000,
+        "luck": 35
+      }
+    },
+    {
+      "name": "Egg Chao",
+      "base": {
+        "xp": 45,
+        "rings": 30,
+        "damage": 9
+      },
+      "max": {
+        "xp": 450,
+        "rings": 300,
+        "damage": 900
+      },
+      "max_fused": {
+        "xp": 2250,
+        "rings": 1500,
+        "damage": 4500
+      }
+    },
+    {
+      "name": "Eggman Chao",
+      "base": {
+        "xp": 115,
+        "rings": 172,
+        "damage": 23
+      },
+      "max": {
+        "xp": 5700,
+        "rings": 8600,
+        "damage": 115
+      },
+      "max_fused": {
+        "xp": 28500,
+        "rings": 43000,
+        "damage": 575
+      }
+    },
+    {
+      "name": "Electric Blue Chao",
+      "base": {
+        "rings": 240,
+        "damage": 144
+      },
+      "max": {
+        "rings": 1200,
+        "damage": 288
+      },
+      "max_fused": {
+        "rings": 6000,
+        "damage": 1440
+      }
+    },
+    {
+      "name": "Electric Cyan Chao",
+      "base": {
+        "xp": 500,
+        "rings": 100
+      },
+      "max": {
+        "xp": 5000,
+        "rings": 1000
+      },
+      "max_fused": {
+        "xp": 25000,
+        "rings": 5000
+      }
+    },
+    {
+      "name": "Electric Gray Chao",
+      "base": {
+        "xp": 564,
+        "damage": 56
+      },
+      "max": {
+        "xp": 5086,
+        "damage": 500
+      },
+      "max_fused": {
+        "xp": 25430,
+        "damage": 2500
+      }
+    },
+    {
+      "name": "Electric Green Chao",
+      "base": {
+        "xp": 500,
+        "rings": 500
+      },
+      "max": {
+        "xp": 5040,
+        "rings": 5040
+      },
+      "max_fused": {
+        "xp": 25200,
+        "rings": 25200
+      }
+    },
+    {
+      "name": "Electric Orange Chao",
+      "base": {
+        "rings": 700,
+        "damage": 54
+      },
+      "max": {
+        "rings": 7000,
+        "damage": 504
+      },
+      "max_fused": {
+        "rings": 35000,
+        "damage": 2520
+      }
+    },
+    {
+      "name": "Electric Pink Chao",
+      "base": {
+        "xp": 600,
+        "rings": 600
+      },
+      "max": {
+        "xp": 6000,
+        "rings": 6000
+      },
+      "max_fused": {
+        "xp": 30000,
+        "rings": 30000
+      }
+    },
+    {
+      "name": "Electric Purple Chao",
+      "base": {
+        "xp": 320,
+        "damage": 32
+      },
+      "max": {
+        "xp": 3240,
+        "damage": 324
+      },
+      "max_fused": {
+        "xp": 16200,
+        "damage": 1620
+      }
+    },
+    {
+      "name": "Electric Red Chao",
+      "base": {
+        "xp": 4800,
+        "rings": 4800
+      },
+      "max": {
+        "xp": 48000,
+        "rings": 48000
+      },
+      "max_fused": {
+        "xp": 240000,
+        "rings": 240000
+      }
+    },
+    {
+      "name": "Electric White Chao",
+      "base": {
+        "rings": 300,
+        "damage": 180
+      },
+      "max": {
+        "rings": 1500,
+        "damage": 360
+      },
+      "max_fused": {
+        "rings": 7500,
+        "damage": 1800
+      }
+    },
+    {
+      "name": "Electric Yellow Chao",
+      "base": {
+        "rings": 192
+      },
+      "max": {
+        "rings": 9600
+      },
+      "max_fused": {
+        "rings": 48000
+      }
+    },
+    {
+      "name": "Elf Chao",
+      "base": {
+        "xp": 600,
+        "rings": 300,
+        "luck": 1
+      },
+      "max": {
+        "xp": 9000,
+        "rings": 1500,
+        "luck": 7
+      },
+      "max_fused": {
+        "xp": 45000,
+        "rings": 7500,
+        "luck": 35
+      }
+    },
+    {
+      "name": "Espio Chao",
+      "base": {
+        "xp": 480,
+        "rings": 30,
+        "damage": 12
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 150,
+        "damage": 600
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 750,
+        "damage": 3000
+      }
+    },
+    {
+      "name": "Evergreen Chao",
+      "base": {
+        "xp": 144,
+        "rings": 240,
+        "damage": 96,
+        "luck": 2
+      },
+      "max": {
+        "xp": 7200,
+        "rings": 1200,
+        "damage": 480,
+        "luck": 7
+      },
+      "max_fused": {
+        "xp": 36000,
+        "rings": 6000,
+        "damage": 2400,
+        "luck": 35
+      }
+    },
+    {
+      "name": "Fan Chao",
+      "base": {
+        "xp": 36,
+        "rings": 24,
+        "damage": 9
+      },
+      "max": {
+        "xp": 3600,
+        "rings": 2400,
+        "damage": 960
+      },
+      "max_fused": {
+        "xp": 18000,
+        "rings": 12000,
+        "damage": 4800
+      }
+    },
+    {
+      "name": "Feijoa Chao",
+      "base": {
+        "xp": 9,
+        "rings": 1
+      },
+      "max": {
+        "xp": 468,
+        "rings": 78
+      },
+      "max_fused": {
+        "xp": 2340,
+        "rings": 390
+      }
+    },
+    {
+      "name": "Fire Chao",
+      "base": {
+        "damage": 4
+      },
+      "max": {
+        "damage": 300
+      },
+      "max_fused": {
+        "damage": 1500
+      }
+    },
+    {
+      "name": "Fire Ninja Chao",
+      "base": {
+        "rings": 6,
+        "damage": 7
+      },
+      "max": {
+        "rings": 468,
+        "damage": 562
+      },
+      "max_fused": {
+        "rings": 2340,
+        "damage": 2810
+      }
+    },
+    {
+      "name": "Fisherman Chao",
+      "base": {
+        "xp": 960,
+        "rings": 720
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 3600
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 18000
+      }
+    },
+    {
+      "name": "Foxy Chao",
+      "base": {
+        "xp": 24,
+        "rings": 24,
+        "damage": 9
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 2400,
+        "damage": 960
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 12000,
+        "damage": 4800
+      }
+    },
+    {
+      "name": "Full Moon Chao",
+      "base": {
+        "xp": 350,
+        "rings": 350,
+        "damage": 5
+      },
+      "max": {
+        "xp": 12800,
+        "rings": 12800,
+        "damage": 50
+      },
+      "max_fused": {
+        "xp": 64000,
+        "rings": 64000,
+        "damage": 250
+      }
+    },
+    {
+      "name": "Garlic Chao",
+      "base": {
+        "xp": 300,
+        "rings": 300,
+        "damage": 10
+      },
+      "max": {
+        "xp": 3000,
+        "rings": 3000,
+        "damage": 100
+      },
+      "max_fused": {
+        "xp": 15000,
+        "rings": 15000,
+        "damage": 500
+      }
+    },
+    {
+      "name": "Gift Chao",
+      "base": {
+        "xp": 300,
+        "rings": 150
+      },
+      "max": {
+        "xp": 1500,
+        "rings": 7500
+      },
+      "max_fused": {
+        "xp": 7500,
+        "rings": 37500
+      }
+    },
+    {
+      "name": "Gingerbread Chao",
+      "base": {
+        "rings": 300,
+        "damage": 36
+      },
+      "max": {
+        "rings": 1500,
+        "damage": 180
+      },
+      "max_fused": {
+        "rings": 7500,
+        "damage": 900
+      }
+    },
+    {
+      "name": "Gold Chao",
+      "base": {
+        "xp": 90,
+        "rings": 45
+      },
+      "max": {
+        "xp": 900,
+        "rings": 450
+      },
+      "max_fused": {
+        "xp": 4500,
+        "rings": 2250
+      }
+    },
+    {
+      "name": "Gold Metal Sonic Omochao",
+      "base": {
+        "xp": 420,
+        "rings": 420,
+        "damage": 50
+      },
+      "max": {
+        "xp": 32000,
+        "rings": 32000,
+        "damage": 500
+      },
+      "max_fused": {
+        "xp": 160000,
+        "rings": 160000,
+        "damage": 2500
+      }
+    },
+    {
+      "name": "Gold Omochao",
+      "base": {
+        "rings": 720,
+        "damage": 1062
+      },
+      "max": {
+        "rings": 3600,
+        "damage": 1440
+      },
+      "max_fused": {
+        "rings": 18000,
+        "damage": 7200
+      }
+    },
+    {
+      "name": "Gold Pumpkin Chao",
+      "base": {
+        "xp": 2600,
+        "rings": 2600,
+        "damage": 215
+      },
+      "max": {
+        "xp": 26000,
+        "rings": 26000,
+        "damage": 2175
+      },
+      "max_fused": {
+        "xp": 130000,
+        "rings": 130000,
+        "damage": 10875
+      }
+    },
+    {
+      "name": "Grape Chao",
+      "base": {
+        "xp": 62,
+        "rings": 54
+      },
+      "max": {
+        "xp": 1400,
+        "rings": 1250
+      },
+      "max_fused": {
+        "xp": 7000,
+        "rings": 6250
+      }
+    },
+    {
+      "name": "Gratitude Chao",
+      "base": {
+        "xp": 60,
+        "rings": 30
+      },
+      "max": {
+        "xp": 6000,
+        "rings": 3000
+      },
+      "max_fused": {
+        "xp": 30000,
+        "rings": 15000
+      }
+    },
+    {
+      "name": "Gray Chao",
+      "base": {
+        "xp": 45,
+        "rings": 45
+      },
+      "max": {
+        "xp": 1000,
+        "rings": 1000
+      },
+      "max_fused": {
+        "xp": 5000,
+        "rings": 5000
+      }
+    },
+    {
+      "name": "Green Chao",
+      "base": {
+        "rings": 3
+      },
+      "max": {
+        "rings": 75
+      },
+      "max_fused": {
+        "rings": 375
+      }
+    },
+    {
+      "name": "Green Hill Master Chao",
+      "base": {
+        "xp": 24,
+        "rings": 5
+      },
+      "max": {
+        "xp": 1187,
+        "rings": 119
+      },
+      "max_fused": {
+        "xp": 5935,
+        "rings": 595
+      }
+    },
+    {
+      "name": "Green Racer Chao",
+      "base": {
+        "xp": 420,
+        "rings": 420,
+        "damage": 10
+      },
+      "max": {
+        "xp": 8000,
+        "rings": 8000,
+        "damage": 100
+      },
+      "max_fused": {
+        "xp": 40000,
+        "rings": 40000,
+        "damage": 500
+      }
+    },
+    {
+      "name": "Green Shadow Omochao",
+      "base": {
+        "xp": 75,
+        "rings": 22,
+        "damage": 6
+      },
+      "max": {
+        "xp": 7500,
+        "rings": 2250,
+        "damage": 600
+      },
+      "max_fused": {
+        "xp": 37500,
+        "rings": 11250,
+        "damage": 3000
+      }
+    },
+    {
+      "name": "Grey Hero Chao",
+      "base": {
+        "xp": 1250,
+        "rings": 840,
+        "damage": 42
+      },
+      "max": {
+        "xp": 12250,
+        "rings": 8400,
+        "damage": 420
+      },
+      "max_fused": {
+        "xp": 61250,
+        "rings": 42000,
+        "damage": 2100
+      }
+    },
+    {
+      "name": "Halloween Chao",
+      "base": {
+        "xp": 864,
+        "rings": 576,
+        "damage": 17
+      },
+      "max": {
+        "xp": 4300,
+        "rings": 2800,
+        "damage": 864
+      },
+      "max_fused": {
+        "xp": 21500,
+        "rings": 14000,
+        "damage": 4320
+      }
+    },
+    {
+      "name": "Hazel Chao",
+      "base": {
+        "xp": 9,
+        "rings": 2
+      },
+      "max": {
+        "xp": 225,
+        "rings": 50
+      },
+      "max_fused": {
+        "xp": 1125,
+        "rings": 250
+      }
+    },
+    {
+      "name": "Heart Chao",
+      "base": {
+        "rings": 240,
+        "luck": 5
+      },
+      "max": {
+        "rings": 120000,
+        "luck": 5
+      },
+      "max_fused": {
+        "rings": 600000,
+        "luck": 25
+      }
+    },
+    {
+      "name": "Hero Chao",
+      "base": {
+        "xp": 319,
+        "rings": 159,
+        "damage": 63
+      },
+      "max": {
+        "xp": 1500,
+        "rings": 799,
+        "damage": 319
+      },
+      "max_fused": {
+        "xp": 7500,
+        "rings": 3995,
+        "damage": 1595
+      }
+    },
+    {
+      "name": "Hero Chaos",
+      "base": {
+        "xp": 864,
+        "rings": 216,
+        "damage": 28
+      },
+      "max": {
+        "xp": 4300,
+        "rings": 1000,
+        "damage": 144
+      },
+      "max_fused": {
+        "xp": 21500,
+        "rings": 5000,
+        "damage": 720
+      }
+    },
+    {
+      "name": "Hibiscus Chao",
+      "base": {
+        "xp": 120
+      },
+      "max": {
+        "xp": 6000
+      },
+      "max_fused": {
+        "xp": 30000
+      }
+    },
+    {
+      "name": "Hologram Omochao",
+      "base": {
+        "xp": 8
+      },
+      "max": {
+        "xp": 200
+      },
+      "max_fused": {
+        "xp": 1000
+      }
+    },
+    {
+      "name": "Holographic Chao",
+      "base": {
+        "xp": 840,
+        "rings": 840,
+        "damage": 200
+      },
+      "max": {
+        "xp": 32000,
+        "rings": 32000,
+        "damage": 2000
+      },
+      "max_fused": {
+        "xp": 160000,
+        "rings": 160000,
+        "damage": 10000
+      }
+    },
+    {
+      "name": "Holographic Omochao",
+      "base": {
+        "xp": 460,
+        "rings": 288,
+        "damage": 115
+      },
+      "max": {
+        "xp": 230000,
+        "rings": 1440,
+        "damage": 576
+      },
+      "max_fused": {
+        "xp": 1150000,
+        "rings": 7200,
+        "damage": 2880
+      }
+    },
+    {
+      "name": "Horizon Chao",
+      "base": {
+        "xp": 264,
+        "rings": 264
+      },
+      "max": {
+        "xp": 2025,
+        "rings": 2025
+      },
+      "max_fused": {
+        "xp": 10125,
+        "rings": 10125
+      }
+    },
+    {
+      "name": "Ice Chao",
+      "base": {
+        "rings": 10
+      },
+      "max": {
+        "rings": 750
+      },
+      "max_fused": {
+        "rings": 3750
+      }
+    },
+    {
+      "name": "Jester Chao",
+      "base": {
+        "xp": 15,
+        "rings": 60,
+        "damage": 3
+      },
+      "max": {
+        "xp": 150,
+        "rings": 600,
+        "damage": 300
+      },
+      "max_fused": {
+        "xp": 750,
+        "rings": 3000,
+        "damage": 1500
+      }
+    },
+    {
+      "name": "Jet Chao",
+      "base": {
+        "xp": 489,
+        "rings": 432,
+        "luck": 2
+      },
+      "max": {
+        "xp": 240000,
+        "rings": 2160,
+        "luck": 7
+      },
+      "max_fused": {
+        "xp": 1200000,
+        "rings": 10800,
+        "luck": 35
+      }
+    },
+    {
+      "name": "Jewel Amethyst Chao",
+      "base": {
+        "rings": 15,
+        "damage": 18
+      },
+      "max": {
+        "rings": 1500,
+        "damage": 180
+      },
+      "max_fused": {
+        "rings": 7500,
+        "damage": 900
+      }
+    },
+    {
+      "name": "Jewel Aquamarine Chao",
+      "base": {
+        "xp": 8,
+        "rings": 4,
+        "damage": 1
+      },
+      "max": {
+        "xp": 625,
+        "rings": 312,
+        "damage": 124
+      },
+      "max_fused": {
+        "xp": 3125,
+        "rings": 1560,
+        "damage": 620
+      }
+    },
+    {
+      "name": "Jewel Bronze Chao",
+      "base": {
+        "xp": 3000,
+        "rings": 3000,
+        "damage": 120
+      },
+      "max": {
+        "xp": 30000,
+        "rings": 30000,
+        "damage": 1200
+      },
+      "max_fused": {
+        "xp": 150000,
+        "rings": 150000,
+        "damage": 6000
+      }
+    },
+    {
+      "name": "Jewel Citrine Chao",
+      "base": {
+        "xp": 4600,
+        "damage": 550
+      },
+      "max": {
+        "xp": 46000,
+        "damage": 5500
+      },
+      "max_fused": {
+        "xp": 230000,
+        "damage": 27500
+      }
+    },
+    {
+      "name": "Jewel Diamond Chao",
+      "base": {
+        "rings": 12
+      },
+      "max": {
+        "rings": 300
+      },
+      "max_fused": {
+        "rings": 1500
+      }
+    },
+    {
+      "name": "Jewel Emerald Chao",
+      "base": {
+        "rings": 28,
+        "damage": 3
+      },
+      "max": {
+        "rings": 2812,
+        "damage": 375
+      },
+      "max_fused": {
+        "rings": 14060,
+        "damage": 1875
+      }
+    },
+    {
+      "name": "Jewel Garnet Chao",
+      "base": {
+        "rings": 3,
+        "damage": 4
+      },
+      "max": {
+        "rings": 281,
+        "damage": 450
+      },
+      "max_fused": {
+        "rings": 1405,
+        "damage": 2250
+      }
+    },
+    {
+      "name": "Jewel Gold Chao",
+      "base": {
+        "rings": 4600,
+        "damage": 110
+      },
+      "max": {
+        "rings": 46000,
+        "damage": 1080
+      },
+      "max_fused": {
+        "rings": 230000,
+        "damage": 5400
+      }
+    },
+    {
+      "name": "Jewel Jasper Chao",
+      "base": {
+        "xp": 7,
+        "rings": 11
+      },
+      "max": {
+        "xp": 562,
+        "rings": 843
+      },
+      "max_fused": {
+        "xp": 2810,
+        "rings": 4215
+      }
+    },
+    {
+      "name": "Jewel Larimar Chao",
+      "base": {
+        "xp": 25
+      },
+      "max": {
+        "xp": 1875
+      },
+      "max_fused": {
+        "xp": 9375
+      }
+    },
+    {
+      "name": "Jewel Onyx Chao",
+      "base": {
+        "xp": 632,
+        "damage": 378
+      },
+      "max": {
+        "xp": 5694,
+        "damage": 3415
+      },
+      "max_fused": {
+        "xp": 14235,
+        "damage": 8537
+      }
+    },
+    {
+      "name": "Jewel Pearl Chao",
+      "base": {
+        "xp": 80,
+        "rings": 10
+      },
+      "max": {
+        "xp": 2000,
+        "rings": 600
+      },
+      "max_fused": {
+        "xp": 10000,
+        "rings": 3000
+      }
+    },
+    {
+      "name": "Jewel Peridot Chao",
+      "base": {
+        "rings": 15
+      },
+      "max": {
+        "rings": 1125
+      },
+      "max_fused": {
+        "rings": 5625
+      }
+    },
+    {
+      "name": "Jewel Ruby Chao",
+      "base": {
+        "xp": 30
+      },
+      "max": {
+        "xp": 2250
+      },
+      "max_fused": {
+        "xp": 11250
+      }
+    },
+    {
+      "name": "Jewel Sapphire Chao",
+      "base": {
+        "xp": 30,
+        "damage": 2
+      },
+      "max": {
+        "xp": 2250,
+        "damage": 150
+      },
+      "max_fused": {
+        "xp": 11250,
+        "damage": 750
+      }
+    },
+    {
+      "name": "Jewel Silver Chao",
+      "base": {
+        "xp": 3600,
+        "damage": 300
+      },
+      "max": {
+        "xp": 36000,
+        "damage": 3000
+      },
+      "max_fused": {
+        "xp": 180000,
+        "damage": 15000
+      }
+    },
+    {
+      "name": "Jewel Sunstone Chao",
+      "base": {
+        "xp": 3000,
+        "rings": 1000,
+        "damage": 60
+      },
+      "max": {
+        "xp": 30000,
+        "rings": 10000,
+        "damage": 600
+      },
+      "max_fused": {
+        "xp": 150000,
+        "rings": 50000,
+        "damage": 3000
+      }
+    },
+    {
+      "name": "Jewel Topaz Chao",
+      "base": {
+        "damage": 550
+      },
+      "max": {
+        "damage": 5500
+      },
+      "max_fused": {
+        "damage": 27500
+      }
+    },
+    {
+      "name": "Joker Chao",
+      "base": {
+        "xp": 48,
+        "rings": 24,
+        "damage": 4,
+        "luck": 2
+      },
+      "max": {
+        "xp": 480,
+        "rings": 240,
+        "damage": 480,
+        "luck": 8
+      },
+      "max_fused": {
+        "xp": 2400,
+        "rings": 1200,
+        "damage": 2400,
+        "luck": 40
+      }
+    },
+    {
+      "name": "Karate Chao",
+      "base": {
+        "rings": 480,
+        "damage": 76
+      },
+      "max": {
+        "rings": 2400,
+        "damage": 384
+      },
+      "max_fused": {
+        "rings": 12000,
+        "damage": 1920
+      }
+    },
+    {
+      "name": "Kiwi Chao",
+      "base": {
+        "xp": 13
+      },
+      "max": {
+        "xp": 625
+      },
+      "max_fused": {
+        "xp": 3125
+      }
+    },
+    {
+      "name": "Knuckles Chao",
+      "base": {
+        "rings": 36,
+        "damage": 12
+      },
+      "max": {
+        "rings": 180,
+        "damage": 648
+      },
+      "max_fused": {
+        "rings": 900,
+        "damage": 3240
+      }
+    },
+    {
+      "name": "Koco Mask Chao",
+      "base": {
+        "xp": 345,
+        "rings": 576,
+        "damage": 38
+      },
+      "max": {
+        "xp": 170000,
+        "rings": 2880,
+        "damage": 192
+      },
+      "max_fused": {
+        "xp": 850000,
+        "rings": 14400,
+        "damage": 960
+      }
+    },
+    {
+      "name": "Kunoichi Amy Chao",
+      "base": {
+        "xp": 960,
+        "rings": 720,
+        "damage": 48
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 3600,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 18000,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Lavender Chao",
+      "base": {
+        "xp": 16,
+        "rings": 2
+      },
+      "max": {
+        "xp": 800,
+        "rings": 100
+      },
+      "max_fused": {
+        "xp": 4000,
+        "rings": 500
+      }
+    },
+    {
+      "name": "Leek Chao",
+      "base": {
+        "xp": 120,
+        "damage": 360
+      },
+      "max": {
+        "xp": 6000,
+        "damage": 720
+      },
+      "max_fused": {
+        "xp": 30000,
+        "damage": 3600
+      }
+    },
+    {
+      "name": "Lemon Lime Chao",
+      "base": {
+        "xp": 140,
+        "rings": 168
+      },
+      "max": {
+        "xp": 7200,
+        "rings": 8400
+      },
+      "max_fused": {
+        "xp": 36000,
+        "rings": 42000
+      }
+    },
+    {
+      "name": "Light Chaos",
+      "base": {
+        "xp": 45,
+        "rings": 7
+      },
+      "max": {
+        "xp": 3375,
+        "rings": 562
+      },
+      "max_fused": {
+        "xp": 16875,
+        "rings": 2810
+      }
+    },
+    {
+      "name": "Lilac Chao",
+      "base": {
+        "rings": 18,
+        "damage": 18
+      },
+      "max": {
+        "rings": 225,
+        "damage": 30
+      },
+      "max_fused": {
+        "rings": 1125,
+        "damage": 150
+      }
+    },
+    {
+      "name": "Lost Valley Master Chao",
+      "base": {
+        "xp": 594,
+        "rings": 57
+      },
+      "max": {
+        "xp": 5344,
+        "rings": 532
+      },
+      "max_fused": {
+        "xp": 26720,
+        "rings": 2660
+      }
+    },
+    {
+      "name": "Lychee Chao",
+      "base": {
+        "xp": 10,
+        "rings": 5,
+        "luck": 1
+      },
+      "max": {
+        "xp": 500,
+        "rings": 250,
+        "luck": 2
+      },
+      "max_fused": {
+        "xp": 2500,
+        "rings": 1250,
+        "luck": 10
+      }
+    },
+    {
+      "name": "Maestro Chao",
+      "base": {
+        "xp": 60,
+        "rings": 30
+      },
+      "max": {
+        "xp": 600,
+        "rings": 300
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 1500
+      }
+    },
+    {
+      "name": "Maid Chao",
+      "base": {
+        "xp": 420,
+        "rings": 90
+      },
+      "max": {
+        "xp": 2100,
+        "rings": 450
+      },
+      "max_fused": {
+        "xp": 10500,
+        "rings": 2250
+      }
+    },
+    {
+      "name": "Marigold Chao",
+      "base": {
+        "rings": 270,
+        "damage": 36
+      },
+      "max": {
+        "rings": 1300,
+        "damage": 180
+      },
+      "max_fused": {
+        "rings": 6500,
+        "damage": 900
+      }
+    },
+    {
+      "name": "Marine Chao",
+      "base": {
+        "xp": 180,
+        "rings": 300
+      },
+      "max": {
+        "xp": 9000,
+        "rings": 1500
+      },
+      "max_fused": {
+        "xp": 45000,
+        "rings": 7500
+      }
+    },
+    {
+      "name": "Masked Chao",
+      "base": {
+        "xp": 120,
+        "rings": 600,
+        "damage": 48
+      },
+      "max": {
+        "xp": 6000,
+        "rings": 3000,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 30000,
+        "rings": 15000,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Mechanic Chao",
+      "base": {
+        "xp": 120,
+        "rings": 600,
+        "damage": 48
+      },
+      "max": {
+        "xp": 600,
+        "rings": 3000,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 15000,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Mega Chao",
+      "base": {
+        "xp": 20,
+        "rings": 10
+      },
+      "max": {
+        "xp": 150,
+        "rings": 75
+      },
+      "max_fused": {
+        "xp": 750,
+        "rings": 375
+      }
+    },
+    {
+      "name": "Metal Sonic 3.0 Omochao",
+      "base": {
+        "xp": 207,
+        "rings": 115,
+        "luck": 2
+      },
+      "max": {
+        "xp": 1030000,
+        "rings": 5700,
+        "luck": 10
+      },
+      "max_fused": {
+        "xp": 5150000,
+        "rings": 28500,
+        "luck": 50
+      }
+    },
+    {
+      "name": "Metal Sonic Omochao",
+      "base": {
+        "rings": 259,
+        "damage": 115
+      },
+      "max": {
+        "rings": 120000,
+        "damage": 576
+      },
+      "max_fused": {
+        "rings": 600000,
+        "damage": 2880
+      }
+    },
+    {
+      "name": "Midas Chao",
+      "base": {
+        "xp": 96,
+        "rings": 384,
+        "damage": 19
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 1920,
+        "damage": 960
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 9600,
+        "damage": 4800
+      }
+    },
+    {
+      "name": "Midnight Chao",
+      "base": {
+        "xp": 1
+      },
+      "max": {
+        "xp": 1776
+      },
+      "max_fused": {
+        "xp": 4427
+      }
+    },
+    {
+      "name": "Miner Chao",
+      "base": {
+        "xp": 405,
+        "rings": 80,
+        "damage": 2
+      },
+      "max": {
+        "xp": 4050,
+        "rings": 800,
+        "damage": 100
+      },
+      "max_fused": {
+        "xp": 20250,
+        "rings": 4000,
+        "damage": 500
+      }
+    },
+    {
+      "name": "Mint Chao",
+      "base": {
+        "xp": 2,
+        "rings": 3
+      },
+      "max": {
+        "xp": 125,
+        "rings": 187
+      },
+      "max_fused": {
+        "xp": 625,
+        "rings": 935
+      }
+    },
+    {
+      "name": "Mocha Coffee Chao",
+      "base": {
+        "rings": 5200,
+        "damage": 260
+      },
+      "max": {
+        "rings": 52000,
+        "damage": 2600
+      },
+      "max_fused": {
+        "rings": 260000,
+        "damage": 13000
+      }
+    },
+    {
+      "name": "Mochi Chao",
+      "base": {
+        "xp": 450,
+        "rings": 450
+      },
+      "max": {
+        "xp": 4536,
+        "rings": 4536
+      },
+      "max_fused": {
+        "xp": 22680,
+        "rings": 22680
+      }
+    },
+    {
+      "name": "Moon Chao",
+      "base": {
+        "xp": 2400,
+        "rings": 2400,
+        "damage": 550
+      },
+      "max": {
+        "xp": 68000,
+        "rings": 68000,
+        "damage": 5500
+      },
+      "max_fused": {
+        "xp": 340000,
+        "rings": 340000,
+        "damage": 27500
+      }
+    },
+    {
+      "name": "Moonstone Chao",
+      "base": {
+        "rings": 230,
+        "damage": 23,
+        "luck": 2
+      },
+      "max": {
+        "rings": 110000,
+        "damage": 115,
+        "luck": 7
+      },
+      "max_fused": {
+        "rings": 550000,
+        "damage": 575,
+        "luck": 35
+      }
+    },
+    {
+      "name": "Mousse Chao",
+      "base": {
+        "xp": 12,
+        "rings": 4,
+        "luck": 1
+      },
+      "max": {
+        "xp": 600,
+        "rings": 200,
+        "luck": 4
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 1000,
+        "luck": 20
+      }
+    },
+    {
+      "name": "Mummy Chao",
+      "base": {
+        "xp": 144,
+        "rings": 480
+      },
+      "max": {
+        "xp": 7200,
+        "rings": 2400
+      },
+      "max_fused": {
+        "xp": 36000,
+        "rings": 12000
+      }
+    },
+    {
+      "name": "Mystic Chao",
+      "base": {
+        "xp": 30,
+        "rings": 10,
+        "damage": 2
+      },
+      "max": {
+        "xp": 600,
+        "rings": 200,
+        "damage": 100
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 1000,
+        "damage": 500
+      }
+    },
+    {
+      "name": "Navy Chao",
+      "base": {
+        "xp": 5,
+        "rings": 54
+      },
+      "max": {
+        "xp": 262,
+        "rings": 1350
+      },
+      "max_fused": {
+        "xp": 1310,
+        "rings": 6750
+      }
+    },
+    {
+      "name": "Neon Blue Chao",
+      "base": {
+        "xp": 4000,
+        "rings": 2000,
+        "damage": 100
+      },
+      "max": {
+        "xp": 40000,
+        "rings": 20000,
+        "damage": 1000
+      },
+      "max_fused": {
+        "xp": 200000,
+        "rings": 100000,
+        "damage": 5000
+      }
+    },
+    {
+      "name": "Neon Cyan Chao",
+      "base": {
+        "xp": 165,
+        "rings": 165
+      },
+      "max": {
+        "xp": 1650,
+        "rings": 1650
+      },
+      "max_fused": {
+        "xp": 8250,
+        "rings": 8250
+      }
+    },
+    {
+      "name": "Neon Green Chao",
+      "base": {
+        "rings": 2500
+      },
+      "max": {
+        "rings": 25000
+      },
+      "max_fused": {
+        "rings": 125000
+      }
+    },
+    {
+      "name": "Neon Lime Chao",
+      "base": {
+        "xp": 40,
+        "rings": 480
+      },
+      "max": {
+        "xp": 400,
+        "rings": 4860
+      },
+      "max_fused": {
+        "xp": 2000,
+        "rings": 24300
+      }
+    },
+    {
+      "name": "Neon Orange Chao",
+      "base": {
+        "xp": 30,
+        "rings": 14,
+        "damage": 5
+      },
+      "max": {
+        "xp": 3000,
+        "rings": 1499,
+        "damage": 599
+      },
+      "max_fused": {
+        "xp": 15000,
+        "rings": 7495,
+        "damage": 2995
+      }
+    },
+    {
+      "name": "Neon Pink Chao",
+      "base": {
+        "damage": 96
+      },
+      "max": {
+        "damage": 480
+      },
+      "max_fused": {
+        "damage": 2400
+      }
+    },
+    {
+      "name": "Neon Red Chao",
+      "base": {
+        "xp": 1260,
+        "damage": 110
+      },
+      "max": {
+        "xp": 12600,
+        "damage": 1100
+      },
+      "max_fused": {
+        "xp": 63000,
+        "damage": 5500
+      }
+    },
+    {
+      "name": "Neon Sakura Chao",
+      "base": {
+        "xp": 5,
+        "rings": 2
+      },
+      "max": {
+        "xp": 125,
+        "rings": 50
+      },
+      "max_fused": {
+        "xp": 625,
+        "rings": 250
+      }
+    },
+    {
+      "name": "Neon Yellow Chao",
+      "base": {
+        "xp": 5000,
+        "rings": 2200,
+        "damage": 210
+      },
+      "max": {
+        "xp": 50000,
+        "rings": 22000,
+        "damage": 2100
+      },
+      "max_fused": {
+        "xp": 250000,
+        "rings": 110000,
+        "damage": 10500
+      }
+    },
+    {
+      "name": "Nightshade Chao",
+      "base": {
+        "rings": 780,
+        "damage": 140
+      },
+      "max": {
+        "rings": 20000,
+        "damage": 288
+      },
+      "max_fused": {
+        "rings": 100000,
+        "damage": 1440
+      }
+    },
+    {
+      "name": "Ninja Chao",
+      "base": {
+        "damage": 96
+      },
+      "max": {
+        "damage": 480
+      },
+      "max_fused": {
+        "damage": 2400
+      }
+    },
+    {
+      "name": "Omochao",
+      "base": {
+        "xp": 200,
+        "rings": 108,
+        "damage": 24
+      },
+      "max": {
+        "xp": 4000,
+        "rings": 1200,
+        "damage": 120
+      },
+      "max_fused": {
+        "xp": 20000,
+        "rings": 6000,
+        "damage": 600
+      }
+    },
+    {
+      "name": "Orange Chao",
+      "base": {
+        "xp": 2,
+        "rings": 1
+      },
+      "max": {
+        "xp": 25,
+        "rings": 25
+      },
+      "max_fused": {
+        "xp": 125,
+        "rings": 125
+      }
+    },
+    {
+      "name": "Orange Hero Chao",
+      "base": {
+        "xp": 880,
+        "rings": 800,
+        "damage": 70
+      },
+      "max": {
+        "xp": 8800,
+        "rings": 8000,
+        "damage": 720
+      },
+      "max_fused": {
+        "xp": 44000,
+        "rings": 40000,
+        "damage": 3600
+      }
+    },
+    {
+      "name": "Orange Shadow Omochao",
+      "base": {
+        "xp": 230,
+        "rings": 280,
+        "damage": 69,
+        "luck": 2
+      },
+      "max": {
+        "xp": 110000,
+        "rings": 140000,
+        "damage": 345,
+        "luck": 8
+      },
+      "max_fused": {
+        "xp": 550000,
+        "rings": 700000,
+        "damage": 1725,
+        "luck": 40
+      }
+    },
+    {
+      "name": "Passion Fruit Chao",
+      "base": {
+        "xp": 2,
+        "rings": 3
+      },
+      "max": {
+        "xp": 125,
+        "rings": 187
+      },
+      "max_fused": {
+        "xp": 625,
+        "rings": 935
+      }
+    },
+    {
+      "name": "Peach Chao",
+      "base": {
+        "xp": 10,
+        "rings": 2
+      },
+      "max": {
+        "xp": 525,
+        "rings": 112
+      },
+      "max_fused": {
+        "xp": 2625,
+        "rings": 560
+      }
+    },
+    {
+      "name": "Pear Chao",
+      "base": {
+        "xp": 3,
+        "rings": 5
+      },
+      "max": {
+        "xp": 156,
+        "rings": 234
+      },
+      "max_fused": {
+        "xp": 780,
+        "rings": 1170
+      }
+    },
+    {
+      "name": "Pecky",
+      "base": {
+        "xp": 2640,
+        "rings": 2640,
+        "damage": 650
+      },
+      "max": {
+        "xp": 66000,
+        "rings": 66000,
+        "damage": 6500
+      },
+      "max_fused": {
+        "xp": 330000,
+        "rings": 330000,
+        "damage": 32500
+      }
+    },
+    {
+      "name": "Pilot Chao",
+      "base": {
+        "xp": 240
+      },
+      "max": {
+        "xp": 120000
+      },
+      "max_fused": {
+        "xp": 600000
+      }
+    },
+    {
+      "name": "Pink Chao",
+      "base": {
+        "xp": 36,
+        "rings": 36
+      },
+      "max": {
+        "xp": 800,
+        "rings": 800
+      },
+      "max_fused": {
+        "xp": 4000,
+        "rings": 4000
+      }
+    },
+    {
+      "name": "Pink Crystal Chao",
+      "base": {
+        "xp": 6,
+        "rings": 6
+      },
+      "max": {
+        "xp": 160,
+        "rings": 150
+      },
+      "max_fused": {
+        "xp": 800,
+        "rings": 750
+      }
+    },
+    {
+      "name": "Pink Pumpkin Chao",
+      "base": {
+        "xp": 2200,
+        "rings": 2200
+      },
+      "max": {
+        "xp": 22000,
+        "rings": 22000
+      },
+      "max_fused": {
+        "xp": 110000,
+        "rings": 110000
+      }
+    },
+    {
+      "name": "Pink Racer Chao",
+      "base": {
+        "xp": 640,
+        "rings": 640
+      },
+      "max": {
+        "xp": 10000,
+        "rings": 10000
+      },
+      "max_fused": {
+        "xp": 50000,
+        "rings": 50000
+      }
+    },
+    {
+      "name": "Pink Shadow Omochao",
+      "base": {
+        "xp": 288,
+        "rings": 960,
+        "damage": 96
+      },
+      "max": {
+        "xp": 140000,
+        "rings": 4800,
+        "damage": 480
+      },
+      "max_fused": {
+        "xp": 700000,
+        "rings": 24000,
+        "damage": 2400
+      }
+    },
+    {
+      "name": "Pink Wisp",
+      "base": {
+        "xp": 960,
+        "rings": 479,
+        "damage": 191
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 2300,
+        "damage": 959
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 11500,
+        "damage": 4795
+      }
+    },
+    {
+      "name": "Pirate Captain Chao",
+      "base": {
+        "xp": 36,
+        "rings": 36,
+        "damage": 3
+      },
+      "max": {
+        "xp": 900,
+        "rings": 900,
+        "damage": 60
+      },
+      "max_fused": {
+        "xp": 4500,
+        "rings": 4500,
+        "damage": 300
+      }
+    },
+    {
+      "name": "Pocky",
+      "base": {
+        "xp": 184,
+        "rings": 80,
+        "damage": 8
+      },
+      "max": {
+        "xp": 4000,
+        "rings": 2000,
+        "damage": 182
+      },
+      "max_fused": {
+        "xp": 20000,
+        "rings": 10000,
+        "damage": 910
+      }
+    },
+    {
+      "name": "Popstar Chao",
+      "base": {
+        "xp": 300,
+        "rings": 150,
+        "luck": 3
+      },
+      "max": {
+        "xp": 1500,
+        "rings": 750,
+        "luck": 10
+      },
+      "max_fused": {
+        "xp": 7500,
+        "rings": 3750,
+        "luck": 50
+      }
+    },
+    {
+      "name": "Prism Chao",
+      "base": {
+        "xp": 2500,
+        "rings": 2500,
+        "damage": 100
+      },
+      "max": {
+        "xp": 60000,
+        "rings": 60000,
+        "damage": 1000
+      },
+      "max_fused": {
+        "xp": 300000,
+        "rings": 300000,
+        "damage": 5000
+      }
+    },
+    {
+      "name": "Pumpkin Chao",
+      "base": {
+        "xp": 1600,
+        "rings": 1000,
+        "damage": 87
+      },
+      "max": {
+        "xp": 16000,
+        "rings": 10000,
+        "damage": 870
+      },
+      "max_fused": {
+        "xp": 80000,
+        "rings": 50000,
+        "damage": 4350
+      }
+    },
+    {
+      "name": "Punk Chao",
+      "base": {
+        "xp": 405,
+        "damage": 42
+      },
+      "max": {
+        "xp": 4050,
+        "damage": 422
+      },
+      "max_fused": {
+        "xp": 20250,
+        "damage": 2110
+      }
+    },
+    {
+      "name": "Purple Chao",
+      "base": {
+        "rings": 6
+      },
+      "max": {
+        "rings": 150
+      },
+      "max_fused": {
+        "rings": 750
+      }
+    },
+    {
+      "name": "Racer Chao",
+      "base": {
+        "damage": 96
+      },
+      "max": {
+        "damage": 480
+      },
+      "max_fused": {
+        "damage": 2400
+      }
+    },
+    {
+      "name": "Raider Chao",
+      "base": {
+        "rings": 180,
+        "damage": 120
+      },
+      "max": {
+        "rings": 9000,
+        "damage": 240
+      },
+      "max_fused": {
+        "rings": 45000,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Ranger Chao",
+      "base": {
+        "xp": 10,
+        "rings": 15
+      },
+      "max": {
+        "xp": 750,
+        "rings": 1125
+      },
+      "max_fused": {
+        "xp": 3750,
+        "rings": 5625
+      }
+    },
+    {
+      "name": "Red Chao",
+      "base": {
+        "xp": 3
+      },
+      "max": {
+        "xp": 75
+      },
+      "max_fused": {
+        "xp": 375
+      }
+    },
+    {
+      "name": "Red Hero Chao",
+      "base": {
+        "xp": 720,
+        "rings": 720,
+        "damage": 57
+      },
+      "max": {
+        "xp": 7200,
+        "rings": 7200,
+        "damage": 288
+      },
+      "max_fused": {
+        "xp": 36000,
+        "rings": 36000,
+        "damage": 1440
+      }
+    },
+    {
+      "name": "Red Pumpkin Chao",
+      "base": {
+        "xp": 500,
+        "rings": 2000,
+        "damage": 82
+      },
+      "max": {
+        "xp": 5000,
+        "rings": 20000,
+        "damage": 940
+      },
+      "max_fused": {
+        "xp": 25000,
+        "rings": 100000,
+        "damage": 4700
+      }
+    },
+    {
+      "name": "Red Shadow Omochao",
+      "base": {
+        "xp": 240,
+        "rings": 120,
+        "damage": 144
+      },
+      "max": {
+        "xp": 1200,
+        "rings": 6000,
+        "damage": 720
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 30000,
+        "damage": 3600
+      }
+    },
+    {
+      "name": "Red Wisp",
+      "base": {
+        "xp": 240,
+        "rings": 119,
+        "damage": 47
+      },
+      "max": {
+        "xp": 1200,
+        "rings": 5999,
+        "damage": 239
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 29995,
+        "damage": 1195
+      }
+    },
+    {
+      "name": "Reindeer Chao",
+      "base": {
+        "xp": 115,
+        "rings": 144
+      },
+      "max": {
+        "xp": 7200,
+        "rings": 7200
+      },
+      "max_fused": {
+        "xp": 36000,
+        "rings": 36000
+      }
+    },
+    {
+      "name": "Riders Chao",
+      "base": {
+        "damage": 86
+      },
+      "max": {
+        "damage": 864
+      },
+      "max_fused": {
+        "damage": 4320
+      }
+    },
+    {
+      "name": "Rockstar Silver Chao",
+      "base": {
+        "xp": 460,
+        "rings": 576
+      },
+      "max": {
+        "xp": 230000,
+        "rings": 2800
+      },
+      "max_fused": {
+        "xp": 1150000,
+        "rings": 14000
+      }
+    },
+    {
+      "name": "Rose Chao",
+      "base": {
+        "damage": 192
+      },
+      "max": {
+        "damage": 960
+      },
+      "max_fused": {
+        "damage": 4800
+      }
+    },
+    {
+      "name": "Rouge Chao",
+      "base": {
+        "xp": 576,
+        "rings": 259
+      },
+      "max": {
+        "xp": 2880,
+        "rings": 120000
+      },
+      "max_fused": {
+        "xp": 14400,
+        "rings": 600000
+      }
+    },
+    {
+      "name": "Sailor Chao",
+      "base": {
+        "xp": 110,
+        "rings": 90,
+        "damage": 20
+      },
+      "max": {
+        "xp": 3200,
+        "rings": 3200,
+        "damage": 200
+      },
+      "max_fused": {
+        "xp": 16000,
+        "rings": 16000,
+        "damage": 1000
+      }
+    },
+    {
+      "name": "Sailor Tails Chao",
+      "base": {
+        "xp": 480,
+        "rings": 240,
+        "damage": 48
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 1200,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 6000,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Samurai Chao",
+      "base": {
+        "xp": 3600,
+        "damage": 800,
+        "luck": 3
+      },
+      "max": {
+        "xp": 100000,
+        "damage": 8000,
+        "luck": 7
+      },
+      "max_fused": {
+        "xp": 500000,
+        "damage": 40000,
+        "luck": 35
+      }
+    },
+    {
+      "name": "Sanic",
+      "base": {
+        "xp": 842,
+        "rings": 84,
+        "damage": 168
+      },
+      "max": {
+        "xp": 7592,
+        "rings": 759,
+        "damage": 1518
+      },
+      "max_fused": {
+        "xp": 18980,
+        "rings": 1897,
+        "damage": 3795
+      }
+    },
+    {
+      "name": "Santa Hat Chao",
+      "base": {
+        "xp": 180,
+        "rings": 300
+      },
+      "max": {
+        "xp": 9000,
+        "rings": 1500
+      },
+      "max_fused": {
+        "xp": 45000,
+        "rings": 7500
+      }
+    },
+    {
+      "name": "Scarecrow Chao",
+      "base": {
+        "xp": 576,
+        "rings": 230,
+        "damage": 11
+      },
+      "max": {
+        "xp": 2800,
+        "rings": 110000,
+        "damage": 576
+      },
+      "max_fused": {
+        "xp": 14000,
+        "rings": 550000,
+        "damage": 2880
+      }
+    },
+    {
+      "name": "Shadow Chao",
+      "base": {
+        "xp": 230,
+        "rings": 576,
+        "damage": 46,
+        "luck": 1
+      },
+      "max": {
+        "xp": 110000,
+        "rings": 2880,
+        "damage": 230,
+        "luck": 6
+      },
+      "max_fused": {
+        "xp": 550000,
+        "rings": 14400,
+        "damage": 1150,
+        "luck": 30
+      }
+    },
+    {
+      "name": "Sherbet Chao",
+      "base": {
+        "xp": 3,
+        "rings": 6
+      },
+      "max": {
+        "xp": 150,
+        "rings": 300
+      },
+      "max_fused": {
+        "xp": 750,
+        "rings": 1500
+      }
+    },
+    {
+      "name": "Sheriff Chao",
+      "base": {
+        "xp": 360,
+        "rings": 120
+      },
+      "max": {
+        "xp": 1800,
+        "rings": 600
+      },
+      "max_fused": {
+        "xp": 9000,
+        "rings": 3000
+      }
+    },
+    {
+      "name": "Silver Chao",
+      "base": {
+        "xp": 504,
+        "rings": 108
+      },
+      "max": {
+        "xp": 2500,
+        "rings": 540
+      },
+      "max_fused": {
+        "xp": 12500,
+        "rings": 2700
+      }
+    },
+    {
+      "name": "Silver Style Chao",
+      "base": {
+        "xp": 432,
+        "rings": 144,
+        "luck": 1
+      },
+      "max": {
+        "xp": 2100,
+        "rings": 720,
+        "luck": 5
+      },
+      "max_fused": {
+        "xp": 10500,
+        "rings": 3600,
+        "luck": 25
+      }
+    },
+    {
+      "name": "Skull Chao",
+      "base": {
+        "xp": 1098,
+        "rings": 1098
+      },
+      "max": {
+        "xp": 26400,
+        "rings": 26400
+      },
+      "max_fused": {
+        "xp": 132000,
+        "rings": 132000
+      }
+    },
+    {
+      "name": "Snowboarder Chao",
+      "base": {
+        "xp": 960,
+        "rings": 720
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 3600
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 18000
+      }
+    },
+    {
+      "name": "Snowman Chao",
+      "base": {
+        "xp": 480,
+        "rings": 240,
+        "damage": 28
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 1200,
+        "damage": 144
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 6000,
+        "damage": 720
+      }
+    },
+    {
+      "name": "Sonic Chao",
+      "base": {
+        "xp": 195,
+        "rings": 950,
+        "damage": 38
+      },
+      "max": {
+        "xp": 9700,
+        "rings": 4700,
+        "damage": 190
+      },
+      "max_fused": {
+        "xp": 48500,
+        "rings": 23500,
+        "damage": 950
+      }
+    },
+    {
+      "name": "Spice Latte Chao",
+      "base": {
+        "rings": 120
+      },
+      "max": {
+        "rings": 6000
+      },
+      "max_fused": {
+        "rings": 30000
+      }
+    },
+    {
+      "name": "Spirit Chao",
+      "base": {
+        "xp": 960,
+        "damage": 76,
+        "luck": 1
+      },
+      "max": {
+        "xp": 4800,
+        "damage": 384,
+        "luck": 1
+      },
+      "max_fused": {
+        "xp": 24000,
+        "damage": 1920,
+        "luck": 5
+      }
+    },
+    {
+      "name": "Sprocket Chao",
+      "base": {
+        "damage": 12,
+        "luck": 2
+      },
+      "max": {
+        "damage": 600,
+        "luck": 8
+      },
+      "max_fused": {
+        "damage": 3000,
+        "luck": 40
+      }
+    },
+    {
+      "name": "Star Chao",
+      "base": {
+        "rings": 180,
+        "damage": 24
+      },
+      "max": {
+        "rings": 9000,
+        "damage": 120
+      },
+      "max_fused": {
+        "rings": 45000,
+        "damage": 600
+      }
+    },
+    {
+      "name": "Stealth Suit Chao",
+      "base": {
+        "damage": 14
+      },
+      "max": {
+        "damage": 350
+      },
+      "max_fused": {
+        "damage": 1750
+      }
+    },
+    {
+      "name": "Strawberry Chao",
+      "base": {
+        "xp": 12,
+        "rings": 12
+      },
+      "max": {
+        "xp": 300,
+        "rings": 300
+      },
+      "max_fused": {
+        "xp": 1500,
+        "rings": 1500
+      }
+    },
+    {
+      "name": "Strawberry Scoop Chao",
+      "base": {
+        "xp": 260,
+        "rings": 260
+      },
+      "max": {
+        "xp": 5600,
+        "rings": 5600
+      },
+      "max_fused": {
+        "xp": 28000,
+        "rings": 28000
+      }
+    },
+    {
+      "name": "Summer Breeze Chao",
+      "base": {
+        "xp": 360,
+        "rings": 60,
+        "damage": 24
+      },
+      "max": {
+        "xp": 1800,
+        "rings": 300,
+        "damage": 120
+      },
+      "max_fused": {
+        "xp": 9000,
+        "rings": 1500,
+        "damage": 600
+      }
+    },
+    {
+      "name": "Summer Burst Chao",
+      "base": {
+        "xp": 120,
+        "rings": 60,
+        "damage": 72
+      },
+      "max": {
+        "xp": 600,
+        "rings": 300,
+        "damage": 360
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 1500,
+        "damage": 1800
+      }
+    },
+    {
+      "name": "Summer Chao",
+      "base": {
+        "rings": 960
+      },
+      "max": {
+        "rings": 4800
+      },
+      "max_fused": {
+        "rings": 24000
+      }
+    },
+    {
+      "name": "Summer Party Chao",
+      "base": {
+        "xp": 50,
+        "rings": 24,
+        "damage": 9
+      },
+      "max": {
+        "xp": 500,
+        "rings": 249,
+        "damage": 999
+      },
+      "max_fused": {
+        "xp": 2500,
+        "rings": 1245,
+        "damage": 4995
+      }
+    },
+    {
+      "name": "Summer Sea Chao",
+      "base": {
+        "xp": 120,
+        "rings": 180,
+        "damage": 24
+      },
+      "max": {
+        "xp": 600,
+        "rings": 900,
+        "damage": 120
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 4500,
+        "damage": 600
+      }
+    },
+    {
+      "name": "Summer Sonic Chao",
+      "base": {
+        "rings": 360
+      },
+      "max": {
+        "rings": 1800
+      },
+      "max_fused": {
+        "rings": 9000
+      }
+    },
+    {
+      "name": "Summer Sunset Chao",
+      "base": {
+        "xp": 300,
+        "rings": 150
+      },
+      "max": {
+        "xp": 1500,
+        "rings": 750
+      },
+      "max_fused": {
+        "xp": 7500,
+        "rings": 3750
+      }
+    },
+    {
+      "name": "Sungazer Chao",
+      "base": {
+        "xp": 153,
+        "damage": 76
+      },
+      "max": {
+        "xp": 7600,
+        "damage": 384
+      },
+      "max_fused": {
+        "xp": 38000,
+        "damage": 1920
+      }
+    },
+    {
+      "name": "Sunkissed Chao",
+      "base": {
+        "rings": 135
+      },
+      "max": {
+        "rings": 3375
+      },
+      "max_fused": {
+        "rings": 16875
+      }
+    },
+    {
+      "name": "Sunstone Chao",
+      "base": {
+        "rings": 14200
+      },
+      "max": {
+        "rings": 142000
+      },
+      "max_fused": {
+        "rings": 710000
+      }
+    },
+    {
+      "name": "Swap Chao",
+      "base": {
+        "xp": 120,
+        "rings": 300,
+        "damage": 120
+      },
+      "max": {
+        "xp": 6000,
+        "rings": 1500,
+        "damage": 600
+      },
+      "max_fused": {
+        "xp": 30000,
+        "rings": 7500,
+        "damage": 3000
+      }
+    },
+    {
+      "name": "Tails Chao",
+      "base": {
+        "xp": 720,
+        "rings": 108
+      },
+      "max": {
+        "xp": 3600,
+        "rings": 5400
+      },
+      "max_fused": {
+        "xp": 18000,
+        "rings": 27000
+      }
+    },
+    {
+      "name": "Techno Chao",
+      "base": {
+        "rings": 120,
+        "damage": 48
+      },
+      "max": {
+        "rings": 6000,
+        "damage": 240
+      },
+      "max_fused": {
+        "rings": 30000,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Tiki Chao",
+      "base": {
+        "xp": 240,
+        "rings": 120
+      },
+      "max": {
+        "xp": 120000,
+        "rings": 6000
+      },
+      "max_fused": {
+        "xp": 600000,
+        "rings": 30000
+      }
+    },
+    {
+      "name": "Traveler Chao",
+      "base": {
+        "xp": 480
+      },
+      "max": {
+        "xp": 2400
+      },
+      "max_fused": {
+        "xp": 12000
+      }
+    },
+    {
+      "name": "Tropical Chao",
+      "base": {
+        "xp": 120,
+        "damage": 24
+      },
+      "max": {
+        "xp": 6000,
+        "damage": 120
+      },
+      "max_fused": {
+        "xp": 30000,
+        "damage": 600
+      }
+    },
+    {
+      "name": "Tundra Chao",
+      "base": {
+        "xp": 37,
+        "damage": 22
+      },
+      "max": {
+        "xp": 3750,
+        "damage": 225
+      },
+      "max_fused": {
+        "xp": 18750,
+        "damage": 1125
+      }
+    },
+    {
+      "name": "Turquoise Hero Chao",
+      "base": {
+        "xp": 150,
+        "rings": 105,
+        "damage": 38
+      },
+      "max": {
+        "xp": 3800,
+        "rings": 2800,
+        "damage": 192
+      },
+      "max_fused": {
+        "xp": 19000,
+        "rings": 14000,
+        "damage": 960
+      }
+    },
+    {
+      "name": "Tuxedo Chao",
+      "base": {
+        "xp": 48,
+        "rings": 216
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 1080
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 5400
+      }
+    },
+    {
+      "name": "Valentines Chao",
+      "base": {
+        "xp": 784,
+        "rings": 313
+      },
+      "max": {
+        "xp": 7084,
+        "rings": 2833
+      },
+      "max_fused": {
+        "xp": 17710,
+        "rings": 7082
+      }
+    },
+    {
+      "name": "Vampire Chao",
+      "base": {
+        "rings": 240,
+        "damage": 38
+      },
+      "max": {
+        "rings": 1200,
+        "damage": 192
+      },
+      "max_fused": {
+        "rings": 6000,
+        "damage": 960
+      }
+    },
+    {
+      "name": "Vampire Shadow Chao",
+      "base": {
+        "xp": 468,
+        "rings": 90,
+        "damage": 14
+      },
+      "max": {
+        "xp": 2300,
+        "rings": 450,
+        "damage": 720
+      },
+      "max_fused": {
+        "xp": 11500,
+        "rings": 2250,
+        "damage": 3600
+      }
+    },
+    {
+      "name": "Vampire Sonic Chao",
+      "base": {
+        "xp": 144,
+        "rings": 288,
+        "damage": 74,
+        "luck": 1
+      },
+      "max": {
+        "xp": 7200,
+        "rings": 1400,
+        "damage": 374,
+        "luck": 5
+      },
+      "max_fused": {
+        "xp": 36000,
+        "rings": 7000,
+        "damage": 1870,
+        "luck": 25
+      }
+    },
+    {
+      "name": "Vector Chao",
+      "base": {
+        "xp": 240,
+        "rings": 120,
+        "damage": 38
+      },
+      "max": {
+        "xp": 1200,
+        "rings": 6000,
+        "damage": 192
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 30000,
+        "damage": 960
+      }
+    },
+    {
+      "name": "Velvet Chao",
+      "base": {
+        "xp": 480,
+        "rings": 240
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 1200
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 6000
+      }
+    },
+    {
+      "name": "Violet Chao",
+      "base": {
+        "xp": 13
+      },
+      "max": {
+        "xp": 675,
+        "rings": 37
+      },
+      "max_fused": {
+        "xp": 3375,
+        "rings": 185
+      }
+    },
+    {
+      "name": "VIP Chao",
+      "base": {
+        "xp": 120,
+        "rings": 150,
+        "damage": 36
+      },
+      "max": {
+        "xp": 600,
+        "rings": 750,
+        "damage": 180
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 3750,
+        "damage": 900
+      }
+    },
+    {
+      "name": "Void Chao",
+      "base": {
+        "xp": 6,
+        "rings": 3,
+        "damage": 1
+      },
+      "max": {
+        "xp": 500,
+        "rings": 249,
+        "damage": 99
+      },
+      "max_fused": {
+        "xp": 2500,
+        "rings": 1245,
+        "damage": 495
+      }
+    },
+    {
+      "name": "Water Chao",
+      "base": {
+        "xp": 65
+      },
+      "max": {
+        "xp": 675
+      },
+      "max_fused": {
+        "xp": 3375
+      }
+    },
+    {
+      "name": "Water Ninja Chao",
+      "base": {
+        "rings": 18,
+        "damage": 22
+      },
+      "max": {
+        "rings": 1875,
+        "damage": 225
+      },
+      "max_fused": {
+        "rings": 9375,
+        "damage": 1125
+      }
+    },
+    {
+      "name": "Watermelon Chao",
+      "base": {
+        "xp": 30,
+        "rings": 30
+      },
+      "max": {
+        "xp": 250,
+        "rings": 250
+      },
+      "max_fused": {
+        "xp": 1250,
+        "rings": 1250
+      }
+    },
+    {
+      "name": "White Chao",
+      "base": {
+        "xp": 24
+      },
+      "max": {
+        "xp": 600
+      },
+      "max_fused": {
+        "xp": 3000
+      }
+    },
+    {
+      "name": "White Knight Chao",
+      "base": {
+        "rings": 24,
+        "damage": 2
+      },
+      "max": {
+        "rings": 600,
+        "damage": 20
+      },
+      "max_fused": {
+        "rings": 3000,
+        "damage": 100
+      }
+    },
+    {
+      "name": "White Wisp",
+      "base": {
+        "damage": 36
+      },
+      "max": {
+        "damage": 360
+      },
+      "max_fused": {
+        "damage": 1800
+      }
+    },
+    {
+      "name": "Winter Chao",
+      "base": {
+        "xp": 8800
+      },
+      "max": {
+        "xp": 88000
+      },
+      "max_fused": {
+        "xp": 440000
+      }
+    },
+    {
+      "name": "Witch Chao",
+      "base": {
+        "xp": 960,
+        "rings": 960,
+        "damage": 38
+      },
+      "max": {
+        "xp": 4800,
+        "rings": 4800,
+        "damage": 192
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 24000,
+        "damage": 960
+      }
+    },
+    {
+      "name": "Wizard Chao",
+      "base": {
+        "xp": 450,
+        "damage": 30
+      },
+      "max": {
+        "xp": 2200,
+        "damage": 150
+      },
+      "max_fused": {
+        "xp": 11000,
+        "damage": 750
+      }
+    },
+    {
+      "name": "Yellow Chao",
+      "base": {
+        "xp": 2
+      },
+      "max": {
+        "xp": 50
+      },
+      "max_fused": {
+        "xp": 250
+      }
+    },
+    {
+      "name": "Yellow Dark Chao",
+      "base": {
+        "xp": 215,
+        "rings": 215,
+        "damage": 48
+      },
+      "max": {
+        "xp": 5200,
+        "rings": 5200,
+        "damage": 480
+      },
+      "max_fused": {
+        "xp": 26000,
+        "rings": 26000,
+        "damage": 2400
+      }
+    },
+    {
+      "name": "Yellow Green Chao",
+      "base": {
+        "xp": 1,
+        "rings": 2
+      },
+      "max": {
+        "xp": 78,
+        "rings": 117
+      },
+      "max_fused": {
+        "xp": 390,
+        "rings": 585
+      }
+    },
+    {
+      "name": "Yellow Hero Chao",
+      "base": {
+        "xp": 1000,
+        "rings": 800,
+        "damage": 40
+      },
+      "max": {
+        "xp": 10000,
+        "rings": 8000,
+        "damage": 400
+      },
+      "max_fused": {
+        "xp": 50000,
+        "rings": 40000,
+        "damage": 2000
+      }
+    },
+    {
+      "name": "Yellow Hoodie Chao",
+      "base": {
+        "xp": 480,
+        "rings": 720,
+        "damage": 57
+      },
+      "max": {
+        "xp": 2400,
+        "rings": 3600,
+        "damage": 288
+      },
+      "max_fused": {
+        "xp": 12000,
+        "rings": 18000,
+        "damage": 1440
+      }
+    },
+    {
+      "name": "Yellow Shadow Omochao",
+      "base": {
+        "xp": 160,
+        "rings": 799,
+        "damage": 31
+      },
+      "max": {
+        "xp": 8000,
+        "rings": 3900,
+        "damage": 159
+      },
+      "max_fused": {
+        "xp": 40000,
+        "rings": 19500,
+        "damage": 795
+      }
+    },
+    {
+      "name": "Yellow Wisp",
+      "base": {
+        "xp": 135,
+        "rings": 22
+      },
+      "max": {
+        "xp": 1300,
+        "rings": 2250
+      },
+      "max_fused": {
+        "xp": 6500,
+        "rings": 11250
+      }
+    },
+    {
+      "name": "Yeti Chao",
+      "base": {
+        "rings": 576,
+        "damage": 92
+      },
+      "max": {
+        "rings": 2880,
+        "damage": 460
+      },
+      "max_fused": {
+        "rings": 14400,
+        "damage": 2300
+      }
+    },
+    {
+      "name": "Yogurt Chao",
+      "base": {
+        "xp": 100,
+        "rings": 100
+      },
+      "max": {
+        "xp": 2600,
+        "rings": 2600
+      },
+      "max_fused": {
+        "xp": 13000,
+        "rings": 13000
+      }
+    },
+    {
+      "name": "You",
+      "base": {
+        "damage": 203623
+      },
+      "max": {
+        "damage": 3868904
+      },
+      "max_fused": {
+        "damage": 19344520
+      }
+    },
+    {
+      "name": "Zebra Chao",
+      "base": {
+        "xp": 75,
+        "rings": 7,
+        "damage": 12
+      },
+      "max": {
+        "xp": 7500,
+        "rings": 750,
+        "damage": 120
+      },
+      "max_fused": {
+        "xp": 37500,
+        "rings": 3750,
+        "damage": 600
+      }
+    }
+  ],
+  "Trails": [
+    {
+      "name": "3.0 Blur Trail",
+      "base": {
+        "xp": 8858,
+        "rings": 885,
+        "damage": 3542
+      },
+      "max": {
+        "xp": 79733,
+        "rings": 7973,
+        "damage": 300079
+      },
+      "max_fused": {
+        "xp": 398665,
+        "rings": 39865,
+        "damage": 1500395
+      }
+    },
+    {
+      "name": "Albatross Blur Trail",
+      "base": {
+        "xp": 71760,
+        "rings": 7156,
+        "damage": 30000
+      },
+      "max": {},
+      "max_fused": {
+        "xp": 3220000,
+        "rings": 322920,
+        "damage": 2850000
+      }
+    },
+    {
+      "name": "Amy Blur Trail",
+      "base": {
+        "xp": 24803,
+        "damage": 2125
+      },
+      "max": {
+        "xp": 223253,
+        "damage": 180047
+      },
+      "max_fused": {
+        "xp": 124015,
+        "damage": 10625
+      }
+    },
+    {
+      "name": "Android Trail",
+      "base": {
+        "xp": 562,
+        "rings": 56
+      },
+      "max": {
+        "xp": 5062,
+        "rings": 506
+      },
+      "max_fused": {
+        "xp": 25310,
+        "rings": 2
+      }
+    },
+    {
+      "name": "Aqua Electro Trail",
+      "base": {
+        "xp": 1691,
+        "rings": 167,
+        "damage": 334
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Aqua Sea Trail",
+      "base": {
+        "xp": 21260,
+        "rings": 1416
+      },
+      "max": {
+        "xp": 191360,
+        "rings": 12756
+      },
+      "max_fused": {
+        "xp": 956800,
+        "rings": 63780
+      }
+    },
+    {
+      "name": "Aqua Square Trail",
+      "base": {
+        "xp": 208,
+        "rings": 20,
+        "damage": 41
+      },
+      "max": {
+        "xp": 1878,
+        "rings": 187,
+        "damage": 374
+      },
+      "max_fused": {
+        "xp": 9390,
+        "rings": 935,
+        "damage": 1870
+      }
+    },
+    {
+      "name": "Aqua Trail",
+      "base": {
+        "xp": 8,
+        "rings": 1,
+        "damage": 3
+      },
+      "max": {
+        "xp": 417,
+        "rings": 41,
+        "damage": 83
+      },
+      "max_fused": {
+        "xp": 2085,
+        "rings": 205,
+        "damage": 415
+      }
+    },
+    {
+      "name": "Aqua Wavy Trail",
+      "base": {
+        "xp": 2536,
+        "rings": 252,
+        "damage": 505
+      },
+      "max": {
+        "xp": 22826,
+        "rings": 2275,
+        "damage": 42825
+      },
+      "max_fused": {
+        "xp": 114130,
+        "rings": 11375,
+        "damage": 214125
+      }
+    },
+    {
+      "name": "Autumn Leaf Trail",
+      "base": {
+        "xp": 63786,
+        "rings": 6378,
+        "damage": 60015
+      },
+      "max": {
+        "xp": 574086,
+        "rings": 57408,
+        "damage": 1140308
+      },
+      "max_fused": {
+        "xp": 2870430,
+        "rings": 287040,
+        "damage": 5701540
+      }
+    },
+    {
+      "name": "Beam Note Trail",
+      "base": {
+        "xp": 11,
+        "rings": 1138
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Big Blur Trail",
+      "base": {
+        "xp": 1265,
+        "rings": 126,
+        "damage": 506
+      },
+      "max": {
+        "xp": 11390,
+        "rings": 1139,
+        "damage": 42868
+      },
+      "max_fused": {
+        "xp": 56950,
+        "rings": 5695,
+        "damage": 214340
+      }
+    },
+    {
+      "name": "Black Brush Trail",
+      "base": {
+        "xp": 3543,
+        "rings": 708,
+        "damage": 22256
+      },
+      "max": {
+        "xp": 31893,
+        "rings": 6378,
+        "damage": 420111
+      },
+      "max_fused": {
+        "xp": 159465,
+        "rings": 31890,
+        "damage": 2100555
+      }
+    },
+    {
+      "name": "Black Electro Trail",
+      "base": {
+        "xp": 1691,
+        "rings": 167,
+        "damage": 337
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Black Square Trail",
+      "base": {
+        "xp": 208,
+        "rings": 20,
+        "damage": 41
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Black Trail",
+      "base": {
+        "xp": 15,
+        "rings": 2,
+        "damage": 5
+      },
+      "max": {
+        "xp": 751,
+        "rings": 74,
+        "damage": 149
+      },
+      "max_fused": {
+        "xp": 3755,
+        "rings": 370,
+        "damage": 745
+      }
+    },
+    {
+      "name": "Black Wavy Trail",
+      "base": {
+        "xp": 7608,
+        "rings": 758,
+        "damage": 1516
+      },
+      "max": {
+        "xp": 68479,
+        "rings": 6827,
+        "damage": 128477
+      },
+      "max_fused": {
+        "xp": 342395,
+        "rings": 34135,
+        "damage": 642385
+      }
+    },
+    {
+      "name": "Blaze Blur Trail",
+      "base": {
+        "rings": 4738,
+        "damage": 210053
+      },
+      "max": {
+        "rings": 43056,
+        "damage": 3991079
+      },
+      "max_fused": {
+        "rings": 215280,
+        "damage": 19955395
+      }
+    },
+    {
+      "name": "Blue Electro Trail",
+      "base": {
+        "xp": 275,
+        "rings": 37,
+        "damage": 74
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Blue Pixel Crush Trail",
+      "base": {
+        "xp": 2024,
+        "rings": 101,
+        "damage": 404
+      },
+      "max": {
+        "xp": 18224,
+        "rings": 911,
+        "damage": 34294
+      },
+      "max_fused": {
+        "xp": 91120,
+        "rings": 4555,
+        "damage": 171470
+      }
+    },
+    {
+      "name": "Blue Speed Trail",
+      "base": {
+        "xp": 34240,
+        "rings": 3413,
+        "damage": 64230
+      },
+      "max": {
+        "xp": 308160,
+        "rings": 30720,
+        "damage": 122053
+      },
+      "max_fused": {
+        "xp": 1540800,
+        "rings": 153600,
+        "damage": 610265
+      }
+    },
+    {
+      "name": "Blue Square Trail",
+      "base": {
+        "xp": 125,
+        "rings": 12,
+        "damage": 24
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Blue Star Trail",
+      "base": {
+        "xp": 3037,
+        "rings": 202
+      },
+      "max": {
+        "xp": 27337,
+        "rings": 1822
+      },
+      "max_fused": {
+        "xp": 136685,
+        "rings": 9110
+      }
+    },
+    {
+      "name": "Blue Static Trail",
+      "base": {
+        "rings": 2277
+      },
+      "max": {
+        "rings": 20400
+      },
+      "max_fused": {
+        "rings": 102510
+      }
+    },
+    {
+      "name": "Blue Summer Trail",
+      "base": {
+        "xp": 9111,
+        "rings": 1214,
+        "damage": 1821
+      },
+      "max": {
+        "xp": 82011,
+        "rings": 10934,
+        "damage": 154326
+      },
+      "max_fused": {
+        "xp": 410050,
+        "rings": 54670,
+        "damage": 771630
+      }
+    },
+    {
+      "name": "Blue Trail",
+      "base": {
+        "xp": 15,
+        "rings": 2,
+        "damage": 5
+      },
+      "max": {
+        "xp": 751,
+        "rings": 74,
+        "damage": 149
+      },
+      "max_fused": {
+        "xp": 3755,
+        "rings": 370,
+        "damage": 745
+      }
+    },
+    {
+      "name": "Blue Wavy Trail",
+      "base": {
+        "xp": 4226,
+        "rings": 421,
+        "damage": 842
+      },
+      "max": {
+        "xp": 38034,
+        "rings": 3789,
+        "damage": 7578
+      },
+      "max_fused": {
+        "xp": 190170,
+        "rings": 18945,
+        "damage": 37890
+      }
+    },
+    {
+      "name": "Bone Trail",
+      "base": {
+        "rings": 504,
+        "damage": 337
+      },
+      "max": {
+        "rings": 4554,
+        "damage": 3037
+      },
+      "max_fused": {
+        "rings": 22770,
+        "damage": 15180
+      }
+    },
+    {
+      "name": "Bright Speed Trail",
+      "base": {
+        "xp": 19022,
+        "rings": 1862,
+        "damage": 35687
+      },
+      "max": {
+        "xp": 171201,
+        "rings": 17068,
+        "damage": 678076
+      },
+      "max_fused": {
+        "xp": 856005,
+        "rings": 84340,
+        "damage": 6102685
+      }
+    },
+    {
+      "name": "Bubble Trail",
+      "base": {
+        "xp": 26575,
+        "rings": 885
+      },
+      "max": {
+        "xp": 478400,
+        "rings": 15946
+      },
+      "max_fused": {
+        "xp": 1196000,
+        "rings": 39865
+      }
+    },
+    {
+      "name": "Burst Power Trail",
+      "base": {
+        "xp": 3569,
+        "rings": 354,
+        "damage": 711
+      },
+      "max": {
+        "xp": 32126,
+        "rings": 3201,
+        "damage": 6406
+      },
+      "max_fused": {
+        "xp": 160630,
+        "rings": 16005,
+        "damage": 32030
+      }
+    },
+    {
+      "name": "Candy Cane Trail",
+      "base": {
+        "xp": 111626,
+        "rings": 1594,
+        "damage": 60015
+      },
+      "max": {
+        "xp": 1004651,
+        "rings": 14352,
+        "damage": 1140308
+      },
+      "max_fused": {
+        "xp": 5023255,
+        "rings": 71760,
+        "damage": 5701540
+      }
+    },
+    {
+      "name": "Candy Corn Trail",
+      "base": {
+        "xp": 15946,
+        "rings": 12756,
+        "damage": 30007
+      },
+      "max": {},
+      "max_fused": {
+        "xp": 717605,
+        "rings": 574080,
+        "damage": 2850770
+      }
+    },
+    {
+      "name": "Champion Trail",
+      "base": {
+        "xp": 79733,
+        "damage": 150038
+      },
+      "max": {
+        "xp": 717608,
+        "damage": 2850771
+      },
+      "max_fused": {
+        "xp": 3588040,
+        "damage": 14253855
+      }
+    },
+    {
+      "name": "Chaos Spear Trail",
+      "base": {
+        "xp": 501,
+        "rings": 50,
+        "damage": 810
+      },
+      "max": {
+        "xp": 4556,
+        "rings": 455,
+        "damage": 7290
+      },
+      "max_fused": {
+        "xp": 22780,
+        "rings": 2275,
+        "damage": 36450
+      }
+    },
+    {
+      "name": "Charmy Bee Blur Trail",
+      "base": {
+        "xp": 11390,
+        "rings": 1139
+      },
+      "max": {
+        "xp": 102515,
+        "rings": 10251
+      },
+      "max_fused": {
+        "xp": 512575,
+        "rings": 51255
+      }
+    },
+    {
+      "name": "Checkered Flag Trail",
+      "base": {
+        "xp": 17717,
+        "rings": 1771
+      },
+      "max": {
+        "xp": 88585,
+        "rings": 8855
+      },
+      "max_fused": {
+        "xp": 797335,
+        "rings": 79730
+      }
+    },
+    {
+      "name": "Checkers Trail",
+      "base": {
+        "xp": 23,
+        "rings": 4,
+        "damage": 9
+      },
+      "max": {
+        "xp": 1169,
+        "rings": 116,
+        "damage": 223
+      },
+      "max_fused": {
+        "xp": 5845,
+        "rings": 580,
+        "damage": 1115
+      }
+    },
+    {
+      "name": "Chili Dog Trail",
+      "base": {
+        "xp": 77284,
+        "rings": 7206,
+        "damage": 135612
+      },
+      "max": {
+        "xp": 650563,
+        "rings": 64861,
+        "damage": 2576689
+      },
+      "max_fused": {
+        "xp": 40500,
+        "rings": 40500,
+        "damage": 3625
+      }
+    },
+    {
+      "name": "Chrome Blur Trail",
+      "base": {
+        "xp": 14170,
+        "rings": 1062,
+        "damage": 2125
+      },
+      "max": {
+        "xp": 12750,
+        "rings": 9567,
+        "damage": 18000
+      },
+      "max_fused": {
+        "xp": 637860,
+        "rings": 47830,
+        "damage": 900230
+      }
+    },
+    {
+      "name": "Classic Amy Blur Trail",
+      "base": {
+        "xp": 95680,
+        "rings": 1594,
+        "damage": 90022
+      },
+      "max": {
+        "xp": 851130,
+        "rings": 14352,
+        "damage": 1710462
+      },
+      "max_fused": {
+        "xp": 4305650,
+        "rings": 71760,
+        "damage": 8552310
+      }
+    },
+    {
+      "name": "Classic Knuckles Blur Trail",
+      "base": {
+        "xp": 15940,
+        "rings": 1594,
+        "damage": 240060
+      },
+      "max": {
+        "xp": 143520,
+        "rings": 14350,
+        "damage": 456120
+      },
+      "max_fused": {
+        "xp": 717600,
+        "rings": 71760,
+        "damage": 22280000
+      }
+    },
+    {
+      "name": "Classic Sonic Blur Trail",
+      "base": {
+        "xp": 3937,
+        "rings": 392
+      },
+      "max": {
+        "xp": 159467,
+        "rings": 15946
+      },
+      "max_fused": {
+        "xp": 797335,
+        "rings": 79730
+      }
+    },
+    {
+      "name": "Club VIP Trail",
+      "base": {
+        "xp": 72284,
+        "rings": 7206,
+        "damage": 135612
+      },
+      "max": {
+        "xp": 650563,
+        "rings": 64861,
+        "damage": 2576689
+      },
+      "max_fused": {
+        "xp": 3252815,
+        "rings": 324305,
+        "damage": 12883445
+      }
+    },
+    {
+      "name": "Cream Blur Trail",
+      "base": {
+        "xp": 9112,
+        "rings": 911,
+        "damage": 8573,
+        "luck": 1
+      },
+      "max": {
+        "xp": 92012,
+        "rings": 8201,
+        "damage": 152901,
+        "luck": 3
+      },
+      "max_fused": {
+        "xp": 460060,
+        "rings": 41005,
+        "damage": 764505,
+        "luck": 6
+      }
+    },
+    {
+      "name": "Crimson Fury Trail",
+      "base": {
+        "rings": 885,
+        "damage": 5313
+      },
+      "max": {
+        "rings": 7973,
+        "damage": 450119
+      },
+      "max_fused": {
+        "rings": 39865,
+        "damage": 2250595
+      }
+    },
+    {
+      "name": "Cyan Speed Trail",
+      "base": {
+        "xp": 7608,
+        "rings": 758,
+        "damage": 14275
+      },
+      "max": {
+        "xp": 68480,
+        "rings": 6827,
+        "damage": 271230
+      },
+      "max_fused": {
+        "xp": 342400,
+        "rings": 34135,
+        "damage": 1356150
+      }
+    },
+    {
+      "name": "Cyan Static Trail",
+      "base": {
+        "xp": 24803,
+        "rings": 531,
+        "damage": 1062
+      },
+      "max": {
+        "xp": 223253,
+        "rings": 4783,
+        "damage": 90023
+      },
+      "max_fused": {
+        "xp": 1116265,
+        "rings": 23915,
+        "damage": 450115
+      }
+    },
+    {
+      "name": "Cyan Summer Trail",
+      "base": {
+        "xp": 12148,
+        "rings": 910,
+        "damage": 1821
+      },
+      "max": {
+        "xp": 109348,
+        "rings": 8200,
+        "damage": 154326
+      },
+      "max_fused": {
+        "xp": 546740,
+        "rings": 41000,
+        "damage": 771630
+      }
+    },
+    {
+      "name": "Cyber Corruption Trail",
+      "base": {
+        "xp": 11389,
+        "rings": 455,
+        "damage": 1366
+      },
+      "max": {
+        "xp": 102514,
+        "rings": 4100,
+        "damage": 115745
+      },
+      "max_fused": {
+        "xp": 512570,
+        "rings": 20500,
+        "damage": 578725
+      }
+    },
+    {
+      "name": "Cyber Energy Trail",
+      "base": {
+        "xp": 500,
+        "rings": 500,
+        "damage": 30
+      },
+      "max": {
+        "xp": 5000,
+        "rings": 5000,
+        "damage": 300
+      },
+      "max_fused": {
+        "xp": 12500,
+        "rings": 12500,
+        "damage": 750
+      }
+    },
+    {
+      "name": "Cyloop Trail",
+      "base": {
+        "xp": 21642,
+        "rings": 2164,
+        "damage": 240060
+      },
+      "max": {
+        "xp": 194779,
+        "rings": 19477,
+        "damage": 4561233
+      },
+      "max_fused": {
+        "xp": 973895,
+        "rings": 97385,
+        "damage": 22806165
+      }
+    },
+    {
+      "name": "Daisy Petal Trail",
+      "base": {
+        "xp": 34240,
+        "rings": 3413,
+        "damage": 64237
+      },
+      "max": {
+        "xp": 308161,
+        "rings": 30723,
+        "damage": 1220537
+      },
+      "max_fused": {
+        "xp": 1540805,
+        "rings": 153615,
+        "damage": 6102685
+      }
+    },
+    {
+      "name": "Dark Gaia Trail",
+      "base": {
+        "xp": 303,
+        "rings": 24297,
+        "damage": 607
+      },
+      "max": {
+        "xp": 218697,
+        "rings": 2733,
+        "damage": 51442
+      },
+      "max_fused": {
+        "xp": 1093485,
+        "rings": 13665,
+        "damage": 257200
+      }
+    },
+    {
+      "name": "Dark Star Trail",
+      "base": {
+        "xp": 127573,
+        "rings": 1594,
+        "damage": 30007
+      },
+      "max": {
+        "xp": 1148173,
+        "rings": 14352,
+        "damage": 570154
+      },
+      "max_fused": {
+        "xp": 5740865,
+        "rings": 71760,
+        "damage": 2850770
+      }
+    },
+    {
+      "name": "Dark Static Trail",
+      "base": {
+        "xp": 320,
+        "rings": 320
+      },
+      "max": {
+        "xp": 8000,
+        "rings": 8000
+      },
+      "max_fused": {
+        "xp": 820110,
+        "rings": 10250,
+        "damage": 192900
+      }
+    },
+    {
+      "name": "Default Trail",
+      "base": {},
+      "max": {
+        "xp": 1,
+        "rings": 1
+      },
+      "max_fused": {
+        "xp": 5,
+        "rings": 5
+      }
+    },
+    {
+      "name": "Destruction Trail",
+      "base": {
+        "rings": 156,
+        "damage": 1260
+      },
+      "max": {
+        "rings": 1416,
+        "damage": 11340
+      },
+      "max_fused": {
+        "rings": 7080,
+        "damage": 56700
+      }
+    },
+    {
+      "name": "Doom Trail",
+      "base": {
+        "xp": 3037,
+        "rings": 202
+      },
+      "max": {
+        "xp": 27337,
+        "rings": 1822
+      },
+      "max_fused": {
+        "xp": 136685,
+        "rings": 9110
+      }
+    },
+    {
+      "name": "Easter Egg Trail",
+      "base": {
+        "xp": 9112,
+        "rings": 911,
+        "damage": 8573
+      },
+      "max": {},
+      "max_fused": {
+        "xp": 460060,
+        "rings": 41000,
+        "damage": 714500
+      }
+    },
+    {
+      "name": "Eerie Fog Trail",
+      "base": {
+        "xp": 2700,
+        "rings": 268,
+        "damage": 270
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Eggman Trail",
+      "base": {
+        "xp": 2531,
+        "rings": 126,
+        "damage": 253
+      },
+      "max": {
+        "xp": 22780,
+        "rings": 1138,
+        "damage": 2278
+      },
+      "max_fused": {
+        "xp": 113900,
+        "rings": 5690,
+        "damage": 11390
+      }
+    },
+    {
+      "name": "Eggstreme Trail",
+      "base": {
+        "xp": 28347,
+        "rings": 354,
+        "damage": 708
+      },
+      "max": {
+        "xp": 255147,
+        "rings": 3189,
+        "damage": 60015
+      },
+      "max_fused": {
+        "xp": 1275735,
+        "rings": 15945,
+        "damage": 300075
+      }
+    },
+    {
+      "name": "Emerald Energy Trail",
+      "base": {
+        "xp": 151494,
+        "rings": 2164,
+        "damage": 81449
+      },
+      "max": {
+        "xp": 1363456,
+        "rings": 19477,
+        "damage": 1546561
+      },
+      "max_fused": {
+        "xp": 6817280,
+        "rings": 97385,
+        "damage": 7737805
+      }
+    },
+    {
+      "name": "Enmaku Trail",
+      "base": {
+        "rings": 379,
+        "damage": 253
+      },
+      "max": {
+        "rings": 3417,
+        "damage": 21434
+      },
+      "max_fused": {
+        "rings": 17085,
+        "damage": 107170
+      }
+    },
+    {
+      "name": "Espio Blur Trail",
+      "base": {
+        "xp": 2025,
+        "rings": 201,
+        "damage": 202
+      },
+      "max": {
+        "xp": 127573,
+        "rings": 6378,
+        "damage": 240063
+      },
+      "max_fused": {
+        "xp": 637865,
+        "rings": 31890,
+        "damage": 1200315
+      }
+    },
+    {
+      "name": "Falling Leaf Trail",
+      "base": {
+        "xp": 51527,
+        "rings": 3075,
+        "damage": 38581
+      },
+      "max": {
+        "xp": 42000,
+        "rings": 42000,
+        "damage": 2000
+      },
+      "max_fused": {
+        "xp": 2306600,
+        "rings": 138395,
+        "damage": 3665275
+      }
+    },
+    {
+      "name": "Fang Blur Trail",
+      "base": {
+        "xp": 500,
+        "rings": 50,
+        "damage": 10
+      },
+      "max": {
+        "xp": 20000,
+        "rings": 2000,
+        "damage": 200
+      },
+      "max_fused": {
+        "xp": 100000,
+        "rings": 10000,
+        "damage": 1000
+      }
+    },
+    {
+      "name": "Gemerl Blur Trail",
+      "base": {
+        "xp": 24800,
+        "rings": 531,
+        "damage": 1062
+      },
+      "max": {
+        "xp": 223253,
+        "rings": 4783,
+        "damage": 90023
+      },
+      "max_fused": {
+        "xp": 1116265,
+        "rings": 23915,
+        "damage": 450115
+      }
+    },
+    {
+      "name": "Ghost Trail",
+      "base": {
+        "rings": 1594,
+        "damage": 240060
+      },
+      "max": {
+        "xp": 143521,
+        "rings": 14352,
+        "damage": 4561233
+      },
+      "max_fused": {
+        "xp": 717600,
+        "rings": 71760,
+        "damage": 22806165
+      }
+    },
+    {
+      "name": "Golden Style Trail",
+      "base": {
+        "xp": 5315,
+        "rings": 2479,
+        "damage": 1062
+      },
+      "max": {
+        "xp": 47840,
+        "rings": 22320,
+        "damage": 90020
+      },
+      "max_fused": {
+        "xp": 26575,
+        "rings": 12395
+      }
+    },
+    {
+      "name": "Gravity Pull Trail",
+      "base": {
+        "rings": 1707,
+        "damage": 1138
+      },
+      "max": {
+        "rings": 15376,
+        "damage": 96454
+      },
+      "max_fused": {
+        "rings": 76880,
+        "damage": 482270
+      }
+    },
+    {
+      "name": "Green Square Trail",
+      "base": {
+        "xp": 83,
+        "rings": 8,
+        "damage": 16
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Green Star Trail",
+      "base": {
+        "xp": 23380,
+        "rings": 602,
+        "damage": 1204
+      },
+      "max": {},
+      "max_fused": {
+        "xp": 1052480,
+        "rings": 27105,
+        "damage": 510135
+      }
+    },
+    {
+      "name": "Green Summer Trail",
+      "base": {
+        "xp": 6074,
+        "rings": 1214,
+        "damage": 2428
+      },
+      "max": {
+        "xp": 54674,
+        "rings": 10934,
+        "damage": 205768
+      },
+      "max_fused": {
+        "xp": 273370,
+        "rings": 54670,
+        "damage": 1028840
+      }
+    },
+    {
+      "name": "Gunpowder Trail",
+      "base": {
+        "rings": 80,
+        "damage": 3
+      },
+      "max": {},
+      "max_fused": {
+        "rings": 4500,
+        "damage": 150
+      }
+    },
+    {
+      "name": "Hallow Dark Trail",
+      "base": {
+        "xp": 1012,
+        "rings": 201,
+        "damage": 405
+      },
+      "max": {
+        "xp": 9112,
+        "rings": 1821,
+        "damage": 3645
+      },
+      "max_fused": {
+        "xp": 45560,
+        "rings": 9105,
+        "damage": 18225
+      }
+    },
+    {
+      "name": "HEXAeco Trail",
+      "base": {
+        "xp": 23920,
+        "rings": 2391,
+        "damage": 210050
+      },
+      "max": {
+        "xp": 215280,
+        "rings": 21520,
+        "damage": 3990000
+      },
+      "max_fused": {
+        "xp": 1070000,
+        "rings": 107640,
+        "damage": 19950000
+      }
+    },
+    {
+      "name": "Hologram Trail",
+      "base": {
+        "xp": 1518,
+        "rings": 352
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Hyper Wave Trail",
+      "base": {
+        "xp": 9448,
+        "rings": 1771,
+        "damage": 2125
+      },
+      "max": {
+        "xp": 63786,
+        "rings": 15946,
+        "damage": 180047
+      },
+      "max_fused": {
+        "xp": 318930,
+        "rings": 79730,
+        "damage": 900235
+      }
+    },
+    {
+      "name": "Ice Breaker Trail",
+      "base": {
+        "xp": 15946,
+        "rings": 3189,
+        "damage": 210053
+      },
+      "max": {
+        "xp": 202500,
+        "rings": 202500,
+        "damage": 21600
+      },
+      "max_fused": {
+        "xp": 797335,
+        "rings": 79730,
+        "damage": 19955395
+      }
+    },
+    {
+      "name": "Indigo Trail",
+      "base": {
+        "xp": 5,
+        "damage": 1
+      },
+      "max": {
+        "xp": 250,
+        "rings": 24,
+        "damage": 49
+      },
+      "max_fused": {
+        "xp": 1250,
+        "rings": 120,
+        "damage": 245
+      }
+    },
+    {
+      "name": "Jack-O'-Lantern Trail",
+      "base": {
+        "xp": 2700,
+        "rings": 403
+      },
+      "max": {},
+      "max_fused": {
+        "xp": 2870000,
+        "rings": 430560
+      }
+    },
+    {
+      "name": "Jester Trail",
+      "base": {
+        "xp": 2024,
+        "rings": 253,
+        "damage": 101
+      },
+      "max": {
+        "xp": 18224,
+        "rings": 2278,
+        "damage": 8573
+      },
+      "max_fused": {
+        "xp": 91120,
+        "rings": 11390,
+        "damage": 42865
+      }
+    },
+    {
+      "name": "Jitsu Trail",
+      "base": {
+        "xp": 1012,
+        "rings": 100,
+        "damage": 607
+      },
+      "max": {
+        "xp": 9112,
+        "rings": 910,
+        "damage": 5467
+      },
+      "max_fused": {
+        "xp": 45560,
+        "rings": 4550,
+        "damage": 27335
+      }
+    },
+    {
+      "name": "Jolly Trail",
+      "base": {
+        "xp": 79733,
+        "rings": 7973
+      },
+      "max": {
+        "xp": 717608,
+        "rings": 71760
+      },
+      "max_fused": {
+        "xp": 3588040,
+        "rings": 358800
+      }
+    },
+    {
+      "name": "Knuckles Blur Trail",
+      "base": {
+        "xp": 17710,
+        "rings": 1416,
+        "damage": 708
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Laser Trail",
+      "base": {
+        "rings": 70,
+        "damage": 422
+      },
+      "max": {
+        "rings": 632,
+        "damage": 3797
+      },
+      "max_fused": {
+        "rings": 3160,
+        "damage": 18985
+      }
+    },
+    {
+      "name": "Lizard Fire Trail",
+      "base": {
+        "xp": 7086,
+        "damage": 5667
+      },
+      "max": {
+        "xp": 63780,
+        "damage": 480120
+      },
+      "max_fused": {
+        "xp": 318930,
+        "damage": 24635
+      }
+    },
+    {
+      "name": "Luminosity Blue Trail",
+      "base": {
+        "rings": 2277
+      },
+      "max": {
+        "rings": 20502
+      },
+      "max_fused": {
+        "rings": 102510
+      }
+    },
+    {
+      "name": "Luminosity Green Trail",
+      "base": {
+        "xp": 63786,
+        "rings": 6378,
+        "damage": 60015
+      },
+      "max": {
+        "xp": 574086,
+        "rings": 57408,
+        "damage": 1140308
+      },
+      "max_fused": {
+        "xp": 2870430,
+        "rings": 287040,
+        "damage": 5701540
+      }
+    },
+    {
+      "name": "Luminosity Orange Trail",
+      "base": {
+        "rings": 7973,
+        "damage": 150038
+      },
+      "max": {
+        "rings": 71760,
+        "damage": 2850771
+      },
+      "max_fused": {
+        "rings": 358800,
+        "damage": 14253855
+      }
+    },
+    {
+      "name": "Luminosity Pink Trail",
+      "base": {
+        "xp": 22779
+      },
+      "max": {
+        "xp": 205029
+      },
+      "max_fused": {
+        "xp": 1025145
+      }
+    },
+    {
+      "name": "Luminosity Purple Trail",
+      "base": {
+        "xp": 63786,
+        "rings": 6378,
+        "damage": 60015
+      },
+      "max": {
+        "xp": 574086,
+        "rings": 57408,
+        "damage": 1140308
+      },
+      "max_fused": {
+        "xp": 2870430,
+        "rings": 287040,
+        "damage": 5701540
+      }
+    },
+    {
+      "name": "Luminosity Red Trail",
+      "base": {
+        "xp": 79733,
+        "rings": 7973
+      },
+      "max": {
+        "xp": 717608,
+        "rings": 71760
+      },
+      "max_fused": {
+        "xp": 3588040,
+        "rings": 358800
+      }
+    },
+    {
+      "name": "Metal Blur Trail",
+      "base": {
+        "xp": 8858,
+        "rings": 885,
+        "damage": 3452
+      },
+      "max": {
+        "xp": 79733,
+        "rings": 79733,
+        "damage": 300079
+      },
+      "max_fused": {
+        "xp": 398665,
+        "rings": 39865,
+        "damage": 1500395
+      }
+    },
+    {
+      "name": "Midnight Star Trail",
+      "base": {
+        "xp": 21642,
+        "rings": 2164,
+        "damage": 240060
+      },
+      "max": {
+        "xp": 194779,
+        "rings": 19477,
+        "damage": 4561233
+      },
+      "max_fused": {
+        "xp": 973895,
+        "rings": 97385,
+        "damage": 22806165
+      }
+    },
+    {
+      "name": "MK II Blur Trail",
+      "base": {
+        "xp": 7973,
+        "rings": 455,
+        "damage": 19290
+      },
+      "max": {
+        "xp": 71760,
+        "rings": 4100,
+        "damage": 366527
+      },
+      "max_fused": {
+        "xp": 358800,
+        "rings": 20500,
+        "damage": 1832635
+      }
+    },
+    {
+      "name": "Moon Fall Trail",
+      "base": {
+        "xp": 2630,
+        "rings": 261,
+        "damage": 524
+      },
+      "max": {},
+      "max_fused": {
+        "xp": 13150,
+        "rings": 1305,
+        "damage": 2620
+      }
+    },
+    {
+      "name": "Moonglow Trail",
+      "base": {
+        "xp": 1012,
+        "rings": 403
+      },
+      "max": {
+        "xp": 9108,
+        "rings": 3627
+      },
+      "max_fused": {
+        "xp": 45540,
+        "rings": 18135
+      }
+    },
+    {
+      "name": "Nebula Starburst Trail",
+      "base": {
+        "xp": 24803,
+        "rings": 531,
+        "damage": 1062
+      },
+      "max": {
+        "xp": 223253,
+        "rings": 4783,
+        "damage": 90023
+      },
+      "max_fused": {
+        "xp": 1116265,
+        "rings": 23915,
+        "damage": 450115
+      }
+    },
+    {
+      "name": "Orange Summer Trail",
+      "base": {
+        "xp": 2700,
+        "rings": 268,
+        "damage": 270
+      },
+      "max": {
+        "xp": 2428,
+        "rings": 24300,
+        "damage": 2430
+      },
+      "max_fused": {
+        "xp": 121500,
+        "rings": 12140,
+        "damage": 12150
+      }
+    },
+    {
+      "name": "Paradox Prism Trail",
+      "base": {
+        "xp": 14173,
+        "rings": 354,
+        "damage": 3542
+      },
+      "max": {
+        "xp": 127573,
+        "rings": 3189,
+        "damage": 300079
+      },
+      "max_fused": {
+        "xp": 637860,
+        "rings": 15940,
+        "damage": 1500000
+      }
+    },
+    {
+      "name": "Peach Pixel Trail",
+      "base": {
+        "xp": 1265,
+        "rings": 379
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Pink Bat Trail",
+      "base": {
+        "xp": 787,
+        "rings": 627,
+        "damage": 157
+      },
+      "max": {
+        "xp": 7087,
+        "rings": 5667,
+        "damage": 1417
+      },
+      "max_fused": {
+        "xp": 35435,
+        "rings": 28335,
+        "damage": 7085
+      }
+    },
+    {
+      "name": "Pink Blossom Trail",
+      "base": {
+        "xp": 2630,
+        "rings": 261,
+        "damage": 524
+      },
+      "max": {
+        "xp": 23672,
+        "rings": 2358,
+        "damage": 4720
+      },
+      "max_fused": {
+        "xp": 118360,
+        "rings": 11790,
+        "damage": 23600
+      }
+    },
+    {
+      "name": "Pink Crystal Trail",
+      "base": {
+        "xp": 2024,
+        "rings": 303
+      },
+      "max": {
+        "xp": 984148,
+        "rings": 12301
+      },
+      "max_fused": {
+        "xp": 91120,
+        "rings": 13665
+      }
+    },
+    {
+      "name": "Pink Summer Trail",
+      "base": {
+        "xp": 24297,
+        "damage": 1214
+      },
+      "max": {
+        "xp": 218697,
+        "damage": 773780
+      },
+      "max_fused": {
+        "xp": 1093485,
+        "damage": 514410
+      }
+    },
+    {
+      "name": "Pirate Flag Trail",
+      "base": {
+        "rings": 11162,
+        "damage": 90022
+      },
+      "max": {
+        "rings": 100464,
+        "damage": 1710462
+      },
+      "max_fused": {
+        "rings": 502320,
+        "damage": 8552310
+      }
+    },
+    {
+      "name": "Plaid Trail",
+      "base": {
+        "xp": 584,
+        "rings": 58,
+        "damage": 116
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Psychokinesis Trail",
+      "base": {
+        "xp": 63780,
+        "rings": 1494,
+        "damage": 150000
+      },
+      "max": {
+        "xp": 574080,
+        "rings": 14350,
+        "damage": 2850000
+      },
+      "max_fused": {
+        "xp": 2870000,
+        "rings": 71760,
+        "damage": 14250000
+      }
+    },
+    {
+      "name": "Pumpkin Trail",
+      "base": {
+        "xp": 4050,
+        "rings": 134,
+        "damage": 270
+      },
+      "max": {
+        "xp": 36450,
+        "rings": 1214,
+        "damage": 2430
+      },
+      "max_fused": {
+        "xp": 182250,
+        "rings": 6070,
+        "damage": 12150
+      }
+    },
+    {
+      "name": "Purple Star Trail",
+      "base": {
+        "xp": 2833,
+        "rings": 3543,
+        "damage": 708
+      },
+      "max": {
+        "xp": 31893,
+        "rings": 25513,
+        "damage": 60015
+      },
+      "max_fused": {
+        "xp": 159465,
+        "rings": 127565,
+        "damage": 300075
+      }
+    },
+    {
+      "name": "Purple Summer Trail",
+      "base": {
+        "xp": 15186,
+        "rings": 1518
+      },
+      "max": {
+        "xp": 136686,
+        "rings": 13668
+      },
+      "max_fused": {
+        "xp": 683430,
+        "rings": 68343
+      }
+    },
+    {
+      "name": "Purple Trail",
+      "base": {
+        "xp": 8,
+        "rings": 1,
+        "damage": 3
+      },
+      "max": {
+        "xp": 417,
+        "rings": 41,
+        "damage": 83
+      },
+      "max_fused": {
+        "xp": 2085,
+        "rings": 205,
+        "damage": 415
+      }
+    },
+    {
+      "name": "Rainbow Star Trail",
+      "base": {
+        "rings": 3189,
+        "damage": 240060
+      },
+      "max": {
+        "rings": 28704,
+        "damage": 4561233
+      },
+      "max_fused": {
+        "rings": 143520,
+        "damage": 22806165
+      }
+    },
+    {
+      "name": "Red Star Trail",
+      "base": {
+        "xp": 3037,
+        "rings": 202
+      },
+      "max": {
+        "xp": 27337,
+        "rings": 1822
+      },
+      "max_fused": {
+        "xp": 136685,
+        "rings": 9110
+      }
+    },
+    {
+      "name": "Red Summer Trail",
+      "base": {
+        "xp": 13668,
+        "rings": 10934,
+        "damage": 25720
+      },
+      "max": {
+        "xp": 123018,
+        "rings": 98414,
+        "damage": 488703
+      },
+      "max_fused": {
+        "xp": 615090,
+        "rings": 492070,
+        "damage": 2443515
+      }
+    },
+    {
+      "name": "Rose Petal Trail",
+      "base": {
+        "xp": 5000,
+        "rings": 5000,
+        "damage": 420
+      },
+      "max": {
+        "xp": 50000,
+        "rings": 50000,
+        "damage": 4200
+      },
+      "max_fused": {
+        "xp": 125000,
+        "rings": 125000,
+        "damage": 10500
+      }
+    },
+    {
+      "name": "Rouge Blur Trail",
+      "base": {
+        "xp": 9111,
+        "rings": 910,
+        "damage": 910
+      },
+      "max": {
+        "xp": 82011,
+        "rings": 8200,
+        "damage": 77163
+      },
+      "max_fused": {
+        "xp": 410055,
+        "rings": 41000,
+        "damage": 385815
+      }
+    },
+    {
+      "name": "Sanic Trail",
+      "base": {
+        "xp": 1687,
+        "rings": 168,
+        "damage": 337
+      },
+      "max": {
+        "xp": 15185,
+        "rings": 1518,
+        "damage": 28584
+      },
+      "max_fused": {
+        "xp": 76925,
+        "rings": 7590,
+        "damage": 142920
+      }
+    },
+    {
+      "name": "Scarlet Slash Trail",
+      "base": {
+        "damage": 2
+      },
+      "max": {
+        "damage": 150
+      },
+      "max_fused": {
+        "damage": 375
+      }
+    },
+    {
+      "name": "Shadow Blitz Trail",
+      "base": {
+        "xp": 5906,
+        "rings": 117,
+        "damage": 157
+      },
+      "max": {
+        "xp": 53165,
+        "rings": 1062,
+        "damage": 1417
+      },
+      "max_fused": {
+        "xp": 265780,
+        "rings": 5310,
+        "damage": 7085
+      }
+    },
+    {
+      "name": "Shadow Blur Trail",
+      "base": {
+        "xp": 9112,
+        "rings": 911,
+        "damage": 8573
+      },
+      "max": {
+        "xp": 82012,
+        "rings": 8201,
+        "damage": 162901
+      },
+      "max_fused": {
+        "xp": 410060,
+        "rings": 41005,
+        "damage": 814505
+      }
+    },
+    {
+      "name": "Silver Blur Trail",
+      "base": {
+        "xp": 47840,
+        "rings": 11160
+      },
+      "max": {
+        "xp": 430560,
+        "rings": 100460
+      },
+      "max_fused": {
+        "xp": 2150000,
+        "rings": 502320
+      }
+    },
+    {
+      "name": "Snowflake Trail",
+      "base": {
+        "xp": 79733,
+        "damage": 150038
+      },
+      "max": {
+        "xp": 106311,
+        "damage": 262568
+      },
+      "max_fused": {
+        "xp": 398665,
+        "damage": 750190
+      }
+    },
+    {
+      "name": "Sonic And Knuckles Trail",
+      "base": {
+        "xp": 3150,
+        "rings": 313,
+        "damage": 315
+      },
+      "max": {
+        "xp": 28350,
+        "rings": 2883,
+        "damage": 2835
+      },
+      "max_fused": {
+        "xp": 141750,
+        "rings": 14415,
+        "damage": 14175
+      }
+    },
+    {
+      "name": "Sonic and Shadow Trail",
+      "base": {
+        "xp": 17717,
+        "rings": 1771
+      },
+      "max": {
+        "xp": 159467,
+        "rings": 15946
+      },
+      "max_fused": {
+        "xp": 797335,
+        "rings": 79730
+      }
+    },
+    {
+      "name": "Sonic Blur Trail",
+      "base": {
+        "xp": 3937,
+        "rings": 313,
+        "damage": 157
+      },
+      "max": {
+        "xp": 35437,
+        "rings": 2833,
+        "damage": 1417
+      },
+      "max_fused": {
+        "xp": 177185,
+        "rings": 14165,
+        "damage": 7085
+      }
+    },
+    {
+      "name": "Sonic Speed Trail",
+      "base": {
+        "xp": 5906,
+        "rings": 117,
+        "damage": 157
+      },
+      "max": {
+        "xp": 53165,
+        "rings": 1062,
+        "damage": 1417
+      },
+      "max_fused": {
+        "xp": 265780,
+        "rings": 5310,
+        "damage": 7085
+      }
+    },
+    {
+      "name": "Spillin Rings Trail",
+      "base": {
+        "xp": 120,
+        "rings": 540
+      },
+      "max": {
+        "xp": 6000,
+        "rings": 2700
+      },
+      "max_fused": {
+        "xp": 30000,
+        "rings": 13500
+      }
+    },
+    {
+      "name": "Spillin Rings Trail (Tradelocked)",
+      "base": {
+        "xp": 240,
+        "rings": 360,
+        "damage": 4
+      },
+      "max": {
+        "xp": 1200,
+        "rings": 1800,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 9000,
+        "damage": 1200
+      }
+    },
+    {
+      "name": "Sprocket Trail",
+      "base": {
+        "xp": 911,
+        "rings": 910,
+        "damage": 910
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Sunshine Trail",
+      "base": {
+        "xp": 793,
+        "rings": 79,
+        "damage": 158
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Tails Blur Trail",
+      "base": {
+        "xp": 21260,
+        "rings": 708,
+        "damage": 6738
+      },
+      "max": {
+        "xp": 191360,
+        "rings": 6378,
+        "damage": 120031
+      },
+      "max_fused": {
+        "xp": 956800,
+        "rings": 31890,
+        "damage": 600155
+      }
+    },
+    {
+      "name": "Tails' Workshop Trail",
+      "base": {
+        "xp": 5694,
+        "rings": 1138,
+        "damage": 1138
+      },
+      "max": {
+        "xp": 51250,
+        "rings": 10250,
+        "damage": 96450
+      },
+      "max_fused": {
+        "xp": 256279,
+        "rings": 51250,
+        "damage": 482270
+      }
+    },
+    {
+      "name": "Tangle Blur Trail",
+      "base": {
+        "xp": 21260,
+        "rings": 708,
+        "damage": 1416
+      },
+      "max": {
+        "xp": 191360,
+        "rings": 6378,
+        "damage": 120031
+      },
+      "max_fused": {
+        "xp": 956800,
+        "rings": 31890,
+        "damage": 600155
+      }
+    },
+    {
+      "name": "Toxic Trail",
+      "base": {
+        "damage": 563
+      },
+      "max": {
+        "damage": 5063
+      },
+      "max_fused": {
+        "damage": 25315
+      }
+    },
+    {
+      "name": "Trick O' Treat Trail",
+      "base": {
+        "xp": 127573,
+        "rings": 1594,
+        "damage": 30007
+      },
+      "max": {
+        "xp": 1148173,
+        "rings": 14352,
+        "damage": 570154
+      },
+      "max_fused": {
+        "xp": 5740865,
+        "rings": 71760,
+        "damage": 2850770
+      }
+    },
+    {
+      "name": "Tropical Summer Trail",
+      "base": {
+        "xp": 109348,
+        "rings": 1366,
+        "damage": 25720
+      },
+      "max": {
+        "xp": 984148,
+        "rings": 12301,
+        "damage": 488703
+      },
+      "max_fused": {
+        "xp": 4920740,
+        "rings": 61505,
+        "damage": 2443515
+      }
+    },
+    {
+      "name": "Vector Blur Trail",
+      "base": {
+        "xp": 23032,
+        "rings": 354,
+        "damage": 1771
+      },
+      "max": {
+        "xp": 207307,
+        "rings": 3189,
+        "damage": 150039
+      },
+      "max_fused": {
+        "xp": 1036535,
+        "rings": 15945,
+        "damage": 750195
+      }
+    },
+    {
+      "name": "Vine Spirit Trail",
+      "base": {
+        "xp": 1518,
+        "rings": 151,
+        "damage": 405
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Void Hole Trail",
+      "base": {
+        "xp": 2531,
+        "damage": 506
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Voltaic Trail",
+      "base": {
+        "xp": 1968,
+        "rings": 392,
+        "damage": 393
+      },
+      "max": {
+        "xp": 17718,
+        "rings": 3542,
+        "damage": 3543
+      },
+      "max_fused": {
+        "xp": 88590,
+        "rings": 17710,
+        "damage": 17715
+      }
+    },
+    {
+      "name": "Werehog Blur Trail",
+      "base": {
+        "xp": 3037,
+        "rings": 2428,
+        "damage": 607
+      },
+      "max": {
+        "xp": 27330,
+        "rings": 21860,
+        "damage": 51440
+      },
+      "max_fused": {
+        "xp": 136680,
+        "rings": 109340,
+        "damage": 257200
+      }
+    },
+    {
+      "name": "White Pixel Crush Trail",
+      "base": {
+        "xp": 5695,
+        "rings": 569,
+        "damage": 21430
+      },
+      "max": {
+        "xp": 51250,
+        "rings": 5125,
+        "damage": 407250
+      },
+      "max_fused": {
+        "xp": 256279,
+        "rings": 25625,
+        "damage": 2620000
+      }
+    },
+    {
+      "name": "White Star Trail",
+      "base": {
+        "xp": 9111,
+        "rings": 683,
+        "damage": 1332
+      },
+      "max": {
+        "xp": 82011,
+        "rings": 6150,
+        "damage": 115745
+      },
+      "max_fused": {
+        "xp": 410055,
+        "rings": 30750,
+        "damage": 578725
+      }
+    },
+    {
+      "name": "White Summer Trail",
+      "base": {
+        "xp": 12148,
+        "rings": 607,
+        "damage": 2428
+      },
+      "max": {
+        "xp": 109348,
+        "rings": 5467,
+        "damage": 205768
+      },
+      "max_fused": {
+        "xp": 546740,
+        "rings": 27335,
+        "damage": 1028840
+      }
+    },
+    {
+      "name": "Yellow Speed Trail",
+      "base": {
+        "xp": 19020,
+        "rings": 1896,
+        "damage": 35680
+      },
+      "max": {
+        "xp": 171200,
+        "rings": 17060,
+        "damage": 678070
+      },
+      "max_fused": {
+        "xp": 856000,
+        "rings": 85300,
+        "damage": 3390350
+      }
+    },
+    {
+      "name": "Yellow Star Trail",
+      "base": {
+        "xp": 24803,
+        "rings": 531,
+        "damage": 1062
+      },
+      "max": {
+        "xp": 223253,
+        "rings": 4783,
+        "damage": 90023
+      },
+      "max_fused": {
+        "xp": 1116265,
+        "rings": 23915,
+        "damage": 450115
+      }
+    },
+    {
+      "name": "Yellow Static Trail",
+      "base": {
+        "xp": 22779
+      },
+      "max": {
+        "xp": 205029
+      },
+      "max_fused": {
+        "xp": 1025145
+      }
+    },
+    {
+      "name": "Yellow Summer Trail",
+      "base": {
+        "xp": 15186,
+        "damage": 3036
+      },
+      "max": {
+        "xp": 136686,
+        "damage": 257211
+      },
+      "max_fused": {
+        "xp": 683430,
+        "damage": 1286055
+      }
+    },
+    {
+      "name": "Yellow Trail",
+      "base": {
+        "xp": 6,
+        "rings": 1
+      },
+      "max": {},
+      "max_fused": {}
+    },
+    {
+      "name": "Zebra Trail",
+      "base": {
+        "xp": 17710,
+        "rings": 354,
+        "damage": 2833
+      },
+      "max": {
+        "xp": 159460,
+        "rings": 3189,
+        "damage": 240060
+      },
+      "max_fused": {
+        "xp": 79733000,
+        "rings": 15900,
+        "damage": 1020
+      }
+    }
+  ]
+}
