@@ -1,63 +1,4 @@
 {
-  "Errors": [
-    {
-      "name": "Hawk Blur Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Avatar",
-      "type": "Characters"
-    },
-    {
-      "name": "Avatar (Gadget)",
-      "type": "Characters"
-    },
-    {
-      "name": "Black Doom",
-      "type": "Characters"
-    },
-    {
-      "name": "Dodon Pa",
-      "type": "Characters"
-    },
-    {
-      "name": "Dr. Eggman",
-      "type": "Characters"
-    },
-    {
-      "name": "Fang the Hunter (NPC)",
-      "type": "Characters"
-    },
-    {
-      "name": "Infinite",
-      "type": "Characters"
-    },
-    {
-      "name": "Omochao (NPC)",
-      "type": "Characters"
-    },
-    {
-      "name": "Orbot",
-      "type": "Characters"
-    },
-    {
-      "name": "Super Neo Metal Sonic",
-      "type": "Characters"
-    },
-    {
-      "name": "Time Eater",
-      "type": "Characters"
-    },
-    {
-      "name": "Trip the Sungazer",
-      "type": "Characters"
-    },
-    {
-      "name": "Vanilla the Rabbit",
-      "type": "Characters"
-    }
-  ],
-  "error": true,
   "Friends": [
     {
       "name": "Adventurer Chao",
@@ -14273,5 +14214,64 @@
       "max_fused": {},
       "image": "images/Toy_Robot_Vampire_Sonic.png"
     }
-  ]
+  ],
+  "Errors": [
+    {
+      "name": "Hawk Blur Trail",
+      "type": "Trails"
+    },
+    {
+      "name": "Avatar",
+      "type": "Characters"
+    },
+    {
+      "name": "Avatar (Gadget)",
+      "type": "Characters"
+    },
+    {
+      "name": "Black Doom",
+      "type": "Characters"
+    },
+    {
+      "name": "Dodon Pa",
+      "type": "Characters"
+    },
+    {
+      "name": "Dr. Eggman",
+      "type": "Characters"
+    },
+    {
+      "name": "Fang the Hunter (NPC)",
+      "type": "Characters"
+    },
+    {
+      "name": "Infinite",
+      "type": "Characters"
+    },
+    {
+      "name": "Omochao (NPC)",
+      "type": "Characters"
+    },
+    {
+      "name": "Orbot",
+      "type": "Characters"
+    },
+    {
+      "name": "Super Neo Metal Sonic",
+      "type": "Characters"
+    },
+    {
+      "name": "Time Eater",
+      "type": "Characters"
+    },
+    {
+      "name": "Trip the Sungazer",
+      "type": "Characters"
+    },
+    {
+      "name": "Vanilla the Rabbit",
+      "type": "Characters"
+    }
+  ],
+  "error": true
 }

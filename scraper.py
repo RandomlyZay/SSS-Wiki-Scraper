@@ -316,9 +316,13 @@ def get_page_stats(title):
 
         if target:
             parsed = parse_stat_string(val)
-            stats[target].update(parsed)
+            target_dict = stats[target]
+            if isinstance(target_dict, dict):
+                target_dict.update(parsed)
             if k_lower == "tier":
-                stats["max"].update(parsed)
+                max_dict = stats["max"]
+                if isinstance(max_dict, dict):
+                    max_dict.update(parsed)
 
     # If we still have no stats, maybe it's a different field name or not an item page
     if not stats["base"] and not stats["max"] and not stats["max_fused"]:
@@ -340,9 +344,9 @@ def main():
         "Fast Friends": "Fast Friends",
     }
 
-    data = {"Errors": [], "error": False}
-    for cat_key in categories:
-        data[cat_key] = []
+    results = {cat_key: [] for cat_key in categories}
+    errors = []
+    has_error = False
 
     for cat_key, cat_name in categories.items():
         print(f"Fetching {cat_name} list from Wiki...")
@@ -356,25 +360,26 @@ def main():
                 print(f"  Progress: {i}/{expected}")
             res = get_page_stats(title)
             if res:
-                data[cat_key].append(res)
+                results[cat_key].append(res)
             else:
                 print(f"  Warning: No stats found for {cat_key}: {title}")
-                data["Errors"].append({"name": title, "type": cat_key})
-                data["error"] = True
+                errors.append({"name": title, "type": cat_key})
+                has_error = True
             time.sleep(0.05)
 
-        scraped = len(data[cat_key])
+        scraped = len(results[cat_key])
         if scraped != expected:
             # One trail being a stub is expected to cause a mismatch
             print(f"Notice: {cat_name} count mismatch ({scraped}/{expected})")
 
     print("Saving to stats.json...")
+    data = {**results, "Errors": errors, "error": has_error}
     with open("stats.json", "w") as f:
         json.dump(data, f, indent=2)
 
-    total_scraped = sum(len(data[k]) for k in categories)
+    total_scraped = sum(len(results[k]) for k in categories)
     print(f"Successfully scraped {total_scraped} items across all categories.")
-    if data["error"]:
+    if has_error:
         print("ALERT: Scraping was incomplete (expected for stubs).")
 
 
