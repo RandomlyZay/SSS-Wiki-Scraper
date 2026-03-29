@@ -4,10 +4,36 @@ import re
 import json
 import os
 
-API_URL = "https://sonic-speed-simulator.fandom.com/api.php"
-HEADERS = {"User-Agent": "SSS-Stats-Scraper/2.0"}
+BASE_URL = "https://sonic-speed-simulator.fandom.com/"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+}
 IMAGES_DIR = "images"
 CONCURRENCY = 20
+
+
+async def fetch_json(client, params, description="API request"):
+    try:
+        response = await client.get("api.php", params=params)
+        response.raise_for_status()
+
+        text = response.text.strip()
+        if not text:
+            print(f"Error: Empty response for {description}")
+            return None
+
+        try:
+            return response.json()
+        except json.JSONDecodeError:
+            print(f"Error: Non-JSON response for {description} (Status: {response.status_code})")
+            print(f"Response snippet: {text[:200]}...")
+            return None
+    except httpx.HTTPStatusError as e:
+        print(f"HTTP Error for {description}: {e.response.status_code}")
+        return None
+    except Exception as e:
+        print(f"Unexpected error for {description}: {e}")
+        return None
 
 
 def parse_stat_string(s):
@@ -153,14 +179,12 @@ async def get_image_url(filename, client):
         "iiprop": "url",
         "format": "json",
     }
-    try:
-        response = (await client.get("", params=params)).json()
+    response = await fetch_json(client, params, f"image URL for {filename}")
+    if response:
         pages = response.get("query", {}).get("pages", {})
         for p in pages.values():
             if "imageinfo" in p:
                 return p["imageinfo"][0]["url"]
-    except Exception:
-        pass
     return None
 
 
@@ -196,13 +220,10 @@ async def download_image(filename, name, client):
 async def get_page_stats(title, client, semaphore):
     async with semaphore:
         params = {"action": "parse", "page": title, "prop": "wikitext", "format": "json"}
-        try:
-            response = (await client.get("", params=params)).json()
-            if "error" in response:
-                return None
-            wikitext = response["parse"]["wikitext"]["*"]
-        except Exception:
+        response = await fetch_json(client, params, f"stats for {title}")
+        if not response or "error" in response:
             return None
+        wikitext = response["parse"]["wikitext"]["*"]
 
     stats = {
         "name": title,
@@ -221,13 +242,8 @@ async def get_page_stats(title, client, semaphore):
 
     stats["rarity"] = extract_rarity(wikitext, field_dict)
     img_filename = extract_image_filename(wikitext)
-    
+
     # Download image (this will also call get_image_url)
-    # We use the same semaphore or a separate one for image downloads?
-    # Let's just do it here for simplicity, the semaphore limits concurrent API calls.
-    # Note: image download itself isn't limited by 'semaphore' here but by being inside get_page_stats.
-    # Actually, let's put it inside the semaphore if it's an API call, but download_image has get_image_url which is an API call.
-    # To be safe, we'll run it here.
     stats["image"] = await download_image(img_filename, title, client)
 
     def get_val(key):
@@ -328,8 +344,8 @@ async def get_category_members(category, client):
     }
     members = []
     while True:
-        response = (await client.get("", params=params)).json()
-        if "query" not in response:
+        response = await fetch_json(client, params, f"category members for {category}")
+        if not response or "query" not in response:
             break
         members.extend(response["query"]["categorymembers"])
         if "continue" in response:
@@ -354,18 +370,18 @@ async def main():
     errors = []
     has_error = False
 
-    async with httpx.AsyncClient(base_url=API_URL, headers=HEADERS, timeout=60.0) as client:
+    async with httpx.AsyncClient(base_url=BASE_URL, headers=HEADERS, timeout=60.0) as client:
         semaphore = asyncio.Semaphore(CONCURRENCY)
-        
+
         for cat_key, cat_name in categories.items():
             print(f"Fetching {cat_name} list from Wiki...")
             items_list = await get_category_members(cat_name, client)
             expected = len(items_list)
 
             print(f"Processing {expected} {cat_name} concurrently...")
-            
+
             results[cat_key] = []
-            
+
             async def wrapped_task(title):
                 res = await get_page_stats(title, client, semaphore)
                 return title, res
@@ -377,7 +393,7 @@ async def main():
                 completed += 1
                 if completed % 25 == 0:
                     print(f"  Progress: {completed}/{expected}")
-                
+
                 if res:
                     results[cat_key].append(res)
                 else:
