@@ -373,9 +373,17 @@ async def main():
                     has_error = True
 
     print("Saving to stats.json...")
+
+    # Sort each category by 'name' for deterministic output
+    for cat in results:
+        results[cat].sort(key=lambda x: x.get("name", ""))
+
+    # Sort errors as well
+    errors.sort(key=lambda x: x.get("name", ""))
+
     data = {**results, "Errors": errors, "error": has_error}
     with open("stats.json", "w") as f:
-        json.dump(data, f, indent=2)
+        json.dump(data, f, indent=2, sort_keys=True)
 
     total_scraped = sum(len(results[k]) for k in categories)
     print(f"Successfully scraped {total_scraped} items across all categories.")
