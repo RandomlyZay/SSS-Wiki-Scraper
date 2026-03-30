@@ -215,45 +215,60 @@ async def get_page_stats(title, category, client, semaphore):
             return None
         wikitext = response["parse"]["wikitext"]["*"]
 
-    stats = {
-        "name": title,
-        "rarity": "Common",
-        "image": None,
-    }
-
     fields = re.findall(
         r"\|\s*([\w\d\s_]+)\s*=\s*((?:[^{}|\[\{]|{{.*?}}|\[\[.*?\]\])*)", wikitext
     )
     field_dict = {k.strip().lower(): v.strip() for k, v in fields}
 
-    stats["rarity"] = extract_rarity(wikitext, field_dict)
+    rarity = extract_rarity(wikitext, field_dict)
     img_filename = extract_image_filename(wikitext)
-    stats["image"] = await download_image(img_filename, title, client)
+    image_path = await download_image(img_filename, title, client)
 
     if category == "Characters":
-        stats["max"] = {}
-        stats["abilities"] = []
+        max_stats = {}
+        abilities = []
 
         tier_val = field_dict.get("tier", "")
         if tier_val:
-            stats["max"].update(parse_stat_string(tier_val))
+            max_stats.update(parse_stat_string(tier_val))
 
         abilities_val = field_dict.get("abilities", "")
         if abilities_val:
             cleaned = clean_wikitext(abilities_val)
             if cleaned:
-                stats["abilities"] = [a.strip() for a in re.split(r",|;| and ", cleaned, flags=re.IGNORECASE) if a.strip()]
+                abilities = [a.strip() for a in re.split(r",|;| and ", cleaned, flags=re.IGNORECASE) if a.strip()]
+        
+        if not max_stats and not abilities:
+            return None
+            
+        return {
+            "name": title,
+            "rarity": rarity,
+            "max": max_stats,
+            "abilities": abilities,
+            "image": image_path
+        }
 
     elif category == "Fast Friends":
-        stats["levels"] = {}
+        levels = {}
         for i in range(1, 7):
             lvl_val = field_dict.get(f"level_{i}") or field_dict.get(f"level {i}")
             if lvl_val:
-                stats["levels"][str(i)] = parse_stat_string(lvl_val)
+                levels[str(i)] = parse_stat_string(lvl_val)
+        
+        if not levels:
+            return None
+
+        return {
+            "name": title,
+            "rarity": rarity,
+            "levels": levels,
+            "image": image_path
+        }
 
     else: # Friends or Trails
-        stats["max"] = {}
-        stats["max_fused"] = {}
+        max_stats = {}
+        max_fused = {}
 
         stat_map = {
             "xp": ["xp"],
@@ -292,20 +307,25 @@ async def get_page_stats(title, category, client, semaphore):
                     or get_val(f"base_fused_{alias}_stat")
                     or get_val(f"max_level_fused_{alias}_stat")
                 )
-                if m: stats["max"][s_key] = m
-                if mf: stats["max_fused"][s_key] = mf
+                if m: max_stats[s_key] = m
+                if mf: max_fused[s_key] = mf
 
         # Supplemental: Check level_6 for max if empty
-        if not stats["max"]:
+        if not max_stats:
             lvl6 = field_dict.get("level_6") or field_dict.get("level 6")
             if lvl6:
-                stats["max"].update(parse_stat_string(lvl6))
+                max_stats.update(parse_stat_string(lvl6))
 
-    # Basic validation: ensure we got something
-    if not any(stats.get(k) for k in ["max", "levels", "abilities", "max_fused"]):
-        return None
+        if not max_stats and not max_fused:
+            return None
 
-    return stats
+        return {
+            "name": title,
+            "rarity": rarity,
+            "max": max_stats,
+            "max_fused": max_fused,
+            "image": image_path
+        }
 
 
 async def get_category_members(category, client):
@@ -334,10 +354,10 @@ async def main():
         os.makedirs(IMAGES_DIR)
 
     categories = {
-        "Friends": "Friends",
-        "Trails": "Trails",
         "Characters": "Characters",
+        "Friends": "Friends",
         "Fast Friends": "Fast Friends",
+        "Trails": "Trails",
     }
 
     results = {cat_key: [] for cat_key in categories}
@@ -383,7 +403,7 @@ async def main():
 
     data = {**results, "Errors": errors, "error": has_error}
     with open("stats.json", "w") as f:
-        json.dump(data, f, indent=2, sort_keys=True)
+        json.dump(data, f, indent=2, sort_keys=False)
 
     total_scraped = sum(len(results[k]) for k in categories)
     print(f"Successfully scraped {total_scraped} items across all categories.")
