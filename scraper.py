@@ -38,9 +38,7 @@ async def fetch_json(client, params, description="API request"):
 
 def parse_stat_string(s):
     stats = {}
-    # Handles: +167, 1,234, 1.5K, 2M, etc.
-    # Matches: VALUE [Optional Icons/File] KEYWORD
-    # Keywords are XP, Rings, Damage, Power, Luck, Magnet, Stamina, Event, Steps, Air, Speed
+    # Handles: +167, 1,234, 1.5K, 2M, ∞, etc.
     stat_keywords = {
         "xp": ["XP"],
         "rings": ["Rings?", "Ring"],
@@ -56,12 +54,12 @@ def parse_stat_string(s):
 
     for stat, keywords in stat_keywords.items():
         for keyword in keywords:
-            # Match: [+-]?VALUE followed by either:
+            # Match: [+-]?VALUE or ∞ followed by either:
             # 1. A File tag that contains the keyword in its name or alt text
             # 2. An {{Icons|keyword}} template
             # 3. The keyword itself
             pattern = (
-                r"([+-]?[\d,.]+K?M?)\s*(?:"
+                r"([+-]?[\d,.]+K?M?|∞)\s*(?:"
                 r"\[\[File:[^\]]*?" + keyword + r"[^\]]*?\]\]|"
                 r"\{\{Icons\|" + keyword + r"\}\}|"
                 r"" + keyword + r""
@@ -71,6 +69,10 @@ def parse_stat_string(s):
             matches = re.findall(pattern, s, re.IGNORECASE)
             for val_str in matches:
                 val_str = val_str.replace(",", "").strip()
+                if val_str == "∞":
+                    stats[stat] = "Infinity"
+                    continue
+
                 multiplier = 1
                 if "K" in val_str.upper():
                     multiplier = 1000
@@ -87,14 +89,26 @@ def parse_stat_string(s):
     return stats
 
 
+def clean_wikitext(s):
+    if not s:
+        return ""
+    # Remove templates like {{Icons|...}} or {{Rarity|...}}
+    s = re.sub(r"\{\{.*?\|(.*?)\}\}", r"\1", s)
+    # Remove links [[Link|Text]] -> Text or [[Text]] -> Text
+    s = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", s)
+    # Remove HTML tags
+    s = re.sub(r"<[^>]*>", " ", s)
+    # Remove bold/italic
+    s = s.replace("'''", "").replace("''", "")
+    # Clean whitespace
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
 def extract_rarity(wikitext, field_dict):
     r = field_dict.get("rarity", "").strip()
     if r:
-        # Remove templates and icons
-        r = re.sub(r"\{\{Icons\|(.*?)\}\}", r"\1", r)
-        r = re.sub(r"\[\[.*?\|(.*?)\]\]", r"\1", r)
-        r = re.sub(r"\[\[(.*?)\]\]", r"\1", r)
-        r = r.replace("'''", "").replace("''", "").strip()
+        r = clean_wikitext(r)
         if r and "{{" not in r:
             return r
 
@@ -107,7 +121,7 @@ def extract_rarity(wikitext, field_dict):
     if "[[Category:Fast Friends]]" in wikitext:
         return "Fast Friend"
 
-    # Try Categories like [[Category:Legendary Characters]]
+    # Try Categories
     cat_match = re.search(
         r"\[\[Category:(Legendary|Epic|Rare|Common|Event|Special|Exclusive|Holiday)\s+(?:Characters|Friends|Trails)\]\]",
         wikitext,
@@ -120,51 +134,28 @@ def extract_rarity(wikitext, field_dict):
 
 
 def extract_image_filename(wikitext):
-    # Try common fields
     for field in ["character_image", "friend_image", "chao_picture", "image"]:
-        # Find the field value. We use a more robust regex for infobox fields
         pattern = rf"\|\s*{field}\s*=\s*(.*?)(?=\s*(?:\||}}}}|$))"
         val = re.search(pattern, wikitext, re.DOTALL | re.IGNORECASE)
         if val:
             content = val.group(1).strip()
-            # Check for gallery or tabber
             galleries = re.findall(r"<gallery>(.*?)</gallery>", wikitext, re.DOTALL)
+            tabbers = re.findall(r"<tabber>(.*?)</tabber>", wikitext, re.DOTALL)
 
-            all_files = []
-            for gallery in galleries:
-                lines = gallery.strip().split("\n")
-                for line in lines:
-                    if not line.strip():
-                        continue
-                    parts = line.split("|")
-                    fname = parts[0].strip()
-                    # Remove "File:" prefix if present
-                    fname = re.sub(
-                        r"^(?:File|Image):", "", fname, flags=re.IGNORECASE
-                    ).strip()
-                    caption = parts[1].strip() if len(parts) > 1 else ""
-                    all_files.append({"file": fname, "caption": caption})
+            all_content = content + "\n" + "\n".join(galleries) + "\n" + "\n".join(tabbers)
 
-            if all_files:
+            # Find all filenames in the content
+            files = re.findall(r"([\w\s._-]+\.(?:png|jpg|webp|gif|svg))", all_content, re.IGNORECASE)
+            if files:
                 # Prioritize Portrait
-                for f in all_files:
-                    if (
-                        "portrait" in f["caption"].lower()
-                        or "portrait" in f["file"].lower()
-                    ):
-                        return f["file"]
+                for f in files:
+                    if "portrait" in f.lower():
+                        return f.strip()
                 # Fallback to Render
-                for f in all_files:
-                    if "render" in f["caption"].lower() or "render" in f["file"].lower():
-                        return f["file"]
-                return all_files[0]["file"]
-
-            # Not a gallery, maybe a single filename
-            fname_match = re.search(
-                r"([\w\s._-]+\.(?:png|jpg|webp|gif|svg))", content, re.IGNORECASE
-            )
-            if fname_match:
-                return fname_match.group(1).strip()
+                for f in files:
+                    if "render" in f.lower():
+                        return f.strip()
+                return files[0].strip()
 
     return None
 
@@ -192,7 +183,6 @@ async def download_image(filename, name, client):
     if not filename:
         return None
 
-    # Sanitize name for filename
     safe_name = re.sub(r"[^\w\s-]", "", name).strip().replace(" ", "_")
     ext = filename.split(".")[-1]
     local_filename = f"{safe_name}.{ext}"
@@ -217,7 +207,7 @@ async def download_image(filename, name, client):
     return None
 
 
-async def get_page_stats(title, client, semaphore):
+async def get_page_stats(title, category, client, semaphore):
     async with semaphore:
         params = {"action": "parse", "page": title, "prop": "wikitext", "format": "json"}
         response = await fetch_json(client, params, f"stats for {title}")
@@ -228,13 +218,9 @@ async def get_page_stats(title, client, semaphore):
     stats = {
         "name": title,
         "rarity": "Common",
-        "base": {},
-        "max": {},
-        "max_fused": {},
         "image": None,
     }
 
-    # Extract all pipe-separated fields from infoboxes
     fields = re.findall(
         r"\|\s*([\w\d\s_]+)\s*=\s*((?:[^{}|\[\{]|{{.*?}}|\[\[.*?\]\])*)", wikitext
     )
@@ -242,93 +228,81 @@ async def get_page_stats(title, client, semaphore):
 
     stats["rarity"] = extract_rarity(wikitext, field_dict)
     img_filename = extract_image_filename(wikitext)
-
-    # Download image (this will also call get_image_url)
     stats["image"] = await download_image(img_filename, title, client)
 
-    def get_val(key):
-        val = field_dict.get(key.lower(), "0").replace(",", "").replace("+", "").strip()
-        if not val or val == "&mdash;" or val == "-" or val == "0":
-            return 0
-        try:
-            # Handle K/M suffixes in direct fields too
-            multiplier = 1
-            if "K" in val.upper():
-                multiplier = 1000
-                val = val.upper().replace("K", "")
-            elif "M" in val.upper():
-                multiplier = 1000000
-                val = val.upper().replace("M", "")
-            return int(float(val) * multiplier)
-        except (ValueError, TypeError):
-            return 0
+    if category == "Characters":
+        stats["max"] = {}
+        stats["abilities"] = []
 
-    # Map standard fields
-    stat_map = {
-        "xp": ["xp"],
-        "rings": ["rings", "ring"],
-        "damage": ["damage", "power"],
-        "luck": ["luck"],
-        "magnet": ["magnet"],
-        "stamina": ["stamina"],
-        "event": ["event"],
-        "steps": ["steps"],
-        "air": ["air"],
-        "speed": ["speed"],
-    }
+        tier_val = field_dict.get("tier", "")
+        if tier_val:
+            stats["max"].update(parse_stat_string(tier_val))
 
-    for s_key, s_aliases in stat_map.items():
-        for alias in s_aliases:
-            # Check base_X_stat, max_X_stat, max_fused_X_stat
-            b = get_val(f"base_{alias}_stat")
-            m = get_val(f"max_{alias}_stat")
-            mf = (
-                get_val(f"max_fused_{alias}_stat")
-                or get_val(f"base_fused_{alias}_stat")
-                or get_val(f"max_level_fused_{alias}_stat")
-            )
+        abilities_val = field_dict.get("abilities", "")
+        if abilities_val:
+            cleaned = clean_wikitext(abilities_val)
+            if cleaned:
+                stats["abilities"] = [a.strip() for a in re.split(r",|;| and ", cleaned, flags=re.IGNORECASE) if a.strip()]
 
-            # Also check direct alias for legacy/simple pages (e.g. | power = 6)
-            if not b and s_key in ["damage", "xp", "rings"]:
-                # Only do this for common base stats to avoid false positives
-                b_direct = get_val(alias)
-                if b_direct:
-                    b = b_direct
+    elif category == "Fast Friends":
+        stats["levels"] = {}
+        for i in range(1, 7):
+            lvl_val = field_dict.get(f"level_{i}") or field_dict.get(f"level {i}")
+            if lvl_val:
+                stats["levels"][str(i)] = parse_stat_string(lvl_val)
 
-            if b and s_key not in stats["base"]:
-                stats["base"][s_key] = b
-            if m and s_key not in stats["max"]:
-                stats["max"][s_key] = m
-            if mf and s_key not in stats["max_fused"]:
-                stats["max_fused"][s_key] = mf
+    else: # Friends or Trails
+        stats["max"] = {}
+        stats["max_fused"] = {}
 
-    # Fallback/Supplemental parsing from level_X strings
-    for key, val in field_dict.items():
-        target = None
-        k_lower = key.lower()
-        if k_lower == "tier":
-            target = "base"
-        elif "level_1" in k_lower or "level 1" in k_lower:
-            target = "base"
-        elif "level_6" in k_lower or "level 6" in k_lower:
-            target = "max"
-        elif "level_25" in k_lower or "level 25" in k_lower:
-            if "fused" in k_lower:
-                target = "max_fused"
-            else:
-                target = "max"
+        stat_map = {
+            "xp": ["xp"],
+            "rings": ["rings", "ring"],
+            "damage": ["damage", "power"],
+            "luck": ["luck"],
+            "magnet": ["magnet"],
+            "stamina": ["stamina"],
+            "event": ["event"],
+            "steps": ["steps"],
+            "air": ["air"],
+            "speed": ["speed"],
+        }
 
-        if target:
-            parsed = parse_stat_string(val)
-            target_dict = stats[target]
-            if isinstance(target_dict, dict):
-                target_dict.update(parsed)
-            if k_lower == "tier":
-                max_dict = stats["max"]
-                if isinstance(max_dict, dict):
-                    max_dict.update(parsed)
+        def get_val(key):
+            val = field_dict.get(key.lower(), "0").replace(",", "").replace("+", "").strip()
+            if not val or val == "&mdash;" or val == "-" or val == "0":
+                return 0
+            try:
+                multiplier = 1
+                if "K" in val.upper():
+                    multiplier = 1000
+                    val = val.upper().replace("K", "")
+                elif "M" in val.upper():
+                    multiplier = 1000000
+                    val = val.upper().replace("M", "")
+                return int(float(val) * multiplier)
+            except (ValueError, TypeError):
+                return 0
 
-    if not stats["base"] and not stats["max"] and not stats["max_fused"]:
+        for s_key, s_aliases in stat_map.items():
+            for alias in s_aliases:
+                m = get_val(f"max_{alias}_stat")
+                mf = (
+                    get_val(f"max_fused_{alias}_stat")
+                    or get_val(f"base_fused_{alias}_stat")
+                    or get_val(f"max_level_fused_{alias}_stat")
+                )
+                if m: stats["max"][s_key] = m
+                if mf: stats["max_fused"][s_key] = mf
+
+        # Supplemental: Check level_6 for max if empty
+        if not stats["max"]:
+            lvl6 = field_dict.get("level_6") or field_dict.get("level 6")
+            if lvl6:
+                stats["max"].update(parse_stat_string(lvl6))
+
+    # Basic validation: ensure we got something
+    if not any(stats.get(k) for k in ["max", "levels", "abilities", "max_fused"]):
         return None
 
     return stats
@@ -380,13 +354,11 @@ async def main():
 
             print(f"Processing {expected} {cat_name} concurrently...")
 
-            results[cat_key] = []
-
-            async def wrapped_task(title):
-                res = await get_page_stats(title, client, semaphore)
+            async def wrapped_task(title, category):
+                res = await get_page_stats(title, category, client, semaphore)
                 return title, res
 
-            tasks = [wrapped_task(title) for title in items_list]
+            tasks = [wrapped_task(title, cat_key) for title in items_list]
             completed = 0
             for task in asyncio.as_completed(tasks):
                 title, res = await task
@@ -400,10 +372,6 @@ async def main():
                     errors.append({"name": title, "type": cat_key})
                     has_error = True
 
-            scraped = len(results[cat_key])
-            if scraped != expected:
-                print(f"Notice: {cat_name} count mismatch ({scraped}/{expected})")
-
     print("Saving to stats.json...")
     data = {**results, "Errors": errors, "error": has_error}
     with open("stats.json", "w") as f:
@@ -411,8 +379,6 @@ async def main():
 
     total_scraped = sum(len(results[k]) for k in categories)
     print(f"Successfully scraped {total_scraped} items across all categories.")
-    if has_error:
-        print("ALERT: Scraping was incomplete (expected for stubs).")
 
 
 if __name__ == "__main__":
