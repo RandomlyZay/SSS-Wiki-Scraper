@@ -8,7 +8,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Drill Claw"
+        "Glide"
       ],
       "image": "images/Adventure_Knuckles.png"
     },
@@ -19,7 +19,7 @@
         "magnet": 25
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Adventure_Rouge.png"
     },
@@ -30,7 +30,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Chaos Spear (Unlocked at Star 3)"
+        "Chaos Spear"
       ],
       "image": "images/Adventure_Shadow.png"
     },
@@ -50,7 +50,7 @@
         "magnet": 15
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Adventure_Tails.png"
     },
@@ -152,7 +152,7 @@
         "magnet": 15
       },
       "abilities": [
-        "Floating Unbothered by dumbbells"
+        "Floating"
       ],
       "image": "images/Angler_Big.png"
     },
@@ -169,9 +169,14 @@
     {
       "name": "Avatar",
       "rarity": "Common",
-      "max": {},
+      "max": {
+        "xp": "unknown",
+        "rings": "unknown",
+        "damage": "unknown"
+      },
       "abilities": [
-        "Transformation in Cyber Station Zone Parry (When equipping Series Knuckles Hat UGC)"
+        "Cyber Station Zone",
+        "Parry"
       ],
       "image": "images/Avatar.png"
     },
@@ -191,7 +196,8 @@
         "luck": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Faster Speed On Tornados"
+        "Flight",
+        ":Category:Tornado"
       ],
       "image": "images/Aviator_Tails.png"
     },
@@ -202,7 +208,7 @@
         "stamina": 15
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Batten_Rouge.png"
     },
@@ -225,7 +231,8 @@
         "stamina": 25
       },
       "abilities": [
-        "Double Jump & Increased speed on motorbikes"
+        "Double Jump",
+        ":Category:Motorbikes"
       ],
       "image": "images/Biker_Shadow.png"
     },
@@ -247,6 +254,12 @@
       },
       "abilities": [],
       "image": "images/Birthday_King_Sonic.png"
+    },
+    {
+      "name": "Black Doom",
+      "rarity": "Common",
+      "image": "images/Black_Doom.png",
+      "type": "NPC"
     },
     {
       "name": "Black Rose",
@@ -273,7 +286,7 @@
         "luck": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Camper_Knuckles.png"
     },
@@ -297,7 +310,7 @@
         "air": 90
       },
       "abilities": [
-        "Surf Unbothered by dumbbells"
+        "Surf"
       ],
       "image": "images/Captain_Vector.png"
     },
@@ -327,7 +340,8 @@
         "stamina": 25
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Water Run"
+        "Flight",
+        "Water Run"
       ],
       "image": "images/Charmy_Bee.png"
     },
@@ -479,7 +493,7 @@
         "event": 5
       },
       "abilities": [
-        "Glide - LVL 3"
+        "Glide"
       ],
       "image": "images/Chrome_Style_Rouge.png"
     },
@@ -491,7 +505,7 @@
         "event": 5
       },
       "abilities": [
-        "Glide - LVL 3"
+        "Glide"
       ],
       "image": "images/Chrome_Style_Rouge_Exotic.png"
     },
@@ -567,7 +581,7 @@
         "event": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Chrome_Style_Tails.png"
     },
@@ -579,7 +593,7 @@
         "event": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Chrome_Style_Tails_Exotic.png"
     },
@@ -622,7 +636,8 @@
         "event": 4
       },
       "abilities": [
-        "Super Boost Reflect"
+        "Super Boost",
+        "Parry"
       ],
       "image": "images/Chronos_Silver.png"
     },
@@ -672,7 +687,7 @@
         "luck": 15
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Classic_Tails.png"
     },
@@ -692,7 +707,7 @@
         "luck": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Cream_the_Rabbit.png"
     },
@@ -717,7 +732,7 @@
         "event": 4
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/DJ_Knuckles.png"
     },
@@ -742,7 +757,9 @@
         "stamina": 35
       },
       "abilities": [
-        "Chaos Blast Super Boost Invincibility Parry Super Sonic Speeds"
+        "Chaos Blast",
+        "Super Boost",
+        "Parry"
       ],
       "image": "images/Dark_Shadow.png"
     },
@@ -754,7 +771,9 @@
         "stamina": 35
       },
       "abilities": [
-        "Super Boost Chaos Blast Parry Super Sonic Speeds Invincibility"
+        "Super Boost",
+        "Chaos Blast",
+        "Parry"
       ],
       "image": "images/Dark_Shadow_Tradeable.png"
     },
@@ -766,7 +785,8 @@
         "event": 5
       },
       "abilities": [
-        "Double Jump Faster hoverboard speed"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Darkness_Riders_Shadow.png"
     },
@@ -779,7 +799,8 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Stealth"
+        "Glide",
+        "Stealth"
       ],
       "image": "images/Desert_Style_Gemerl.png"
     },
@@ -790,7 +811,7 @@
         "luck": 15
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Detective_Tails.png"
     },
@@ -801,9 +822,15 @@
         "magnet": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Diesel_Punk_Knuckles.png"
+    },
+    {
+      "name": "Dodon Pa",
+      "rarity": "Common",
+      "image": "images/Dodon_Pa.png",
+      "type": "NPC"
     },
     {
       "name": "Doom Shadow",
@@ -813,7 +840,13 @@
         "stamina": 25
       },
       "abilities": [
-        "Double Jump (Doom Wing Only) Chaos Snap Super Boost Doom Wing Glide (Doom Wing Only) Doom Spear Doom Surf Increased Speed (Doom Wing Only) Invincibility (Doom Wing Only) Parry (Doom Wing Only)"
+        "Double Jump",
+        "Chaos Snap",
+        "Super Boost",
+        "Glide#Doom Wings: Glide",
+        "Chaos Spear#Doom Spear",
+        "Doom Surf",
+        "Parry"
       ],
       "image": "images/Doom_Shadow.png"
     },
@@ -825,9 +858,21 @@
         "stamina": 25
       },
       "abilities": [
-        "Doom Wings Exclusive: *Doom Wings Glide *Increased Speed *Double Jump *Invincibility *Parry Other Abilities: *Super Boost *Doom Spear *Chaos Snap *Doom Surf"
+        "Glide#Doom Wings: Glide",
+        "Double Jump",
+        "Parry",
+        "Super Boost",
+        "Chaos Spear#Doom Spear",
+        "Chaos Snap",
+        "Doom Surf"
       ],
       "image": "images/Doom_Shadow_Tradeable.png"
+    },
+    {
+      "name": "Dr. Eggman",
+      "rarity": "Common",
+      "image": "images/Dr_Eggman.png",
+      "type": "NPC"
     },
     {
       "name": "Dragonfire Sonic",
@@ -846,7 +891,7 @@
         "luck": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Drummer_Cream.png"
     },
@@ -989,7 +1034,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Super Boost Parry Water Run Invincibility Increased Speed Psycho Smash"
+        "Super Boost",
+        "Parry",
+        "Water Run",
+        "Psycho Smash"
       ],
       "image": "images/ESP_Silver.png"
     },
@@ -1001,7 +1049,9 @@
         "stamina": 25
       },
       "abilities": [
-        "Super Boost Parry Water Run Invincibility Increased Speed"
+        "Super Boost",
+        "Parry",
+        "Water Run"
       ],
       "image": "images/ESP_Silver_Tradeable.png"
     },
@@ -1022,7 +1072,7 @@
         "event": 5
       },
       "abilities": [
-        "Extra Jump Height - LVL 4"
+        "Stats"
       ],
       "image": "images/Easter_Blaze.png"
     },
@@ -1033,7 +1083,7 @@
         "luck": 15
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Easter_Cream.png"
     },
@@ -1044,7 +1094,7 @@
         "luck": 15
       },
       "abilities": [
-        "Increased Jump Height (Unlocked at Star 4)"
+        "Stats"
       ],
       "image": "images/Easter_Sonic.png"
     },
@@ -1066,7 +1116,7 @@
         "luck": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Elf_Tails.png"
     },
@@ -1078,7 +1128,8 @@
         "event": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Stealth"
+        "Flight",
+        "Stealth"
       ],
       "image": "images/Elite_Agent_Rouge.png"
     },
@@ -1108,7 +1159,9 @@
         "stamina": 30
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Card Attack (Unlocked at Star 3) High Card Jump"
+        "Glide",
+        "Card Attack",
+        "High Card Jump"
       ],
       "image": "images/Explorer_Amy.png"
     },
@@ -1119,7 +1172,7 @@
         "stamina": 30
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Explorer_Cream.png"
     },
@@ -1131,7 +1184,7 @@
         "event": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Explorer_Knuckles.png"
     },
@@ -1142,7 +1195,7 @@
         "stamina": 30
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Explorer_Tails.png"
     },
@@ -1186,7 +1239,8 @@
         "stamina": 25
       },
       "abilities": [
-        "Flight Double Jump"
+        "Flight",
+        "Double Jump"
       ],
       "image": "images/Extreme_Rider_Tails.png"
     },
@@ -1209,7 +1263,7 @@
         "stamina": 25
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Fairytale_Cream.png"
     },
@@ -1234,7 +1288,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 6)"
+        "Glide"
       ],
       "image": "images/Fake_Gold_Knuckles.png"
     },
@@ -1247,7 +1301,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 6)"
+        "Glide"
       ],
       "image": "images/Fake_Gold_Knuckles_Exotic.png"
     },
@@ -1281,7 +1335,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 6)"
+        "Glide"
       ],
       "image": "images/Fake_Metal_Knuckles.png"
     },
@@ -1303,7 +1357,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Flight (Unlocked at Star 6)"
+        "Flight"
       ],
       "image": "images/Fake_Metal_Tails.png"
     },
@@ -1318,6 +1372,12 @@
         "Stomp Jump"
       ],
       "image": "images/Fang_the_Hunter.png"
+    },
+    {
+      "name": "Fang the Hunter (NPC)",
+      "rarity": "Common",
+      "image": "images/Fang_the_Hunter_NPC.png",
+      "type": "NPC"
     },
     {
       "name": "Flame Shadow",
@@ -1356,7 +1416,9 @@
         "event": 5
       },
       "abilities": [
-        "Card Attack - LVL 3 Card Float High Card Jump"
+        "Card Attack",
+        "Glide#Card Float",
+        "High Card Jump"
       ],
       "image": "images/Fortune_Teller_Amy.png"
     },
@@ -1377,7 +1439,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Gemerl_the_Robot.png"
     },
@@ -1388,7 +1450,8 @@
         "stamina": 25
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Water Run"
+        "Flight",
+        "Water Run"
       ],
       "image": "images/Ghost_Charmy.png"
     },
@@ -1527,7 +1590,7 @@
         "event": 4
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Gold_Style_Knuckles.png"
     },
@@ -1539,7 +1602,7 @@
         "event": 4
       },
       "abilities": [
-        "Glide - LVL 3"
+        "Glide"
       ],
       "image": "images/Gold_Style_Knuckles_Exotic.png"
     },
@@ -1562,7 +1625,7 @@
         "magnet": 25
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Gold_Style_Rouge.png"
     },
@@ -1573,7 +1636,7 @@
         "magnet": 25
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Gold_Style_Rouge_Exotic.png"
     },
@@ -1622,7 +1685,7 @@
         "magnet": 25
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Gold_Style_Tails.png"
     },
@@ -1712,7 +1775,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Bounce x2 Rail Grind Points"
+        "Bounce"
       ],
       "image": "images/Grind_Shoe_Sonic.png"
     },
@@ -1735,7 +1798,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Chaos Spear Chaos Snap Super Boost Invincibility Parry Super Sonic Speeds"
+        "Chaos Spear",
+        "Chaos Snap",
+        "Super Boost",
+        "Parry"
       ],
       "image": "images/Hero_Shadow.png"
     },
@@ -1747,7 +1813,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Chaos Spear Super Boost Chaos Snap Parry Invincibility Super Sonic Speeds"
+        "Chaos Spear",
+        "Super Boost",
+        "Chaos Snap",
+        "Parry"
       ],
       "image": "images/Hero_Shadow_Tradeable.png"
     },
@@ -1806,7 +1875,7 @@
         "stamina": 25
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Holiday_Cheer_Rouge.png"
     },
@@ -1838,7 +1907,8 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost Parry Super Sonic Speeds Invincibility Ascend/Descend"
+        "Super Boost",
+        "Parry"
       ],
       "image": "images/Holiday_Cheer_Super_Sonic.png"
     },
@@ -1897,6 +1967,12 @@
       "image": "images/Holographic_Metal_Sonic.png"
     },
     {
+      "name": "Infinite",
+      "rarity": "Common",
+      "image": "images/Infinite.png",
+      "type": "NPC"
+    },
+    {
       "name": "Invisible Espio",
       "rarity": "Epic",
       "max": {
@@ -1953,7 +2029,7 @@
         "luck": 15
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Knuckles_the_Dread.png"
     },
@@ -1964,7 +2040,7 @@
         "stamina": 5
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Knuckles_the_Echidna.png"
     },
@@ -1986,7 +2062,8 @@
         "stamina": 15
       },
       "abilities": [
-        "Double Jump Glide (Unlocked at Star 3)"
+        "Double Jump",
+        "Glide"
       ],
       "image": "images/Kunoichi_Rouge.png"
     },
@@ -2027,7 +2104,7 @@
         "magnet": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/LEGO_Rouge.png"
     },
@@ -2069,7 +2146,8 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Stealth"
+        "Glide",
+        "Stealth"
       ],
       "image": "images/Land_Style_Gemerl.png"
     },
@@ -2082,7 +2160,8 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Stealth"
+        "Glide",
+        "Stealth"
       ],
       "image": "images/Land_Style_Gemerl_Exotic.png"
     },
@@ -2095,7 +2174,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Stealth Unbothered by dumbbells"
+        "Stealth"
       ],
       "image": "images/Land_Style_Omega.png"
     },
@@ -2179,7 +2258,8 @@
         "stamina": 35
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Water Run"
+        "Flight",
+        "Water Run"
       ],
       "image": "images/Luminosity_Charmy.png"
     },
@@ -2191,7 +2271,8 @@
         "stamina": 35
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Water Run"
+        "Flight",
+        "Water Run"
       ],
       "image": "images/Luminosity_Charmy_Exotic.png"
     },
@@ -2224,7 +2305,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Luminosity_Gemerl.png"
     },
@@ -2237,7 +2318,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Luminosity_Gemerl_Exotic.png"
     },
@@ -2340,7 +2421,7 @@
         "luck": 25
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Luminosity_Rouge.png"
     },
@@ -2351,7 +2432,7 @@
         "luck": 25
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Luminosity_Rouge_Exotic.png"
     },
@@ -2426,7 +2507,7 @@
         "stamina": 35
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Luminosity_Tails.png"
     },
@@ -2437,7 +2518,7 @@
         "stamina": 35
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Luminosity_Tails_Exotic.png"
     },
@@ -2541,7 +2622,7 @@
         "magnet": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Mechanic_Tails.png"
     },
@@ -2583,7 +2664,7 @@
         "magnet": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Miles_Tails_Prower.png"
     },
@@ -2605,7 +2686,8 @@
         "stamina": 15
       },
       "abilities": [
-        "Electric Boost Glide (Unlocked at Star 3) Unbothered by dumbbells"
+        "Electric Boost",
+        "Glide"
       ],
       "image": "images/Movie_Knuckles.png"
     },
@@ -2627,7 +2709,8 @@
         "stamina": 15
       },
       "abilities": [
-        "Electric Boost Flight (Unlocked at Star 3)"
+        "Electric Boost",
+        "Flight"
       ],
       "image": "images/Movie_Tails.png"
     },
@@ -2648,7 +2731,9 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost Parry Increased Speed Voltaic Discharge"
+        "Super Boost",
+        "Parry",
+        "Voltaic Discharge"
       ],
       "image": "images/Neo_Metal_Sonic.png"
     },
@@ -2673,7 +2758,8 @@
         "stamina": 25
       },
       "abilities": [
-        "Bounce Super Boost"
+        "Bounce",
+        "Super Boost"
       ],
       "image": "images/Neon_Suit_Silver.png"
     },
@@ -2707,7 +2793,8 @@
         "stamina": 15
       },
       "abilities": [
-        "Double Jump Chaos Snap"
+        "Double Jump",
+        "Chaos Snap"
       ],
       "image": "images/Ninja_Shadow.png"
     },
@@ -2719,7 +2806,8 @@
         "event": 5
       },
       "abilities": [
-        "Double Jump Chaos Snap"
+        "Double Jump",
+        "Chaos Snap"
       ],
       "image": "images/Ninja_Shadow_Maskless.png"
     },
@@ -2747,6 +2835,18 @@
       "image": "images/Ninja_Sonic_Maskless.png"
     },
     {
+      "name": "Omochao (NPC)",
+      "rarity": "Common",
+      "image": "images/Omochao_NPC.png",
+      "type": "NPC"
+    },
+    {
+      "name": "Orbot",
+      "rarity": "Common",
+      "image": "images/Orbot.png",
+      "type": "NPC"
+    },
+    {
       "name": "Outlaw Shadow",
       "rarity": "Legendary",
       "max": {
@@ -2764,7 +2864,9 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost Invincibility Parry Increased Speed (1.5x) Water Run"
+        "Super Boost",
+        "Parry",
+        "Water Run"
       ],
       "image": "images/Overclocked_Metal_Sonic.png"
     },
@@ -2785,7 +2887,7 @@
         "magnet": 25
       },
       "abilities": [
-        "Glide - LVL 3"
+        "Glide"
       ],
       "image": "images/Party_Hat_Knuckles.png"
     },
@@ -2837,7 +2939,7 @@
         "magnet": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Pathfinder_Tails.png"
     },
@@ -2848,7 +2950,9 @@
         "magnet": 25
       },
       "abilities": [
-        "Double Jump Faster hoverboard speed Stealth"
+        "Double Jump",
+        ":Category:Hoverboards",
+        "Stealth"
       ],
       "image": "images/Phantom_Rider.png"
     },
@@ -2860,7 +2964,8 @@
         "event": 5
       },
       "abilities": [
-        "Double Jump Faster hoverboard speed"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Phantom_Rider_Unmasked.png"
     },
@@ -2872,7 +2977,8 @@
         "event": 5
       },
       "abilities": [
-        "Double Jump Faster hoverboard speed"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Phantom_Rider_Unmasked_Exotic.png"
     },
@@ -2895,7 +3001,8 @@
         "luck": 15
       },
       "abilities": [
-        "Double Jump Transformation in Cyber Station Zone"
+        "Double Jump",
+        "Cyber Station Zone"
       ],
       "image": "images/Pixel_Amy.png"
     },
@@ -2906,7 +3013,8 @@
         "stamina": 15
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Transformation in Cyber Station Zone"
+        "Glide",
+        "Cyber Station Zone"
       ],
       "image": "images/Pixel_Knuckles.png"
     },
@@ -2917,7 +3025,7 @@
         "stamina": 25
       },
       "abilities": [
-        "Transformation in Cyber Station Zone"
+        "Cyber Station Zone"
       ],
       "image": "images/Pixel_Sonic.png"
     },
@@ -2928,7 +3036,8 @@
         "stamina": 25
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Transforming in Cyber Station Zone"
+        "Flight",
+        "Cyber Station Zone"
       ],
       "image": "images/Pixel_Tails.png"
     },
@@ -2948,7 +3057,7 @@
         "magnet": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Prime_Rouge.png"
     },
@@ -3029,7 +3138,7 @@
         "luck": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Racesuit_Classic_Tails.png"
     },
@@ -3041,7 +3150,7 @@
         "event": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Racesuit_Cream.png"
     },
@@ -3072,7 +3181,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Racesuit_Knuckles.png"
     },
@@ -3105,7 +3214,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Racesuit_Rouge.png"
     },
@@ -3147,7 +3256,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Racesuit_Tails.png"
     },
@@ -3180,7 +3289,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Rebel_Rouge.png"
     },
@@ -3191,7 +3300,7 @@
         "luck": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Reindeer_Knuckles.png"
     },
@@ -3202,7 +3311,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Renegade_Knucks.png"
     },
@@ -3213,7 +3322,7 @@
         "stamina": 10
       },
       "abilities": [
-        "Increased speed on Hoverboards"
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Amy.png"
     },
@@ -3224,7 +3333,8 @@
         "stamina": 10
       },
       "abilities": [
-        "Double Jump Faster hoverboard speed"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Amy_Exotic.png"
     },
@@ -3236,7 +3346,8 @@
         "stamina": 15
       },
       "abilities": [
-        "Double Jump Faster Hoverboard Speed"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Blaze.png"
     },
@@ -3247,7 +3358,8 @@
         "stamina": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Increased speed on Hoverboards Bothered less by dumbbells"
+        "Flight",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Cream.png"
     },
@@ -3258,7 +3370,8 @@
         "stamina": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Increased speed on Hoverboards"
+        "Glide",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Knuckles.png"
     },
@@ -3269,7 +3382,8 @@
         "stamina": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3) Increased speed on Hoverboards"
+        "Glide",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Rouge.png"
     },
@@ -3280,7 +3394,8 @@
         "stamina": 10
       },
       "abilities": [
-        "Double Jump Increased speed on Hoverboards"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Shadow.png"
     },
@@ -3292,7 +3407,9 @@
         "stamina": 15
       },
       "abilities": [
-        "Double Jump Super Boost Faster hoverboard speed"
+        "Double Jump",
+        "Super Boost",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Silver.png"
     },
@@ -3303,7 +3420,8 @@
         "stamina": 10
       },
       "abilities": [
-        "Double Jump Faster hoverboard speed"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Sonic.png"
     },
@@ -3315,7 +3433,11 @@
         "event": 5
       },
       "abilities": [
-        "Thunder Rush Double Jump Super Boost Parry Faster hoverboard speed Super Sonic Speeds Invincibility Ascend/Descend"
+        "Thunder Rush",
+        "Double Jump",
+        "Super Boost",
+        "Parry",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Super_Sonic.png"
     },
@@ -3326,7 +3448,8 @@
         "stamina": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Increased speed on Hoverboards"
+        "Flight",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Tails.png"
     },
@@ -3337,7 +3460,9 @@
         "stamina": 25
       },
       "abilities": [
-        "Double Jump Stomp Jump Faster hoverboard speed"
+        "Double Jump",
+        "Stomp Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Tangle.png"
     },
@@ -3349,7 +3474,7 @@
         "air": 90
       },
       "abilities": [
-        "Increased speed on Hoverboards Unbothered by dumbbells"
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Vector.png"
     },
@@ -3361,7 +3486,8 @@
         "event": 5
       },
       "abilities": [
-        "Double Jump Faster hoverboard speed"
+        "Double Jump",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Whisper.png"
     },
@@ -3383,7 +3509,7 @@
         "event": 5
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Rockstar_Rouge.png"
     },
@@ -3424,7 +3550,7 @@
         "magnet": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Rouge_the_Bat.png"
     },
@@ -3455,7 +3581,7 @@
         "event": 5
       },
       "abilities": [
-        "Glide - LVL 3"
+        "Glide"
       ],
       "image": "images/Ruby_Style_Rouge.png"
     },
@@ -3547,7 +3673,8 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Water Run Bounce"
+        "Water Run",
+        "Bounce"
       ],
       "image": "images/SIM_Metal_Sonic.png"
     },
@@ -3559,7 +3686,8 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Chaos Spear Chaos Snap"
+        "Chaos Spear",
+        "Chaos Snap"
       ],
       "image": "images/SIM_Shadow.png"
     },
@@ -3572,7 +3700,8 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost Water Run"
+        "Super Boost",
+        "Water Run"
       ],
       "image": "images/SIM_Silver.png"
     },
@@ -3602,7 +3731,9 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost Parry Super Sonic Speeds Invincibility Ascend/Descend Water Run"
+        "Super Boost",
+        "Parry",
+        "Water Run"
       ],
       "image": "images/SIM_Super_Sonic.png"
     },
@@ -3644,7 +3775,7 @@
         "magnet": 5
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Sailor_Tails.png"
     },
@@ -3656,7 +3787,7 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Scarecrow_Gemerl.png"
     },
@@ -3679,7 +3810,9 @@
         "luck": 15
       },
       "abilities": [
-        "Electric Boost Glide (Unlocked at Star 3) Parry Unbothered by dumbbells"
+        "Electric Boost",
+        "Glide",
+        "Parry"
       ],
       "image": "images/Series_Knuckles.png"
     },
@@ -3719,7 +3852,7 @@
         "luck": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Skeleton_Knuckles.png"
     },
@@ -3803,7 +3936,7 @@
         "stamina": 15
       },
       "abilities": [
-        "Double Jump Unbothered by dumbbells"
+        "Double Jump"
       ],
       "image": "images/Storm_the_Albatross.png"
     },
@@ -3832,7 +3965,7 @@
         "luck": 18
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Summer_Cream.png"
     },
@@ -3876,7 +4009,7 @@
         "luck": 15
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Summer_Rouge.png"
     },
@@ -3916,7 +4049,7 @@
         "magnet": 18
       },
       "abilities": [
-        "Double Jump Unbothered by dumbbells"
+        "Double Jump"
       ],
       "image": "images/Summer_Storm.png"
     },
@@ -3965,6 +4098,12 @@
       "image": "images/Summer_Whisper.png"
     },
     {
+      "name": "Super Neo Metal Sonic",
+      "rarity": "Common",
+      "image": "images/Super_Neo_Metal_Sonic.png",
+      "type": "NPC"
+    },
+    {
       "name": "Super Shadow",
       "rarity": "Super",
       "max": {
@@ -3972,7 +4111,10 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost Parry Invincibility Chaos Spear Chaos Blast - LVL 3 Super Sonic Speeds"
+        "Super Boost",
+        "Parry",
+        "Chaos Spear",
+        "Chaos Blast"
       ],
       "image": "images/Super_Shadow.png"
     },
@@ -3984,7 +4126,10 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost Parry Invincibility Chaos Spear Chaos Blast - LVL 3 Super Sonic Speeds"
+        "Super Boost",
+        "Parry",
+        "Chaos Spear",
+        "Chaos Blast"
       ],
       "image": "images/Super_Shadow_Tradable.png"
     },
@@ -3996,7 +4141,11 @@
         "stamina": 40
       },
       "abilities": [
-        "Psycho Smash Meteor Smash Super Boost Water Run Parry Super Sonic Speeds Invincibility Ascend/Descend"
+        "Psycho Smash",
+        "Meteor Smash",
+        "Super Boost",
+        "Water Run",
+        "Parry"
       ],
       "image": "images/Super_Silver.png"
     },
@@ -4008,7 +4157,8 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost Parry Super Sonic Speeds Invincibility Ascend/Descend"
+        "Super Boost",
+        "Parry"
       ],
       "image": "images/Super_Sonic.png"
     },
@@ -4020,7 +4170,8 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost Parry Super Sonic Speeds Invincibility Ascend/Descend"
+        "Super Boost",
+        "Parry"
       ],
       "image": "images/Super_Sonic_Tradeable.png"
     },
@@ -4031,7 +4182,7 @@
         "magnet": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Tails_Nine.png"
     },
@@ -4047,13 +4198,19 @@
       "image": "images/Tangle_the_Lemur.png"
     },
     {
+      "name": "Time Eater",
+      "rarity": "Common",
+      "image": "images/Time_Eater.png",
+      "type": "NPC"
+    },
+    {
       "name": "Toy Maker Tails",
       "rarity": "Legendary",
       "max": {
         "stamina": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3)"
+        "Flight"
       ],
       "image": "images/Toy_Maker_Tails.png"
     },
@@ -4064,9 +4221,15 @@
         "luck": 10
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Treasure_Hunter_Knuckles.png"
+    },
+    {
+      "name": "Trip the Sungazer",
+      "rarity": "Common",
+      "image": "images/Trip_the_Sungazer.png",
+      "type": "NPC"
     },
     {
       "name": "Tuxedo Classic Sonic",
@@ -4157,6 +4320,12 @@
       "image": "images/Vampire_Sonic.png"
     },
     {
+      "name": "Vanilla the Rabbit",
+      "rarity": "Common",
+      "image": "images/Vanilla_the_Rabbit.png",
+      "type": "NPC"
+    },
+    {
       "name": "Vector the Crocodile",
       "rarity": "Legendary",
       "max": {
@@ -4176,7 +4345,8 @@
         "event": 5
       },
       "abilities": [
-        "Chaos Spear (Unlocked at Star 3) Chaos Blast (Unlocked at Star 3)"
+        "Chaos Spear",
+        "Chaos Blast"
       ],
       "image": "images/Warlock_Shadow.png"
     },
@@ -4226,7 +4396,7 @@
         "luck": 15
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Winter_Cream.png"
     },
@@ -4277,7 +4447,7 @@
         "luck": 10
       },
       "abilities": [
-        "Flight (Unlocked at Star 3) Bothered less by dumbbells"
+        "Flight"
       ],
       "image": "images/Witch_Cream.png"
     },
@@ -4288,7 +4458,7 @@
         "luck": 15
       },
       "abilities": [
-        "Glide (Unlocked at Star 3)"
+        "Glide"
       ],
       "image": "images/Witch_Rouge.png"
     },
@@ -4313,7 +4483,11 @@
         "rings": 1500,
         "damage": 240
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4500,
+        "rings": 3750,
+        "damage": 600
+      },
       "image": "images/Adventurer_Chao.png"
     },
     {
@@ -4324,7 +4498,11 @@
         "damage": 600,
         "air": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "damage": 1500,
+        "air": 20
+      },
       "image": "images/Air_Ninja_Chao.png"
     },
     {
@@ -4333,8 +4511,10 @@
       "max": {
         "damage": 240
       },
-      "max_fused": {},
-      "image": "images/Amaranth_Chao.png"
+      "max_fused": {
+        "damage": 600
+      },
+      "image": null
     },
     {
       "name": "Amy Chao",
@@ -4344,7 +4524,11 @@
         "damage": 403,
         "luck": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 21500,
+        "damage": 1007,
+        "luck": 10
+      },
       "image": "images/Amy_Chao.png"
     },
     {
@@ -4353,7 +4537,9 @@
       "max": {
         "damage": 100
       },
-      "max_fused": {},
+      "max_fused": {
+        "damage": 250
+      },
       "image": "images/Apple_Chao.png"
     },
     {
@@ -4362,8 +4548,10 @@
       "max": {
         "rings": 312
       },
-      "max_fused": {},
-      "image": "images/Apricot_Chao.png"
+      "max_fused": {
+        "rings": 780
+      },
+      "image": null
     },
     {
       "name": "Arctic Chao",
@@ -4372,7 +4560,10 @@
         "xp": 225,
         "rings": 225
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 562,
+        "rings": 562
+      },
       "image": "images/Arctic_Chao.png"
     },
     {
@@ -4383,7 +4574,11 @@
         "rings": 1900,
         "damage": 799
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10000,
+        "rings": 4750,
+        "damage": 1997
+      },
       "image": "images/Armorer_Chao.png"
     },
     {
@@ -4393,7 +4588,10 @@
         "xp": 120000,
         "rings": 120000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 300000,
+        "rings": 300000
+      },
       "image": "images/Astral_Chao.png"
     },
     {
@@ -4403,7 +4601,10 @@
         "rings": 9000,
         "damage": 216
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 22500,
+        "damage": 540
+      },
       "image": "images/Autumn_Chao.png"
     },
     {
@@ -4412,8 +4613,10 @@
       "max": {
         "rings": 250
       },
-      "max_fused": {},
-      "image": "images/Avocado_Chao.png"
+      "max_fused": {
+        "rings": 625
+      },
+      "image": null
     },
     {
       "name": "Banana Chao",
@@ -4423,7 +4626,11 @@
         "rings": 500,
         "damage": 90
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1250,
+        "rings": 1250,
+        "damage": 225
+      },
       "image": "images/Banana_Chao.png"
     },
     {
@@ -4433,7 +4640,10 @@
         "xp": 1200,
         "damage": 360
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3000,
+        "damage": 900
+      },
       "image": null
     },
     {
@@ -4443,7 +4653,10 @@
         "xp": 750,
         "rings": 125
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1875,
+        "rings": 312
+      },
       "image": "images/Beach_Chao.png"
     },
     {
@@ -4453,7 +4666,10 @@
         "xp": 312,
         "rings": 468
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 780,
+        "rings": 1170
+      },
       "image": "images/Bee_Chao.png"
     },
     {
@@ -4463,7 +4679,10 @@
         "xp": 4200,
         "rings": 3900
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10500,
+        "rings": 9750
+      },
       "image": "images/Berry_Chao.png"
     },
     {
@@ -4474,7 +4693,11 @@
         "rings": 1998,
         "damage": 799
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10020,
+        "rings": 4995,
+        "damage": 1997
+      },
       "image": "images/Birthday_Chao.png"
     },
     {
@@ -4483,7 +4706,9 @@
       "max": {
         "xp": 750
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1875
+      },
       "image": "images/Black_Chao.png"
     },
     {
@@ -4493,7 +4718,10 @@
         "xp": 360,
         "damage": 120
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 900,
+        "damage": 300
+      },
       "image": "images/Black_Karate_Chao.png"
     },
     {
@@ -4503,7 +4731,10 @@
         "xp": 7500,
         "damage": 150
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18750,
+        "damage": 375
+      },
       "image": "images/Black_Knight_Chao.png"
     },
     {
@@ -4512,8 +4743,10 @@
       "max": {
         "xp": 500
       },
-      "max_fused": {},
-      "image": "images/Blackberry_Chao.png"
+      "max_fused": {
+        "xp": 1250
+      },
+      "image": null
     },
     {
       "name": "Blaze Chao",
@@ -4524,7 +4757,12 @@
         "damage": 240,
         "luck": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 375,
+        "rings": 150,
+        "damage": 600,
+        "luck": 16
+      },
       "image": "images/Blaze_Chao.png"
     },
     {
@@ -4535,7 +4773,11 @@
         "rings": 1200,
         "damage": 960
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 3000,
+        "damage": 2400
+      },
       "image": "images/Bloxian_Chao.png"
     },
     {
@@ -4544,7 +4786,9 @@
       "max": {
         "xp": 25
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 62
+      },
       "image": "images/Blue_Chao.png"
     },
     {
@@ -4555,7 +4799,11 @@
         "rings": 20000,
         "damage": 1340
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 50000,
+        "rings": 50000,
+        "damage": 3350
+      },
       "image": "images/Blue_Pumpkin_Chao.png"
     },
     {
@@ -4565,7 +4813,10 @@
         "xp": 10000,
         "damage": 150
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 25000,
+        "damage": 375
+      },
       "image": "images/Blue_Racer_Chao.png"
     },
     {
@@ -4577,7 +4828,12 @@
         "damage": 1100,
         "stamina": 4
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 330000,
+        "rings": 330000,
+        "damage": 2750,
+        "stamina": 4
+      },
       "image": "images/Blue_Shadow_Omochao.png"
     },
     {
@@ -4589,7 +4845,12 @@
         "damage": 576,
         "magnet": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 900,
+        "rings": 450,
+        "damage": 1440,
+        "magnet": 10
+      },
       "image": null
     },
     {
@@ -4599,7 +4860,10 @@
         "xp": 375,
         "rings": 62
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 937,
+        "rings": 155
+      },
       "image": "images/Blueberry_Chao.png"
     },
     {
@@ -4610,7 +4874,11 @@
         "rings": 2400,
         "damage": 480
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 6000,
+        "damage": 1200
+      },
       "image": "images/Boxy_Chao.png"
     },
     {
@@ -4619,7 +4887,9 @@
       "max": {
         "rings": 4536
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 11340
+      },
       "image": "images/Broccoli_Chao.png"
     },
     {
@@ -4646,7 +4916,10 @@
         "xp": 600,
         "rings": 1200
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 3000
+      },
       "image": "images/Camembert_Chao.png"
     },
     {
@@ -4656,7 +4929,10 @@
         "xp": 750,
         "rings": 1500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1875,
+        "rings": 3750
+      },
       "image": "images/Candy_Corn_Chao.png"
     },
     {
@@ -4681,7 +4957,10 @@
         "xp": 4536,
         "rings": 4536
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 11340,
+        "rings": 11340
+      },
       "image": "images/Carrot_Chao.png"
     },
     {
@@ -4692,7 +4971,11 @@
         "rings": 4500,
         "damage": 200
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 11250,
+        "rings": 11250,
+        "damage": 500
+      },
       "image": "images/Cauliflower_Chao.png"
     },
     {
@@ -4702,7 +4985,10 @@
         "xp": 93,
         "rings": 141
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 232,
+        "rings": 352
+      },
       "image": "images/Cerulean_Chao.png"
     },
     {
@@ -4711,8 +4997,10 @@
       "max": {
         "xp": 120000
       },
-      "max_fused": {},
-      "image": "images/Charged_Black_Chao.png"
+      "max_fused": {
+        "xp": 300000
+      },
+      "image": null
     },
     {
       "name": "Charged Blue Chao",
@@ -4720,7 +5008,9 @@
       "max": {
         "xp": 7500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18750
+      },
       "image": "images/Charged_Blue_Chao.png"
     },
     {
@@ -4730,7 +5020,10 @@
         "rings": 4500,
         "damage": 540
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 11250,
+        "damage": 1350
+      },
       "image": "images/Charged_Cyan_Chao.png"
     },
     {
@@ -4741,7 +5034,11 @@
         "rings": 1249,
         "damage": 499
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6250,
+        "rings": 3122,
+        "damage": 1247
+      },
       "image": "images/Charged_Green_Chao.png"
     },
     {
@@ -4752,7 +5049,11 @@
         "rings": 3600,
         "damage": 288
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3500,
+        "rings": 9000,
+        "damage": 720
+      },
       "image": "images/Charged_Orange_Chao.png"
     },
     {
@@ -4761,7 +5062,9 @@
       "max": {
         "xp": 12000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 30000
+      },
       "image": "images/Charged_Peach_Chao.png"
     },
     {
@@ -4773,7 +5076,12 @@
         "damage": 319,
         "stamina": 2
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4000,
+        "rings": 19997,
+        "damage": 797,
+        "stamina": 2
+      },
       "image": "images/Charged_Pink_Chao.png"
     },
     {
@@ -4783,7 +5091,10 @@
         "xp": 2250,
         "rings": 3375
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5625,
+        "rings": 8437
+      },
       "image": "images/Charged_Purple_Chao.png"
     },
     {
@@ -4792,7 +5103,9 @@
       "max": {
         "xp": 3240
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 8100
+      },
       "image": "images/Charged_Red_Chao.png"
     },
     {
@@ -4801,7 +5114,9 @@
       "max": {
         "rings": 1500
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3750
+      },
       "image": "images/Charged_Yellow_Chao.png"
     },
     {
@@ -4811,7 +5126,10 @@
         "xp": 562,
         "rings": 93
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1405,
+        "rings": 232
+      },
       "image": "images/Cheese_Cake_Chao.png"
     },
     {
@@ -4821,7 +5139,10 @@
         "xp": 6000,
         "damage": 180
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "damage": 450
+      },
       "image": "images/Cheetah_Chao.png"
     },
     {
@@ -4831,7 +5152,10 @@
         "xp": 4800,
         "rings": 961
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 2402
+      },
       "image": "images/Chemical_Plant_Master_Chao.png"
     },
     {
@@ -4841,7 +5165,10 @@
         "xp": 1875,
         "rings": 937
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4687,
+        "rings": 2342
+      },
       "image": "images/Cherry_Tea_Chao.png"
     },
     {
@@ -4850,7 +5177,9 @@
       "max": {
         "xp": 3600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 9000
+      },
       "image": "images/Chicory_Chao.png"
     },
     {
@@ -4862,7 +5191,12 @@
         "damage": 460,
         "luck": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 7200,
+        "rings": 3600,
+        "damage": 1150,
+        "luck": 14
+      },
       "image": "images/Chrome_Metal_Sonic_Omochao.png"
     },
     {
@@ -4873,7 +5207,11 @@
         "rings": 4800,
         "damage": 384
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4800,
+        "rings": 12000,
+        "damage": 960
+      },
       "image": "images/Chrome_Omochao.png"
     },
     {
@@ -4884,7 +5222,11 @@
         "damage": 300,
         "stamina": 6
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 11250,
+        "damage": 750,
+        "stamina": 6
+      },
       "image": "images/Circuit_Chao.png"
     },
     {
@@ -4896,7 +5238,12 @@
         "damage": 864,
         "luck": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 21500,
+        "rings": 18000,
+        "damage": 2160,
+        "luck": 10
+      },
       "image": "images/Classic_Amy_Chao.png"
     },
     {
@@ -4906,7 +5253,10 @@
         "xp": 937,
         "rings": 156
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2342,
+        "rings": 390
+      },
       "image": "images/Cloud_Chao.png"
     },
     {
@@ -4916,7 +5266,10 @@
         "xp": 200,
         "rings": 4000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 500,
+        "rings": 10000
+      },
       "image": "images/Clover_Chao.png"
     },
     {
@@ -4927,7 +5280,11 @@
         "rings": 36000,
         "damage": 3000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 90000,
+        "rings": 90000,
+        "damage": 7500
+      },
       "image": "images/Clucky.png"
     },
     {
@@ -4937,7 +5294,10 @@
         "xp": 2400,
         "rings": 300
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 750
+      },
       "image": "images/Cookies_and_Cream_Chao.png"
     },
     {
@@ -4946,7 +5306,9 @@
       "max": {
         "xp": 450
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1125
+      },
       "image": "images/Coral_Chao.png"
     },
     {
@@ -4956,7 +5318,10 @@
         "xp": 3402,
         "rings": 3402
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 8505,
+        "rings": 8505
+      },
       "image": "images/Cotton_Candy_Chao.png"
     },
     {
@@ -4966,7 +5331,10 @@
         "xp": 375,
         "rings": 62
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 937,
+        "rings": 155
+      },
       "image": "images/Crimson_Chao.png"
     },
     {
@@ -4977,7 +5345,11 @@
         "rings": 26000,
         "damage": 2175
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 65000,
+        "rings": 65000,
+        "damage": 5437
+      },
       "image": "images/Crimson_Omochao.png"
     },
     {
@@ -4989,7 +5361,12 @@
         "damage": 172,
         "luck": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 275000,
+        "rings": 10750,
+        "damage": 430,
+        "luck": 20
+      },
       "image": "images/Crimson_Wisp.png"
     },
     {
@@ -4999,7 +5376,10 @@
         "xp": 2250,
         "rings": 375
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5625,
+        "rings": 937
+      },
       "image": "images/Crystal_Chao.png"
     },
     {
@@ -5008,8 +5388,10 @@
       "max": {
         "xp": 2400
       },
-      "max_fused": {},
-      "image": "images/Cucumber_Chao.png"
+      "max_fused": {
+        "xp": 6000
+      },
+      "image": null
     },
     {
       "name": "Cyan Chao",
@@ -5017,7 +5399,9 @@
       "max": {
         "rings": 1350
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3375
+      },
       "image": "images/Cyan_Chao.png"
     },
     {
@@ -5029,7 +5413,12 @@
         "damage": 108,
         "stamina": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6250,
+        "rings": 675,
+        "damage": 270,
+        "stamina": 10
+      },
       "image": null
     },
     {
@@ -5040,7 +5429,11 @@
         "rings": 1200,
         "damage": 288
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2400,
+        "rings": 3000,
+        "damage": 720
+      },
       "image": "images/Cyber_Omochao.png"
     },
     {
@@ -5051,7 +5444,11 @@
         "damage": 576,
         "stamina": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 900,
+        "damage": 1440,
+        "stamina": 10
+      },
       "image": "images/DJ_Knuckles_Chao.png"
     },
     {
@@ -5060,8 +5457,10 @@
       "max": {
         "rings": 2400
       },
-      "max_fused": {},
-      "image": "images/Daffodil_Chao.png"
+      "max_fused": {
+        "rings": 6000
+      },
+      "image": null
     },
     {
       "name": "Daisy Chao",
@@ -5069,7 +5468,9 @@
       "max": {
         "rings": 32600
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 81500
+      },
       "image": "images/Daisy_Chao.png"
     },
     {
@@ -5081,7 +5482,12 @@
         "damage": 250,
         "air": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 8750,
+        "rings": 8750,
+        "damage": 625,
+        "air": 20
+      },
       "image": "images/Dark_Aquatic_Chao.png"
     },
     {
@@ -5091,8 +5497,24 @@
         "xp": 150,
         "rings": 150
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 375,
+        "rings": 375
+      },
       "image": "images/Dark_Chao.png"
+    },
+    {
+      "name": "Dark Chaos",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 162315,
+        "damage": 101811
+      },
+      "max_fused": {
+        "xp": 405787,
+        "damage": 254527
+      },
+      "image": "images/Dark_Chaos.png"
     },
     {
       "name": "Detective Chao",
@@ -5100,8 +5522,10 @@
       "max": {
         "xp": 3750
       },
-      "max_fused": {},
-      "image": "images/Detective_Chao.png"
+      "max_fused": {
+        "xp": 9375
+      },
+      "image": null
     },
     {
       "name": "Detective Tails Chao",
@@ -5111,7 +5535,11 @@
         "rings": 1800,
         "event": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4500,
+        "rings": 4500,
+        "event": 10
+      },
       "image": "images/Detective_Tails_Chao.png"
     },
     {
@@ -5121,7 +5549,10 @@
         "xp": 250,
         "rings": 375
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 625,
+        "rings": 937
+      },
       "image": "images/Dragon_Fruit_Chao.png"
     },
     {
@@ -5132,7 +5563,11 @@
         "damage": 600,
         "magnet": 3
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 1125,
+        "damage": 1500,
+        "magnet": 3
+      },
       "image": "images/Earth_Ninja_Chao.png"
     },
     {
@@ -5143,7 +5578,11 @@
         "rings": 2400,
         "luck": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 23750,
+        "rings": 6000,
+        "luck": 14
+      },
       "image": "images/Easter_Egg_Chao.png"
     },
     {
@@ -5154,7 +5593,11 @@
         "rings": 300,
         "damage": 900
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1125,
+        "rings": 750,
+        "damage": 2250
+      },
       "image": "images/Egg_Chao.png"
     },
     {
@@ -5166,7 +5609,12 @@
         "damage": 115,
         "magnet": 9
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 14250,
+        "rings": 21500,
+        "damage": 287,
+        "magnet": 9
+      },
       "image": "images/Eggman_Chao.png"
     },
     {
@@ -5176,7 +5624,10 @@
         "rings": 1200,
         "damage": 288
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3000,
+        "damage": 720
+      },
       "image": "images/Electric_Blue_Chao.png"
     },
     {
@@ -5186,7 +5637,10 @@
         "xp": 5000,
         "rings": 1000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12500,
+        "rings": 2500
+      },
       "image": "images/Electric_Cyan_Chao.png"
     },
     {
@@ -5196,7 +5650,10 @@
         "xp": 5086,
         "damage": 500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12715,
+        "damage": 1250
+      },
       "image": "images/Electric_Gray_Chao.png"
     },
     {
@@ -5206,7 +5663,10 @@
         "xp": 5040,
         "rings": 5040
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12600,
+        "rings": 12600
+      },
       "image": "images/Electric_Green_Chao.png"
     },
     {
@@ -5216,7 +5676,10 @@
         "rings": 7000,
         "damage": 504
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 17500,
+        "damage": 1260
+      },
       "image": "images/Electric_Orange_Chao.png"
     },
     {
@@ -5226,7 +5689,10 @@
         "xp": 6000,
         "rings": 6000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "rings": 15000
+      },
       "image": "images/Electric_Pink_Chao.png"
     },
     {
@@ -5236,7 +5702,10 @@
         "xp": 3240,
         "damage": 324
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 8100,
+        "damage": 810
+      },
       "image": "images/Electric_Purple_Chao.png"
     },
     {
@@ -5246,7 +5715,10 @@
         "xp": 48000,
         "rings": 48000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 120000,
+        "rings": 120000
+      },
       "image": "images/Electric_Red_Chao.png"
     },
     {
@@ -5256,7 +5728,10 @@
         "rings": 1500,
         "damage": 360
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3750,
+        "damage": 900
+      },
       "image": "images/Electric_White_Chao.png"
     },
     {
@@ -5265,7 +5740,9 @@
       "max": {
         "rings": 9600
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 24000
+      },
       "image": "images/Electric_Yellow_Chao.png"
     },
     {
@@ -5276,7 +5753,11 @@
         "rings": 1500,
         "luck": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 22500,
+        "rings": 3750,
+        "luck": 14
+      },
       "image": "images/Elf_Chao.png"
     },
     {
@@ -5288,7 +5769,12 @@
         "damage": 600,
         "magnet": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 375,
+        "damage": 1500,
+        "magnet": 8
+      },
       "image": "images/Espio_Chao.png"
     },
     {
@@ -5300,7 +5786,12 @@
         "damage": 480,
         "luck": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18000,
+        "rings": 3000,
+        "damage": 1200,
+        "luck": 14
+      },
       "image": "images/Evergreen_Chao.png"
     },
     {
@@ -5311,7 +5802,11 @@
         "rings": 2400,
         "damage": 960
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 9000,
+        "rings": 6000,
+        "damage": 2400
+      },
       "image": "images/Fan_Chao.png"
     },
     {
@@ -5321,7 +5816,10 @@
         "xp": 468,
         "rings": 78
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1170,
+        "rings": 195
+      },
       "image": "images/Feijoa_Chao.png"
     },
     {
@@ -5330,8 +5828,10 @@
       "max": {
         "damage": 300
       },
-      "max_fused": {},
-      "image": "images/Fire_Chao.png"
+      "max_fused": {
+        "damage": 750
+      },
+      "image": null
     },
     {
       "name": "Fire Ninja Chao",
@@ -5340,7 +5840,10 @@
         "rings": 468,
         "damage": 562
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 1170,
+        "damage": 1405
+      },
       "image": "images/Fire_Ninja_Chao.png"
     },
     {
@@ -5350,8 +5853,24 @@
         "xp": 4800,
         "rings": 3600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 9000
+      },
       "image": "images/Fisherman_Chao.png"
+    },
+    {
+      "name": "Flicky",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 129852,
+        "rings": 8656
+      },
+      "max_fused": {
+        "xp": 324630,
+        "rings": 21640
+      },
+      "image": "images/Flicky.png"
     },
     {
       "name": "Foxy Chao",
@@ -5361,7 +5880,11 @@
         "rings": 2400,
         "damage": 960
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 6000,
+        "damage": 2400
+      },
       "image": "images/Foxy_Chao.png"
     },
     {
@@ -5373,7 +5896,12 @@
         "damage": 50,
         "magnet": 1
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 32000,
+        "rings": 32000,
+        "damage": 125,
+        "magnet": 1
+      },
       "image": "images/Full_Moon_Chao.png"
     },
     {
@@ -5384,7 +5912,11 @@
         "rings": 3000,
         "damage": 100
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 7500,
+        "rings": 7500,
+        "damage": 250
+      },
       "image": "images/Garlic_Chao.png"
     },
     {
@@ -5394,7 +5926,10 @@
         "xp": 1500,
         "rings": 7500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3750,
+        "rings": 18750
+      },
       "image": "images/Gift_Chao.png"
     },
     {
@@ -5405,7 +5940,11 @@
         "damage": 180,
         "event": 4
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3750,
+        "damage": 450,
+        "event": 8
+      },
       "image": "images/Gingerbread_Chao.png"
     },
     {
@@ -5414,10 +5953,15 @@
       "max": {
         "xp": 900,
         "rings": 450,
-        "magnet": 4,
-        "event": 4
+        "event": 4,
+        "magnet": 4
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2250,
+        "rings": 1125,
+        "event": 8,
+        "magnet": 4
+      },
       "image": "images/Gold_Chao.png"
     },
     {
@@ -5430,7 +5974,13 @@
         "magnet": 4,
         "stamina": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 80000,
+        "rings": 80000,
+        "damage": 1250,
+        "magnet": 4,
+        "stamina": 8
+      },
       "image": "images/Gold_Metal_Sonic_Omochao.png"
     },
     {
@@ -5440,7 +5990,10 @@
         "rings": 3600,
         "damage": 1440
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 9000,
+        "damage": 3600
+      },
       "image": null
     },
     {
@@ -5451,7 +6004,11 @@
         "rings": 26000,
         "damage": 2175
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 65000,
+        "rings": 65000,
+        "damage": 5437
+      },
       "image": "images/Gold_Pumpkin_Chao.png"
     },
     {
@@ -5461,7 +6018,10 @@
         "xp": 1400,
         "rings": 1250
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3500,
+        "rings": 3125
+      },
       "image": "images/Grape_Chao.png"
     },
     {
@@ -5471,7 +6031,10 @@
         "xp": 6000,
         "rings": 3000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "rings": 7500
+      },
       "image": "images/Gratitude_Chao.png"
     },
     {
@@ -5481,7 +6044,10 @@
         "xp": 1000,
         "rings": 1000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2500,
+        "rings": 2500
+      },
       "image": "images/Gray_Chao.png"
     },
     {
@@ -5490,7 +6056,9 @@
       "max": {
         "rings": 75
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 187
+      },
       "image": "images/Green_Chao.png"
     },
     {
@@ -5500,8 +6068,26 @@
         "xp": 1187,
         "rings": 119
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2967,
+        "rings": 297
+      },
       "image": "images/Green_Hill_Master_Chao.png"
+    },
+    {
+      "name": "Green Pumpkin Chao",
+      "rarity": "Seasonal",
+      "max": {
+        "xp": 3037,
+        "rings": 303,
+        "damage": 4857
+      },
+      "max_fused": {
+        "xp": 7592,
+        "rings": 757,
+        "damage": 12142
+      },
+      "image": "images/Green_Pumpkin_Chao.png"
     },
     {
       "name": "Green Racer Chao",
@@ -5512,7 +6098,12 @@
         "damage": 100,
         "stamina": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 20000,
+        "rings": 20000,
+        "damage": 250,
+        "stamina": 8
+      },
       "image": "images/Green_Racer_Chao.png"
     },
     {
@@ -5523,7 +6114,11 @@
         "rings": 2250,
         "damage": 600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18750,
+        "rings": 5625,
+        "damage": 1500
+      },
       "image": "images/Green_Shadow_Omochao.png"
     },
     {
@@ -5534,7 +6129,11 @@
         "rings": 8400,
         "damage": 420
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 30625,
+        "rings": 21000,
+        "damage": 1050
+      },
       "image": "images/Grey_Hero_Chao.png"
     },
     {
@@ -5545,7 +6144,11 @@
         "rings": 2800,
         "damage": 864
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10750,
+        "rings": 7000,
+        "damage": 2160
+      },
       "image": "images/Halloween_Chao.png"
     },
     {
@@ -5555,7 +6158,10 @@
         "xp": 225,
         "rings": 50
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 562,
+        "rings": 125
+      },
       "image": "images/Hazel_Chao.png"
     },
     {
@@ -5565,7 +6171,10 @@
         "rings": 120000,
         "luck": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 300000,
+        "luck": 10
+      },
       "image": "images/Heart_Chao.png"
     },
     {
@@ -5576,7 +6185,11 @@
         "rings": 799,
         "damage": 319
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3750,
+        "rings": 1997,
+        "damage": 797
+      },
       "image": "images/Hero_Chao.png"
     },
     {
@@ -5588,7 +6201,12 @@
         "damage": 144,
         "stamina": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10750,
+        "rings": 2500,
+        "damage": 360,
+        "stamina": 10
+      },
       "image": "images/Hero_Chaos.png"
     },
     {
@@ -5597,7 +6215,9 @@
       "max": {
         "xp": 6000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000
+      },
       "image": "images/Hibiscus_Chao.png"
     },
     {
@@ -5606,8 +6226,10 @@
       "max": {
         "xp": 200
       },
-      "max_fused": {},
-      "image": "images/Hologram_Omochao.png"
+      "max_fused": {
+        "xp": 500
+      },
+      "image": null
     },
     {
       "name": "Holographic Chao",
@@ -5618,7 +6240,12 @@
         "damage": 2000,
         "event": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 80000,
+        "rings": 80000,
+        "damage": 5000,
+        "event": 10
+      },
       "image": "images/Holographic_Chao.png"
     },
     {
@@ -5630,7 +6257,12 @@
         "damage": 576,
         "magnet": 9
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 575000,
+        "rings": 3600,
+        "damage": 1440,
+        "magnet": 9
+      },
       "image": "images/Holographic_Omochao.png"
     },
     {
@@ -5640,7 +6272,10 @@
         "xp": 2025,
         "rings": 2025
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5062,
+        "rings": 5062
+      },
       "image": "images/Horizon_Chao.png"
     },
     {
@@ -5649,8 +6284,27 @@
       "max": {
         "rings": 750
       },
-      "max_fused": {},
-      "image": "images/Ice_Chao.png"
+      "max_fused": {
+        "rings": 1875
+      },
+      "image": null
+    },
+    {
+      "name": "Indigo Wisp",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 324598,
+        "rings": 32458,
+        "damage": 1289892,
+        "magnet": 8
+      },
+      "max_fused": {
+        "xp": 811495,
+        "rings": 81145,
+        "damage": 3224730,
+        "magnet": 8
+      },
+      "image": "images/Indigo_Wisp.png"
     },
     {
       "name": "Jester Chao",
@@ -5660,7 +6314,11 @@
         "rings": 600,
         "damage": 300
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 375,
+        "rings": 1500,
+        "damage": 750
+      },
       "image": "images/Jester_Chao.png"
     },
     {
@@ -5671,7 +6329,11 @@
         "rings": 2160,
         "luck": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 600000,
+        "rings": 5400,
+        "luck": 14
+      },
       "image": "images/Jet_Chao.png"
     },
     {
@@ -5681,7 +6343,10 @@
         "rings": 1500,
         "damage": 180
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3750,
+        "damage": 450
+      },
       "image": "images/Jewel_Amethyst_Chao.png"
     },
     {
@@ -5692,7 +6357,11 @@
         "rings": 312,
         "damage": 124
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1562,
+        "rings": 780,
+        "damage": 310
+      },
       "image": "images/Jewel_Aquamarine_Chao.png"
     },
     {
@@ -5703,7 +6372,11 @@
         "rings": 30000,
         "damage": 1200
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 75000,
+        "rings": 75000,
+        "damage": 3000
+      },
       "image": "images/Jewel_Bronze_Chao.png"
     },
     {
@@ -5713,7 +6386,10 @@
         "xp": 46000,
         "damage": 5500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 115000,
+        "damage": 13750
+      },
       "image": "images/Jewel_Citrine_Chao.png"
     },
     {
@@ -5722,8 +6398,10 @@
       "max": {
         "rings": 300
       },
-      "max_fused": {},
-      "image": "images/Jewel_Diamond_Chao.png"
+      "max_fused": {
+        "rings": 750
+      },
+      "image": null
     },
     {
       "name": "Jewel Emerald Chao",
@@ -5732,7 +6410,10 @@
         "rings": 2812,
         "damage": 375
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 7030,
+        "damage": 937
+      },
       "image": "images/Jewel_Emerald_Chao.png"
     },
     {
@@ -5742,7 +6423,10 @@
         "rings": 281,
         "damage": 450
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 702,
+        "damage": 1125
+      },
       "image": "images/Jewel_Garnet_Chao.png"
     },
     {
@@ -5752,7 +6436,10 @@
         "rings": 46000,
         "damage": 1080
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 115000,
+        "damage": 2700
+      },
       "image": "images/Jewel_Gold_Chao.png"
     },
     {
@@ -5762,7 +6449,10 @@
         "xp": 562,
         "rings": 843
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1405,
+        "rings": 2107
+      },
       "image": "images/Jewel_Jasper_Chao.png"
     },
     {
@@ -5771,7 +6461,9 @@
       "max": {
         "xp": 1875
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4687
+      },
       "image": "images/Jewel_Larimar_Chao.png"
     },
     {
@@ -5794,7 +6486,10 @@
         "xp": 2000,
         "rings": 600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5000,
+        "rings": 1500
+      },
       "image": "images/Jewel_Pearl_Chao.png"
     },
     {
@@ -5803,7 +6498,9 @@
       "max": {
         "rings": 1125
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 2812
+      },
       "image": "images/Jewel_Peridot_Chao.png"
     },
     {
@@ -5812,7 +6509,9 @@
       "max": {
         "xp": 2250
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5625
+      },
       "image": "images/Jewel_Ruby_Chao.png"
     },
     {
@@ -5822,7 +6521,10 @@
         "xp": 2250,
         "damage": 150
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5625,
+        "damage": 375
+      },
       "image": "images/Jewel_Sapphire_Chao.png"
     },
     {
@@ -5832,7 +6534,10 @@
         "xp": 36000,
         "damage": 3000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 90000,
+        "damage": 7500
+      },
       "image": "images/Jewel_Silver_Chao.png"
     },
     {
@@ -5843,7 +6548,11 @@
         "rings": 10000,
         "damage": 600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 75000,
+        "rings": 25000,
+        "damage": 1500
+      },
       "image": "images/Jewel_Sunstone_Chao.png"
     },
     {
@@ -5852,7 +6561,9 @@
       "max": {
         "damage": 5500
       },
-      "max_fused": {},
+      "max_fused": {
+        "damage": 13750
+      },
       "image": "images/Jewel_Topaz_Chao.png"
     },
     {
@@ -5864,7 +6575,12 @@
         "damage": 480,
         "luck": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1200,
+        "rings": 600,
+        "damage": 1200,
+        "luck": 16
+      },
       "image": "images/Joker_Chao.png"
     },
     {
@@ -5874,7 +6590,10 @@
         "rings": 2400,
         "damage": 384
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 6000,
+        "damage": 960
+      },
       "image": "images/Karate_Chao.png"
     },
     {
@@ -5883,7 +6602,9 @@
       "max": {
         "xp": 625
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1562
+      },
       "image": "images/Kiwi_Chao.png"
     },
     {
@@ -5894,7 +6615,11 @@
         "damage": 648,
         "stamina": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 450,
+        "damage": 1620,
+        "stamina": 10
+      },
       "image": "images/Knuckles_Chao.png"
     },
     {
@@ -5905,7 +6630,11 @@
         "rings": 2880,
         "damage": 192
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 425000,
+        "rings": 7200,
+        "damage": 480
+      },
       "image": null
     },
     {
@@ -5917,7 +6646,12 @@
         "damage": 240,
         "event": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 9000,
+        "damage": 600,
+        "event": 10
+      },
       "image": "images/Kunoichi_Amy_Chao.png"
     },
     {
@@ -5927,7 +6661,10 @@
         "xp": 800,
         "rings": 100
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2000,
+        "rings": 250
+      },
       "image": "images/Lavender_Chao.png"
     },
     {
@@ -5937,7 +6674,10 @@
         "xp": 6000,
         "damage": 720
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "damage": 1800
+      },
       "image": "images/Leek_Chao.png"
     },
     {
@@ -5947,7 +6687,10 @@
         "xp": 7200,
         "rings": 8400
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18000,
+        "rings": 21000
+      },
       "image": "images/Lemon_Lime_Chao.png"
     },
     {
@@ -5957,7 +6700,10 @@
         "xp": 3375,
         "rings": 562
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 8437,
+        "rings": 1405
+      },
       "image": "images/Light_Chaos.png"
     },
     {
@@ -5967,7 +6713,10 @@
         "rings": 225,
         "damage": 30
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 562,
+        "damage": 75
+      },
       "image": "images/Lilac_Chao.png"
     },
     {
@@ -5977,8 +6726,24 @@
         "xp": 5344,
         "rings": 532
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 13360,
+        "rings": 1330
+      },
       "image": "images/Lost_Valley_Master_Chao.png"
+    },
+    {
+      "name": "Lotus Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 345988,
+        "rings": 11532
+      },
+      "max_fused": {
+        "xp": 864970,
+        "rings": 28830
+      },
+      "image": "images/Lotus_Chao.png"
     },
     {
       "name": "Lychee Chao",
@@ -5988,7 +6753,11 @@
         "rings": 250,
         "luck": 2
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1250,
+        "rings": 625,
+        "luck": 4
+      },
       "image": "images/Lychee_Chao.png"
     },
     {
@@ -5999,7 +6768,11 @@
         "rings": 300,
         "stamina": 15
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 750,
+        "stamina": 15
+      },
       "image": "images/Maestro_Chao.png"
     },
     {
@@ -6009,7 +6782,10 @@
         "xp": 2100,
         "rings": 450
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5250,
+        "rings": 1125
+      },
       "image": "images/Maid_Chao.png"
     },
     {
@@ -6019,7 +6795,10 @@
         "rings": 1300,
         "damage": 180
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3250,
+        "damage": 450
+      },
       "image": "images/Marigold_Chao.png"
     },
     {
@@ -6030,7 +6809,11 @@
         "rings": 1500,
         "air": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 22500,
+        "rings": 3750,
+        "air": 20
+      },
       "image": "images/Marine_Chao.png"
     },
     {
@@ -6041,7 +6824,11 @@
         "rings": 3000,
         "damage": 240
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "rings": 7500,
+        "damage": 600
+      },
       "image": "images/Masked_Chao.png"
     },
     {
@@ -6053,7 +6840,12 @@
         "damage": 240,
         "stamina": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 7500,
+        "damage": 600,
+        "stamina": 8
+      },
       "image": "images/Mechanic_Chao.png"
     },
     {
@@ -6063,7 +6855,10 @@
         "xp": 150,
         "rings": 75
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 375,
+        "rings": 187
+      },
       "image": "images/Mega_Chao.png"
     },
     {
@@ -6072,10 +6867,15 @@
       "max": {
         "xp": 1030000,
         "rings": 5700,
-        "luck": 10,
-        "magnet": 4
+        "magnet": 4,
+        "luck": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2575000,
+        "rings": 14250,
+        "magnet": 4,
+        "luck": 20
+      },
       "image": "images/Metal_Sonic_30_Omochao.png"
     },
     {
@@ -6086,7 +6886,11 @@
         "damage": 576,
         "magnet": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 300000,
+        "damage": 1440,
+        "magnet": 7
+      },
       "image": "images/Metal_Sonic_Omochao.png"
     },
     {
@@ -6097,7 +6901,11 @@
         "rings": 1920,
         "damage": 960
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 4800,
+        "damage": 2400
+      },
       "image": "images/Midas_Chao.png"
     },
     {
@@ -6111,7 +6919,7 @@
         "xp": 4427,
         "event": 12
       },
-      "image": "images/Midnight_Chao.png"
+      "image": null
     },
     {
       "name": "Miner Chao",
@@ -6121,7 +6929,11 @@
         "rings": 800,
         "damage": 100
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10125,
+        "rings": 2000,
+        "damage": 250
+      },
       "image": "images/Miner_Chao.png"
     },
     {
@@ -6131,7 +6943,10 @@
         "xp": 125,
         "rings": 187
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 312,
+        "rings": 467
+      },
       "image": "images/Mint_Chao.png"
     },
     {
@@ -6141,7 +6956,10 @@
         "rings": 52000,
         "damage": 2600
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 130000,
+        "damage": 6500
+      },
       "image": "images/Mocha_Coffee_Chao.png"
     },
     {
@@ -6151,7 +6969,10 @@
         "xp": 4536,
         "rings": 4536
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 11340,
+        "rings": 11340
+      },
       "image": "images/Mochi_Chao.png"
     },
     {
@@ -6162,8 +6983,22 @@
         "rings": 68000,
         "damage": 5500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 170000,
+        "rings": 170000,
+        "damage": 13750
+      },
       "image": "images/Moon_Chao.png"
+    },
+    {
+      "name": "Moonlight Chao",
+      "rarity": "Rare",
+      "max": {
+        "xp": 42714,
+        "rings": 1422
+      },
+      "max_fused": {},
+      "image": "images/Moonlight_Chao.png"
     },
     {
       "name": "Moonstone Chao",
@@ -6171,10 +7006,15 @@
       "max": {
         "rings": 110000,
         "damage": 115,
-        "luck": 7,
-        "event": 5
+        "event": 5,
+        "luck": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 275000,
+        "damage": 287,
+        "event": 10,
+        "luck": 14
+      },
       "image": "images/Moonstone_Chao.png"
     },
     {
@@ -6185,7 +7025,11 @@
         "rings": 200,
         "luck": 4
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 500,
+        "luck": 8
+      },
       "image": "images/Mousse_Chao.png"
     },
     {
@@ -6195,7 +7039,10 @@
         "xp": 7200,
         "rings": 2400
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18000,
+        "rings": 6000
+      },
       "image": "images/Mummy_Chao.png"
     },
     {
@@ -6206,7 +7053,11 @@
         "rings": 200,
         "damage": 100
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 500,
+        "damage": 250
+      },
       "image": "images/Mystic_Chao.png"
     },
     {
@@ -6216,7 +7067,10 @@
         "xp": 262,
         "rings": 1350
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 655,
+        "rings": 3375
+      },
       "image": "images/Navy_Chao.png"
     },
     {
@@ -6227,7 +7081,11 @@
         "rings": 20000,
         "damage": 1000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 100000,
+        "rings": 50000,
+        "damage": 2500
+      },
       "image": "images/Neon_Blue_Chao.png"
     },
     {
@@ -6237,7 +7095,10 @@
         "xp": 1650,
         "rings": 1650
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4125,
+        "rings": 4125
+      },
       "image": "images/Neon_Cyan_Chao.png"
     },
     {
@@ -6246,8 +7107,10 @@
       "max": {
         "rings": 25000
       },
-      "max_fused": {},
-      "image": "images/Neon_Green_Chao.png"
+      "max_fused": {
+        "rings": 62500
+      },
+      "image": null
     },
     {
       "name": "Neon Lime Chao",
@@ -6256,7 +7119,10 @@
         "xp": 400,
         "rings": 4860
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1000,
+        "rings": 12150
+      },
       "image": "images/Neon_Lime_Chao.png"
     },
     {
@@ -6267,7 +7133,11 @@
         "rings": 1499,
         "damage": 599
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 7500,
+        "rings": 3747,
+        "damage": 1497
+      },
       "image": "images/Neon_Orange_Chao.png"
     },
     {
@@ -6276,8 +7146,10 @@
       "max": {
         "damage": 480
       },
-      "max_fused": {},
-      "image": "images/Neon_Pink_Chao.png"
+      "max_fused": {
+        "damage": 1200
+      },
+      "image": null
     },
     {
       "name": "Neon Red Chao",
@@ -6286,7 +7158,10 @@
         "xp": 12600,
         "damage": 1100
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 31500,
+        "damage": 2750
+      },
       "image": "images/Neon_Red_Chao.png"
     },
     {
@@ -6296,7 +7171,10 @@
         "xp": 125,
         "rings": 50
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 312,
+        "rings": 125
+      },
       "image": "images/Neon_Sakura_Chao.png"
     },
     {
@@ -6307,7 +7185,11 @@
         "rings": 22000,
         "damage": 2100
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 125000,
+        "rings": 55000,
+        "damage": 5250
+      },
       "image": "images/Neon_Yellow_Chao.png"
     },
     {
@@ -6317,7 +7199,10 @@
         "rings": 20000,
         "damage": 288
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 50000,
+        "damage": 720
+      },
       "image": "images/Nightshade_Chao.png"
     },
     {
@@ -6326,8 +7211,10 @@
       "max": {
         "damage": 480
       },
-      "max_fused": {},
-      "image": "images/Ninja_Chao.png"
+      "max_fused": {
+        "damage": 1200
+      },
+      "image": null
     },
     {
       "name": "Omochao",
@@ -6338,8 +7225,26 @@
         "damage": 120,
         "stamina": 15
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10000,
+        "rings": 3000,
+        "damage": 300,
+        "stamina": 15
+      },
       "image": "images/Omochao.png"
+    },
+    {
+      "name": "Onion Chao",
+      "rarity": "Rare",
+      "max": {
+        "xp": 128144,
+        "damage": 509066
+      },
+      "max_fused": {
+        "xp": 320360,
+        "damage": 1272665
+      },
+      "image": "images/Onion_Chao.png"
     },
     {
       "name": "Orange Chao",
@@ -6348,7 +7253,10 @@
         "xp": 25,
         "rings": 25
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 62,
+        "rings": 62
+      },
       "image": "images/Orange_Chao.png"
     },
     {
@@ -6359,7 +7267,11 @@
         "rings": 8000,
         "damage": 720
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 22000,
+        "rings": 20000,
+        "damage": 1800
+      },
       "image": "images/Orange_Hero_Chao.png"
     },
     {
@@ -6371,7 +7283,12 @@
         "damage": 345,
         "luck": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 275000,
+        "rings": 350000,
+        "damage": 862,
+        "luck": 16
+      },
       "image": "images/Orange_Shadow_Omochao.png"
     },
     {
@@ -6381,7 +7298,10 @@
         "xp": 125,
         "rings": 187
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 312,
+        "rings": 467
+      },
       "image": "images/Passion_Fruit_Chao.png"
     },
     {
@@ -6391,7 +7311,10 @@
         "xp": 525,
         "rings": 112
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1312,
+        "rings": 280
+      },
       "image": "images/Peach_Chao.png"
     },
     {
@@ -6401,7 +7324,10 @@
         "xp": 156,
         "rings": 234
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 390,
+        "rings": 585
+      },
       "image": "images/Pear_Chao.png"
     },
     {
@@ -6412,8 +7338,29 @@
         "rings": 66000,
         "damage": 6500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 165000,
+        "rings": 165000,
+        "damage": 16250
+      },
       "image": "images/Pecky.png"
+    },
+    {
+      "name": "Picky",
+      "rarity": "Epic",
+      "max": {
+        "xp": 21642,
+        "rings": 17312,
+        "damage": 40724,
+        "luck": 6
+      },
+      "max_fused": {
+        "xp": 54105,
+        "rings": 43280,
+        "damage": 101810,
+        "luck": 12
+      },
+      "image": "images/Picky.png"
     },
     {
       "name": "Pilot Chao",
@@ -6421,8 +7368,10 @@
       "max": {
         "xp": 120000
       },
-      "max_fused": {},
-      "image": "images/Pilot_Chao.png"
+      "max_fused": {
+        "xp": 300000
+      },
+      "image": null
     },
     {
       "name": "Pink Chao",
@@ -6431,7 +7380,10 @@
         "xp": 800,
         "rings": 800
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2000,
+        "rings": 2000
+      },
       "image": "images/Pink_Chao.png"
     },
     {
@@ -6441,7 +7393,10 @@
         "xp": 160,
         "rings": 150
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 400,
+        "rings": 375
+      },
       "image": null
     },
     {
@@ -6451,7 +7406,10 @@
         "xp": 22000,
         "rings": 22000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 55000,
+        "rings": 55000
+      },
       "image": "images/Pink_Pumpkin_Chao.png"
     },
     {
@@ -6461,7 +7419,10 @@
         "xp": 10000,
         "rings": 10000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 25000,
+        "rings": 25000
+      },
       "image": "images/Pink_Racer_Chao.png"
     },
     {
@@ -6473,7 +7434,12 @@
         "damage": 480,
         "magnet": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 350000,
+        "rings": 12000,
+        "damage": 1200,
+        "magnet": 8
+      },
       "image": "images/Pink_Shadow_Omochao.png"
     },
     {
@@ -6485,7 +7451,12 @@
         "damage": 959,
         "stamina": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 5750,
+        "damage": 2397,
+        "stamina": 8
+      },
       "image": "images/Pink_Wisp.png"
     },
     {
@@ -6497,7 +7468,12 @@
         "damage": 60,
         "air": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 2250,
+        "rings": 2250,
+        "damage": 150,
+        "air": 20
+      },
       "image": "images/Pirate_Captain_Chao.png"
     },
     {
@@ -6508,8 +7484,25 @@
         "rings": 2000,
         "damage": 182
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10000,
+        "rings": 5000,
+        "damage": 455
+      },
       "image": "images/Pocky.png"
+    },
+    {
+      "name": "Popcorn Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 13653,
+        "rings": 900
+      },
+      "max_fused": {
+        "xp": 34167,
+        "rings": 2275
+      },
+      "image": "images/Popcorn_Chao.png"
     },
     {
       "name": "Popstar Chao",
@@ -6519,8 +7512,27 @@
         "rings": 750,
         "luck": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3750,
+        "rings": 1875,
+        "luck": 20
+      },
       "image": "images/Popstar_Chao.png"
+    },
+    {
+      "name": "Potato Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 115329,
+        "rings": 34597,
+        "magnet": 4
+      },
+      "max_fused": {
+        "xp": 288322,
+        "rings": 86492,
+        "magnet": 4
+      },
+      "image": "images/Potato_Chao.png"
     },
     {
       "name": "Prism Chao",
@@ -6530,7 +7542,11 @@
         "rings": 60000,
         "damage": 1000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 150000,
+        "rings": 150000,
+        "damage": 2500
+      },
       "image": "images/Prism_Chao.png"
     },
     {
@@ -6541,7 +7557,11 @@
         "rings": 10000,
         "damage": 870
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 40000,
+        "rings": 25000,
+        "damage": 2175
+      },
       "image": "images/Pumpkin_Chao.png"
     },
     {
@@ -6551,7 +7571,10 @@
         "xp": 4050,
         "damage": 422
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 10125,
+        "damage": 1055
+      },
       "image": "images/Punk_Chao.png"
     },
     {
@@ -6560,8 +7583,27 @@
       "max": {
         "rings": 150
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 375
+      },
       "image": "images/Purple_Chao.png"
+    },
+    {
+      "name": "Purple Hero Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 92263,
+        "rings": 13839,
+        "damage": 916319,
+        "magnet": 10
+      },
+      "max_fused": {
+        "xp": 230657,
+        "rings": 34597,
+        "damage": 2290797,
+        "magnet": 10
+      },
+      "image": "images/Purple_Hero_Chao.png"
     },
     {
       "name": "Racer Chao",
@@ -6569,8 +7611,10 @@
       "max": {
         "damage": 480
       },
-      "max_fused": {},
-      "image": "images/Racer_Chao.png"
+      "max_fused": {
+        "damage": 1200
+      },
+      "image": null
     },
     {
       "name": "Raider Chao",
@@ -6579,7 +7623,10 @@
         "rings": 9000,
         "damage": 240
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 22500,
+        "damage": 600
+      },
       "image": "images/Raider_Chao.png"
     },
     {
@@ -6589,7 +7636,10 @@
         "xp": 750,
         "rings": 1125
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1875,
+        "rings": 2812
+      },
       "image": null
     },
     {
@@ -6598,7 +7648,9 @@
       "max": {
         "xp": 75
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 187
+      },
       "image": "images/Red_Chao.png"
     },
     {
@@ -6609,7 +7661,11 @@
         "rings": 7200,
         "damage": 288
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18000,
+        "rings": 18000,
+        "damage": 720
+      },
       "image": "images/Red_Hero_Chao.png"
     },
     {
@@ -6620,8 +7676,25 @@
         "rings": 20000,
         "damage": 940
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12500,
+        "rings": 50000,
+        "damage": 2350
+      },
       "image": "images/Red_Pumpkin_Chao.png"
+    },
+    {
+      "name": "Red Racer Chao",
+      "rarity": "Epic",
+      "max": {
+        "rings": 2050,
+        "damage": 154324
+      },
+      "max_fused": {
+        "rings": 5125,
+        "damage": 385810
+      },
+      "image": "images/Red_Racer_Chao.png"
     },
     {
       "name": "Red Shadow Omochao",
@@ -6631,7 +7704,11 @@
         "rings": 6000,
         "damage": 720
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3000,
+        "rings": 15000,
+        "damage": 1800
+      },
       "image": "images/Red_Shadow_Omochao.png"
     },
     {
@@ -6643,7 +7720,12 @@
         "damage": 239,
         "stamina": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3000,
+        "rings": 14997,
+        "damage": 597,
+        "stamina": 8
+      },
       "image": "images/Red_Wisp.png"
     },
     {
@@ -6653,8 +7735,26 @@
         "xp": 7200,
         "rings": 7200
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18000,
+        "rings": 18000
+      },
       "image": "images/Reindeer_Chao.png"
+    },
+    {
+      "name": "Resistance Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 41006,
+        "rings": 1025,
+        "damage": 96453
+      },
+      "max_fused": {
+        "xp": 102515,
+        "rings": 2562,
+        "damage": 241132
+      },
+      "image": "images/Resistance_Chao.png"
     },
     {
       "name": "Riders Chao",
@@ -6662,8 +7762,25 @@
       "max": {
         "damage": 864
       },
-      "max_fused": {},
-      "image": "images/Riders_Chao.png"
+      "max_fused": {
+        "damage": 2160
+      },
+      "image": null
+    },
+    {
+      "name": "Rockstar Chao",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 31890,
+        "rings": 6378,
+        "damage": 120030
+      },
+      "max_fused": {
+        "xp": 79732,
+        "rings": 15945,
+        "damage": 300075
+      },
+      "image": "images/Rockstar_Chao.png"
     },
     {
       "name": "Rockstar Silver Chao",
@@ -6673,7 +7790,11 @@
         "rings": 2800,
         "magnet": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 575000,
+        "rings": 7000,
+        "magnet": 10
+      },
       "image": "images/Rockstar_Silver_Chao.png"
     },
     {
@@ -6682,8 +7803,10 @@
       "max": {
         "damage": 960
       },
-      "max_fused": {},
-      "image": "images/Rose_Chao.png"
+      "max_fused": {
+        "damage": 2400
+      },
+      "image": null
     },
     {
       "name": "Rouge Chao",
@@ -6693,7 +7816,11 @@
         "rings": 120000,
         "stamina": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 7200,
+        "rings": 300000,
+        "stamina": 10
+      },
       "image": "images/Rouge_Chao.png"
     },
     {
@@ -6705,7 +7832,12 @@
         "damage": 200,
         "air": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 8000,
+        "rings": 8000,
+        "damage": 500,
+        "air": 20
+      },
       "image": "images/Sailor_Chao.png"
     },
     {
@@ -6717,7 +7849,12 @@
         "damage": 240,
         "magnet": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 3000,
+        "damage": 600,
+        "magnet": 7
+      },
       "image": "images/Sailor_Tails_Chao.png"
     },
     {
@@ -6726,10 +7863,15 @@
       "max": {
         "xp": 100000,
         "damage": 8000,
-        "luck": 7,
-        "event": 4
+        "event": 4,
+        "luck": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 250000,
+        "damage": 20000,
+        "event": 8,
+        "luck": 14
+      },
       "image": "images/Samurai_Chao.png"
     },
     {
@@ -6755,7 +7897,11 @@
         "rings": 1500,
         "stamina": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 22500,
+        "rings": 3750,
+        "stamina": 8
+      },
       "image": "images/Santa_Hat_Chao.png"
     },
     {
@@ -6766,8 +7912,25 @@
         "rings": 110000,
         "damage": 576
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 7000,
+        "rings": 275000,
+        "damage": 1440
+      },
       "image": "images/Scarecrow_Chao.png"
+    },
+    {
+      "name": "Scientist Chao",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 79730,
+        "damage": 150030
+      },
+      "max_fused": {
+        "xp": 199330,
+        "damage": 375090
+      },
+      "image": "images/Scientist_Chao.png"
     },
     {
       "name": "Shadow Chao",
@@ -6778,7 +7941,12 @@
         "damage": 230,
         "luck": 6
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 275000,
+        "rings": 7200,
+        "damage": 575,
+        "luck": 12
+      },
       "image": "images/Shadow_Chao.png"
     },
     {
@@ -6788,7 +7956,10 @@
         "xp": 150,
         "rings": 300
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 375,
+        "rings": 750
+      },
       "image": "images/Sherbet_Chao.png"
     },
     {
@@ -6798,7 +7969,10 @@
         "xp": 1800,
         "rings": 600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4500,
+        "rings": 1500
+      },
       "image": null
     },
     {
@@ -6809,8 +7983,27 @@
         "rings": 540,
         "magnet": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6250,
+        "rings": 1350,
+        "magnet": 10
+      },
       "image": "images/Silver_Chao.png"
+    },
+    {
+      "name": "Silver Pumpkin Chao",
+      "rarity": "Seasonal",
+      "max": {
+        "xp": 12140,
+        "rings": 1214,
+        "damage": 1214
+      },
+      "max_fused": {
+        "xp": 30370,
+        "rings": 3035,
+        "damage": 3035
+      },
+      "image": "images/Silver_Pumpkin_Chao.png"
     },
     {
       "name": "Silver Style Chao",
@@ -6818,10 +8011,15 @@
       "max": {
         "xp": 2100,
         "rings": 720,
-        "luck": 5,
-        "event": 2
+        "event": 2,
+        "luck": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5250,
+        "rings": 1800,
+        "event": 4,
+        "luck": 10
+      },
       "image": "images/Silver_Style_Chao.png"
     },
     {
@@ -6831,7 +8029,10 @@
         "xp": 26400,
         "rings": 26400
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 66000,
+        "rings": 66000
+      },
       "image": "images/Skull_Chao.png"
     },
     {
@@ -6842,7 +8043,11 @@
         "rings": 3600,
         "magnet": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 9000,
+        "magnet": 5
+      },
       "image": "images/Snowboarder_Chao.png"
     },
     {
@@ -6854,7 +8059,12 @@
         "damage": 144,
         "magnet": 6
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 3000,
+        "damage": 360,
+        "magnet": 6
+      },
       "image": "images/Snowman_Chao.png"
     },
     {
@@ -6865,7 +8075,11 @@
         "rings": 4700,
         "damage": 190
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 24250,
+        "rings": 11750,
+        "damage": 475
+      },
       "image": "images/Sonic_Chao.png"
     },
     {
@@ -6874,8 +8088,10 @@
       "max": {
         "rings": 6000
       },
-      "max_fused": {},
-      "image": "images/Spice_Latte_Chao.png"
+      "max_fused": {
+        "rings": 15000
+      },
+      "image": null
     },
     {
       "name": "Spirit Chao",
@@ -6885,8 +8101,25 @@
         "damage": 384,
         "luck": 1
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "damage": 960,
+        "luck": 2
+      },
       "image": "images/Spirit_Chao.png"
+    },
+    {
+      "name": "Spring Chao",
+      "rarity": "Rare",
+      "max": {
+        "xp": 192216,
+        "rings": 6407
+      },
+      "max_fused": {
+        "xp": 480540,
+        "rings": 16017
+      },
+      "image": "images/Spring_Chao.png"
     },
     {
       "name": "Sprocket Chao",
@@ -6895,8 +8128,22 @@
         "damage": 600,
         "luck": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "damage": 1500,
+        "luck": 16
+      },
       "image": "images/Sprocket_Chao.png"
+    },
+    {
+      "name": "Sprout Koco",
+      "rarity": "Exotic",
+      "max": {},
+      "max_fused": {
+        "xp": 1210000,
+        "rings": 97380,
+        "damage": 967220
+      },
+      "image": "images/Sprout_Koco.png"
     },
     {
       "name": "Star Chao",
@@ -6905,7 +8152,10 @@
         "rings": 9000,
         "damage": 120
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 22500,
+        "damage": 300
+      },
       "image": "images/Star_Chao.png"
     },
     {
@@ -6914,8 +8164,10 @@
       "max": {
         "damage": 350
       },
-      "max_fused": {},
-      "image": "images/Stealth_Suit_Chao.png"
+      "max_fused": {
+        "damage": 875
+      },
+      "image": null
     },
     {
       "name": "Strawberry Chao",
@@ -6924,7 +8176,10 @@
         "xp": 300,
         "rings": 300
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 750,
+        "rings": 750
+      },
       "image": null
     },
     {
@@ -6935,7 +8190,11 @@
         "rings": 5600,
         "stamina": 6
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 14000,
+        "rings": 14000,
+        "stamina": 6
+      },
       "image": "images/Strawberry_Scoop_Chao.png"
     },
     {
@@ -6946,7 +8205,11 @@
         "rings": 300,
         "damage": 120
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 4500,
+        "rings": 750,
+        "damage": 300
+      },
       "image": "images/Summer_Breeze_Chao.png"
     },
     {
@@ -6957,7 +8220,11 @@
         "rings": 300,
         "damage": 360
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 750,
+        "damage": 900
+      },
       "image": "images/Summer_Burst_Chao.png"
     },
     {
@@ -6967,7 +8234,10 @@
         "rings": 4800,
         "magnet": 2
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 12000,
+        "magnet": 2
+      },
       "image": "images/Summer_Chao.png"
     },
     {
@@ -6978,7 +8248,11 @@
         "rings": 249,
         "damage": 999
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1250,
+        "rings": 622,
+        "damage": 2497
+      },
       "image": "images/Summer_Party_Chao.png"
     },
     {
@@ -6989,7 +8263,11 @@
         "rings": 900,
         "damage": 120
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 2250,
+        "damage": 300
+      },
       "image": "images/Summer_Sea_Chao.png"
     },
     {
@@ -6999,7 +8277,10 @@
         "rings": 1800,
         "magnet": 4
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 4500,
+        "magnet": 4
+      },
       "image": "images/Summer_Sonic_Chao.png"
     },
     {
@@ -7009,7 +8290,10 @@
         "xp": 1500,
         "rings": 750
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3750,
+        "rings": 1875
+      },
       "image": "images/Summer_Sunset_Chao.png"
     },
     {
@@ -7019,7 +8303,10 @@
         "xp": 7600,
         "damage": 384
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 19000,
+        "damage": 960
+      },
       "image": "images/Sungazer_Chao.png"
     },
     {
@@ -7028,7 +8315,9 @@
       "max": {
         "rings": 3375
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 8437
+      },
       "image": null
     },
     {
@@ -7037,8 +8326,10 @@
       "max": {
         "rings": 142000
       },
-      "max_fused": {},
-      "image": "images/Sunstone_Chao.png"
+      "max_fused": {
+        "rings": 355000
+      },
+      "image": null
     },
     {
       "name": "Swap Chao",
@@ -7048,7 +8339,11 @@
         "rings": 1500,
         "damage": 600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "rings": 3750,
+        "damage": 1500
+      },
       "image": "images/Swap_Chao.png"
     },
     {
@@ -7059,8 +8354,27 @@
         "rings": 5400,
         "stamina": 15
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 9000,
+        "rings": 13500,
+        "stamina": 15
+      },
       "image": "images/Tails_Chao.png"
+    },
+    {
+      "name": "Taxi Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 61509,
+        "rings": 1025,
+        "damage": 57871
+      },
+      "max_fused": {
+        "xp": 153772,
+        "rings": 2562,
+        "damage": 144677
+      },
+      "image": "images/Taxi_Chao.png"
     },
     {
       "name": "Techno Chao",
@@ -7069,8 +8383,22 @@
         "rings": 6000,
         "damage": 240
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 15000,
+        "damage": 600
+      },
       "image": "images/Techno_Chao.png"
+    },
+    {
+      "name": "Thundercloud Chao",
+      "rarity": "Epic",
+      "max": {
+        "damage": 1832639
+      },
+      "max_fused": {
+        "damage": 4581597
+      },
+      "image": "images/Thundercloud_Chao.png"
     },
     {
       "name": "Tiki Chao",
@@ -7079,8 +8407,37 @@
         "xp": 120000,
         "rings": 6000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 300000,
+        "rings": 15000
+      },
       "image": "images/Tiki_Chao.png"
+    },
+    {
+      "name": "Timekeeper Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 3544,
+        "rings": 151,
+        "magnet": 5
+      },
+      "max_fused": {
+        "xp": 8860,
+        "rings": 377,
+        "magnet": 5
+      },
+      "image": "images/Timekeeper_Chao.png"
+    },
+    {
+      "name": "Tomato Chao",
+      "rarity": "Rare",
+      "max": {
+        "damage": 1018133
+      },
+      "max_fused": {
+        "damage": 2545332
+      },
+      "image": "images/Tomato_Chao.png"
     },
     {
       "name": "Traveler Chao",
@@ -7088,8 +8445,10 @@
       "max": {
         "xp": 2400
       },
-      "max_fused": {},
-      "image": "images/Traveler_Chao.png"
+      "max_fused": {
+        "xp": 6000
+      },
+      "image": null
     },
     {
       "name": "Tropical Chao",
@@ -7098,7 +8457,10 @@
         "xp": 6000,
         "damage": 120
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "damage": 300
+      },
       "image": "images/Tropical_Chao.png"
     },
     {
@@ -7108,7 +8470,10 @@
         "xp": 3750,
         "damage": 225
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 9375,
+        "damage": 562
+      },
       "image": "images/Tundra_Chao.png"
     },
     {
@@ -7119,7 +8484,11 @@
         "rings": 2800,
         "damage": 192
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 9500,
+        "rings": 7000,
+        "damage": 480
+      },
       "image": "images/Turquoise_Hero_Chao.png"
     },
     {
@@ -7129,7 +8498,10 @@
         "xp": 2400,
         "rings": 1080
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 2700
+      },
       "image": "images/Tuxedo_Chao.png"
     },
     {
@@ -7155,7 +8527,11 @@
         "rings": 750,
         "damage": 180
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500,
+        "rings": 1875,
+        "damage": 450
+      },
       "image": "images/VIP_Chao.png"
     },
     {
@@ -7180,7 +8556,10 @@
         "rings": 1200,
         "damage": 192
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 3000,
+        "damage": 480
+      },
       "image": "images/Vampire_Chao.png"
     },
     {
@@ -7192,7 +8571,12 @@
         "damage": 720,
         "stamina": 10
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5750,
+        "rings": 1125,
+        "damage": 1800,
+        "stamina": 10
+      },
       "image": "images/Vampire_Shadow_Chao.png"
     },
     {
@@ -7204,7 +8588,12 @@
         "damage": 374,
         "luck": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18000,
+        "rings": 3500,
+        "damage": 935,
+        "luck": 10
+      },
       "image": "images/Vampire_Sonic_Chao.png"
     },
     {
@@ -7216,7 +8605,12 @@
         "damage": 192,
         "magnet": 8
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3000,
+        "rings": 15000,
+        "damage": 480,
+        "magnet": 8
+      },
       "image": "images/Vector_Chao.png"
     },
     {
@@ -7226,7 +8620,10 @@
         "xp": 2400,
         "rings": 1200
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 3000
+      },
       "image": "images/Velvet_Chao.png"
     },
     {
@@ -7236,7 +8633,10 @@
         "xp": 675,
         "rings": 37
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1687,
+        "rings": 92
+      },
       "image": "images/Violet_Chao.png"
     },
     {
@@ -7247,7 +8647,11 @@
         "rings": 249,
         "damage": 99
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1250,
+        "rings": 622,
+        "damage": 247
+      },
       "image": "images/Void_Chao.png"
     },
     {
@@ -7256,8 +8660,10 @@
       "max": {
         "xp": 675
       },
-      "max_fused": {},
-      "image": "images/Water_Chao.png"
+      "max_fused": {
+        "xp": 1687
+      },
+      "image": null
     },
     {
       "name": "Water Ninja Chao",
@@ -7266,7 +8672,10 @@
         "rings": 1875,
         "damage": 225
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 4687,
+        "damage": 562
+      },
       "image": "images/Water_Ninja_Chao.png"
     },
     {
@@ -7276,7 +8685,10 @@
         "xp": 250,
         "rings": 250
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 625,
+        "rings": 625
+      },
       "image": "images/Watermelon_Chao.png"
     },
     {
@@ -7285,7 +8697,9 @@
       "max": {
         "xp": 600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 1500
+      },
       "image": "images/White_Chao.png"
     },
     {
@@ -7295,7 +8709,10 @@
         "rings": 600,
         "damage": 20
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 1500,
+        "damage": 50
+      },
       "image": "images/White_Knight_Chao.png"
     },
     {
@@ -7304,8 +8721,10 @@
       "max": {
         "damage": 360
       },
-      "max_fused": {},
-      "image": "images/White_Wisp.png"
+      "max_fused": {
+        "damage": 900
+      },
+      "image": null
     },
     {
       "name": "Winter Chao",
@@ -7313,8 +8732,10 @@
       "max": {
         "xp": 88000
       },
-      "max_fused": {},
-      "image": "images/Winter_Chao.png"
+      "max_fused": {
+        "xp": 220000
+      },
+      "image": null
     },
     {
       "name": "Witch Chao",
@@ -7324,7 +8745,11 @@
         "rings": 4800,
         "damage": 192
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 12000,
+        "rings": 12000,
+        "damage": 480
+      },
       "image": "images/Witch_Chao.png"
     },
     {
@@ -7334,7 +8759,10 @@
         "xp": 2200,
         "damage": 150
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 5500,
+        "damage": 375
+      },
       "image": "images/Wizard_Chao.png"
     },
     {
@@ -7343,7 +8771,9 @@
       "max": {
         "xp": 50
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 125
+      },
       "image": "images/Yellow_Chao.png"
     },
     {
@@ -7354,7 +8784,11 @@
         "rings": 5200,
         "damage": 480
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 13000,
+        "rings": 13000,
+        "damage": 1200
+      },
       "image": "images/Yellow_Dark_Chao.png"
     },
     {
@@ -7364,7 +8798,10 @@
         "xp": 78,
         "rings": 117
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 195,
+        "rings": 292
+      },
       "image": "images/Yellow_Green_Chao.png"
     },
     {
@@ -7375,7 +8812,11 @@
         "rings": 8000,
         "damage": 400
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 25000,
+        "rings": 20000,
+        "damage": 1000
+      },
       "image": "images/Yellow_Hero_Chao.png"
     },
     {
@@ -7387,8 +8828,26 @@
         "damage": 288,
         "magnet": 6
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6000,
+        "rings": 9000,
+        "damage": 720,
+        "magnet": 6
+      },
       "image": "images/Yellow_Hoodie_Chao.png"
+    },
+    {
+      "name": "Yellow Racer Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 20503,
+        "rings": 8200
+      },
+      "max_fused": {
+        "xp": 51257,
+        "rings": 20500
+      },
+      "image": "images/Yellow_Racer_Chao.png"
     },
     {
       "name": "Yellow Shadow Omochao",
@@ -7399,7 +8858,12 @@
         "damage": 159,
         "event": 5
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 20000,
+        "rings": 9750,
+        "damage": 397,
+        "event": 10
+      },
       "image": "images/Yellow_Shadow_Omochao.png"
     },
     {
@@ -7409,7 +8873,10 @@
         "xp": 1300,
         "rings": 2250
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3250,
+        "rings": 5625
+      },
       "image": "images/Yellow_Wisp.png"
     },
     {
@@ -7420,7 +8887,11 @@
         "damage": 460,
         "magnet": 7
       },
-      "max_fused": {},
+      "max_fused": {
+        "rings": 7200,
+        "damage": 1150,
+        "magnet": 7
+      },
       "image": "images/Yeti_Chao.png"
     },
     {
@@ -7430,7 +8901,10 @@
         "xp": 2600,
         "rings": 2600
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 6500,
+        "rings": 6500
+      },
       "image": "images/Yogurt_Chao.png"
     },
     {
@@ -7438,10 +8912,14 @@
       "rarity": "Common",
       "max": {
         "damage": 3868904,
-        "stamina": 15,
-        "speed": 1
+        "speed": 1,
+        "stamina": 15
       },
-      "max_fused": {},
+      "max_fused": {
+        "damage": 9672260,
+        "speed": 1,
+        "stamina": 15
+      },
       "image": "images/You.png"
     },
     {
@@ -7452,7 +8930,11 @@
         "rings": 750,
         "damage": 120
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 18750,
+        "rings": 1875,
+        "damage": 300
+      },
       "image": "images/Zebra_Chao.png"
     }
   ],
@@ -7513,7 +8995,7 @@
           "event": 10
         },
         "6": {
-          "stamina": 20,
+          "stamina": 12,
           "event": 10
         }
       },
@@ -7881,7 +9363,7 @@
           "stamina": 10
         },
         "6": {
-          "luck": 15,
+          "luck": 12,
           "stamina": 12
         }
       },
@@ -7987,8 +9469,8 @@
           "magnet": 5
         },
         "6": {
-          "luck": 6,
-          "magnet": 6
+          "luck": 12,
+          "magnet": 12
         }
       },
       "image": "images/Toy_Robot_Metal_Sonic.png"
@@ -8118,8 +9600,8 @@
           "air": 41
         },
         "6": {
-          "luck": 20,
-          "air": 50
+          "luck": 12,
+          "air": 12
         }
       },
       "image": "images/Toy_Robot_Summer_Amy.png"
@@ -8149,8 +9631,8 @@
           "air": 41
         },
         "6": {
-          "stamina": 15,
-          "air": 50
+          "stamina": 12,
+          "air": 12
         }
       },
       "image": "images/Toy_Robot_Summer_Jet.png"
@@ -8180,8 +9662,8 @@
           "air": 41
         },
         "6": {
-          "magnet": 15,
-          "air": 50
+          "magnet": 12,
+          "air": 12
         }
       },
       "image": "images/Toy_Robot_Summer_Shadow.png"
@@ -8212,7 +9694,7 @@
         },
         "6": {
           "event": 10,
-          "air": 50
+          "air": 12
         }
       },
       "image": "images/Toy_Robot_Summer_Sonic.png"
@@ -8237,7 +9719,7 @@
           "stamina": 15
         },
         "6": {
-          "stamina": 18
+          "stamina": 12
         }
       },
       "image": "images/Toy_Robot_Super_Sonic.png"
@@ -8337,13 +9819,9 @@
     {
       "name": "Albatross Blur Trail",
       "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 3220000,
-        "rings": 322920,
-        "damage": 2850000
-      },
-      "image": "images/Albatross_Blur_Trail.png"
+      "image": "images/Albatross_Blur_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Amy Blur Trail",
@@ -8352,12 +9830,7 @@
         "xp": 223253,
         "damage": 180047
       },
-      "max_fused": {
-        "xp": 124015,
-        "damage": 10625,
-        "stamina": 900235,
-        "event": 1116265
-      },
+      "max_fused": {},
       "image": "images/Amy_Blur_Trail.png"
     },
     {
@@ -8372,6 +9845,13 @@
         "rings": 2
       },
       "image": "images/Android_Trail.png"
+    },
+    {
+      "name": "Aqua Electro Trail",
+      "rarity": "Epic",
+      "image": null,
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Aqua Sea Trail",
@@ -8409,11 +9889,7 @@
         "rings": 41,
         "damage": 83
       },
-      "max_fused": {
-        "xp": 2085,
-        "rings": 205,
-        "damage": 415
-      },
+      "max_fused": {},
       "image": "images/Aqua_Trail.png"
     },
     {
@@ -8447,6 +9923,13 @@
       "image": "images/Autumn_Leaf_Trail.png"
     },
     {
+      "name": "Beam Note Trail",
+      "rarity": "Epic",
+      "image": "images/Beam_Note_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Big Blur Trail",
       "rarity": "Epic",
       "max": {
@@ -8475,6 +9958,20 @@
         "damage": 2100555
       },
       "image": "images/Black_Brush_Trail.png"
+    },
+    {
+      "name": "Black Electro Trail",
+      "rarity": "Epic",
+      "image": "images/Black_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Black Square Trail",
+      "rarity": "Rare",
+      "image": "images/Black_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Black Trail",
@@ -8520,6 +10017,13 @@
       "image": "images/Blaze_Blur_Trail.png"
     },
     {
+      "name": "Blue Electro Trail",
+      "rarity": "Common",
+      "image": "images/Blue_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Blue Pixel Crush Trail",
       "rarity": "Uncommon",
       "max": {
@@ -8544,6 +10048,13 @@
       },
       "max_fused": {},
       "image": "images/Blue_Speed_Trail.png"
+    },
+    {
+      "name": "Blue Square Trail",
+      "rarity": "Uncommon",
+      "image": "images/Blue_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Blue Star Trail",
@@ -8686,13 +10197,9 @@
     {
       "name": "Candy Corn Trail",
       "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 717605,
-        "rings": 574080,
-        "damage": 2850770
-      },
-      "image": "images/Candy_Corn_Trail.png"
+      "image": null,
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Champion Trail",
@@ -8705,7 +10212,7 @@
         "xp": 3588040,
         "damage": 14253855
       },
-      "image": "images/Champion_Trail.png"
+      "image": null
     },
     {
       "name": "Chaos Spear Trail",
@@ -8998,6 +10505,17 @@
       "image": "images/Daisy_Petal_Trail.png"
     },
     {
+      "name": "Dark Fade Trail",
+      "rarity": "Epic",
+      "max": {
+        "xp": 135,
+        "rings": 18,
+        "damage": 45
+      },
+      "max_fused": {},
+      "image": "images/Dark_Fade_Trail.png"
+    },
+    {
       "name": "Dark Gaia Trail",
       "rarity": "Seasonal",
       "max": {
@@ -9011,6 +10529,38 @@
         "damage": 257200
       },
       "image": "images/Dark_Gaia_Trail.png"
+    },
+    {
+      "name": "Dark Pixel Crush Trail",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 71760,
+        "rings": 4100,
+        "damage": 366520,
+        "magnet": 8
+      },
+      "max_fused": {
+        "xp": 358800,
+        "rings": 20500,
+        "damage": 1830000,
+        "magnet": 8
+      },
+      "image": "images/Dark_Pixel_Crush_Trail.png"
+    },
+    {
+      "name": "Dark Speed Trail",
+      "rarity": "Epic",
+      "max": {
+        "xp": 308161,
+        "rings": 30723,
+        "damage": 1220537
+      },
+      "max_fused": {
+        "xp": 1540805,
+        "rings": 153615,
+        "damage": 6102685
+      },
+      "image": "images/Dark_Speed_Trail.png"
     },
     {
       "name": "Dark Star Trail",
@@ -9080,14 +10630,16 @@
     {
       "name": "Easter Egg Trail",
       "rarity": "Seasonal",
-      "max": {},
-      "max_fused": {
-        "xp": 460060,
-        "rings": 41000,
-        "damage": 714500,
-        "magnet": 6
-      },
-      "image": "images/Easter_Egg_Trail.png"
+      "image": "images/Easter_Egg_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Eerie Fog Trail",
+      "rarity": "Seasonal",
+      "image": "images/Eerie_Fog_Trail.gif",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Eggman Trail",
@@ -9185,8 +10737,32 @@
         "rings": 2000,
         "damage": 200
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 50000,
+        "rings": 5000,
+        "damage": 500
+      },
       "image": null
+    },
+    {
+      "name": "Fire Blitz Trail",
+      "rarity": "Epic",
+      "image": "images/Fire_Blitz_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Gear Trail",
+      "rarity": "Epic",
+      "max": {
+        "xp": 143520,
+        "rings": 30750
+      },
+      "max_fused": {
+        "xp": 717600,
+        "rings": 30750
+      },
+      "image": "images/Gear_Trail.png"
     },
     {
       "name": "Gemerl Blur Trail",
@@ -9219,6 +10795,13 @@
       "image": "images/Ghost_Trail.png"
     },
     {
+      "name": "Gold Rush Trail",
+      "rarity": "Epic",
+      "image": "images/Gold_Rush_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Golden Style Trail",
       "rarity": "Legendary",
       "max": {
@@ -9226,10 +10809,7 @@
         "rings": 22320,
         "damage": 90020
       },
-      "max_fused": {
-        "xp": 26575,
-        "rings": 12395
-      },
+      "max_fused": {},
       "image": "images/Golden_Style_Trail.png"
     },
     {
@@ -9248,15 +10828,55 @@
       "image": "images/Gravity_Pull_Trail.png"
     },
     {
+      "name": "Green Electro Trail",
+      "rarity": "Uncommon",
+      "image": "images/Green_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Green Pixel Crush Trail",
+      "rarity": "Rare",
+      "max": {
+        "xp": 15946,
+        "rings": 683,
+        "damage": 42868
+      },
+      "max_fused": {
+        "xp": 79730,
+        "rings": 3415,
+        "damage": 214340
+      },
+      "image": "images/Green_Pixel_Crush_Trail.png"
+    },
+    {
+      "name": "Green Speed Trail",
+      "rarity": "Common",
+      "max": {
+        "xp": 68480,
+        "rings": 6827,
+        "damage": 271230
+      },
+      "max_fused": {
+        "xp": 342400,
+        "rings": 34135,
+        "damage": 1356150
+      },
+      "image": "images/Green_Speed_Trail.png"
+    },
+    {
+      "name": "Green Square Trail",
+      "rarity": "Common",
+      "image": "images/Green_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Green Star Trail",
       "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 1052480,
-        "rings": 27105,
-        "damage": 510135
-      },
-      "image": "images/Green_Star_Trail.png"
+      "image": "images/Green_Star_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Green Summer Trail",
@@ -9274,15 +10894,37 @@
       "image": "images/Green_Summer_Trail.png"
     },
     {
+      "name": "Green Trail",
+      "rarity": "Common",
+      "max": {
+        "xp": 167,
+        "rings": 16,
+        "damage": 33
+      },
+      "max_fused": {
+        "xp": 835,
+        "rings": 80,
+        "damage": 165
+      },
+      "image": "images/Green_Trail.png"
+    },
+    {
+      "name": "Green Wavy Trail",
+      "rarity": "Common",
+      "max": {
+        "xp": 15210,
+        "rings": 1512,
+        "damage": 3024
+      },
+      "max_fused": {},
+      "image": "images/Green_Wavy_Trail.png"
+    },
+    {
       "name": "Gunpowder Trail",
       "rarity": "Rare",
-      "max": {},
-      "max_fused": {
-        "rings": 4500,
-        "damage": 150,
-        "air": 20
-      },
-      "image": "images/Gunpowder_Trail.png"
+      "image": "images/Gunpowder_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "HEXAeco Trail",
@@ -9307,8 +10949,40 @@
         "rings": 1821,
         "damage": 3645
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 64,
+        "rings": 64,
+        "damage": 64
+      },
       "image": "images/Hallow_Dark_Trail.png"
+    },
+    {
+      "name": "Hawk Blur Trail",
+      "rarity": "Legendary",
+      "image": "images/Hawk_Blur_Trail.png",
+      "status": "Stub"
+    },
+    {
+      "name": "Hologram Trail",
+      "rarity": "Epic",
+      "image": "images/Hologram_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Hot Dog Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 95680,
+        "rings": 19135,
+        "damage": 60015
+      },
+      "max_fused": {
+        "xp": 478400,
+        "rings": 95675,
+        "damage": 300075
+      },
+      "image": "images/Hot_Dog_Trail.png"
     },
     {
       "name": "Hyper Wave Trail",
@@ -9341,6 +11015,20 @@
       "image": "images/Ice_Breaker_Trail.png"
     },
     {
+      "name": "Indigo Electro Trail",
+      "rarity": "Rare",
+      "image": "images/Indigo_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Indigo Square Trail",
+      "rarity": "Epic",
+      "image": "images/Indigo_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Indigo Trail",
       "rarity": "Uncommon",
       "max": {
@@ -9352,14 +11040,22 @@
       "image": "images/Indigo_Trail.png"
     },
     {
+      "name": "Indigo Wavy Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 22824,
+        "rings": 2268,
+        "damage": 4545
+      },
+      "max_fused": {},
+      "image": "images/Indigo_Wavy_Trail.png"
+    },
+    {
       "name": "Jack-O'-Lantern Trail",
       "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 2870000,
-        "rings": 430560
-      },
-      "image": "images/Jack-O-Lantern_Trail.png"
+      "image": "images/Jack-O-Lantern_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Jester Trail",
@@ -9405,6 +11101,13 @@
       "image": "images/Jolly_Trail.png"
     },
     {
+      "name": "Knuckles Blur Trail",
+      "rarity": "Legendary",
+      "image": "images/Knuckles_Blur_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Laser Trail",
       "rarity": "Rare",
       "max": {
@@ -9416,6 +11119,13 @@
         "damage": 18985
       },
       "image": "images/Laser_Trail.gif"
+    },
+    {
+      "name": "Lightning Thunder Trail",
+      "rarity": "Epic",
+      "image": "images/Lightning_Thunder_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Lizard Fire Trail",
@@ -9439,7 +11149,7 @@
       "max_fused": {
         "rings": 102510
       },
-      "image": "images/Luminosity_Blue_Trail.png"
+      "image": null
     },
     {
       "name": "Luminosity Green Trail",
@@ -9478,7 +11188,7 @@
       "max_fused": {
         "xp": 1025145
       },
-      "image": "images/Luminosity_Pink_Trail.png"
+      "image": null
     },
     {
       "name": "Luminosity Purple Trail",
@@ -9506,7 +11216,7 @@
         "xp": 3588040,
         "rings": 358800
       },
-      "image": "images/Luminosity_Red_Trail.png"
+      "image": null
     },
     {
       "name": "MK II Blur Trail",
@@ -9558,13 +11268,9 @@
     {
       "name": "Moon Fall Trail",
       "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 13150,
-        "rings": 1305,
-        "damage": 2620
-      },
-      "image": "images/Moon_Fall_Trail.png"
+      "image": "images/Moon_Fall_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Moonglow Trail",
@@ -9595,6 +11301,50 @@
       "image": "images/Nebula_Starburst_Trail.png"
     },
     {
+      "name": "Orange Electro Trail",
+      "rarity": "Common",
+      "image": "images/Orange_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Orange Pixel Crush Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 9112,
+        "rings": 1822,
+        "damage": 34294
+      },
+      "max_fused": {
+        "xp": 45560,
+        "rings": 9110,
+        "damage": 171470
+      },
+      "image": "images/Orange_Pixel_Crush_Trail.png"
+    },
+    {
+      "name": "Orange Speed Trail",
+      "rarity": "Common",
+      "max": {
+        "xp": 68480,
+        "rings": 6827,
+        "damage": 271230
+      },
+      "max_fused": {
+        "xp": 342400,
+        "rings": 34135,
+        "damage": 1356150
+      },
+      "image": "images/Orange_Speed_Trail.png"
+    },
+    {
+      "name": "Orange Square Trail",
+      "rarity": "Common",
+      "image": "images/Orange_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Orange Summer Trail",
       "rarity": "Seasonal",
       "max": {
@@ -9610,6 +11360,27 @@
       "image": "images/Orange_Summer_Trail.png"
     },
     {
+      "name": "Orange Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 45,
+        "damage": 9
+      },
+      "max_fused": {},
+      "image": "images/Orange_Trail.png"
+    },
+    {
+      "name": "Orange Wavy Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 22824,
+        "rings": 2268,
+        "damage": 4545
+      },
+      "max_fused": {},
+      "image": "images/Orange_Wavy_Trail.png"
+    },
+    {
       "name": "Paradox Prism Trail",
       "rarity": "Legendary",
       "max": {
@@ -9623,6 +11394,13 @@
         "damage": 1500000
       },
       "image": "images/Paradox_Prism_Trail.png"
+    },
+    {
+      "name": "Peach Pixel Trail",
+      "rarity": "Epic",
+      "image": null,
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Pink Bat Trail",
@@ -9668,6 +11446,50 @@
       "image": "images/Pink_Crystal_Trail.png"
     },
     {
+      "name": "Pink Electro Trail",
+      "rarity": "Uncommon",
+      "image": "images/Pink_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Pink Pixel Crush Trail",
+      "rarity": "Epic",
+      "max": {
+        "xp": 51257,
+        "rings": 6150,
+        "damage": 366527
+      },
+      "max_fused": {
+        "xp": 256285,
+        "rings": 30750,
+        "damage": 1830000
+      },
+      "image": "images/Pink_Pixel_Crush_Trail.png"
+    },
+    {
+      "name": "Pink Speed Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 102720,
+        "rings": 10241,
+        "damage": 406845
+      },
+      "max_fused": {
+        "xp": 513600,
+        "rings": 51205,
+        "damage": 2034225
+      },
+      "image": "images/Pink_Speed_Trail.png"
+    },
+    {
+      "name": "Pink Square Trail",
+      "rarity": "Epic",
+      "image": "images/Pink_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Pink Summer Trail",
       "rarity": "Seasonal",
       "max": {
@@ -9679,6 +11501,27 @@
         "damage": 514410
       },
       "image": "images/Pink_Summer_Trail.png"
+    },
+    {
+      "name": "Pink Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 45,
+        "damage": 9
+      },
+      "max_fused": {},
+      "image": "images/Pink_Trail.png"
+    },
+    {
+      "name": "Pink Wavy Trail",
+      "rarity": "Epic",
+      "max": {
+        "xp": 68472,
+        "rings": 6822,
+        "damage": 13644
+      },
+      "max_fused": {},
+      "image": "images/Pink_Wavy_Trail.png"
     },
     {
       "name": "Pirate Flag Trail",
@@ -9694,6 +11537,13 @@
         "air": 20
       },
       "image": "images/Pirate_Flag_Trail.png"
+    },
+    {
+      "name": "Plaid Trail",
+      "rarity": "Legendary",
+      "image": "images/Plaid_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Psychokinesis Trail",
@@ -9728,6 +11578,61 @@
       "image": "images/Pumpkin_Trail.png"
     },
     {
+      "name": "Purple Electro Trail",
+      "rarity": "Rare",
+      "image": "images/Purple_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Purple Lightspeed Trail",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 279,
+        "rings": 54,
+        "damage": 108
+      },
+      "max_fused": {},
+      "image": "images/Purple_Lightspeed_Trail.png"
+    },
+    {
+      "name": "Purple Pixel Crush Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 61500,
+        "rings": 5125,
+        "damage": 36652000
+      },
+      "max_fused": {
+        "xp": 307540,
+        "rings": 25620,
+        "damage": 1830000
+      },
+      "image": "images/Purple_Pixel_Crush_Trail.png"
+    },
+    {
+      "name": "Purple Speed Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 102720,
+        "rings": 10241,
+        "damage": 406845
+      },
+      "max_fused": {
+        "xp": 513600,
+        "rings": 51205,
+        "damage": 2034225
+      },
+      "image": "images/Purple_Speed_Trail.png"
+    },
+    {
+      "name": "Purple Square Trail",
+      "rarity": "Rare",
+      "image": "images/Purple_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Purple Star Trail",
       "rarity": "Legendary",
       "max": {
@@ -9741,6 +11646,21 @@
         "damage": 300075
       },
       "image": "images/Purple_Star_Trail.png"
+    },
+    {
+      "name": "Purple Strike Trail",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 32126,
+        "rings": 3201,
+        "damage": 6406
+      },
+      "max_fused": {
+        "xp": 160630,
+        "rings": 16005,
+        "damage": 32030
+      },
+      "image": "images/Purple_Strike_Trail.png"
     },
     {
       "name": "Purple Summer Trail",
@@ -9771,6 +11691,32 @@
       "image": "images/Purple_Trail.png"
     },
     {
+      "name": "Purple Wavy Trail",
+      "rarity": "Common",
+      "max": {
+        "xp": 15210,
+        "rings": 1512,
+        "damage": 3024
+      },
+      "max_fused": {},
+      "image": "images/Purple_Wavy_Trail.png"
+    },
+    {
+      "name": "Radioactive Trail",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 144568,
+        "rings": 14412,
+        "damage": 271229
+      },
+      "max_fused": {
+        "xp": 722840,
+        "rings": 72060,
+        "damage": 1356145
+      },
+      "image": "images/Radioactive_Trail.png"
+    },
+    {
       "name": "Rainbow Star Trail",
       "rarity": "Legendary",
       "max": {
@@ -9784,6 +11730,50 @@
       "image": "images/Rainbow_Star_Trail.png"
     },
     {
+      "name": "Red Electro Trail",
+      "rarity": "Rare",
+      "image": "images/Red_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Red Pixel Crush Trail",
+      "rarity": "Rare",
+      "max": {
+        "xp": 6834,
+        "rings": 1594,
+        "damage": 42868
+      },
+      "max_fused": {
+        "xp": 34170,
+        "rings": 7970,
+        "damage": 214340
+      },
+      "image": "images/Red_Pixel_Crush_Trail.png"
+    },
+    {
+      "name": "Red Speed Trail",
+      "rarity": "Uncommon",
+      "max": {
+        "xp": 102720,
+        "rings": 10241,
+        "damage": 406845
+      },
+      "max_fused": {
+        "xp": 513600,
+        "rings": 51205,
+        "damage": 2034225
+      },
+      "image": "images/Red_Speed_Trail.png"
+    },
+    {
+      "name": "Red Square Trail",
+      "rarity": "Uncommon",
+      "image": "images/Red_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Red Star Trail",
       "rarity": "Epic",
       "max": {
@@ -9795,6 +11785,17 @@
         "rings": 9110
       },
       "image": "images/Red_Star_Trail.png"
+    },
+    {
+      "name": "Red Static Trail",
+      "rarity": "Epic",
+      "max": {
+        "damage": 385817
+      },
+      "max_fused": {
+        "damage": 1929085
+      },
+      "image": "images/Red_Static_Trail.png"
     },
     {
       "name": "Red Summer Trail",
@@ -9812,6 +11813,32 @@
         "magnet": 4
       },
       "image": "images/Red_Summer_Trail.png"
+    },
+    {
+      "name": "Red Trail",
+      "rarity": "Common",
+      "max": {
+        "xp": 167,
+        "rings": 16,
+        "damage": 33
+      },
+      "max_fused": {
+        "xp": 835,
+        "rings": 80,
+        "damage": 165
+      },
+      "image": "images/Red_Trail.png"
+    },
+    {
+      "name": "Red Wavy Trail",
+      "rarity": "Rare",
+      "max": {
+        "xp": 38034,
+        "rings": 3789,
+        "damage": 7578
+      },
+      "max_fused": {},
+      "image": "images/Red_Wavy_Trail.png"
     },
     {
       "name": "Retro Neon Trail",
@@ -9855,23 +11882,38 @@
       "image": "images/Rouge_Blur_Trail.png"
     },
     {
+      "name": "Sakura Petal Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 479362,
+        "rings": 47792,
+        "damage": 1898613
+      },
+      "max_fused": {
+        "xp": 2396810,
+        "rings": 238960,
+        "damage": 9493065
+      },
+      "image": "images/Sakura_Petal_Trail.png"
+    },
+    {
       "name": "Sanic Trail",
       "rarity": "\"Rare\"",
       "max": {
         "xp": 15185,
         "rings": 1518,
         "damage": 28584,
+        "speed": 1,
         "magnet": 1,
-        "air": 1,
-        "speed": 1
+        "air": 1
       },
       "max_fused": {
         "xp": 76925,
         "rings": 7590,
         "damage": 142920,
+        "speed": 1,
         "magnet": 1,
-        "air": 2,
-        "speed": 1
+        "air": 2
       },
       "image": "images/Sanic_Trail.png"
     },
@@ -9932,6 +11974,17 @@
         "stamina": 10
       },
       "image": "images/Silver_Blur_Trail.png"
+    },
+    {
+      "name": "Smoldering Trail",
+      "rarity": "Rare",
+      "max": {
+        "xp": 38034,
+        "rings": 3789,
+        "damage": 7578
+      },
+      "max_fused": {},
+      "image": "images/Smoldering_Trail.png"
     },
     {
       "name": "Snowflake Trail",
@@ -10028,7 +12081,10 @@
         "xp": 6000,
         "rings": 2700
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 15000,
+        "rings": 6750
+      },
       "image": null
     },
     {
@@ -10039,8 +12095,19 @@
         "rings": 1800,
         "damage": 240
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 3000,
+        "rings": 4500,
+        "damage": 600
+      },
       "image": null
+    },
+    {
+      "name": "Sprocket Trail",
+      "rarity": "Epic",
+      "image": "images/Sprocket_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Stealth Blur Trail",
@@ -10052,6 +12119,13 @@
         "damage": 999
       },
       "image": "images/Stealth_Blur_Trail.png"
+    },
+    {
+      "name": "Sunshine Trail",
+      "rarity": "Exotic",
+      "image": "images/Sunshine_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Tails Blur Trail",
@@ -10107,7 +12181,7 @@
       "max_fused": {
         "damage": 25315
       },
-      "image": "images/Toxic_Trail.png"
+      "image": null
     },
     {
       "name": "Trick O' Treat Trail",
@@ -10140,6 +12214,36 @@
       "image": "images/Tropical_Summer_Trail.png"
     },
     {
+      "name": "Turbo Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 106523,
+        "rings": 10620,
+        "damage": 199852
+      },
+      "max_fused": {
+        "xp": 532615,
+        "rings": 53100,
+        "damage": 999260
+      },
+      "image": "images/Turbo_Trail.png"
+    },
+    {
+      "name": "VIP Trail",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 650563,
+        "rings": 64861,
+        "damage": 2576689
+      },
+      "max_fused": {
+        "xp": 3252815,
+        "rings": 324305,
+        "damage": 12883445
+      },
+      "image": "images/VIP_Trail.png"
+    },
+    {
       "name": "Vector Blur Trail",
       "rarity": "Legendary",
       "max": {
@@ -10153,6 +12257,20 @@
         "damage": 750195
       },
       "image": "images/Vector_Blur_Trail.png"
+    },
+    {
+      "name": "Vine Spirit Trail",
+      "rarity": "Epic",
+      "image": "images/Vine_Spirit_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Void Hole Trail",
+      "rarity": "Epic",
+      "image": "images/Void_Hole_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Voltaic Trail",
@@ -10170,6 +12288,13 @@
       "image": "images/Voltaic_Trail.gif"
     },
     {
+      "name": "Wave Blur Trail",
+      "rarity": "Legendary",
+      "image": "images/Wave_Blur_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Werehog Blur Trail",
       "rarity": "Seasonal",
       "max": {
@@ -10185,6 +12310,13 @@
       "image": "images/Werehog_Blur_Trail.png"
     },
     {
+      "name": "White Electro Trail",
+      "rarity": "Uncommon",
+      "image": "images/White_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "White Pixel Crush Trail",
       "rarity": "Legendary",
       "max": {
@@ -10198,6 +12330,13 @@
         "damage": 2620000
       },
       "image": "images/White_Pixel_Crush_Trail.png"
+    },
+    {
+      "name": "White Square Trail",
+      "rarity": "Uncommon",
+      "image": "images/White_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "White Star Trail",
@@ -10230,6 +12369,39 @@
       "image": "images/White_Summer_Trail.png"
     },
     {
+      "name": "White Trail",
+      "rarity": "Rare",
+      "max": {
+        "xp": 72,
+        "rings": 9,
+        "damage": 27
+      },
+      "max_fused": {},
+      "image": "images/White_Trail.png"
+    },
+    {
+      "name": "White Wavy Trail",
+      "rarity": "Epic",
+      "max": {
+        "xp": 68472,
+        "rings": 6822,
+        "damage": 13644
+      },
+      "max_fused": {
+        "xp": 342395,
+        "rings": 34135,
+        "damage": 642385
+      },
+      "image": "images/White_Wavy_Trail.png"
+    },
+    {
+      "name": "Yellow Electro Trail",
+      "rarity": "Common",
+      "image": "images/Yellow_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Yellow Speed Trail",
       "rarity": "Rare",
       "max": {
@@ -10239,6 +12411,13 @@
       },
       "max_fused": {},
       "image": "images/Yellow_Speed_Trail.png"
+    },
+    {
+      "name": "Yellow Square Trail",
+      "rarity": "Common",
+      "image": "images/Yellow_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Yellow Star Trail",
@@ -10280,6 +12459,24 @@
       "image": "images/Yellow_Summer_Trail.png"
     },
     {
+      "name": "Yellow Trail",
+      "rarity": "Uncommon",
+      "image": "images/Yellow_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Yellow Wavy Trail",
+      "rarity": "Common",
+      "max": {
+        "xp": 15210,
+        "rings": 1512,
+        "damage": 3024
+      },
+      "max_fused": {},
+      "image": "images/Yellow_Wavy_Trail.png"
+    },
+    {
       "name": "Zebra Trail",
       "rarity": "Legendary",
       "max": {
@@ -10297,432 +12494,305 @@
   ],
   "Errors": [
     {
+      "name": "Albatross Blur Trail",
+      "rarity": "Legendary",
+      "image": "images/Albatross_Blur_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
       "name": "Aqua Electro Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": null,
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Beam Note Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Black Doom",
-      "type": "Characters"
+      "rarity": "Epic",
+      "image": "images/Beam_Note_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Black Electro Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Black_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Black Square Trail",
-      "type": "Trails"
+      "rarity": "Rare",
+      "image": "images/Black_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Blue Electro Trail",
-      "type": "Trails"
+      "rarity": "Common",
+      "image": "images/Blue_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Blue Square Trail",
-      "type": "Trails"
+      "rarity": "Uncommon",
+      "image": "images/Blue_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Dark Chaos",
-      "type": "Friends"
+      "name": "Candy Corn Trail",
+      "rarity": "Legendary",
+      "image": null,
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Dark Fade Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Dark Pixel Crush Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Dark Speed Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Dodon Pa",
-      "type": "Characters"
-    },
-    {
-      "name": "Dr. Eggman",
-      "type": "Characters"
+      "name": "Easter Egg Trail",
+      "rarity": "Seasonal",
+      "image": "images/Easter_Egg_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Eerie Fog Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Fang the Hunter (NPC)",
-      "type": "Characters"
+      "rarity": "Seasonal",
+      "image": "images/Eerie_Fog_Trail.gif",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Fire Blitz Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Flicky",
-      "type": "Friends"
-    },
-    {
-      "name": "Gear Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Fire_Blitz_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Gold Rush Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Gold_Rush_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Green Electro Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Green Pixel Crush Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Green Pumpkin Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Green Speed Trail",
-      "type": "Trails"
+      "rarity": "Uncommon",
+      "image": "images/Green_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Green Square Trail",
-      "type": "Trails"
+      "rarity": "Common",
+      "image": "images/Green_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Green Trail",
-      "type": "Trails"
+      "name": "Green Star Trail",
+      "rarity": "Legendary",
+      "image": "images/Green_Star_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Green Wavy Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Hawk Blur Trail",
-      "type": "Trails"
+      "name": "Gunpowder Trail",
+      "rarity": "Rare",
+      "image": "images/Gunpowder_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Hologram Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Hot Dog Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Hologram_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Indigo Electro Trail",
-      "type": "Trails"
+      "rarity": "Rare",
+      "image": "images/Indigo_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Indigo Square Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Indigo_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Indigo Wavy Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Indigo Wisp",
-      "type": "Friends"
-    },
-    {
-      "name": "Infinite",
-      "type": "Characters"
+      "name": "Jack-O'-Lantern Trail",
+      "rarity": "Legendary",
+      "image": "images/Jack-O-Lantern_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Knuckles Blur Trail",
-      "type": "Trails"
+      "rarity": "Legendary",
+      "image": "images/Knuckles_Blur_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Lightning Thunder Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Lightning_Thunder_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Lotus Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Moonlight Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Omochao (NPC)",
-      "type": "Characters"
-    },
-    {
-      "name": "Onion Chao",
-      "type": "Friends"
+      "name": "Moon Fall Trail",
+      "rarity": "Legendary",
+      "image": "images/Moon_Fall_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Orange Electro Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Orange Pixel Crush Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Orange Speed Trail",
-      "type": "Trails"
+      "rarity": "Common",
+      "image": "images/Orange_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Orange Square Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Orange Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Orange Wavy Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Orbot",
-      "type": "Characters"
+      "rarity": "Common",
+      "image": "images/Orange_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Peach Pixel Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Picky",
-      "type": "Friends"
+      "rarity": "Epic",
+      "image": null,
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Pink Electro Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Pink Pixel Crush Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Pink Speed Trail",
-      "type": "Trails"
+      "rarity": "Uncommon",
+      "image": "images/Pink_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Pink Square Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Pink Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Pink Wavy Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Pink_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Plaid Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Popcorn Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Potato Chao",
-      "type": "Friends"
+      "rarity": "Legendary",
+      "image": "images/Plaid_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Purple Electro Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Purple Hero Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Purple Lightspeed Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Purple Pixel Crush Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Purple Speed Trail",
-      "type": "Trails"
+      "rarity": "Rare",
+      "image": "images/Purple_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Purple Square Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Purple Strike Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Purple Wavy Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Radioactive Trail",
-      "type": "Trails"
+      "rarity": "Rare",
+      "image": "images/Purple_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Red Electro Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Red Pixel Crush Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Red Racer Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Red Speed Trail",
-      "type": "Trails"
+      "rarity": "Rare",
+      "image": "images/Red_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Red Square Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Red Static Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Red Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Red Wavy Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Resistance Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Rockstar Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Sakura Petal Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Scientist Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Silver Pumpkin Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Smoldering Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Spring Chao",
-      "type": "Friends"
+      "rarity": "Uncommon",
+      "image": "images/Red_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Sprocket Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Sprout Koco",
-      "type": "Friends"
+      "rarity": "Epic",
+      "image": "images/Sprocket_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Sunshine Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Super Neo Metal Sonic",
-      "type": "Characters"
-    },
-    {
-      "name": "Taxi Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Thundercloud Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Time Eater",
-      "type": "Characters"
-    },
-    {
-      "name": "Timekeeper Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Tomato Chao",
-      "type": "Friends"
-    },
-    {
-      "name": "Trip the Sungazer",
-      "type": "Characters"
-    },
-    {
-      "name": "Turbo Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "VIP Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Vanilla the Rabbit",
-      "type": "Characters"
+      "rarity": "Exotic",
+      "image": "images/Sunshine_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Vine Spirit Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Vine_Spirit_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Void Hole Trail",
-      "type": "Trails"
+      "rarity": "Epic",
+      "image": "images/Void_Hole_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Wave Blur Trail",
-      "type": "Trails"
+      "rarity": "Legendary",
+      "image": "images/Wave_Blur_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "White Electro Trail",
-      "type": "Trails"
+      "rarity": "Uncommon",
+      "image": "images/White_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "White Square Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "White Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "White Wavy Trail",
-      "type": "Trails"
+      "rarity": "Uncommon",
+      "image": "images/White_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Yellow Electro Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Yellow Racer Chao",
-      "type": "Friends"
+      "rarity": "Common",
+      "image": "images/Yellow_Electro_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Yellow Square Trail",
-      "type": "Trails"
+      "rarity": "Common",
+      "image": "images/Yellow_Square_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Yellow Trail",
-      "type": "Trails"
-    },
-    {
-      "name": "Yellow Wavy Trail",
-      "type": "Trails"
+      "rarity": "Uncommon",
+      "image": "images/Yellow_Trail.png",
+      "type": "Trails",
+      "reason": "Only level 1/base stats available"
     }
   ],
   "error": true
