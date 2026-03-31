@@ -1596,15 +1596,8 @@
     },
     {
       "name": "Gold Style Knuckles (Exotic)",
-      "rarity": "Exotic",
-      "max": {
-        "luck": 25,
-        "event": 4
-      },
-      "abilities": [
-        "Glide"
-      ],
-      "image": "images/Gold_Style_Knuckles_Exotic.png"
+      "type": "Characters",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gold Style Omega",
@@ -12576,6 +12569,11 @@
       "image": "images/Gold_Rush_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Gold Style Knuckles (Exotic)",
+      "type": "Characters",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Electro Trail",
