@@ -391,7 +391,7 @@ async def get_page_stats(title, category, client):
             links = parsed_abilities.filter_wikilinks()
             if links:
                  # Extract the title of the link
-                 abilities = [str(l.title).strip() for l in links]
+                 abilities = [str(link.title).strip() for link in links]
             else:
                  # Clean wikitext (now handles <br>) and split
                  cleaned = clean_wikitext(abilities_val)
