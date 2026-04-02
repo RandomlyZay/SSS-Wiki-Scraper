@@ -4939,14 +4939,14 @@
       "name": "Cardboard Cutout Chao",
       "rarity": "\"Rare\"",
       "max": {
-        "xp": 153757,
-        "rings": 15375,
-        "damage": 611000
+        "xp": 799,
+        "rings": 399,
+        "damage": 160
       },
       "max_fused": {
-        "xp": 384392,
-        "rings": 38437,
-        "damage": 1527500
+        "xp": 1997,
+        "rings": 997,
+        "damage": 400
       },
       "image": "images/Cardboard_Cutout_Chao.png"
     },
@@ -7878,14 +7878,14 @@
       "name": "Sanic",
       "rarity": "\"Rare\"",
       "max": {
-        "xp": 7592,
-        "rings": 759,
-        "damage": 1518
+        "xp": 799,
+        "rings": 399,
+        "damage": 160
       },
       "max_fused": {
-        "xp": 18980,
-        "rings": 1897,
-        "damage": 3795
+        "xp": 1997,
+        "rings": 997,
+        "damage": 400
       },
       "image": "images/Sanic.png"
     },
@@ -8917,7 +8917,7 @@
       },
       "max_fused": {
         "damage": 9672260,
-        "speed": 1,
+        "speed": 2,
         "stamina": 15
       },
       "image": "images/You.png"
@@ -11900,18 +11900,18 @@
       "name": "Sanic Trail",
       "rarity": "\"Rare\"",
       "max": {
-        "xp": 15185,
-        "rings": 1518,
-        "damage": 28584,
+        "xp": 3999,
+        "rings": 1999,
+        "damage": 800,
         "speed": 1,
         "magnet": 1,
         "air": 1
       },
       "max_fused": {
-        "xp": 76925,
-        "rings": 7590,
-        "damage": 142920,
-        "speed": 1,
+        "xp": 9997,
+        "rings": 4997,
+        "damage": 2000,
+        "speed": 2,
         "magnet": 1,
         "air": 2
       },
