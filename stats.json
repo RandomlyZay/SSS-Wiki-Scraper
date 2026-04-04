@@ -2776,6 +2776,17 @@
       "image": "images/Neon_Suit_Sonic.png"
     },
     {
+      "name": "Nine",
+      "rarity": "Legendary",
+      "max": {
+        "magnet": 10
+      },
+      "abilities": [
+        "Flight"
+      ],
+      "image": null
+    },
+    {
       "name": "Ninja Espio",
       "rarity": "Legendary",
       "max": {
@@ -2919,7 +2930,7 @@
         "magnet": 15
       },
       "abilities": [],
-      "image": "images/Party_Sonic.jpg"
+      "image": null
     },
     {
       "name": "Pathfinder Big",
@@ -4176,17 +4187,6 @@
       "image": "images/Super_Sonic_Tradeable.png"
     },
     {
-      "name": "Tails Nine",
-      "rarity": "Legendary",
-      "max": {
-        "magnet": 10
-      },
-      "abilities": [
-        "Flight"
-      ],
-      "image": "images/Tails_Nine.png"
-    },
-    {
       "name": "Tangle the Lemur",
       "rarity": "Legendary",
       "max": {
@@ -4282,7 +4282,7 @@
       "image": "images/Valentines_Amy.png"
     },
     {
-      "name": "Valentines Sonic",
+      "name": "Valentine's Sonic",
       "rarity": "Seasonal",
       "max": {
         "luck": 10
