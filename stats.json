@@ -1994,6 +1994,16 @@
       "image": "images/Jester_Sonic.png"
     },
     {
+      "name": "Jester Tails",
+      "rarity": "Legendary",
+      "max": {
+        "magnet": 10,
+        "stamina": 25
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "Jet the Hawk",
       "rarity": "Legendary",
       "max": {
@@ -2880,6 +2890,21 @@
         "Water Run"
       ],
       "image": "images/Overclocked_Metal_Sonic.png"
+    },
+    {
+      "name": "Overclocked Metal Sonic (Tradeable)",
+      "rarity": "Super",
+      "max": {
+        "magnet": 20,
+        "stamina": 35,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Super Boost",
+        "Parry",
+        "Water Run"
+      ],
+      "image": null
     },
     {
       "name": "Party Hat Amy",
@@ -4949,6 +4974,23 @@
         "damage": 400
       },
       "image": "images/Cardboard_Cutout_Chao.png"
+    },
+    {
+      "name": "Cardboard Midnight Chao",
+      "rarity": "\"Rare\"",
+      "max": {
+        "xp": 799,
+        "rings": 399,
+        "damage": 160,
+        "event": 5
+      },
+      "max_fused": {
+        "xp": 1997,
+        "rings": 997,
+        "damage": 400,
+        "event": 10
+      },
+      "image": null
     },
     {
       "name": "Carrot Chao",
@@ -8393,10 +8435,12 @@
       "name": "Thundercloud Chao",
       "rarity": "Epic",
       "max": {
-        "damage": 1832639
+        "xp": 52000,
+        "damage": 10000
       },
       "max_fused": {
-        "damage": 4581597
+        "xp": 130000,
+        "damage": 25000
       },
       "image": "images/Thundercloud_Chao.png"
     },
@@ -8535,7 +8579,7 @@
       "image": "images/VIP_Chao.png"
     },
     {
-      "name": "Valentines Chao",
+      "name": "Valentine's Chao",
       "rarity": "Legendary",
       "max": {
         "xp": 7084,
