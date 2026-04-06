@@ -2000,7 +2000,9 @@
         "magnet": 10,
         "stamina": 25
       },
-      "abilities": [],
+      "abilities": [
+        "Flight"
+      ],
       "image": null
     },
     {
