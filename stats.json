@@ -4157,7 +4157,7 @@
       "image": "images/Super_Shadow.png"
     },
     {
-      "name": "Super Shadow (Tradable)",
+      "name": "Super Shadow (Tradeable)",
       "rarity": "Super",
       "max": {
         "magnet": 25,
@@ -4169,7 +4169,7 @@
         "Chaos Spear",
         "Chaos Blast"
       ],
-      "image": "images/Super_Shadow_Tradable.png"
+      "image": null
     },
     {
       "name": "Super Silver",
@@ -8963,7 +8963,7 @@
       },
       "max_fused": {
         "damage": 9672260,
-        "speed": 2,
+        "speed": 5,
         "stamina": 15
       },
       "image": "images/You.png"
@@ -11957,7 +11957,7 @@
         "xp": 9997,
         "rings": 4997,
         "damage": 2000,
-        "speed": 2,
+        "speed": 5,
         "magnet": 1,
         "air": 2
       },
