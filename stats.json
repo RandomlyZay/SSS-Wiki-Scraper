@@ -8886,12 +8886,12 @@
       "name": "Yellow Racer Chao",
       "rarity": "Epic",
       "max": {
-        "xp": 20503,
-        "rings": 8200
+        "xp": 10000,
+        "rings": 10000
       },
       "max_fused": {
-        "xp": 51257,
-        "rings": 20500
+        "xp": 25000,
+        "rings": 25000
       },
       "image": "images/Yellow_Racer_Chao.png"
     },
@@ -10851,11 +10851,15 @@
       "name": "Golden Style Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 47840,
-        "rings": 22320,
-        "damage": 90020
+        "xp": 62000,
+        "rings": 62000,
+        "damage": 6500
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 155000,
+        "rings": 155000,
+        "damage": 16250
+      },
       "image": "images/Golden_Style_Trail.png"
     },
     {
