@@ -280,6 +280,20 @@
       "image": "images/Blaze_the_Cat.png"
     },
     {
+      "name": "Burning Blaze (Tradeable)",
+      "rarity": "Super",
+      "max": {
+        "magnet": 30,
+        "stamina": 25,
+        "event": 10
+      },
+      "abilities": [
+        "Super Boost",
+        "Parry"
+      ],
+      "image": null
+    },
+    {
       "name": "Camper Knuckles",
       "rarity": "Epic",
       "max": {
@@ -2017,6 +2031,18 @@
       "image": "images/Jet_the_Hawk.png"
     },
     {
+      "name": "Johnny",
+      "rarity": "Exotic",
+      "max": {
+        "luck": 10,
+        "magnet": 20,
+        "stamina": 30,
+        "speed": 1
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "Karate Shadow",
       "rarity": "Legendary",
       "max": {
@@ -3717,6 +3743,18 @@
       "image": "images/SIM_Metal_Sonic.png"
     },
     {
+      "name": "SIM Omega",
+      "rarity": "Exotic",
+      "max": {
+        "luck": 10,
+        "magnet": 10,
+        "stamina": 10,
+        "event": 5
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "SIM Shadow",
       "rarity": "Exotic",
       "max": {
@@ -3828,6 +3866,19 @@
         "Glide"
       ],
       "image": "images/Scarecrow_Gemerl.png"
+    },
+    {
+      "name": "Sea Style Gemerl",
+      "rarity": "Legendary",
+      "max": {
+        "luck": 25,
+        "magnet": 10,
+        "air": 25
+      },
+      "abilities": [
+        "Glide"
+      ],
+      "image": null
     },
     {
       "name": "Sea Style Omega",
@@ -10860,7 +10911,7 @@
         "rings": 155000,
         "damage": 16250
       },
-      "image": "images/Golden_Style_Trail.png"
+      "image": null
     },
     {
       "name": "Gravity Pull Trail",
@@ -11413,11 +11464,12 @@
       "name": "Orange Trail",
       "rarity": "Uncommon",
       "max": {
-        "xp": 45,
-        "damage": 9
+        "xp": 50
       },
-      "max_fused": {},
-      "image": "images/Orange_Trail.png"
+      "max_fused": {
+        "xp": 125
+      },
+      "image": null
     },
     {
       "name": "Orange Wavy Trail",
@@ -11866,18 +11918,16 @@
     },
     {
       "name": "Red Trail",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "max": {
-        "xp": 167,
-        "rings": 16,
-        "damage": 33
+        "xp": 150,
+        "rings": 25
       },
       "max_fused": {
-        "xp": 835,
-        "rings": 80,
-        "damage": 165
+        "xp": 375,
+        "rings": 62
       },
-      "image": "images/Red_Trail.png"
+      "image": null
     },
     {
       "name": "Red Wavy Trail",
@@ -12511,9 +12561,15 @@
     {
       "name": "Yellow Trail",
       "rarity": "Uncommon",
-      "image": "images/Yellow_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 100,
+        "rings": 25
+      },
+      "max_fused": {
+        "xp": 250,
+        "rings": 62
+      },
+      "image": null
     },
     {
       "name": "Yellow Wavy Trail",
@@ -12834,13 +12890,6 @@
       "name": "Yellow Square Trail",
       "rarity": "Common",
       "image": "images/Yellow_Square_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Yellow Trail",
-      "rarity": "Uncommon",
-      "image": "images/Yellow_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
     }
