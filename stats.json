@@ -2039,7 +2039,9 @@
         "stamina": 30,
         "speed": 1
       },
-      "abilities": [],
+      "abilities": [
+        "Super Boost"
+      ],
       "image": null
     },
     {
@@ -9165,21 +9167,27 @@
       "rarity": "Fast Friend",
       "levels": {
         "1": {
-          "air": 2
-        },
-        "2": {
-          "air": 4
-        },
-        "3": {
-          "air": 6
-        },
-        "4": {
-          "air": 8
-        },
-        "5": {
+          "luck": 2,
           "air": 10
         },
+        "2": {
+          "luck": 4,
+          "air": 20
+        },
+        "3": {
+          "luck": 6,
+          "air": 30
+        },
+        "4": {
+          "luck": 8,
+          "air": 40
+        },
+        "5": {
+          "luck": 10,
+          "air": 50
+        },
         "6": {
+          "luck": 12,
           "air": 12
         }
       },
@@ -11295,9 +11303,9 @@
       "name": "Luminosity Purple Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 574086,
-        "rings": 57408,
-        "damage": 1140308
+        "xp": 3000,
+        "rings": 0,
+        "damage": 600
       },
       "max_fused": {
         "xp": 2870430,
