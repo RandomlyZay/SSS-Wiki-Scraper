@@ -11304,15 +11304,13 @@
       "rarity": "Legendary",
       "max": {
         "xp": 3000,
-        "rings": 0,
         "damage": 600
       },
       "max_fused": {
-        "xp": 2870430,
-        "rings": 287040,
-        "damage": 5701540
+        "xp": 7500,
+        "damage": 1500
       },
-      "image": "images/Luminosity_Purple_Trail.png"
+      "image": null
     },
     {
       "name": "Luminosity Red Trail",
