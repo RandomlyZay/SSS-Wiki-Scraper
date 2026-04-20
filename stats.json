@@ -3866,6 +3866,12 @@
       "image": "images/SIM_Vector.png"
     },
     {
+      "name": "Sage",
+      "rarity": "Common",
+      "image": "images/Sage.png",
+      "type": "NPC"
+    },
+    {
       "name": "Sailor Sonic",
       "rarity": "Uncommon",
       "max": {
@@ -10865,112 +10871,48 @@
     },
     {
       "name": "Fang Blur Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 20000,
-        "rings": 2000,
-        "damage": 200
-      },
-      "max_fused": {
-        "xp": 50000,
-        "rings": 5000,
-        "damage": 500
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Fire Blitz Trail",
-      "rarity": "Epic",
-      "image": "images/Fire_Blitz_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gear Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 143520,
-        "rings": 30750
-      },
-      "max_fused": {
-        "xp": 717600,
-        "rings": 30750
-      },
-      "image": "images/Gear_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gemerl Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 223253,
-        "rings": 4783,
-        "damage": 90023
-      },
-      "max_fused": {
-        "xp": 1116265,
-        "rings": 23915,
-        "damage": 450115
-      },
-      "image": "images/Gemerl_Blur_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Ghost Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 143521,
-        "rings": 14352,
-        "damage": 4561233
-      },
-      "max_fused": {
-        "xp": 717600,
-        "rings": 71760,
-        "damage": 22806165
-      },
-      "image": "images/Ghost_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gold Rush Trail",
-      "rarity": "Epic",
-      "image": "images/Gold_Rush_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Golden Style Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 62000,
-        "rings": 62000,
-        "damage": 6500
-      },
-      "max_fused": {
-        "xp": 155000,
-        "rings": 155000,
-        "damage": 16250
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gravity Pull Trail",
-      "rarity": "Epic",
-      "max": {
-        "rings": 15376,
-        "damage": 96454,
-        "magnet": 10
-      },
-      "max_fused": {
-        "rings": 76880,
-        "damage": 482270,
-        "magnet": 10
-      },
-      "image": "images/Gravity_Pull_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Electro Trail",
-      "rarity": "Uncommon",
-      "image": "images/Green_Electro_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Pixel Crush Trail",
@@ -11720,25 +11662,49 @@
       "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Fire Blitz Trail",
-      "rarity": "Epic",
-      "image": "images/Fire_Blitz_Trail.png",
+      "name": "Fang Blur Trail",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Fire Blitz Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gear Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gemerl Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Ghost Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gold Rush Trail",
-      "rarity": "Epic",
-      "image": "images/Gold_Rush_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Golden Style Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gravity Pull Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Electro Trail",
-      "rarity": "Uncommon",
-      "image": "images/Green_Electro_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Pixel Crush Trail",
