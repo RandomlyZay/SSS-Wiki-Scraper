@@ -8269,11 +8269,15 @@
     {
       "name": "Sprout Koco",
       "rarity": "Exotic",
-      "max": {},
+      "max": {
+        "xp": 7200,
+        "rings": 2880,
+        "damage": 288
+      },
       "max_fused": {
-        "xp": 1210000,
-        "rings": 97380,
-        "damage": 967220
+        "xp": 18000,
+        "rings": 7200,
+        "damage": 720
       },
       "image": "images/Sprout_Koco.png"
     },
@@ -10612,7 +10616,7 @@
         "rings": 12500,
         "damage": 750
       },
-      "image": "images/Cyber_Energy_Trail.png"
+      "image": null
     },
     {
       "name": "Cyloop Trail",
@@ -10871,8 +10875,18 @@
     },
     {
       "name": "Fang Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 20000,
+        "rings": 2000,
+        "damage": 200
+      },
+      "max_fused": {
+        "xp": 50000,
+        "rings": 5000,
+        "damage": 500
+      },
+      "image": null
     },
     {
       "name": "Fire Blitz Trail",
@@ -11660,11 +11674,6 @@
       "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Fang Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Fire Blitz Trail",
