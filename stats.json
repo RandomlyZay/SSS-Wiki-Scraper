@@ -10895,8 +10895,16 @@
     },
     {
       "name": "Gear Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 143520,
+        "rings": 30750
+      },
+      "max_fused": {
+        "xp": 717600,
+        "rings": 30750
+      },
+      "image": null
     },
     {
       "name": "Gemerl Blur Trail",
@@ -11677,11 +11685,6 @@
     },
     {
       "name": "Fire Blitz Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Gear Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
