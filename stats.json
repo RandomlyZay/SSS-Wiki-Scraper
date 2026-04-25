@@ -10217,12 +10217,14 @@
       "name": "Blue Static Trail",
       "rarity": "Epic",
       "max": {
-        "rings": 20400
+        "xp": 50000,
+        "rings": 50000
       },
       "max_fused": {
-        "rings": 102510
+        "xp": 125000,
+        "rings": 125000
       },
-      "image": "images/Blue_Static_Trail.png"
+      "image": null
     },
     {
       "name": "Blue Summer Trail",
@@ -11021,23 +11023,51 @@
     },
     {
       "name": "Green Star Trail",
+      "rarity": "Legendary",
+      "image": null,
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Green Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Seasonal",
+      "max": {
+        "xp": 54674,
+        "rings": 10934,
+        "damage": 205768
+      },
+      "max_fused": {
+        "xp": 273370,
+        "rings": 54670,
+        "damage": 1028840
+      },
+      "image": null
     },
     {
       "name": "Green Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Common",
+      "max": {
+        "xp": 167,
+        "rings": 16,
+        "damage": 33
+      },
+      "max_fused": {
+        "xp": 835,
+        "rings": 80,
+        "damage": 165
+      },
+      "image": null
     },
     {
       "name": "Green Wavy Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Common",
+      "max": {
+        "xp": 15210,
+        "rings": 1512,
+        "damage": 3024
+      },
+      "max_fused": {},
+      "image": null
     },
     {
       "name": "Gunpowder Trail",
@@ -11781,23 +11811,10 @@
     },
     {
       "name": "Green Star Trail",
+      "rarity": "Legendary",
+      "image": null,
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Green Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Green Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Green Wavy Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Gunpowder Trail",
