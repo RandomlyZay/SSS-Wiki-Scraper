@@ -656,6 +656,20 @@
       "image": "images/Chronos_Silver.png"
     },
     {
+      "name": "Chronos Silver (Limited)",
+      "rarity": "Limited",
+      "max": {
+        "luck": 25,
+        "stamina": 25,
+        "event": 4
+      },
+      "abilities": [
+        "Super Boost",
+        "Parry"
+      ],
+      "image": null
+    },
+    {
       "name": "Circuit Metal Sonic",
       "rarity": "Exotic",
       "max": {
@@ -2112,6 +2126,12 @@
       "image": "images/Knuckles_the_Echidna.png"
     },
     {
+      "name": "Kronos Island Sonic",
+      "rarity": "Exotic",
+      "image": null,
+      "reason": "No stats or abilities found"
+    },
+    {
       "name": "Kunoichi Amy",
       "rarity": "Epic",
       "max": {
@@ -2803,6 +2823,20 @@
         "Voltaic Discharge"
       ],
       "image": "images/Neo_Metal_Sonic.png"
+    },
+    {
+      "name": "Neo Metal Sonic (Tradeable)",
+      "rarity": "Super",
+      "max": {
+        "magnet": 30,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Super Boost",
+        "Parry",
+        "Voltaic Discharge"
+      ],
+      "image": null
     },
     {
       "name": "Neon Suit Shadow",
@@ -3687,6 +3721,16 @@
       },
       "abilities": [],
       "image": "images/Ruby_Style_Shadow.png"
+    },
+    {
+      "name": "Ruby Style Silver",
+      "rarity": "Limited",
+      "max": {
+        "magnet": 30,
+        "event": 5
+      },
+      "abilities": [],
+      "image": null
     },
     {
       "name": "Ruby Style Sonic",
@@ -7126,10 +7170,13 @@
       "name": "Moonlight Chao",
       "rarity": "Rare",
       "max": {
-        "xp": 42714,
-        "rings": 1422
+        "xp": 26000,
+        "rings": 26000
       },
-      "max_fused": {},
+      "max_fused": {
+        "xp": 65000,
+        "rings": 65000
+      },
       "image": "images/Moonlight_Chao.png"
     },
     {
@@ -7765,12 +7812,12 @@
       "name": "Ranger Chao",
       "rarity": "Epic",
       "max": {
-        "xp": 750,
-        "rings": 1125
+        "xp": 50000,
+        "rings": 50000
       },
       "max_fused": {
-        "xp": 1875,
-        "rings": 2812
+        "xp": 125000,
+        "rings": 125000
       },
       "image": null
     },
@@ -10090,18 +10137,18 @@
     },
     {
       "name": "Black Brush Trail",
-      "rarity": "Legendary",
+      "rarity": "Epic",
       "max": {
-        "xp": 31893,
-        "rings": 6378,
-        "damage": 420111
+        "xp": 28000,
+        "rings": 9640,
+        "damage": 1045
       },
       "max_fused": {
-        "xp": 159465,
-        "rings": 31890,
-        "damage": 2100555
+        "xp": 70000,
+        "rings": 24100,
+        "damage": 2612
       },
-      "image": "images/Black_Brush_Trail.png"
+      "image": null
     },
     {
       "name": "Black Electro Trail",
@@ -10343,9 +10390,17 @@
     {
       "name": "Candy Corn Trail",
       "rarity": "Legendary",
-      "image": null,
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 2400,
+        "rings": 480,
+        "damage": 9600
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 1200,
+        "damage": 24000
+      },
+      "image": null
     },
     {
       "name": "Champion Trail",
@@ -10504,33 +10559,33 @@
       "name": "Club VIP Trail",
       "rarity": "Exotic",
       "max": {
-        "xp": 650563,
-        "rings": 64861,
-        "damage": 2576689
+        "xp": 9600,
+        "rings": 4700,
+        "damage": 191
       },
       "max_fused": {
-        "xp": 3252815,
-        "rings": 324305,
-        "damage": 12883445
+        "xp": 24000,
+        "rings": 11750,
+        "damage": 477
       },
-      "image": "images/Club_VIP_Trail.png"
+      "image": null
     },
     {
       "name": "Cream Blur Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 92012,
-        "rings": 8201,
-        "damage": 152901,
+        "xp": 9600,
+        "rings": 4800,
+        "damage": 960,
         "luck": 3
       },
       "max_fused": {
-        "xp": 460060,
-        "rings": 41005,
-        "damage": 764505,
+        "xp": 24000,
+        "rings": 12000,
+        "damage": 2400,
         "luck": 6
       },
-      "image": "images/Cream_Blur_Trail.png"
+      "image": null
     },
     {
       "name": "Crimson Fury Trail",
@@ -10979,95 +11034,43 @@
     },
     {
       "name": "Green Electro Trail",
-      "rarity": "Uncommon",
-      "image": "images/Green_Electro_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Pixel Crush Trail",
-      "rarity": "Rare",
-      "max": {
-        "xp": 15946,
-        "rings": 683,
-        "damage": 42868
-      },
-      "max_fused": {
-        "xp": 79730,
-        "rings": 3415,
-        "damage": 214340
-      },
-      "image": "images/Green_Pixel_Crush_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Speed Trail",
-      "rarity": "Common",
-      "max": {
-        "xp": 68480,
-        "rings": 6827,
-        "damage": 271230
-      },
-      "max_fused": {
-        "xp": 342400,
-        "rings": 34135,
-        "damage": 1356150
-      },
-      "image": "images/Green_Speed_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Square Trail",
-      "rarity": "Common",
-      "image": "images/Green_Square_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Star Trail",
-      "rarity": "Legendary",
-      "image": null,
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Summer Trail",
-      "rarity": "Seasonal",
-      "max": {
-        "xp": 54674,
-        "rings": 10934,
-        "damage": 205768
-      },
-      "max_fused": {
-        "xp": 273370,
-        "rings": 54670,
-        "damage": 1028840
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Trail",
-      "rarity": "Common",
-      "max": {
-        "xp": 167,
-        "rings": 16,
-        "damage": 33
-      },
-      "max_fused": {
-        "xp": 835,
-        "rings": 80,
-        "damage": 165
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Wavy Trail",
-      "rarity": "Common",
-      "max": {
-        "xp": 15210,
-        "rings": 1512,
-        "damage": 3024
-      },
-      "max_fused": {},
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gunpowder Trail",
@@ -11761,13 +11764,6 @@
       "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Candy Corn Trail",
-      "rarity": "Legendary",
-      "image": null,
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
       "name": "Easter Egg Trail",
       "rarity": "Seasonal",
       "image": "images/Easter_Egg_Trail.png",
@@ -11797,24 +11793,43 @@
     },
     {
       "name": "Green Electro Trail",
-      "rarity": "Uncommon",
-      "image": "images/Green_Electro_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Green Pixel Crush Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Green Speed Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Square Trail",
-      "rarity": "Common",
-      "image": "images/Green_Square_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Star Trail",
-      "rarity": "Legendary",
-      "image": null,
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Green Summer Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Green Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Green Wavy Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gunpowder Trail",
@@ -11900,6 +11915,12 @@
       "name": "Knuckles Blur Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Kronos Island Sonic",
+      "rarity": "Exotic",
+      "image": null,
+      "reason": "No stats or abilities found"
     },
     {
       "name": "Laser Trail",
