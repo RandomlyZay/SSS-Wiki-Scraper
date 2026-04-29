@@ -10067,23 +10067,29 @@
       "name": "3.0 Blur Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 79733,
-        "rings": 7973,
-        "damage": 300079
+        "xp": 7500,
+        "rings": 3750,
+        "damage": 300
       },
       "max_fused": {
-        "xp": 398665,
-        "rings": 39865,
-        "damage": 1500395
+        "xp": 18750,
+        "rings": 9375,
+        "damage": 750
       },
-      "image": "images/30_Blur_Trail.png"
+      "image": null
     },
     {
       "name": "Albatross Blur Trail",
       "rarity": "Legendary",
-      "image": "images/Albatross_Blur_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 4000,
+        "rings": 4000
+      },
+      "max_fused": {
+        "xp": 10000,
+        "rings": 10000
+      },
+      "image": null
     },
     {
       "name": "Amy Blur Trail",
@@ -10119,14 +10125,14 @@
       "name": "Aqua Sea Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 191360,
-        "rings": 12756
+        "xp": 1800,
+        "rings": 6000
       },
       "max_fused": {
-        "xp": 956800,
-        "rings": 63780
+        "xp": 4500,
+        "rings": 15000
       },
-      "image": "images/Aqua_Sea_Trail.png"
+      "image": null
     },
     {
       "name": "Aqua Square Trail",
@@ -10187,24 +10193,30 @@
     {
       "name": "Beam Note Trail",
       "rarity": "Epic",
-      "image": "images/Beam_Note_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 1200,
+        "rings": 6000
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 15000
+      },
+      "image": null
     },
     {
       "name": "Big Blur Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 11390,
-        "rings": 1139,
-        "damage": 42868
+        "xp": 30000,
+        "rings": 30000,
+        "damage": 3200
       },
       "max_fused": {
-        "xp": 56950,
-        "rings": 5695,
-        "damage": 214340
+        "xp": 75000,
+        "rings": 75000,
+        "damage": 8000
       },
-      "image": "images/Big_Blur_Trail.png"
+      "image": null
     },
     {
       "name": "Black Brush Trail",
@@ -10254,29 +10266,29 @@
       "name": "Black Wavy Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 68479,
-        "rings": 6827,
-        "damage": 128477
+        "xp": 24000,
+        "rings": 3000,
+        "damage": 300
       },
       "max_fused": {
-        "xp": 342395,
-        "rings": 34135,
-        "damage": 642385
+        "xp": 60000,
+        "rings": 7500,
+        "damage": 750
       },
-      "image": "images/Black_Wavy_Trail.png"
+      "image": null
     },
     {
       "name": "Blaze Blur Trail",
       "rarity": "Legendary",
       "max": {
-        "rings": 43056,
-        "damage": 3991079
+        "rings": 1800,
+        "damage": 168
       },
       "max_fused": {
-        "rings": 215280,
-        "damage": 19955395
+        "rings": 4500,
+        "damage": 420
       },
-      "image": "images/Blaze_Blur_Trail.png"
+      "image": null
     },
     {
       "name": "Blue Electro Trail",
@@ -10322,14 +10334,14 @@
       "name": "Blue Star Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 27337,
-        "rings": 1822
+        "xp": 1900,
+        "rings": 2400
       },
       "max_fused": {
-        "xp": 136685,
-        "rings": 9110
+        "xp": 4750,
+        "rings": 6000
       },
-      "image": "images/Blue_Star_Trail.png"
+      "image": null
     },
     {
       "name": "Blue Static Trail",
@@ -10363,16 +10375,14 @@
       "name": "Blue Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 751,
-        "rings": 74,
-        "damage": 149
+        "xp": 100,
+        "rings": 25
       },
       "max_fused": {
-        "xp": 3755,
-        "rings": 370,
-        "damage": 745
+        "xp": 250,
+        "rings": 62
       },
-      "image": "images/Blue_Trail.png"
+      "image": null
     },
     {
       "name": "Blue Wavy Trail",
@@ -10402,16 +10412,16 @@
       "name": "Bright Speed Trail",
       "rarity": "Rare",
       "max": {
-        "xp": 171201,
-        "rings": 17068,
-        "damage": 678076
+        "xp": 1800,
+        "rings": 1800,
+        "damage": 120
       },
       "max_fused": {
-        "xp": 856005,
-        "rings": 84340,
-        "damage": 6102685
+        "xp": 4500,
+        "rings": 4500,
+        "damage": 300
       },
-      "image": "images/Bright_Speed_Trail.png"
+      "image": null
     },
     {
       "name": "Bubble Trail",
@@ -10447,16 +10457,16 @@
       "name": "Candy Cane Trail",
       "rarity": "Seasonal",
       "max": {
-        "xp": 1004651,
-        "rings": 14352,
-        "damage": 1140308
+        "xp": 4200,
+        "rings": 3000,
+        "damage": 240
       },
       "max_fused": {
-        "xp": 5023255,
-        "rings": 71760,
-        "damage": 5701540
+        "xp": 10500,
+        "rings": 7500,
+        "damage": 600
       },
-      "image": "images/Candy_Cane_Trail.png"
+      "image": null
     },
     {
       "name": "Candy Corn Trail",
@@ -10477,12 +10487,12 @@
       "name": "Champion Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 717608,
-        "damage": 2850771
+        "xp": 750,
+        "damage": 20
       },
       "max_fused": {
-        "xp": 3588040,
-        "damage": 14253855
+        "xp": 1875,
+        "damage": 50
       },
       "image": null
     },
@@ -10518,14 +10528,14 @@
       "name": "Checkered Flag Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 88585,
-        "rings": 8855
+        "xp": 20000,
+        "rings": 20000
       },
       "max_fused": {
-        "xp": 797335,
-        "rings": 79730
+        "xp": 50000,
+        "rings": 50000
       },
-      "image": "images/Checkered_Flag_Trail.png"
+      "image": null
     },
     {
       "name": "Checkers Trail",
@@ -10572,16 +10582,16 @@
       "name": "Chrome Blur Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 12750,
-        "rings": 9567,
-        "damage": 18000
+        "xp": 1200,
+        "rings": 4500,
+        "damage": 180
       },
       "max_fused": {
-        "xp": 637860,
-        "rings": 47830,
-        "damage": 900230
+        "xp": 3000,
+        "rings": 11250,
+        "damage": 450
       },
-      "image": "images/Chrome_Blur_Trail.png"
+      "image": null
     },
     {
       "name": "Classic Amy Blur Trail",
@@ -10617,14 +10627,14 @@
       "name": "Classic Sonic Blur Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 159467,
-        "rings": 15946
+        "xp": 1500,
+        "rings": 7500
       },
       "max_fused": {
-        "xp": 797335,
-        "rings": 79730
+        "xp": 3750,
+        "rings": 18750
       },
-      "image": "images/Classic_Sonic_Blur_Trail.png"
+      "image": null
     },
     {
       "name": "Club VIP Trail",
@@ -10705,31 +10715,31 @@
       "name": "Cyan Summer Trail",
       "rarity": "Seasonal",
       "max": {
-        "xp": 109348,
-        "rings": 8200,
-        "damage": 154326
+        "xp": 1300,
+        "rings": 5040,
+        "damage": 201
       },
       "max_fused": {
-        "xp": 546740,
-        "rings": 41000,
-        "damage": 771630
+        "xp": 3250,
+        "rings": 12600,
+        "damage": 502
       },
-      "image": "images/Cyan_Summer_Trail.png"
+      "image": null
     },
     {
       "name": "Cyber Corruption Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 102514,
-        "rings": 4100,
-        "damage": 115745
+        "xp": 600,
+        "rings": 600,
+        "damage": 20
       },
       "max_fused": {
-        "xp": 512570,
-        "rings": 20500,
-        "damage": 578725
+        "xp": 1500,
+        "rings": 1500,
+        "damage": 50
       },
-      "image": "images/Cyber_Corruption_Trail.png"
+      "image": null
     },
     {
       "name": "Cyber Energy Trail",
@@ -10765,16 +10775,16 @@
       "name": "Daisy Petal Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 308161,
-        "rings": 30723,
-        "damage": 1220537
+        "xp": 12000,
+        "rings": 12000,
+        "damage": 1000
       },
       "max_fused": {
-        "xp": 1540805,
-        "rings": 153615,
-        "damage": 6102685
+        "xp": 30000,
+        "rings": 30000,
+        "damage": 2500
       },
-      "image": "images/Daisy_Petal_Trail.png"
+      "image": null
     },
     {
       "name": "Dark Fade Trail",
@@ -10857,11 +10867,10 @@
         "rings": 8000
       },
       "max_fused": {
-        "xp": 820110,
-        "rings": 10250,
-        "damage": 192900
+        "xp": 20000,
+        "rings": 20000
       },
-      "image": "images/Dark_Static_Trail.png"
+      "image": null
     },
     {
       "name": "Default Trail",
@@ -10917,31 +10926,31 @@
       "name": "Eggman Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 22780,
-        "rings": 1138,
-        "damage": 2278
+        "xp": 3000,
+        "rings": 750,
+        "damage": 300
       },
       "max_fused": {
-        "xp": 113900,
-        "rings": 5690,
-        "damage": 11390
+        "xp": 7500,
+        "rings": 1875,
+        "damage": 750
       },
-      "image": "images/Eggman_Trail.png"
+      "image": null
     },
     {
       "name": "Eggstreme Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 255147,
-        "rings": 3189,
-        "damage": 60015
+        "xp": 40000,
+        "rings": 40000,
+        "damage": 4240
       },
       "max_fused": {
-        "xp": 1275735,
-        "rings": 15945,
-        "damage": 300075
+        "xp": 100000,
+        "rings": 100000,
+        "damage": 10600
       },
-      "image": "images/Eggstreme_Trail.png"
+      "image": null
     },
     {
       "name": "Emerald Energy Trail",
@@ -10975,16 +10984,16 @@
       "name": "Espio Blur Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 127573,
-        "rings": 6378,
-        "damage": 240063
+        "xp": 1200,
+        "rings": 3000,
+        "damage": 240
       },
       "max_fused": {
-        "xp": 637865,
-        "rings": 31890,
-        "damage": 1200315
+        "xp": 3000,
+        "rings": 7500,
+        "damage": 600
       },
-      "image": "images/Espio_Blur_Trail.png"
+      "image": null
     },
     {
       "name": "Falling Leaf Trail",
@@ -11019,22 +11028,30 @@
     {
       "name": "Fire Blitz Trail",
       "rarity": "Epic",
-      "image": "images/Fire_Blitz_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 2004,
+        "rings": 999,
+        "damage": 399
+      },
+      "max_fused": {
+        "xp": 5010,
+        "rings": 2497,
+        "damage": 997
+      },
+      "image": null
     },
     {
       "name": "Gear Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 143520,
-        "rings": 30750
+        "xp": 1600,
+        "rings": 3600
       },
       "max_fused": {
-        "xp": 717600,
-        "rings": 30750
+        "xp": 4000,
+        "rings": 9000
       },
-      "image": "images/Gear_Trail.png"
+      "image": null
     },
     {
       "name": "Gemerl Blur Trail",
@@ -11055,97 +11072,51 @@
       "name": "Ghost Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 143521,
-        "rings": 14352,
-        "damage": 4561233
+        "xp": 2400,
+        "rings": 1200,
+        "damage": 384
       },
       "max_fused": {
-        "xp": 717600,
-        "rings": 71760,
-        "damage": 22806165
-      },
-      "image": "images/Ghost_Trail.png"
-    },
-    {
-      "name": "Gold Rush Trail",
-      "rarity": "Epic",
-      "image": "images/Gold_Rush_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Golden Style Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 62000,
-        "rings": 62000,
-        "damage": 6500
-      },
-      "max_fused": {
-        "xp": 155000,
-        "rings": 155000,
-        "damage": 16250
+        "xp": 6000,
+        "rings": 3000,
+        "damage": 960
       },
       "image": null
     },
     {
+      "name": "Gold Rush Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Golden Style Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
       "name": "Gravity Pull Trail",
-      "rarity": "Epic",
-      "max": {
-        "rings": 15376,
-        "damage": 96454,
-        "magnet": 10
-      },
-      "max_fused": {
-        "rings": 76880,
-        "damage": 482270,
-        "magnet": 10
-      },
-      "image": "images/Gravity_Pull_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Electro Trail",
-      "rarity": "Uncommon",
-      "image": "images/Green_Electro_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Pixel Crush Trail",
-      "rarity": "Rare",
-      "max": {
-        "xp": 15946,
-        "rings": 683,
-        "damage": 42868
-      },
-      "max_fused": {
-        "xp": 79730,
-        "rings": 3415,
-        "damage": 214340
-      },
-      "image": "images/Green_Pixel_Crush_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Speed Trail",
-      "rarity": "Common",
-      "max": {
-        "xp": 68480,
-        "rings": 6827,
-        "damage": 271230
-      },
-      "max_fused": {
-        "xp": 342400,
-        "rings": 34135,
-        "damage": 1356150
-      },
-      "image": "images/Green_Speed_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Square Trail",
-      "rarity": "Common",
-      "image": "images/Green_Square_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Star Trail",
@@ -11810,23 +11781,9 @@
   ],
   "Errors": [
     {
-      "name": "Albatross Blur Trail",
-      "rarity": "Legendary",
-      "image": "images/Albatross_Blur_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
       "name": "Aqua Electro Trail",
       "rarity": "Epic",
       "image": null,
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Beam Note Trail",
-      "rarity": "Epic",
-      "image": "images/Beam_Note_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
     },
@@ -11873,32 +11830,39 @@
       "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Fire Blitz Trail",
-      "rarity": "Epic",
-      "image": "images/Fire_Blitz_Trail.png",
+      "name": "Gold Rush Trail",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Gold Rush Trail",
-      "rarity": "Epic",
-      "image": "images/Gold_Rush_Trail.png",
+      "name": "Golden Style Trail",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gravity Pull Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Electro Trail",
-      "rarity": "Uncommon",
-      "image": "images/Green_Electro_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Green Pixel Crush Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Green Speed Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Square Trail",
-      "rarity": "Common",
-      "image": "images/Green_Square_Trail.png",
       "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Green Star Trail",
