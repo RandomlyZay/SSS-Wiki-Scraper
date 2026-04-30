@@ -6258,14 +6258,12 @@
       "name": "Green Pumpkin Chao",
       "rarity": "Seasonal",
       "max": {
-        "xp": 3037,
-        "rings": 303,
-        "damage": 4857
+        "xp": 20000,
+        "rings": 5000
       },
       "max_fused": {
-        "xp": 7592,
-        "rings": 757,
-        "damage": 12142
+        "xp": 50000,
+        "rings": 12500
       },
       "image": "images/Green_Pumpkin_Chao.png"
     },
@@ -6985,12 +6983,12 @@
       "name": "Lotus Chao",
       "rarity": "Epic",
       "max": {
-        "xp": 345988,
-        "rings": 11532
+        "xp": 3000,
+        "rings": 3000
       },
       "max_fused": {
-        "xp": 864970,
-        "rings": 28830
+        "xp": 7500,
+        "rings": 7500
       },
       "image": "images/Lotus_Chao.png"
     },
@@ -7489,12 +7487,12 @@
       "name": "Onion Chao",
       "rarity": "Rare",
       "max": {
-        "xp": 128144,
-        "damage": 509066
+        "xp": 3402,
+        "damage": 300
       },
       "max_fused": {
-        "xp": 320360,
-        "damage": 1272665
+        "xp": 8505,
+        "damage": 750
       },
       "image": "images/Onion_Chao.png"
     },
@@ -7775,14 +7773,12 @@
       "name": "Potato Chao",
       "rarity": "Epic",
       "max": {
-        "xp": 115329,
-        "rings": 34597,
-        "magnet": 4
+        "xp": 2025,
+        "rings": 2025
       },
       "max_fused": {
-        "xp": 288322,
-        "rings": 86492,
-        "magnet": 4
+        "xp": 5062,
+        "rings": 5062
       },
       "image": "images/Potato_Chao.png"
     },
@@ -7844,16 +7840,14 @@
       "name": "Purple Hero Chao",
       "rarity": "Epic",
       "max": {
-        "xp": 92263,
-        "rings": 13839,
-        "damage": 916319,
-        "magnet": 10
+        "xp": 10800,
+        "rings": 10800,
+        "damage": 1020
       },
       "max_fused": {
-        "xp": 230657,
-        "rings": 34597,
-        "damage": 2290797,
-        "magnet": 10
+        "xp": 27000,
+        "rings": 27000,
+        "damage": 2550
       },
       "image": "images/Purple_Hero_Chao.png"
     },
@@ -7939,12 +7933,12 @@
       "name": "Red Racer Chao",
       "rarity": "Epic",
       "max": {
-        "rings": 2050,
-        "damage": 154324
+        "rings": 10000,
+        "damage": 150
       },
       "max_fused": {
-        "rings": 5125,
-        "damage": 385810
+        "rings": 25000,
+        "damage": 375
       },
       "image": "images/Red_Racer_Chao.png"
     },
@@ -8173,14 +8167,14 @@
     },
     {
       "name": "Scientist Chao",
-      "rarity": "Legendary",
+      "rarity": "Epic",
       "max": {
-        "xp": 79730,
-        "damage": 150030
+        "xp": 5400,
+        "damage": 200
       },
       "max_fused": {
-        "xp": 199330,
-        "damage": 375090
+        "xp": 13500,
+        "damage": 500
       },
       "image": "images/Scientist_Chao.png"
     },
@@ -8246,14 +8240,14 @@
       "name": "Silver Pumpkin Chao",
       "rarity": "Seasonal",
       "max": {
-        "xp": 12140,
-        "rings": 1214,
-        "damage": 1214
+        "xp": 24000,
+        "rings": 8230,
+        "damage": 720
       },
       "max_fused": {
-        "xp": 30370,
-        "rings": 3035,
-        "damage": 3035
+        "xp": 60000,
+        "rings": 20575,
+        "damage": 1800
       },
       "image": "images/Silver_Pumpkin_Chao.png"
     },
@@ -8619,14 +8613,14 @@
       "name": "Taxi Chao",
       "rarity": "Epic",
       "max": {
-        "xp": 61509,
-        "rings": 1025,
-        "damage": 57871
+        "xp": 9600,
+        "rings": 9600,
+        "damage": 150
       },
       "max_fused": {
-        "xp": 153772,
-        "rings": 2562,
-        "damage": 144677
+        "xp": 24000,
+        "rings": 24000,
+        "damage": 375
       },
       "image": "images/Taxi_Chao.png"
     },
@@ -8688,10 +8682,12 @@
       "name": "Tomato Chao",
       "rarity": "Rare",
       "max": {
-        "damage": 1018133
+        "xp": 2025,
+        "damage": 400
       },
       "max_fused": {
-        "damage": 2545332
+        "xp": 5062,
+        "damage": 1000
       },
       "image": "images/Tomato_Chao.png"
     },
@@ -10164,16 +10160,12 @@
       "name": "Aqua Wavy Trail",
       "rarity": "Uncommon",
       "max": {
-        "xp": 22826,
-        "rings": 2275,
-        "damage": 42825
+        "xp": 1350
       },
       "max_fused": {
-        "xp": 114130,
-        "rings": 11375,
-        "damage": 214125
+        "xp": 3375
       },
-      "image": "images/Aqua_Wavy_Trail.png"
+      "image": null
     },
     {
       "name": "Autumn Leaf Trail",
@@ -10236,16 +10228,28 @@
     {
       "name": "Black Electro Trail",
       "rarity": "Epic",
-      "image": "images/Black_Electro_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 10800,
+        "rings": 10800,
+        "damage": 1100
+      },
+      "max_fused": {
+        "xp": 27000,
+        "rings": 27000,
+        "damage": 2750
+      },
+      "image": null
     },
     {
       "name": "Black Square Trail",
-      "rarity": "Rare",
-      "image": "images/Black_Square_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 800
+      },
+      "max_fused": {
+        "xp": 2000
+      },
+      "image": null
     },
     {
       "name": "Black Trail",
@@ -10299,29 +10303,33 @@
     },
     {
       "name": "Blue Pixel Crush Trail",
-      "rarity": "Uncommon",
+      "rarity": "Common",
       "max": {
-        "xp": 18224,
-        "rings": 911,
-        "damage": 34294
+        "xp": 1400,
+        "rings": 1400,
+        "damage": 50
       },
       "max_fused": {
-        "xp": 91120,
-        "rings": 4555,
-        "damage": 171470
+        "xp": 3500,
+        "rings": 3500,
+        "damage": 125
       },
-      "image": "images/Blue_Pixel_Crush_Trail.png"
+      "image": null
     },
     {
       "name": "Blue Speed Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 308160,
-        "rings": 30720,
-        "damage": 122053
+        "xp": 1800,
+        "rings": 1800,
+        "damage": 240
       },
-      "max_fused": {},
-      "image": "images/Blue_Speed_Trail.png"
+      "max_fused": {
+        "xp": 4500,
+        "rings": 4500,
+        "damage": 600
+      },
+      "image": null
     },
     {
       "name": "Blue Square Trail",
@@ -10565,18 +10573,18 @@
     },
     {
       "name": "Chili Dog Trail",
-      "rarity": "Exotic",
+      "rarity": "Legendary",
       "max": {
-        "xp": 650563,
-        "rings": 64861,
-        "damage": 2576689
+        "xp": 16200,
+        "rings": 16200,
+        "damage": 1450
       },
       "max_fused": {
         "xp": 40500,
         "rings": 40500,
         "damage": 3625
       },
-      "image": "images/Chili_Dog_Trail.png"
+      "image": null
     },
     {
       "name": "Chrome Blur Trail",
@@ -10788,14 +10796,16 @@
     },
     {
       "name": "Dark Fade Trail",
-      "rarity": "Epic",
+      "rarity": "Legendary",
       "max": {
-        "xp": 135,
-        "rings": 18,
-        "damage": 45
+        "xp": 1680,
+        "rings": 1680
       },
-      "max_fused": {},
-      "image": "images/Dark_Fade_Trail.png"
+      "max_fused": {
+        "xp": 4200,
+        "rings": 4200
+      },
+      "image": null
     },
     {
       "name": "Dark Gaia Trail",
@@ -10814,20 +10824,18 @@
     },
     {
       "name": "Dark Pixel Crush Trail",
-      "rarity": "Exotic",
+      "rarity": "Epic",
       "max": {
-        "xp": 71760,
-        "rings": 4100,
-        "damage": 366520,
-        "magnet": 8
+        "xp": 5400,
+        "rings": 5400,
+        "damage": 540
       },
       "max_fused": {
-        "xp": 358800,
-        "rings": 20500,
-        "damage": 1830000,
-        "magnet": 8
+        "xp": 13500,
+        "rings": 13500,
+        "damage": 1350
       },
-      "image": "images/Dark_Pixel_Crush_Trail.png"
+      "image": null
     },
     {
       "name": "Dark Speed Trail",
@@ -10848,16 +10856,16 @@
       "name": "Dark Star Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 1148173,
-        "rings": 14352,
-        "damage": 570154
+        "xp": 56000,
+        "rings": 56000,
+        "damage": 4200
       },
       "max_fused": {
-        "xp": 5740865,
-        "rings": 71760,
-        "damage": 2850770
+        "xp": 140000,
+        "rings": 140000,
+        "damage": 10500
       },
-      "image": "images/Dark_Star_Trail.png"
+      "image": null
     },
     {
       "name": "Dark Static Trail",
@@ -11004,11 +11012,11 @@
         "damage": 2000
       },
       "max_fused": {
-        "xp": 2306600,
-        "rings": 138395,
-        "damage": 3665275
+        "xp": 105000,
+        "rings": 105000,
+        "damage": 5000
       },
-      "image": "images/Falling_Leaf_Trail.png"
+      "image": null
     },
     {
       "name": "Fang Blur Trail",
@@ -11784,20 +11792,6 @@
       "name": "Aqua Electro Trail",
       "rarity": "Epic",
       "image": null,
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Black Electro Trail",
-      "rarity": "Epic",
-      "image": "images/Black_Electro_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Black Square Trail",
-      "rarity": "Rare",
-      "image": "images/Black_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
     },
