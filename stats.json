@@ -11078,18 +11078,8 @@
     },
     {
       "name": "Ghost Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 2400,
-        "rings": 1200,
-        "damage": 384
-      },
-      "max_fused": {
-        "xp": 6000,
-        "rings": 3000,
-        "damage": 960
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gold Rush Trail",
@@ -11822,6 +11812,11 @@
       "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Ghost Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gold Rush Trail",
