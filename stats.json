@@ -2081,7 +2081,8 @@
         "speed": 1
       },
       "abilities": [
-        "Super Boost"
+        "Super Boost",
+        "Water Run"
       ],
       "image": null
     },
@@ -10962,119 +10963,43 @@
     },
     {
       "name": "Emerald Energy Trail",
-      "rarity": "Exotic",
-      "max": {
-        "xp": 1363456,
-        "rings": 19477,
-        "damage": 1546561
-      },
-      "max_fused": {
-        "xp": 6817280,
-        "rings": 97385,
-        "damage": 7737805
-      },
-      "image": "images/Emerald_Energy_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Enmaku Trail",
-      "rarity": "Epic",
-      "max": {
-        "rings": 3417,
-        "damage": 21434
-      },
-      "max_fused": {
-        "rings": 17085,
-        "damage": 107170
-      },
-      "image": "images/Enmaku_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Espio Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1200,
-        "rings": 3000,
-        "damage": 240
-      },
-      "max_fused": {
-        "xp": 3000,
-        "rings": 7500,
-        "damage": 600
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Falling Leaf Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 42000,
-        "rings": 42000,
-        "damage": 2000
-      },
-      "max_fused": {
-        "xp": 105000,
-        "rings": 105000,
-        "damage": 5000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Fang Blur Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 20000,
-        "rings": 2000,
-        "damage": 200
-      },
-      "max_fused": {
-        "xp": 50000,
-        "rings": 5000,
-        "damage": 500
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Fire Blitz Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 2004,
-        "rings": 999,
-        "damage": 399
-      },
-      "max_fused": {
-        "xp": 5010,
-        "rings": 2497,
-        "damage": 997
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gear Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 1600,
-        "rings": 3600
-      },
-      "max_fused": {
-        "xp": 4000,
-        "rings": 9000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Gemerl Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 223253,
-        "rings": 4783,
-        "damage": 90023
-      },
-      "max_fused": {
-        "xp": 1116265,
-        "rings": 23915,
-        "damage": 450115
-      },
-      "image": "images/Gemerl_Blur_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Ghost Trail",
@@ -11812,6 +11737,46 @@
       "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Emerald Energy Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Enmaku Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Espio Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Falling Leaf Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Fang Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Fire Blitz Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gear Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gemerl Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Ghost Trail",
