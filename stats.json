@@ -1,6 +1,31 @@
 {
   "Characters": [
     {
+      "name": "Adventure Amy",
+      "rarity": "Exotic",
+      "max": {
+        "luck": 10,
+        "stamina": 15
+      },
+      "abilities": [
+        "Hammer Attack",
+        "Stomp Jump"
+      ],
+      "image": null
+    },
+    {
+      "name": "Adventure Big",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 10,
+        "air": 60
+      },
+      "abilities": [
+        "Floating"
+      ],
+      "image": null
+    },
+    {
       "name": "Adventure Knuckles",
       "rarity": "Legendary",
       "max": {
@@ -10963,13 +10988,31 @@
     },
     {
       "name": "Emerald Energy Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Exotic",
+      "max": {
+        "xp": 1363456,
+        "rings": 19477,
+        "damage": 1546561
+      },
+      "max_fused": {
+        "xp": 6817280,
+        "rings": 97385,
+        "damage": 7737805
+      },
+      "image": null
     },
     {
       "name": "Enmaku Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "rings": 3417,
+        "damage": 21434
+      },
+      "max_fused": {
+        "rings": 17085,
+        "damage": 107170
+      },
+      "image": null
     },
     {
       "name": "Espio Blur Trail",
@@ -11737,16 +11780,6 @@
       "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Emerald Energy Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Enmaku Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Espio Blur Trail",
