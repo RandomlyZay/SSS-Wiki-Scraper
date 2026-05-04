@@ -2,20 +2,22 @@
   "Characters": [
     {
       "name": "Adventure Amy",
-      "rarity": "Exotic",
+      "rarity": "Epic",
       "max": {
         "luck": 10,
         "stamina": 15
       },
       "abilities": [
         "Hammer Attack",
+        "Hammer Slam",
+        "Hammer Jump",
         "Stomp Jump"
       ],
       "image": null
     },
     {
       "name": "Adventure Big",
-      "rarity": "Exotic",
+      "rarity": "Epic",
       "max": {
         "magnet": 10,
         "air": 60
@@ -10990,14 +10992,14 @@
       "name": "Emerald Energy Trail",
       "rarity": "Exotic",
       "max": {
-        "xp": 1363456,
-        "rings": 19477,
-        "damage": 1546561
+        "xp": 200000,
+        "rings": 1400,
+        "damage": 115
       },
       "max_fused": {
-        "xp": 6817280,
-        "rings": 97385,
-        "damage": 7737805
+        "xp": 500000,
+        "rings": 3500,
+        "damage": 287
       },
       "image": null
     },
@@ -11016,18 +11018,48 @@
     },
     {
       "name": "Espio Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 1200,
+        "rings": 3000,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 7500,
+        "damage": 600
+      },
+      "image": null
     },
     {
       "name": "Falling Leaf Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 42000,
+        "rings": 42000,
+        "damage": 2000
+      },
+      "max_fused": {
+        "xp": 105000,
+        "rings": 105000,
+        "damage": 5000
+      },
+      "image": null
     },
     {
       "name": "Fang Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 20000,
+        "rings": 2000,
+        "damage": 200
+      },
+      "max_fused": {
+        "xp": 50000,
+        "rings": 5000,
+        "damage": 500
+      },
+      "image": null
     },
     {
       "name": "Fire Blitz Trail",
@@ -11780,21 +11812,6 @@
       "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Espio Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Falling Leaf Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Fang Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Fire Blitz Trail",
