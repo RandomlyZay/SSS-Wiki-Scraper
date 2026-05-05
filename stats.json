@@ -4389,6 +4389,12 @@
       "image": "images/Tangle_the_Lemur.png"
     },
     {
+      "name": "Tikal",
+      "rarity": "Common",
+      "image": "images/Tikal.png",
+      "type": "NPC"
+    },
+    {
       "name": "Time Eater",
       "rarity": "Common",
       "image": "images/Time_Eater.png",
@@ -11048,18 +11054,8 @@
     },
     {
       "name": "Fang Blur Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 20000,
-        "rings": 2000,
-        "damage": 200
-      },
-      "max_fused": {
-        "xp": 50000,
-        "rings": 5000,
-        "damage": 500
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Fire Blitz Trail",
@@ -11812,6 +11808,11 @@
       "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Fang Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Fire Blitz Trail",
