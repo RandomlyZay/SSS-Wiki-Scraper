@@ -3481,6 +3481,7 @@
         "stamina": 10
       },
       "abilities": [
+        "Double Jump",
         ":Category:Hoverboards"
       ],
       "image": "images/Riders_Amy.png"
