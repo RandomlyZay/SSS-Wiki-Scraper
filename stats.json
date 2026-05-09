@@ -6864,20 +6864,7 @@
       "image": null
     },
     {
-      "name": "Kronos Island Koco Four",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 96000,
-        "rings": 96000
-      },
-      "max_fused": {
-        "xp": 240000,
-        "rings": 240000
-      },
-      "image": "images/Kronos_Island_Koco_Four.png"
-    },
-    {
-      "name": "Kronos Island Koco One",
+      "name": "Kronos Island Koco 1",
       "rarity": "Exotic",
       "max": {
         "xp": 80000,
@@ -6889,10 +6876,25 @@
         "rings": 200000,
         "damage": 37500
       },
-      "image": "images/Kronos_Island_Koco_One.png"
+      "image": null
     },
     {
-      "name": "Kronos Island Koco Three",
+      "name": "Kronos Island Koco 2",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 80000,
+        "rings": 80000,
+        "damage": 15000
+      },
+      "max_fused": {
+        "xp": 200000,
+        "rings": 200000,
+        "damage": 37500
+      },
+      "image": null
+    },
+    {
+      "name": "Kronos Island Koco 3",
       "rarity": "Epic",
       "max": {
         "xp": 90000,
@@ -6902,20 +6904,18 @@
         "xp": 225000,
         "rings": 225000
       },
-      "image": "images/Kronos_Island_Koco_Three.png"
+      "image": null
     },
     {
-      "name": "Kronos Island Koco Two",
-      "rarity": "Exotic",
+      "name": "Kronos Island Koco 4",
+      "rarity": "Legendary",
       "max": {
-        "xp": 80000,
-        "rings": 80000,
-        "damage": 15000
+        "xp": 96000,
+        "rings": 96000
       },
       "max_fused": {
-        "xp": 200000,
-        "rings": 200000,
-        "damage": 37500
+        "xp": 240000,
+        "rings": 240000
       },
       "image": null
     },
