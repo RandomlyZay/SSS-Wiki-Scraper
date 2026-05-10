@@ -217,6 +217,38 @@
       "image": null
     },
     {
+      "name": "Avatar Bird",
+      "rarity": "Exotic",
+      "max": {
+        "luck": 5,
+        "magnet": 15
+      },
+      "abilities": [
+        "Double Jump"
+      ],
+      "image": null
+    },
+    {
+      "name": "Avatar Cat",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 15
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
+      "name": "Avatar Rabbit",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 15
+      },
+      "abilities": [
+        "Increased Jump Height"
+      ],
+      "image": null
+    },
+    {
       "name": "Aviator Tails",
       "rarity": "Epic",
       "max": {
@@ -305,6 +337,19 @@
       },
       "abilities": [],
       "image": "images/Blaze_the_Cat.png"
+    },
+    {
+      "name": "Burning Blaze",
+      "rarity": "Super",
+      "max": {
+        "magnet": 30,
+        "stamina": 25
+      },
+      "abilities": [
+        "Super Boost",
+        "Parry"
+      ],
+      "image": null
     },
     {
       "name": "Burning Blaze (Tradeable)",
@@ -734,6 +779,15 @@
       },
       "abilities": [],
       "image": "images/Classic_Sonic.png"
+    },
+    {
+      "name": "Classic Sonic (Exotic)",
+      "rarity": "Exotic",
+      "max": {
+        "luck": 15
+      },
+      "abilities": [],
+      "image": null
     },
     {
       "name": "Classic Super Sonic",
@@ -3647,7 +3701,9 @@
       },
       "abilities": [
         "Double Jump",
-        ":Category:Hoverboards"
+        ":Category:Hoverboards",
+        "Wispon Abilities",
+        "Hover"
       ],
       "image": "images/Riders_Whisper.png"
     },
@@ -3941,6 +3997,22 @@
       },
       "abilities": [],
       "image": "images/SIM_Vector.png"
+    },
+    {
+      "name": "SIM Whisper",
+      "rarity": "Exotic",
+      "max": {
+        "luck": 10,
+        "magnet": 10,
+        "stamina": 10,
+        "event": 5,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Wispon Abilities",
+        "Hover"
+      ],
+      "image": "images/SIM_Whisper.png"
     },
     {
       "name": "Sage",
@@ -4296,7 +4368,10 @@
         "stamina": 25,
         "event": 5
       },
-      "abilities": [],
+      "abilities": [
+        "Wispon Abilities",
+        "Hover"
+      ],
       "image": "images/Summer_Whisper.png"
     },
     {
@@ -4584,7 +4659,10 @@
         "stamina": 25,
         "event": 5
       },
-      "abilities": [],
+      "abilities": [
+        "Wispon Abilities",
+        "Hover"
+      ],
       "image": "images/Whisper_the_Wolf.png"
     },
     {
