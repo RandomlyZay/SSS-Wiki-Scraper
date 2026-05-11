@@ -4009,8 +4009,11 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Wispon Abilities",
-        "Hover"
+        "Wispon Abilities#Rocket",
+        "Wispon Hover",
+        "Wispon Abilities#Laser",
+        "Wispon Abilities#Spike",
+        "Wispon Abilities#Cube"
       ],
       "image": "images/SIM_Whisper.png"
     },
@@ -8868,21 +8871,6 @@
         "rings": 2700
       },
       "image": "images/Tuxedo_Chao.png"
-    },
-    {
-      "name": "User blog:DevThom/Page Auto Update Program Test",
-      "rarity": "Epic",
-      "max": {
-        "rings": 7688,
-        "damage": 48226,
-        "magnet": 3
-      },
-      "max_fused": {
-        "rings": 19220,
-        "damage": 120565,
-        "magnet": 3
-      },
-      "image": "images/User_blogDevThomPage_Auto_Update_Program_Test.png"
     },
     {
       "name": "VIP Chao",
