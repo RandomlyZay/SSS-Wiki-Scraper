@@ -347,7 +347,8 @@
       },
       "abilities": [
         "Super Boost",
-        "Parry"
+        "Parry",
+        "Fire Whirl"
       ],
       "image": null
     },
@@ -361,7 +362,8 @@
       },
       "abilities": [
         "Super Boost",
-        "Parry"
+        "Parry",
+        "Fire Whirl"
       ],
       "image": null
     },
@@ -6416,6 +6418,19 @@
       "image": "images/Green_Shadow_Omochao.png"
     },
     {
+      "name": "Green Wisp",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 115000,
+        "rings": 14000
+      },
+      "max_fused": {
+        "xp": 287500,
+        "rings": 35000
+      },
+      "image": null
+    },
+    {
       "name": "Grey Hero Chao",
       "rarity": "Rare",
       "max": {
@@ -6587,15 +6602,15 @@
       "name": "Indigo Wisp",
       "rarity": "Exotic",
       "max": {
-        "xp": 324598,
-        "rings": 32458,
-        "damage": 1289892,
+        "xp": 9500,
+        "rings": 4700,
+        "damage": 384,
         "magnet": 8
       },
       "max_fused": {
-        "xp": 811495,
-        "rings": 81145,
-        "damage": 3224730,
+        "xp": 23750,
+        "rings": 11750,
+        "damage": 960,
         "magnet": 8
       },
       "image": "images/Indigo_Wisp.png"
@@ -7656,6 +7671,19 @@
         "luck": 16
       },
       "image": "images/Orange_Shadow_Omochao.png"
+    },
+    {
+      "name": "Orange Wisp",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 25000,
+        "rings": 50000
+      },
+      "max_fused": {
+        "xp": 62500,
+        "rings": 125000
+      },
+      "image": null
     },
     {
       "name": "Passion Fruit Chao",
@@ -9224,11 +9252,13 @@
       "rarity": "Exotic",
       "max": {
         "xp": 1300,
-        "rings": 2250
+        "rings": 2250,
+        "luck": 8
       },
       "max_fused": {
         "xp": 3250,
-        "rings": 5625
+        "rings": 5625,
+        "luck": 16
       },
       "image": "images/Yellow_Wisp.png"
     },
@@ -9854,7 +9884,7 @@
           "stamina": 12
         },
         "6": {
-          "stamina": 15
+          "stamina": 12
         }
       },
       "image": "images/Toy_Robot_Rouge.png"
@@ -10328,18 +10358,8 @@
     },
     {
       "name": "Black Electro Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 10800,
-        "rings": 10800,
-        "damage": 1100
-      },
-      "max_fused": {
-        "xp": 27000,
-        "rings": 27000,
-        "damage": 2750
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Black Square Trail",
@@ -11150,6 +11170,21 @@
       "image": null
     },
     {
+      "name": "Frontier Blur Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 50000,
+        "rings": 50000,
+        "damage": 4200
+      },
+      "max_fused": {
+        "xp": 125000,
+        "rings": 125000,
+        "damage": 10500
+      },
+      "image": null
+    },
+    {
       "name": "Gear Trail",
       "rarity": "Epic",
       "max": {
@@ -11832,6 +11867,21 @@
       "reason": "Only level 1/base stats available"
     },
     {
+      "name": "Phantom Copy Trail",
+      "rarity": "Exotic",
+      "max": {
+        "xp": 80000,
+        "rings": 60000,
+        "damage": 2000
+      },
+      "max_fused": {
+        "xp": 200000,
+        "rings": 150000,
+        "damage": 5000
+      },
+      "image": null
+    },
+    {
       "name": "Pink Bat Trail",
       "rarity": "Legendary",
       "max": {
@@ -12285,6 +12335,19 @@
       },
       "max_fused": {},
       "image": "images/Red_Wavy_Trail.png"
+    },
+    {
+      "name": "Resistance Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 75000,
+        "rings": 52000
+      },
+      "max_fused": {
+        "xp": 187500,
+        "rings": 130000
+      },
+      "image": null
     },
     {
       "name": "Retro Neon Trail",
@@ -12978,6 +13041,11 @@
       "image": null,
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Black Electro Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Electro Trail",
