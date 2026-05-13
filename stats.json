@@ -203,7 +203,8 @@
       },
       "abilities": [
         "Cyber Station Zone",
-        "Parry"
+        "Parry",
+        "UGC"
       ],
       "image": "images/Avatar.png"
     },
@@ -3081,7 +3082,8 @@
       "abilities": [
         "Super Boost",
         "Parry",
-        "Water Run"
+        "Water Run",
+        "Black Shield"
       ],
       "image": null
     },
@@ -10358,8 +10360,18 @@
     },
     {
       "name": "Black Electro Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 10800,
+        "rings": 10800,
+        "damage": 1100
+      },
+      "max_fused": {
+        "xp": 27000,
+        "rings": 27000,
+        "damage": 2750
+      },
+      "image": null
     },
     {
       "name": "Black Square Trail",
@@ -13041,11 +13053,6 @@
       "image": null,
       "type": "Trails",
       "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Black Electro Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Electro Trail",
