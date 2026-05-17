@@ -3795,6 +3795,30 @@
       "image": "images/Ruby_Style_Amy.png"
     },
     {
+      "name": "Ruby Style Metal Sonic",
+      "rarity": "Limited",
+      "max": {
+        "magnet": 30,
+        "event": 10,
+        "air": "Infinity"
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
+      "name": "Ruby Style Omega",
+      "rarity": "Limited",
+      "max": {
+        "magnet": 25,
+        "event": 5,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Hover"
+      ],
+      "image": null
+    },
+    {
       "name": "Ruby Style Rouge",
       "rarity": "Limited",
       "max": {
@@ -4460,6 +4484,18 @@
         "Thunder Rush"
       ],
       "image": "images/Super_Sonic_Tradeable.png"
+    },
+    {
+      "name": "Surge the Tenrec",
+      "rarity": "Exotic",
+      "max": {
+        "stamina": 25
+      },
+      "abilities": [
+        "Electric Boost",
+        "Voltaic Discharge"
+      ],
+      "image": null
     },
     {
       "name": "Tangle the Lemur",
