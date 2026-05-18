@@ -883,8 +883,8 @@
         "stamina": 35
       },
       "abilities": [
-        "Chaos Blast",
         "Super Boost",
+        "Chaos Blast",
         "Parry"
       ],
       "image": "images/Dark_Shadow.png"
@@ -966,13 +966,13 @@
         "stamina": 25
       },
       "abilities": [
-        "Double Jump",
-        "Chaos Snap",
-        "Super Boost",
         "Glide#Doom Wings: Glide",
+        "Double Jump",
+        "Parry",
+        "Super Boost",
         "Chaos Spear#Doom Spear",
-        "Doom Surf",
-        "Parry"
+        "Chaos Snap",
+        "Doom Surf"
       ],
       "image": "images/Doom_Shadow.png"
     },
@@ -1178,7 +1178,8 @@
       "abilities": [
         "Super Boost",
         "Parry",
-        "Water Run"
+        "Water Run",
+        "Psycho Smash"
       ],
       "image": "images/ESP_Silver_Tradeable.png"
     },
@@ -1938,8 +1939,8 @@
       },
       "abilities": [
         "Chaos Spear",
-        "Chaos Snap",
         "Super Boost",
+        "Chaos Snap",
         "Parry"
       ],
       "image": "images/Hero_Shadow.png"
@@ -3068,7 +3069,8 @@
       "abilities": [
         "Super Boost",
         "Parry",
-        "Water Run"
+        "Water Run",
+        "Black Shield"
       ],
       "image": "images/Overclocked_Metal_Sonic.png"
     },
@@ -4467,7 +4469,8 @@
       },
       "abilities": [
         "Super Boost",
-        "Parry"
+        "Parry",
+        "Thunder Rush"
       ],
       "image": "images/Super_Sonic.png"
     },
@@ -12363,7 +12366,7 @@
     },
     {
       "name": "Red Trail",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "max": {
         "xp": 150,
         "rings": 25
