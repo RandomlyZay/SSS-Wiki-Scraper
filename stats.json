@@ -3886,7 +3886,8 @@
       "rarity": "Exotic",
       "max": {
         "magnet": 20,
-        "stamina": 30
+        "stamina": 30,
+        "air": "Infinity"
       },
       "abilities": [
         "Bounce"
@@ -3942,9 +3943,12 @@
         "luck": 10,
         "magnet": 10,
         "stamina": 10,
-        "event": 5
+        "event": 5,
+        "air": "Infinity"
       },
-      "abilities": [],
+      "abilities": [
+        "Hover"
+      ],
       "image": null
     },
     {
@@ -4024,7 +4028,8 @@
       "rarity": "Exotic",
       "max": {
         "magnet": 20,
-        "stamina": 30
+        "stamina": 30,
+        "air": "Infinity"
       },
       "abilities": [],
       "image": "images/SIM_Vector.png"
@@ -4041,7 +4046,7 @@
       },
       "abilities": [
         "Wispon Abilities#Rocket",
-        "Wispon Hover",
+        "Hover",
         "Wispon Abilities#Laser",
         "Wispon Abilities#Spike",
         "Wispon Abilities#Cube"
