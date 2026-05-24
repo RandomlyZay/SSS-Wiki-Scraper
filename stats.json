@@ -966,13 +966,13 @@
         "stamina": 25
       },
       "abilities": [
+        "Chaos Snap",
+        "Doom Surf",
         "Glide#Doom Wings: Glide",
         "Double Jump",
         "Parry",
         "Super Boost",
-        "Chaos Spear#Doom Spear",
-        "Chaos Snap",
-        "Doom Surf"
+        "Chaos Spear#Doom Spear"
       ],
       "image": "images/Doom_Shadow.png"
     },
@@ -984,13 +984,13 @@
         "stamina": 25
       },
       "abilities": [
+        "Chaos Snap",
+        "Doom Surf",
         "Glide#Doom Wings: Glide",
         "Double Jump",
         "Parry",
         "Super Boost",
-        "Chaos Spear#Doom Spear",
-        "Chaos Snap",
-        "Doom Surf"
+        "Chaos Spear#Doom Spear"
       ],
       "image": "images/Doom_Shadow_Tradeable.png"
     },
@@ -3804,7 +3804,9 @@
         "event": 10,
         "air": "Infinity"
       },
-      "abilities": [],
+      "abilities": [
+        "Black Shield"
+      ],
       "image": null
     },
     {
@@ -3893,6 +3895,17 @@
         "Bounce"
       ],
       "image": "images/SIM_Blaze.png"
+    },
+    {
+      "name": "SIM Espio",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 20,
+        "stamina": 30,
+        "air": "Infinity"
+      },
+      "abilities": [],
+      "image": null
     },
     {
       "name": "SIM Jet",
@@ -4045,11 +4058,8 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Wispon Abilities#Rocket",
-        "Hover",
-        "Wispon Abilities#Laser",
-        "Wispon Abilities#Spike",
-        "Wispon Abilities#Cube"
+        "Wispon Abilities",
+        "Hover"
       ],
       "image": "images/SIM_Whisper.png"
     },
@@ -4464,6 +4474,22 @@
         "Parry"
       ],
       "image": "images/Super_Silver.png"
+    },
+    {
+      "name": "Super Silver (Tradeable)",
+      "rarity": "Super",
+      "max": {
+        "magnet": 35,
+        "stamina": 40
+      },
+      "abilities": [
+        "Psycho Smash",
+        "Meteor Smash",
+        "Super Boost",
+        "Water Run",
+        "Parry"
+      ],
+      "image": null
     },
     {
       "name": "Super Sonic",
@@ -10811,61 +10837,23 @@
     },
     {
       "name": "Classic Sonic Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1500,
-        "rings": 7500
-      },
-      "max_fused": {
-        "xp": 3750,
-        "rings": 18750
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Club VIP Trail",
-      "rarity": "Exotic",
-      "max": {
-        "xp": 9600,
-        "rings": 4700,
-        "damage": 191
-      },
-      "max_fused": {
-        "xp": 24000,
-        "rings": 11750,
-        "damage": 477
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cream Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 9600,
-        "rings": 4800,
-        "damage": 960,
-        "luck": 3
-      },
-      "max_fused": {
-        "xp": 24000,
-        "rings": 12000,
-        "damage": 2400,
-        "luck": 6
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Crimson Fury Trail",
-      "rarity": "Legendary",
-      "max": {
-        "rings": 7973,
-        "damage": 450119
-      },
-      "max_fused": {
-        "rings": 39865,
-        "damage": 2250595
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cyan Speed Trail",
@@ -11744,6 +11732,26 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Classic Sonic Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Club VIP Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Cream Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Crimson Fury Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cyan Speed Trail",
