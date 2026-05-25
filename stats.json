@@ -771,7 +771,9 @@
       "max": {
         "stamina": 15
       },
-      "abilities": [],
+      "abilities": [
+        "Glide"
+      ],
       "image": "images/Classic_Knuckles.png"
     },
     {
@@ -3339,7 +3341,9 @@
       "max": {
         "event": 5
       },
-      "abilities": [],
+      "abilities": [
+        "Glide"
+      ],
       "image": "images/Racesuit_Classic_Knuckles.png"
     },
     {
@@ -10837,13 +10841,31 @@
     },
     {
       "name": "Classic Sonic Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 1500,
+        "rings": 7500
+      },
+      "max_fused": {
+        "xp": 3750,
+        "rings": 18750
+      },
+      "image": null
     },
     {
       "name": "Club VIP Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Exotic",
+      "max": {
+        "xp": 9600,
+        "rings": 4700,
+        "damage": 191
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 11750,
+        "damage": 477
+      },
+      "image": null
     },
     {
       "name": "Cream Blur Trail",
@@ -11732,16 +11754,6 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Classic Sonic Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Club VIP Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cream Blur Trail",
