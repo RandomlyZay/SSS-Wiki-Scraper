@@ -767,7 +767,7 @@
     },
     {
       "name": "Classic Knuckles",
-      "rarity": "Icons",
+      "rarity": "Legendary",
       "max": {
         "stamina": 15
       },
@@ -6437,6 +6437,21 @@
       "image": "images/Green_Chao.png"
     },
     {
+      "name": "Green Dark Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 12000,
+        "rings": 2000,
+        "damage": 200
+      },
+      "max_fused": {
+        "xp": 30000,
+        "rings": 5000,
+        "damage": 500
+      },
+      "image": null
+    },
+    {
       "name": "Green Hill Master Chao",
       "rarity": "Exotic",
       "max": {
@@ -8212,14 +8227,14 @@
       "name": "Resistance Chao",
       "rarity": "Epic",
       "max": {
-        "xp": 41006,
-        "rings": 1025,
-        "damage": 96453
+        "xp": 64,
+        "rings": 64,
+        "damage": 64
       },
       "max_fused": {
-        "xp": 102515,
-        "rings": 2562,
-        "damage": 241132
+        "xp": 64,
+        "rings": 64,
+        "damage": 64
       },
       "image": "images/Resistance_Chao.png"
     },
@@ -10826,46 +10841,18 @@
     },
     {
       "name": "Classic Knuckles Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 143520,
-        "rings": 14350,
-        "damage": 456120
-      },
-      "max_fused": {
-        "xp": 717600,
-        "rings": 71760,
-        "damage": 22280000
-      },
-      "image": "images/Classic_Knuckles_Blur_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Classic Sonic Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1500,
-        "rings": 7500
-      },
-      "max_fused": {
-        "xp": 3750,
-        "rings": 18750
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Club VIP Trail",
-      "rarity": "Exotic",
-      "max": {
-        "xp": 9600,
-        "rings": 4700,
-        "damage": 191
-      },
-      "max_fused": {
-        "xp": 24000,
-        "rings": 11750,
-        "damage": 477
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cream Blur Trail",
@@ -11754,6 +11741,21 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Classic Knuckles Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Classic Sonic Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Club VIP Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cream Blur Trail",
