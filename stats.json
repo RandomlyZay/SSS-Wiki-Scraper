@@ -11064,16 +11064,16 @@
       "name": "Dark Speed Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 308161,
-        "rings": 30723,
-        "damage": 1220537
+        "xp": 16032,
+        "rings": 7992,
+        "damage": 3196
       },
       "max_fused": {
-        "xp": 1540805,
-        "rings": 153615,
-        "damage": 6102685
+        "xp": 40080,
+        "rings": 19980,
+        "damage": 7990
       },
-      "image": "images/Dark_Speed_Trail.png"
+      "image": null
     },
     {
       "name": "Dark Star Trail",
@@ -11149,7 +11149,7 @@
     {
       "name": "Eerie Fog Trail",
       "rarity": "Seasonal",
-      "image": null,
+      "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
     },
@@ -11518,8 +11518,17 @@
     {
       "name": "Hawk Blur Trail",
       "rarity": "Legendary",
-      "image": "images/Hawk_Blur_Trail.png",
-      "status": "Stub"
+      "max": {
+        "xp": 2650,
+        "rings": 2650,
+        "damage": 600
+      },
+      "max_fused": {
+        "xp": 6625,
+        "rings": 6625,
+        "damage": 1500
+      },
+      "image": null
     },
     {
       "name": "Hologram Trail",
@@ -11645,16 +11654,16 @@
       "name": "Jitsu Trail",
       "rarity": "Epic",
       "max": {
-        "xp": 9112,
-        "rings": 910,
-        "damage": 5467
+        "xp": 1200,
+        "rings": 600,
+        "damage": 720
       },
       "max_fused": {
-        "xp": 45560,
-        "rings": 4550,
-        "damage": 27335
+        "xp": 3000,
+        "rings": 1500,
+        "damage": 1800
       },
-      "image": "images/Jitsu_Trail.png"
+      "image": null
     },
     {
       "name": "Jolly Trail",
@@ -13168,7 +13177,7 @@
     {
       "name": "Eerie Fog Trail",
       "rarity": "Seasonal",
-      "image": null,
+      "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
     },
