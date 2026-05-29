@@ -11332,9 +11332,17 @@
     {
       "name": "Gold Rush Trail",
       "rarity": "Epic",
-      "image": "images/Gold_Rush_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 2004,
+        "rings": 999,
+        "damage": 399
+      },
+      "max_fused": {
+        "xp": 5010,
+        "rings": 2497,
+        "damage": 997
+      },
+      "image": null
     },
     {
       "name": "Golden Style Trail",
@@ -11541,16 +11549,16 @@
       "name": "Hot Dog Trail",
       "rarity": "Legendary",
       "max": {
-        "xp": 95680,
-        "rings": 19135,
-        "damage": 60015
+        "xp": 7200,
+        "rings": 7200,
+        "damage": 480
       },
       "max_fused": {
-        "xp": 478400,
-        "rings": 95675,
-        "damage": 300075
+        "xp": 18000,
+        "rings": 18000,
+        "damage": 1200
       },
-      "image": "images/Hot_Dog_Trail.png"
+      "image": null
     },
     {
       "name": "Hyper Wave Trail",
@@ -11585,9 +11593,17 @@
     {
       "name": "Indigo Electro Trail",
       "rarity": "Rare",
-      "image": "images/Indigo_Electro_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 1503,
+        "rings": 749,
+        "damage": 299
+      },
+      "max_fused": {
+        "xp": 3757,
+        "rings": 1872,
+        "damage": 747
+      },
+      "image": null
     },
     {
       "name": "Indigo Square Trail",
@@ -11621,12 +11637,16 @@
       "name": "Indigo Wavy Trail",
       "rarity": "Uncommon",
       "max": {
-        "xp": 22824,
-        "rings": 2268,
-        "damage": 4545
+        "xp": 10020,
+        "rings": 4995,
+        "damage": 1998
       },
-      "max_fused": {},
-      "image": "images/Indigo_Wavy_Trail.png"
+      "max_fused": {
+        "xp": 25050,
+        "rings": 12487,
+        "damage": 4995
+      },
+      "image": null
     },
     {
       "name": "Jack-O'-Lantern Trail",
@@ -11681,9 +11701,17 @@
     {
       "name": "Knuckles Blur Trail",
       "rarity": "Legendary",
-      "image": "images/Knuckles_Blur_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
+      "max": {
+        "xp": 2400,
+        "rings": 1200,
+        "damage": 384
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 3000,
+        "damage": 960
+      },
+      "image": null
     },
     {
       "name": "Laser Trail",
@@ -13182,13 +13210,6 @@
       "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Gold Rush Trail",
-      "rarity": "Epic",
-      "image": "images/Gold_Rush_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
       "name": "Green Electro Trail",
       "rarity": "Uncommon",
       "image": "images/Green_Electro_Trail.png",
@@ -13203,23 +13224,9 @@
       "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Indigo Electro Trail",
-      "rarity": "Rare",
-      "image": "images/Indigo_Electro_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
       "name": "Jack-O'-Lantern Trail",
       "rarity": "Legendary",
       "image": "images/Jack-O-Lantern_Trail.png",
-      "type": "Trails",
-      "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Knuckles Blur Trail",
-      "rarity": "Legendary",
-      "image": "images/Knuckles_Blur_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
     },
