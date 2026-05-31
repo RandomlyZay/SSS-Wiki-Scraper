@@ -435,15 +435,6 @@
       "image": "images/Charmy_Bee.png"
     },
     {
-      "name": "Cheetah Shadow",
-      "rarity": "Exotic",
-      "max": {
-        "magnet": 10
-      },
-      "abilities": [],
-      "image": "images/Cheetah_Shadow.png"
-    },
-    {
       "name": "Chef Amy",
       "rarity": "Epic",
       "max": {
@@ -2368,6 +2359,15 @@
       "image": "images/Lantern_Silver.png"
     },
     {
+      "name": "Leopard Shadow",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 10
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "Luminosity Amy",
       "rarity": "Limited",
       "max": {
@@ -3089,6 +3089,17 @@
         "Parry",
         "Water Run",
         "Black Shield"
+      ],
+      "image": null
+    },
+    {
+      "name": "Panda Amy",
+      "rarity": "Exotic",
+      "max": {
+        "stamina": 15
+      },
+      "abilities": [
+        "Stomp Jump"
       ],
       "image": null
     },
@@ -9568,31 +9579,6 @@
         }
       },
       "image": "images/Froggy.png"
-    },
-    {
-      "name": "Froggy (Fast Friend)",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "air": 2
-        },
-        "2": {
-          "air": 4
-        },
-        "3": {
-          "air": 6
-        },
-        "4": {
-          "air": 8
-        },
-        "5": {
-          "air": 10
-        },
-        "6": {
-          "air": 12
-        }
-      },
-      "image": "images/Froggy_Fast_Friend.png"
     },
     {
       "name": "Holiday Toy Robot Amy",
