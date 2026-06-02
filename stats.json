@@ -10773,44 +10773,18 @@
     },
     {
       "name": "Checkers Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1169,
-        "rings": 116,
-        "damage": 223
-      },
-      "max_fused": {
-        "xp": 5845,
-        "rings": 580,
-        "damage": 1115
-      },
-      "image": "images/Checkers_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cheetah Trail",
-      "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 478400,
-        "rings": 15940,
-        "damage": 1800000
-      },
-      "image": "images/Cheetah_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chili Dog Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 16200,
-        "rings": 16200,
-        "damage": 1450
-      },
-      "max_fused": {
-        "xp": 40500,
-        "rings": 40500,
-        "damage": 3625
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chrome Blur Trail",
@@ -11724,6 +11698,21 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Checkers Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Cheetah Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Chili Dog Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chrome Blur Trail",
