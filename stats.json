@@ -10814,8 +10814,18 @@
     },
     {
       "name": "Chrome Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 1200,
+        "rings": 4500,
+        "damage": 180
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 11250,
+        "damage": 450
+      },
+      "image": null
     },
     {
       "name": "Classic Amy Blur Trail",
@@ -11724,11 +11734,6 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Chrome Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Classic Amy Blur Trail",
