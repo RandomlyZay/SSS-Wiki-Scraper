@@ -10747,85 +10747,33 @@
     },
     {
       "name": "Charmy Bee Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 102515,
-        "rings": 10251
-      },
-      "max_fused": {
-        "xp": 512575,
-        "rings": 51255
-      },
-      "image": "images/Charmy_Bee_Blur_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Checkered Flag Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 20000,
-        "rings": 20000
-      },
-      "max_fused": {
-        "xp": 50000,
-        "rings": 50000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Checkers Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1169,
-        "rings": 116,
-        "damage": 223
-      },
-      "max_fused": {
-        "xp": 5845,
-        "rings": 580,
-        "damage": 1115
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cheetah Trail",
-      "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 478400,
-        "rings": 15940,
-        "damage": 1800000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chili Dog Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 16200,
-        "rings": 16200,
-        "damage": 1450
-      },
-      "max_fused": {
-        "xp": 40500,
-        "rings": 40500,
-        "damage": 3625
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chrome Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1200,
-        "rings": 4500,
-        "damage": 180
-      },
-      "max_fused": {
-        "xp": 3000,
-        "rings": 11250,
-        "damage": 450
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Classic Amy Blur Trail",
@@ -11734,6 +11682,36 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Charmy Bee Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Checkered Flag Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Checkers Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Cheetah Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Chili Dog Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Chrome Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Classic Amy Blur Trail",
