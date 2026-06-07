@@ -3114,6 +3114,15 @@
       "image": null
     },
     {
+      "name": "Party Amy",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 15
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "Party Hat Amy",
       "rarity": "Legendary",
       "max": {
@@ -3122,6 +3131,50 @@
       },
       "abilities": [],
       "image": "images/Party_Hat_Amy.png"
+    },
+    {
+      "name": "Party Hat Blaze",
+      "rarity": "Legendary",
+      "max": {
+        "magnet": 25
+      },
+      "abilities": [
+        "Double Jump"
+      ],
+      "image": null
+    },
+    {
+      "name": "Party Hat Charmy",
+      "rarity": "Rare",
+      "max": {
+        "stamina": 25
+      },
+      "abilities": [
+        "Flight"
+      ],
+      "image": null
+    },
+    {
+      "name": "Party Hat Cream",
+      "rarity": "Common",
+      "max": {
+        "luck": 10
+      },
+      "abilities": [
+        "Flight"
+      ],
+      "image": null
+    },
+    {
+      "name": "Party Hat Espio",
+      "rarity": "Epic",
+      "max": {
+        "stamina": 10
+      },
+      "abilities": [
+        "Double Jump"
+      ],
+      "image": null
     },
     {
       "name": "Party Hat Knuckles",
@@ -3133,6 +3186,17 @@
         "Glide"
       ],
       "image": "images/Party_Hat_Knuckles.png"
+    },
+    {
+      "name": "Party Hat Rouge",
+      "rarity": "Epic",
+      "max": {
+        "stamina": 10
+      },
+      "abilities": [
+        "Flight"
+      ],
+      "image": "images/Party_Hat_Rouge.png"
     },
     {
       "name": "Party Hat Sonic",
@@ -3156,12 +3220,44 @@
       "image": "images/Party_Hat_Tails.png"
     },
     {
+      "name": "Party Hat Vector",
+      "rarity": "Uncommon",
+      "max": {
+        "air": 90
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
+      "name": "Party Knuckles",
+      "rarity": "Rare",
+      "max": {
+        "magnet": 25
+      },
+      "abilities": [
+        "Glide"
+      ],
+      "image": null
+    },
+    {
       "name": "Party Sonic",
       "rarity": "Exotic",
       "max": {
         "magnet": 15
       },
       "abilities": [],
+      "image": null
+    },
+    {
+      "name": "Party Tails",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 15,
+        "stamina": 15
+      },
+      "abilities": [
+        "Flight"
+      ],
       "image": null
     },
     {
@@ -10579,253 +10675,93 @@
     },
     {
       "name": "Blue Static Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 50000,
-        "rings": 50000
-      },
-      "max_fused": {
-        "xp": 125000,
-        "rings": 125000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Summer Trail",
-      "rarity": "Seasonal",
-      "max": {
-        "xp": 82011,
-        "rings": 10934,
-        "damage": 154326
-      },
-      "max_fused": {
-        "xp": 410050,
-        "rings": 54670,
-        "damage": 771630
-      },
-      "image": "images/Blue_Summer_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 100,
-        "rings": 25
-      },
-      "max_fused": {
-        "xp": 250,
-        "rings": 62
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Wavy Trail",
-      "rarity": "Rare",
-      "max": {
-        "xp": 38034,
-        "rings": 3789,
-        "damage": 7578
-      },
-      "max_fused": {},
-      "image": "images/Blue_Wavy_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Bone Trail",
-      "rarity": "Seasonal",
-      "max": {
-        "rings": 4554,
-        "damage": 3037
-      },
-      "max_fused": {
-        "rings": 22770,
-        "damage": 15180
-      },
-      "image": "images/Bone_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Bright Speed Trail",
-      "rarity": "Rare",
-      "max": {
-        "xp": 1800,
-        "rings": 1800,
-        "damage": 120
-      },
-      "max_fused": {
-        "xp": 4500,
-        "rings": 4500,
-        "damage": 300
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Bubble Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 478400,
-        "rings": 15946,
-        "air": 20
-      },
-      "max_fused": {
-        "xp": 1196000,
-        "rings": 39865,
-        "air": 20
-      },
-      "image": "images/Bubble_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Burst Power Trail",
-      "rarity": "Exotic",
-      "max": {
-        "xp": 32126,
-        "rings": 3201,
-        "damage": 6406
-      },
-      "max_fused": {
-        "xp": 160630,
-        "rings": 16005,
-        "damage": 32030
-      },
-      "image": "images/Burst_Power_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Candy Cane Trail",
-      "rarity": "Seasonal",
-      "max": {
-        "xp": 4200,
-        "rings": 3000,
-        "damage": 240
-      },
-      "max_fused": {
-        "xp": 10500,
-        "rings": 7500,
-        "damage": 600
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Candy Corn Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 2400,
-        "rings": 480,
-        "damage": 9600
-      },
-      "max_fused": {
-        "xp": 6000,
-        "rings": 1200,
-        "damage": 24000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Champion Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 750,
-        "damage": 20
-      },
-      "max_fused": {
-        "xp": 1875,
-        "damage": 50
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chaos Spear Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 4556,
-        "rings": 455,
-        "damage": 7290
-      },
-      "max_fused": {
-        "xp": 22780,
-        "rings": 2275,
-        "damage": 36450
-      },
-      "image": "images/Chaos_Spear_Trail.png"
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Charmy Bee Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 102515,
-        "rings": 10251
-      },
-      "max_fused": {
-        "xp": 512575,
-        "rings": 51255
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Checkered Flag Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 20000,
-        "rings": 20000
-      },
-      "max_fused": {
-        "xp": 50000,
-        "rings": 50000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Checkers Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1169,
-        "rings": 116,
-        "damage": 223
-      },
-      "max_fused": {
-        "xp": 5845,
-        "rings": 580,
-        "damage": 1115
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Cheetah Trail",
-      "rarity": "Legendary",
-      "max": {},
-      "max_fused": {
-        "xp": 478400,
-        "rings": 15940,
-        "damage": 1800000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chili Dog Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 16200,
-        "rings": 16200,
-        "damage": 1450
-      },
-      "max_fused": {
-        "xp": 40500,
-        "rings": 40500,
-        "damage": 3625
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chrome Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 1200,
-        "rings": 4500,
-        "damage": 180
-      },
-      "max_fused": {
-        "xp": 3000,
-        "rings": 11250,
-        "damage": 450
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Classic Amy Blur Trail",
@@ -11734,6 +11670,96 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Blue Static Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Blue Summer Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Blue Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Blue Wavy Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Bone Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Bright Speed Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Bubble Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Burst Power Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Candy Cane Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Candy Corn Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Champion Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Chaos Spear Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Charmy Bee Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Checkered Flag Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Checkers Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Cheetah Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Chili Dog Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Chrome Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Classic Amy Blur Trail",
