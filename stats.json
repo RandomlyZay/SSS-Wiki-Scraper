@@ -3150,7 +3150,8 @@
         "stamina": 25
       },
       "abilities": [
-        "Flight"
+        "Flight",
+        "Water Run"
       ],
       "image": null
     },
@@ -10662,16 +10663,8 @@
     },
     {
       "name": "Blue Star Trail",
-      "rarity": "Epic",
-      "max": {
-        "xp": 1900,
-        "rings": 2400
-      },
-      "max_fused": {
-        "xp": 4750,
-        "rings": 6000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Static Trail",
@@ -11670,6 +11663,11 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Blue Star Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Static Trail",
