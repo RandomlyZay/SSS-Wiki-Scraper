@@ -10689,18 +10689,8 @@
     },
     {
       "name": "Blue Summer Trail",
-      "rarity": "Seasonal",
-      "max": {
-        "xp": 82011,
-        "rings": 10934,
-        "damage": 154326
-      },
-      "max_fused": {
-        "xp": 410050,
-        "rings": 54670,
-        "damage": 771630
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Trail",
@@ -11689,6 +11679,11 @@
       "image": "images/Blue_Square_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Blue Summer Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Blue Trail",
