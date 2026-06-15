@@ -4318,6 +4318,24 @@
       "image": "images/Snow_Style_Metal_Sonic.png"
     },
     {
+      "name": "Soccer Amy",
+      "rarity": "Exotic",
+      "max": {},
+      "abilities": [
+        "Increased Jump Height"
+      ],
+      "image": null
+    },
+    {
+      "name": "Soccer Knuckles",
+      "rarity": "Exotic",
+      "max": {},
+      "abilities": [
+        "Increased Jump Height"
+      ],
+      "image": null
+    },
+    {
       "name": "Soccer Shadow",
       "rarity": "Legendary",
       "max": {},
@@ -4331,13 +4349,23 @@
       "rarity": "Legendary",
       "max": {},
       "abilities": [
-        "Increased Jump Height"
+        "Increased Jump Height",
+        "Super Boost"
       ],
       "image": null
     },
     {
       "name": "Soccer Sonic",
       "rarity": "Rare",
+      "max": {},
+      "abilities": [
+        "Increased Jump Height"
+      ],
+      "image": null
+    },
+    {
+      "name": "Soccer Tails",
+      "rarity": "Exotic",
       "max": {},
       "abilities": [
         "Increased Jump Height"
@@ -12121,8 +12149,17 @@
     {
       "name": "Panda Trail",
       "rarity": "Legendary",
-      "image": null,
-      "status": "Stub"
+      "max": {
+        "xp": 3000,
+        "rings": 12000,
+        "damage": 600
+      },
+      "max_fused": {
+        "xp": 7500,
+        "rings": 30000,
+        "damage": 1500
+      },
+      "image": null
     },
     {
       "name": "Paradox Prism Trail",
