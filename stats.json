@@ -1558,15 +1558,8 @@
     },
     {
       "name": "Gemerl the Robot",
-      "rarity": "Exotic",
-      "max": {
-        "magnet": 15,
-        "air": "Infinity"
-      },
-      "abilities": [
-        "Glide"
-      ],
-      "image": "images/Gemerl_the_Robot.png"
+      "type": "Characters",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Ghost Charmy",
@@ -11619,16 +11612,14 @@
       "name": "Green Trail",
       "rarity": "Common",
       "max": {
-        "xp": 167,
-        "rings": 16,
-        "damage": 33
+        "xp": 400,
+        "rings": 50
       },
       "max_fused": {
-        "xp": 835,
-        "rings": 80,
-        "damage": 165
+        "xp": 1000,
+        "rings": 125
       },
-      "image": "images/Green_Trail.png"
+      "image": null
     },
     {
       "name": "Green Wavy Trail",
@@ -13386,6 +13377,11 @@
       "image": "images/Eerie_Fog_Trail.gif",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Gemerl the Robot",
+      "type": "Characters",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Hologram Trail",
