@@ -1514,12 +1514,6 @@
       "image": "images/Fang_the_Hunter.png"
     },
     {
-      "name": "Fang the Hunter (NPC)",
-      "rarity": "Common",
-      "image": "images/Fang_the_Hunter_NPC.png",
-      "type": "NPC"
-    },
-    {
       "name": "Flame Shadow",
       "rarity": "Epic",
       "max": {
@@ -3431,8 +3425,14 @@
     {
       "name": "Rabbit",
       "rarity": "Exotic",
-      "image": null,
-      "reason": "No stats or abilities found"
+      "max": {
+        "luck": 10,
+        "stamina": 30
+      },
+      "abilities": [
+        "Stomp Jump"
+      ],
+      "image": null
     },
     {
       "name": "Racesuit Amy",
@@ -3941,6 +3941,18 @@
       "image": "images/Ruby_Style_Amy.png"
     },
     {
+      "name": "Ruby Style Knuckles",
+      "rarity": "Limited",
+      "max": {
+        "magnet": 30,
+        "event": 5
+      },
+      "abilities": [
+        "Glide"
+      ],
+      "image": null
+    },
+    {
       "name": "Ruby Style Metal Sonic",
       "rarity": "Limited",
       "max": {
@@ -4052,11 +4064,16 @@
     {
       "name": "SIM Classic Sonic",
       "rarity": "Exotic",
-      "max": {},
+      "max": {
+        "luck": 15,
+        "stamina": 10,
+        "event": 5,
+        "air": "Infinity"
+      },
       "abilities": [
-        "TBD"
+        "Bounce"
       ],
-      "image": null
+      "image": "images/SIM_Classic_Sonic.png"
     },
     {
       "name": "SIM Espio",
@@ -13487,12 +13504,6 @@
       "image": "images/Purple_Electro_Trail.png",
       "type": "Trails",
       "reason": "Only level 1/base stats available"
-    },
-    {
-      "name": "Rabbit",
-      "rarity": "Exotic",
-      "image": null,
-      "reason": "No stats or abilities found"
     },
     {
       "name": "Red Electro Trail",
