@@ -3430,7 +3430,9 @@
         "stamina": 30
       },
       "abilities": [
-        "Stomp Jump"
+        "Stomp Jump",
+        "Cyber Station Zone",
+        "Pixel Green Hill Zone"
       ],
       "image": null
     },
