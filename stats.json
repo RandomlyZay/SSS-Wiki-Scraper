@@ -6472,12 +6472,12 @@
       "name": "Flicky",
       "rarity": "Exotic",
       "max": {
-        "xp": 129852,
-        "rings": 8656
+        "xp": 2160,
+        "rings": 7200
       },
       "max_fused": {
-        "xp": 324630,
-        "rings": 21640
+        "xp": 5400,
+        "rings": 18000
       },
       "image": "images/Flicky.png"
     },
@@ -13286,6 +13286,21 @@
         "damage": 642385
       },
       "image": "images/White_Wavy_Trail.png"
+    },
+    {
+      "name": "World Soccer Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 835,
+        "rings": 416,
+        "damage": 166
+      },
+      "max_fused": {
+        "xp": 2087,
+        "rings": 1040,
+        "damage": 415
+      },
+      "image": null
     },
     {
       "name": "Yellow Electro Trail",
