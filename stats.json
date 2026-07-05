@@ -550,8 +550,7 @@
       "name": "Chrome Style Knuckles (Exotic)",
       "rarity": "Exotic",
       "max": {
-        "magnet": 30,
-        "event": 5
+        "magnet": 30
       },
       "abilities": [],
       "image": "images/Chrome_Style_Knuckles_Exotic.png"
@@ -4020,7 +4019,7 @@
       "name": "Ruby Style Sonic (Exotic)",
       "rarity": "Exotic",
       "max": {
-        "event": 10
+        "event": 5
       },
       "abilities": [],
       "image": null
@@ -4558,6 +4557,16 @@
         "Glide"
       ],
       "image": "images/Summer_Knuckles.png"
+    },
+    {
+      "name": "Summer Marine",
+      "rarity": "Seasonal",
+      "max": {
+        "stamina": 15,
+        "air": 90
+      },
+      "abilities": [],
+      "image": null
     },
     {
       "name": "Summer Rouge",
