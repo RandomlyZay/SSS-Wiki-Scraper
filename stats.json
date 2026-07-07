@@ -10517,16 +10517,8 @@
     },
     {
       "name": "Albatross Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 4000,
-        "rings": 4000
-      },
-      "max_fused": {
-        "xp": 10000,
-        "rings": 10000
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Amy Blur Trail",
@@ -10915,6 +10907,11 @@
     },
     {
       "name": "Gravity Pull Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gray Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -11621,6 +11618,11 @@
   ],
   "Errors": [
     {
+      "name": "Albatross Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
       "name": "Amy Blur Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -12007,6 +12009,11 @@
     },
     {
       "name": "Gravity Pull Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Gray Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
