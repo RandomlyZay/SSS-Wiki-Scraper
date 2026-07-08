@@ -1244,7 +1244,7 @@
         "stamina": 15
       },
       "abilities": [
-        "Laser Blast"
+        "Blaster Shot"
       ],
       "image": "images/Egg_Robo.png"
     },
@@ -1559,7 +1559,7 @@
       "name": "Frontiers Sonic",
       "rarity": "Legendary",
       "max": {
-        "stamina": 5
+        "stamina": 15
       },
       "abilities": [],
       "image": "images/Frontiers_Sonic.png"
@@ -2873,7 +2873,7 @@
         "stamina": 25
       },
       "abilities": [
-        "Laser Blast"
+        "Blaster Shot"
       ],
       "image": "images/Missile_Egg_Robo.png"
     },
@@ -10475,45 +10475,15 @@
     },
     {
       "name": "Toy Robot Vampire Sonic",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "event": 2
-        },
-        "2": {
-          "event": 3
-        },
-        "3": {
-          "event": 5
-        },
-        "4": {
-          "event": 6
-        },
-        "5": {
-          "event": 8
-        },
-        "6": {
-          "event": 10
-        }
-      },
-      "image": "images/Toy_Robot_Vampire_Sonic.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     }
   ],
   "Trails": [
     {
       "name": "3.0 Blur Trail",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 7500,
-        "rings": 3750,
-        "damage": 300
-      },
-      "max_fused": {
-        "xp": 18750,
-        "rings": 9375,
-        "damage": 750
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Albatross Blur Trail",
@@ -11618,6 +11588,11 @@
   ],
   "Errors": [
     {
+      "name": "3.0 Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
       "name": "Albatross Blur Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -12580,6 +12555,11 @@
     {
       "name": "Toxic Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Toy Robot Vampire Sonic",
+      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
