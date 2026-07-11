@@ -4000,8 +4000,9 @@
       "name": "Ruby Style Silver",
       "rarity": "Limited",
       "max": {
-        "magnet": 30,
-        "event": 5
+        "luck": 25,
+        "magnet": 25,
+        "stamina": 25
       },
       "abilities": [],
       "image": null
