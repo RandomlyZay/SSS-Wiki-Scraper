@@ -4059,6 +4059,20 @@
       "image": "images/SIM_Blaze.png"
     },
     {
+      "name": "SIM Charmy",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 20,
+        "stamina": 25,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Flight",
+        "Water Run"
+      ],
+      "image": null
+    },
+    {
       "name": "SIM Classic Sonic",
       "rarity": "Exotic",
       "max": {
