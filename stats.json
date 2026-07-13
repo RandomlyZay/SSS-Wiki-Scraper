@@ -4068,7 +4068,8 @@
       },
       "abilities": [
         "Flight",
-        "Water Run"
+        "Water Run",
+        "Bounce"
       ],
       "image": null
     },
