@@ -10416,28 +10416,8 @@
     },
     {
       "name": "Toy Robot Super Sonic",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "stamina": 3
-        },
-        "2": {
-          "stamina": 6
-        },
-        "3": {
-          "stamina": 9
-        },
-        "4": {
-          "stamina": 12
-        },
-        "5": {
-          "stamina": 15
-        },
-        "6": {
-          "stamina": 12
-        }
-      },
-      "image": "images/Toy_Robot_Super_Sonic.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Toy Robot T.H. Knuckles",
@@ -10466,28 +10446,8 @@
     },
     {
       "name": "Toy Robot Tails",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "magnet": 2
-        },
-        "2": {
-          "magnet": 4
-        },
-        "3": {
-          "magnet": 6
-        },
-        "4": {
-          "magnet": 8
-        },
-        "5": {
-          "magnet": 10
-        },
-        "6": {
-          "magnet": 12
-        }
-      },
-      "image": "images/Toy_Robot_Tails.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Toy Robot Vampire Sonic",
@@ -12571,6 +12531,16 @@
     {
       "name": "Toxic Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Toy Robot Super Sonic",
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Toy Robot Tails",
+      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
