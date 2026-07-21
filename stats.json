@@ -8,9 +8,7 @@
         "stamina": 15
       },
       "abilities": [
-        "Hammer Attack",
-        "Hammer Slam",
-        "Hammer Jump",
+        "Hammer Abilities",
         "Stomp Jump"
       ],
       "image": null
@@ -10235,38 +10233,196 @@
     },
     {
       "name": "Toy Robot Metal Sonic",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "luck": 1,
+          "magnet": 1
+        },
+        "2": {
+          "luck": 2,
+          "magnet": 2
+        },
+        "3": {
+          "luck": 3,
+          "magnet": 3
+        },
+        "4": {
+          "luck": 4,
+          "magnet": 4
+        },
+        "5": {
+          "luck": 5,
+          "magnet": 5
+        },
+        "6": {
+          "luck": 12,
+          "magnet": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Rouge",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "stamina": 4
+        },
+        "2": {
+          "stamina": 6
+        },
+        "3": {
+          "stamina": 8
+        },
+        "4": {
+          "stamina": 10
+        },
+        "5": {
+          "stamina": 12
+        },
+        "6": {
+          "stamina": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Shadow",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "stamina": 2
+        },
+        "2": {
+          "stamina": 4
+        },
+        "3": {
+          "stamina": 6
+        },
+        "4": {
+          "stamina": 8
+        },
+        "5": {
+          "stamina": 10
+        },
+        "6": {
+          "stamina": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Silver",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "magnet": 2
+        },
+        "2": {
+          "magnet": 4
+        },
+        "3": {
+          "magnet": 6
+        },
+        "4": {
+          "magnet": 8
+        },
+        "5": {
+          "magnet": 10
+        },
+        "6": {
+          "magnet": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Sonic",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "luck": 2
+        },
+        "2": {
+          "luck": 4
+        },
+        "3": {
+          "luck": 6
+        },
+        "4": {
+          "luck": 8
+        },
+        "5": {
+          "luck": 10
+        },
+        "6": {
+          "luck": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Summer Amy",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "luck": 3,
+          "air": 2
+        },
+        "2": {
+          "luck": 6,
+          "air": 14
+        },
+        "3": {
+          "luck": 9,
+          "air": 23
+        },
+        "4": {
+          "luck": 12,
+          "air": 32
+        },
+        "5": {
+          "luck": 15,
+          "air": 41
+        },
+        "6": {
+          "luck": 12,
+          "air": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Summer Jet",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "stamina": 2,
+          "air": 2
+        },
+        "2": {
+          "stamina": 4,
+          "air": 14
+        },
+        "3": {
+          "stamina": 7,
+          "air": 23
+        },
+        "4": {
+          "stamina": 9,
+          "air": 32
+        },
+        "5": {
+          "stamina": 12,
+          "air": 41
+        },
+        "6": {
+          "stamina": 12,
+          "air": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Summer Shadow",
@@ -12395,41 +12551,6 @@
     {
       "name": "Toxic Trail",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Toy Robot Metal Sonic",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Toy Robot Rouge",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Toy Robot Shadow",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Toy Robot Silver",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Toy Robot Sonic",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Toy Robot Summer Amy",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Toy Robot Summer Jet",
-      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
