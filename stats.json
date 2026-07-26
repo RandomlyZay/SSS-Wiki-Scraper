@@ -4145,6 +4145,16 @@
       "image": "images/SIM_Classic_Sonic.png"
     },
     {
+      "name": "SIM Eggman",
+      "rarity": "Villain",
+      "max": {
+        "magnet": 30,
+        "stamina": 30
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "SIM Espio",
       "rarity": "Exotic",
       "max": {
