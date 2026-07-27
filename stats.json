@@ -4151,7 +4151,9 @@
         "magnet": 30,
         "stamina": 30
       },
-      "abilities": [],
+      "abilities": [
+        "Hover"
+      ],
       "image": null
     },
     {
@@ -4485,7 +4487,6 @@
       "rarity": "Legendary",
       "max": {},
       "abilities": [
-        "Increased Jump Height",
         "Super Boost"
       ],
       "image": null
