@@ -4164,7 +4164,9 @@
         "stamina": 30
       },
       "abilities": [
-        "Hover"
+        "Hover",
+        "Double Jump",
+        "Races"
       ],
       "image": null
     },
@@ -8225,6 +8227,23 @@
       "image": null
     },
     {
+      "name": "Pink Hero Chao",
+      "rarity": "Epic",
+      "max": {
+        "xp": 1200,
+        "rings": 600,
+        "damage": 480,
+        "stamina": 8
+      },
+      "max_fused": {
+        "xp": 3000,
+        "rings": 1500,
+        "damage": 1200,
+        "stamina": 8
+      },
+      "image": null
+    },
+    {
       "name": "Pink Pumpkin Chao",
       "rarity": "Seasonal",
       "max": {
@@ -10921,6 +10940,11 @@
       "reason": "No stats found or insufficient data"
     },
     {
+      "name": "Pink Static Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
       "name": "Pink Summer Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -12034,6 +12058,11 @@
     },
     {
       "name": "Pink Square Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Pink Static Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
