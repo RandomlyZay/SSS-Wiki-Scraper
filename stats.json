@@ -10144,28 +10144,8 @@
     },
     {
       "name": "Toy Robot Cream",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "luck": 2
-        },
-        "2": {
-          "luck": 4
-        },
-        "3": {
-          "luck": 6
-        },
-        "4": {
-          "luck": 8
-        },
-        "5": {
-          "luck": 10
-        },
-        "6": {
-          "luck": 12
-        }
-      },
-      "image": null
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Toy Robot Espio",
@@ -12359,6 +12339,11 @@
     {
       "name": "Toxic Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Toy Robot Cream",
+      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
