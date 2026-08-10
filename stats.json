@@ -3406,7 +3406,6 @@
       "abilities": [
         "Super Boost",
         "Parry",
-        "Thunder Rush",
         "Water Run"
       ],
       "image": null
@@ -10032,8 +10031,28 @@
     },
     {
       "name": "Holiday Toy Robot Shadow",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "magnet": 2
+        },
+        "2": {
+          "magnet": 4
+        },
+        "3": {
+          "magnet": 6
+        },
+        "4": {
+          "magnet": 8
+        },
+        "5": {
+          "magnet": 10
+        },
+        "6": {
+          "magnet": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Holiday Toy Robot Sonic",
@@ -11732,11 +11751,6 @@
     {
       "name": "Hawk Blur Trail",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Holiday Toy Robot Shadow",
-      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
