@@ -5056,6 +5056,27 @@
       "image": "images/Warrior_Shadow.png"
     },
     {
+      "name": "Wasteland Metal Sonic",
+      "rarity": "Exotic",
+      "max": {
+        "stamina": 30,
+        "event": 10
+      },
+      "abilities": [
+        "Black Shield"
+      ],
+      "image": null
+    },
+    {
+      "name": "Wasteland Shadow",
+      "rarity": "Legendary",
+      "max": {
+        "stamina": 30
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "Wasteland Surge",
       "rarity": "Exotic",
       "max": {
@@ -10006,53 +10027,13 @@
     },
     {
       "name": "Holiday Toy Robot Knuckles",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "magnet": 2
-        },
-        "2": {
-          "magnet": 4
-        },
-        "3": {
-          "magnet": 6
-        },
-        "4": {
-          "magnet": 8
-        },
-        "5": {
-          "magnet": 10
-        },
-        "6": {
-          "magnet": 12
-        }
-      },
-      "image": "images/Holiday_Toy_Robot_Knuckles.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Holiday Toy Robot Shadow",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "magnet": 2
-        },
-        "2": {
-          "magnet": 4
-        },
-        "3": {
-          "magnet": 6
-        },
-        "4": {
-          "magnet": 8
-        },
-        "5": {
-          "magnet": 10
-        },
-        "6": {
-          "magnet": 12
-        }
-      },
-      "image": null
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Holiday Toy Robot Sonic",
@@ -11751,6 +11732,16 @@
     {
       "name": "Hawk Blur Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Holiday Toy Robot Knuckles",
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Holiday Toy Robot Shadow",
+      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
