@@ -1603,6 +1603,7 @@
         "stamina": 30
       },
       "abilities": [
+        "Glide",
         "Parry"
       ],
       "image": "images/Gladiator_Knuckles.png"
