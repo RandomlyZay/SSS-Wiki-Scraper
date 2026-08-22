@@ -9958,34 +9958,8 @@
     },
     {
       "name": "Froggy",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "luck": 2,
-          "air": 10
-        },
-        "2": {
-          "luck": 4,
-          "air": 20
-        },
-        "3": {
-          "luck": 6,
-          "air": 30
-        },
-        "4": {
-          "luck": 8,
-          "air": 40
-        },
-        "5": {
-          "luck": 10,
-          "air": 50
-        },
-        "6": {
-          "luck": 12,
-          "air": 12
-        }
-      },
-      "image": "images/Froggy.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Holiday Toy Robot Amy",
@@ -11609,6 +11583,11 @@
     {
       "name": "Fire Blitz Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Froggy",
+      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
