@@ -4030,8 +4030,34 @@
       "image": null
     },
     {
+      "name": "Ruby Style Metal Sonic (Exotic)",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 30,
+        "event": 10,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Black Shield"
+      ],
+      "image": null
+    },
+    {
       "name": "Ruby Style Omega",
       "rarity": "Limited",
+      "max": {
+        "magnet": 25,
+        "event": 5,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Hover"
+      ],
+      "image": null
+    },
+    {
+      "name": "Ruby Style Omega (Exotic)",
+      "rarity": "Exotic",
       "max": {
         "magnet": 25,
         "event": 5,
@@ -4055,6 +4081,18 @@
       "image": "images/Ruby_Style_Rouge.png"
     },
     {
+      "name": "Ruby Style Rouge (Exotic)",
+      "rarity": "Exotic",
+      "max": {
+        "stamina": 35,
+        "event": 5
+      },
+      "abilities": [
+        "Glide"
+      ],
+      "image": null
+    },
+    {
       "name": "Ruby Style Shadow",
       "rarity": "Limited",
       "max": {
@@ -4063,6 +4101,16 @@
       },
       "abilities": [],
       "image": "images/Ruby_Style_Shadow.png"
+    },
+    {
+      "name": "Ruby Style Shadow (Exotic)",
+      "rarity": "Exotic",
+      "max": {
+        "magnet": 30,
+        "event": 5
+      },
+      "abilities": [],
+      "image": null
     },
     {
       "name": "Ruby Style Silver",
@@ -9802,190 +9850,40 @@
     },
     {
       "name": "You",
-      "rarity": "Common",
-      "max": {
-        "damage": 3868904,
-        "speed": 1,
-        "stamina": 15
-      },
-      "max_fused": {
-        "damage": 9672260,
-        "speed": 5,
-        "stamina": 15
-      },
-      "image": "images/You.png"
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Zebra Chao",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 7500,
-        "rings": 750,
-        "damage": 120
-      },
-      "max_fused": {
-        "xp": 18750,
-        "rings": 1875,
-        "damage": 300
-      },
-      "image": "images/Zebra_Chao.png"
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     }
   ],
   "Fast Friends": [
     {
       "name": "Cheese the Chao",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "luck": 2,
-          "event": 1
-        },
-        "2": {
-          "luck": 4,
-          "event": 2
-        },
-        "3": {
-          "luck": 6,
-          "event": 4
-        },
-        "4": {
-          "luck": 8,
-          "event": 6
-        },
-        "5": {
-          "luck": 10,
-          "event": 8
-        },
-        "6": {
-          "luck": 12,
-          "event": 10
-        }
-      },
-      "image": "images/Cheese_the_Chao.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Chocola Chao",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "stamina": 5,
-          "event": 10
-        },
-        "2": {
-          "stamina": 8,
-          "event": 10
-        },
-        "3": {
-          "stamina": 11,
-          "event": 10
-        },
-        "4": {
-          "stamina": 14,
-          "event": 10
-        },
-        "5": {
-          "stamina": 17,
-          "event": 10
-        },
-        "6": {
-          "stamina": 12,
-          "event": 10
-        }
-      },
-      "image": "images/Chocola_Chao.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Doom's Eye",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "magnet": 3,
-          "event": 2
-        },
-        "2": {
-          "magnet": 5,
-          "event": 2
-        },
-        "3": {
-          "magnet": 7,
-          "event": 3
-        },
-        "4": {
-          "magnet": 10,
-          "event": 4
-        },
-        "5": {
-          "magnet": 12,
-          "event": 5
-        },
-        "6": {
-          "magnet": 15,
-          "event": 6
-        }
-      },
-      "image": "images/Dooms_Eye.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Drummer Cheese",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "luck": 2,
-          "event": 1
-        },
-        "2": {
-          "luck": 4,
-          "event": 2
-        },
-        "3": {
-          "luck": 6,
-          "event": 4
-        },
-        "4": {
-          "luck": 8,
-          "event": 6
-        },
-        "5": {
-          "luck": 10,
-          "event": 8
-        },
-        "6": {
-          "luck": 12,
-          "event": 10
-        }
-      },
-      "image": "images/Drummer_Cheese.png"
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Froggy",
-      "rarity": "Fast Friend",
-      "levels": {
-        "1": {
-          "luck": 2,
-          "air": 10
-        },
-        "2": {
-          "luck": 4,
-          "air": 20
-        },
-        "3": {
-          "luck": 6,
-          "air": 30
-        },
-        "4": {
-          "luck": 8,
-          "air": 40
-        },
-        "5": {
-          "luck": 10,
-          "air": 50
-        },
-        "6": {
-          "luck": 12,
-          "air": 12
-        }
-      },
-      "image": null
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Holiday Toy Robot Amy",
@@ -11437,6 +11335,11 @@
       "reason": "No stats found or insufficient data"
     },
     {
+      "name": "Cheese the Chao",
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
       "name": "Cheetah Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -11444,6 +11347,11 @@
     {
       "name": "Chili Dog Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Chocola Chao",
+      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
@@ -11562,6 +11470,16 @@
       "reason": "No stats found or insufficient data"
     },
     {
+      "name": "Doom's Eye",
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Drummer Cheese",
+      "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
       "name": "Easter Egg Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -11609,6 +11527,11 @@
     {
       "name": "Fire Blitz Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Froggy",
+      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
@@ -12494,6 +12417,16 @@
     {
       "name": "Yellow Wavy Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "You",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Zebra Chao",
+      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
