@@ -9865,18 +9865,8 @@
     },
     {
       "name": "Zebra Chao",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 7500,
-        "rings": 750,
-        "damage": 120
-      },
-      "max_fused": {
-        "xp": 18750,
-        "rings": 1875,
-        "damage": 300
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     }
   ],
   "Fast Friends": [
@@ -12437,6 +12427,11 @@
     {
       "name": "Yellow Wavy Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Zebra Chao",
+      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
