@@ -9850,18 +9850,8 @@
     },
     {
       "name": "You",
-      "rarity": "Common",
-      "max": {
-        "damage": 3868904,
-        "speed": 1,
-        "stamina": 15
-      },
-      "max_fused": {
-        "damage": 9672260,
-        "speed": 5,
-        "stamina": 15
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Zebra Chao",
@@ -12427,6 +12417,11 @@
     {
       "name": "Yellow Wavy Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "You",
+      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
