@@ -9822,61 +9822,23 @@
     },
     {
       "name": "Yeti Chao",
-      "rarity": "Seasonal",
-      "max": {
-        "rings": 2880,
-        "damage": 460,
-        "magnet": 7
-      },
-      "max_fused": {
-        "rings": 7200,
-        "damage": 1150,
-        "magnet": 7
-      },
-      "image": "images/Yeti_Chao.png"
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yogurt Chao",
-      "rarity": "Rare",
-      "max": {
-        "xp": 2600,
-        "rings": 2600
-      },
-      "max_fused": {
-        "xp": 6500,
-        "rings": 6500
-      },
-      "image": "images/Yogurt_Chao.png"
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "You",
-      "rarity": "Common",
-      "max": {
-        "damage": 3868904,
-        "speed": 1,
-        "stamina": 15
-      },
-      "max_fused": {
-        "damage": 9672260,
-        "speed": 5,
-        "stamina": 15
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Zebra Chao",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 7500,
-        "rings": 750,
-        "damage": 120
-      },
-      "max_fused": {
-        "xp": 18750,
-        "rings": 1875,
-        "damage": 300
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     }
   ],
   "Fast Friends": [
@@ -10579,8 +10541,16 @@
     },
     {
       "name": "Laser Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Rare",
+      "max": {
+        "rings": 632,
+        "damage": 3797
+      },
+      "max_fused": {
+        "rings": 3160,
+        "damage": 18985
+      },
+      "image": null
     },
     {
       "name": "Lightning Thunder Trail",
@@ -11760,11 +11730,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Laser Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Lightning Thunder Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -12437,6 +12402,26 @@
     {
       "name": "Yellow Wavy Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Yeti Chao",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Yogurt Chao",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "You",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Zebra Chao",
+      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
