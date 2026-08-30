@@ -4270,6 +4270,21 @@
       "image": "images/SIM_Knuckles.png"
     },
     {
+      "name": "SIM Mecha Sonic",
+      "rarity": "Villain",
+      "max": {
+        "luck": 10,
+        "stamina": 30
+      },
+      "abilities": [
+        "Super Boost",
+        "Parry",
+        "Intercept Rush",
+        "Water Run"
+      ],
+      "image": null
+    },
+    {
       "name": "SIM Metal Sonic",
       "rarity": "Exotic",
       "max": {
@@ -10541,16 +10556,8 @@
     },
     {
       "name": "Laser Trail",
-      "rarity": "Rare",
-      "max": {
-        "rings": 632,
-        "damage": 3797
-      },
-      "max_fused": {
-        "rings": 3160,
-        "damage": 18985
-      },
-      "image": null
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Lightning Thunder Trail",
@@ -11726,6 +11733,11 @@
     },
     {
       "name": "Knuckles Blur Trail",
+      "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Laser Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
