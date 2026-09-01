@@ -9791,18 +9791,50 @@
     },
     {
       "name": "Yellow Hoodie Chao",
-      "type": "Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 2400,
+        "rings": 3600,
+        "damage": 288,
+        "magnet": 6
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 9000,
+        "damage": 720,
+        "magnet": 6
+      },
+      "image": null
     },
     {
       "name": "Yellow Racer Chao",
-      "type": "Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 10000,
+        "rings": 10000
+      },
+      "max_fused": {
+        "xp": 25000,
+        "rings": 25000
+      },
+      "image": null
     },
     {
       "name": "Yellow Shadow Omochao",
-      "type": "Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Exotic",
+      "max": {
+        "xp": 8000,
+        "rings": 3900,
+        "damage": 159,
+        "event": 5
+      },
+      "max_fused": {
+        "xp": 20000,
+        "rings": 9750,
+        "damage": 397,
+        "event": 10
+      },
+      "image": null
     },
     {
       "name": "Yellow Wisp",
@@ -12363,21 +12395,6 @@
     {
       "name": "Yellow Electro Trail",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Hoodie Chao",
-      "type": "Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Racer Chao",
-      "type": "Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Shadow Omochao",
-      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
