@@ -6891,6 +6891,21 @@
       "image": "images/Gray_Chao.png"
     },
     {
+      "name": "Gray Hero Chao",
+      "rarity": "Rare",
+      "max": {
+        "xp": 12250,
+        "rings": 8400,
+        "damage": 420
+      },
+      "max_fused": {
+        "xp": 30625,
+        "rings": 21000,
+        "damage": 1050
+      },
+      "image": null
+    },
+    {
       "name": "Green Chao",
       "rarity": "Common",
       "max": {
@@ -6986,21 +7001,6 @@
         "rings": 35000
       },
       "image": null
-    },
-    {
-      "name": "Grey Hero Chao",
-      "rarity": "Rare",
-      "max": {
-        "xp": 12250,
-        "rings": 8400,
-        "damage": 420
-      },
-      "max_fused": {
-        "xp": 30625,
-        "rings": 21000,
-        "damage": 1050
-      },
-      "image": "images/Grey_Hero_Chao.png"
     },
     {
       "name": "Halloween Chao",
@@ -9808,33 +9808,13 @@
     },
     {
       "name": "Yellow Racer Chao",
-      "rarity": "Epic",
-      "max": {
-        "xp": 10000,
-        "rings": 10000
-      },
-      "max_fused": {
-        "xp": 25000,
-        "rings": 25000
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yellow Shadow Omochao",
-      "rarity": "Exotic",
-      "max": {
-        "xp": 8000,
-        "rings": 3900,
-        "damage": 159,
-        "event": 5
-      },
-      "max_fused": {
-        "xp": 20000,
-        "rings": 9750,
-        "damage": 397,
-        "event": 10
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yellow Wisp",
@@ -12395,6 +12375,16 @@
     {
       "name": "Yellow Electro Trail",
       "type": "Trails",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Yellow Racer Chao",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Yellow Shadow Omochao",
+      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
