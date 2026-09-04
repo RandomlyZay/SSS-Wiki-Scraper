@@ -9808,8 +9808,16 @@
     },
     {
       "name": "Yellow Racer Chao",
-      "type": "Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 10000,
+        "rings": 10000
+      },
+      "max_fused": {
+        "xp": 25000,
+        "rings": 25000
+      },
+      "image": null
     },
     {
       "name": "Yellow Shadow Omochao",
@@ -12375,11 +12383,6 @@
     {
       "name": "Yellow Electro Trail",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Racer Chao",
-      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
