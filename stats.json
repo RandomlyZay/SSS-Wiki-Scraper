@@ -9737,29 +9737,13 @@
     },
     {
       "name": "Yellow Chao",
-      "rarity": "Uncommon",
-      "max": {
-        "xp": 50
-      },
-      "max_fused": {
-        "xp": 125
-      },
-      "image": "images/Yellow_Chao.png"
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yellow Dark Chao",
-      "rarity": "Epic",
-      "max": {
-        "xp": 5200,
-        "rings": 5200,
-        "damage": 480
-      },
-      "max_fused": {
-        "xp": 13000,
-        "rings": 13000,
-        "damage": 1200
-      },
-      "image": "images/Yellow_Dark_Chao.png"
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yellow Green Chao",
@@ -9776,48 +9760,18 @@
     },
     {
       "name": "Yellow Hero Chao",
-      "rarity": "Uncommon",
-      "max": {
-        "xp": 10000,
-        "rings": 8000,
-        "damage": 400
-      },
-      "max_fused": {
-        "xp": 25000,
-        "rings": 20000,
-        "damage": 1000
-      },
-      "image": "images/Yellow_Hero_Chao.png"
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yellow Hoodie Chao",
-      "rarity": "Legendary",
-      "max": {
-        "xp": 2400,
-        "rings": 3600,
-        "damage": 288,
-        "magnet": 6
-      },
-      "max_fused": {
-        "xp": 6000,
-        "rings": 9000,
-        "damage": 720,
-        "magnet": 6
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yellow Racer Chao",
-      "rarity": "Epic",
-      "max": {
-        "xp": 10000,
-        "rings": 10000
-      },
-      "max_fused": {
-        "xp": 25000,
-        "rings": 25000
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Yellow Shadow Omochao",
@@ -9873,8 +9827,34 @@
     },
     {
       "name": "Froggy",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "luck": 2,
+          "air": 10
+        },
+        "2": {
+          "luck": 4,
+          "air": 20
+        },
+        "3": {
+          "luck": 6,
+          "air": 30
+        },
+        "4": {
+          "luck": 8,
+          "air": 40
+        },
+        "5": {
+          "luck": 10,
+          "air": 50
+        },
+        "6": {
+          "luck": 12,
+          "air": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Holiday Toy Robot Amy",
@@ -9968,8 +9948,34 @@
     },
     {
       "name": "Toy Robot Summer Amy",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Fast Friend",
+      "levels": {
+        "1": {
+          "luck": 3,
+          "air": 2
+        },
+        "2": {
+          "luck": 6,
+          "air": 14
+        },
+        "3": {
+          "luck": 9,
+          "air": 23
+        },
+        "4": {
+          "luck": 12,
+          "air": 32
+        },
+        "5": {
+          "luck": 15,
+          "air": 41
+        },
+        "6": {
+          "luck": 12,
+          "air": 12
+        }
+      },
+      "image": null
     },
     {
       "name": "Toy Robot Summer Jet",
@@ -10270,8 +10276,18 @@
     },
     {
       "name": "Cyloop Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Exotic",
+      "max": {
+        "xp": 190000,
+        "rings": 1900,
+        "damage": 456
+      },
+      "max_fused": {
+        "xp": 475000,
+        "rings": 4750,
+        "damage": 1140
+      },
+      "image": null
     },
     {
       "name": "Daisy Petal Trail",
@@ -10485,8 +10501,18 @@
     },
     {
       "name": "Holographic Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Exotic",
+      "max": {
+        "xp": 62000,
+        "rings": 62000,
+        "damage": 6500
+      },
+      "max_fused": {
+        "xp": 155000,
+        "rings": 155000,
+        "damage": 16250
+      },
+      "image": null
     },
     {
       "name": "Hot Dog Trail",
@@ -10550,8 +10576,18 @@
     },
     {
       "name": "Knuckles Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 2400,
+        "rings": 1200,
+        "damage": 384
+      },
+      "max_fused": {
+        "xp": 6000,
+        "rings": 3000,
+        "damage": 960
+      },
+      "image": null
     },
     {
       "name": "Laser Trail",
@@ -10595,8 +10631,16 @@
     },
     {
       "name": "Luminosity Red Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 3000,
+        "rings": 1500
+      },
+      "max_fused": {
+        "xp": 7500,
+        "rings": 3750
+      },
+      "image": null
     },
     {
       "name": "MK II Blur Trail",
@@ -10605,8 +10649,18 @@
     },
     {
       "name": "Metal Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 79733,
+        "rings": 79733,
+        "damage": 300079
+      },
+      "max_fused": {
+        "xp": 398665,
+        "rings": 39865,
+        "damage": 1500395
+      },
+      "image": null
     },
     {
       "name": "Midnight Star Trail",
@@ -10695,8 +10749,16 @@
     },
     {
       "name": "Pink Crystal Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 984148,
+        "rings": 12301
+      },
+      "max_fused": {
+        "xp": 91120,
+        "rings": 13665
+      },
+      "image": "images/Pink_Crystal_Trail.png"
     },
     {
       "name": "Pink Electro Trail",
@@ -10725,13 +10787,29 @@
     },
     {
       "name": "Pink Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Seasonal",
+      "max": {
+        "rings": 8400,
+        "damage": 336
+      },
+      "max_fused": {
+        "rings": 21000,
+        "damage": 840
+      },
+      "image": null
     },
     {
       "name": "Pink Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 1350,
+        "rings": 1350
+      },
+      "max_fused": {
+        "xp": 3375,
+        "rings": 3375
+      },
+      "image": null
     },
     {
       "name": "Pink Wavy Trail",
@@ -10765,8 +10843,14 @@
     },
     {
       "name": "Purple Lightspeed Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Exotic",
+      "max": {
+        "xp": 279,
+        "rings": 54,
+        "damage": 108
+      },
+      "max_fused": {},
+      "image": "images/Purple_Lightspeed_Trail.png"
     },
     {
       "name": "Purple Pixel Crush Trail",
@@ -10785,8 +10869,18 @@
     },
     {
       "name": "Purple Star Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 6804,
+        "rings": 6804,
+        "damage": 720
+      },
+      "max_fused": {
+        "xp": 17010,
+        "rings": 17010,
+        "damage": 1800
+      },
+      "image": null
     },
     {
       "name": "Purple Strike Trail",
@@ -10815,8 +10909,16 @@
     },
     {
       "name": "Rainbow Star Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "rings": 2400,
+        "damage": 384
+      },
+      "max_fused": {
+        "rings": 6000,
+        "damage": 960
+      },
+      "image": null
     },
     {
       "name": "Red Electro Trail",
@@ -10870,8 +10972,14 @@
     },
     {
       "name": "Retro Neon Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {},
+      "max_fused": {
+        "xp": 342390,
+        "rings": 34130,
+        "damage": 642380
+      },
+      "image": null
     },
     {
       "name": "Rose Petal Trail",
@@ -10935,8 +11043,18 @@
     },
     {
       "name": "Sonic Speed Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 53165,
+        "rings": 1062,
+        "damage": 1417
+      },
+      "max_fused": {
+        "xp": 265780,
+        "rings": 5310,
+        "damage": 7085
+      },
+      "image": null
     },
     {
       "name": "Sonic and Shadow Trail",
@@ -11025,8 +11143,18 @@
     },
     {
       "name": "Vector Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 1900,
+        "rings": 1500,
+        "damage": 150
+      },
+      "max_fused": {
+        "xp": 4750,
+        "rings": 3750,
+        "damage": 375
+      },
+      "image": null
     },
     {
       "name": "Vine Spirit Trail",
@@ -11075,8 +11203,18 @@
     },
     {
       "name": "White Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Seasonal",
+      "max": {
+        "xp": 1300,
+        "rings": 3360,
+        "damage": 268
+      },
+      "max_fused": {
+        "xp": 3250,
+        "rings": 8400,
+        "damage": 670
+      },
+      "image": null
     },
     {
       "name": "White Trail",
@@ -11095,8 +11233,10 @@
     },
     {
       "name": "Yellow Electro Trail",
+      "rarity": "Common",
+      "image": "images/Yellow_Electro_Trail.png",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Yellow Speed Trail",
@@ -11115,8 +11255,14 @@
     },
     {
       "name": "Yellow Static Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 2400
+      },
+      "max_fused": {
+        "xp": 6000
+      },
+      "image": null
     },
     {
       "name": "Yellow Summer Trail",
@@ -11135,8 +11281,18 @@
     },
     {
       "name": "Zebra Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 1500,
+        "rings": 1500,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 3750,
+        "rings": 3750,
+        "damage": 600
+      },
+      "image": null
     }
   ],
   "Errors": [
@@ -11411,11 +11567,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Cyloop Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Daisy Petal Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -11523,11 +11674,6 @@
     {
       "name": "Fire Blitz Trail",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Froggy",
-      "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
     },
     {
@@ -11671,11 +11817,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Holographic Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Hot Dog Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -11736,11 +11877,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Knuckles Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Laser Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -11781,17 +11917,7 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Luminosity Red Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "MK II Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Metal Blur Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -11881,11 +12007,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Pink Crystal Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Pink Electro Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -11907,16 +12028,6 @@
     },
     {
       "name": "Pink Static Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Pink Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Pink Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -11951,11 +12062,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Purple Lightspeed Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Purple Pixel Crush Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -11967,11 +12073,6 @@
     },
     {
       "name": "Purple Square Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Purple Star Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -11997,11 +12098,6 @@
     },
     {
       "name": "Radioactive Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Rainbow Star Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -12052,11 +12148,6 @@
     },
     {
       "name": "Resistance Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Retro Neon Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -12117,11 +12208,6 @@
     },
     {
       "name": "Sonic Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Sonic Speed Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -12251,11 +12337,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Toy Robot Summer Amy",
-      "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Toy Robot Summer Jet",
       "type": "Fast Friends",
       "reason": "No stats found or insufficient data"
@@ -12311,11 +12392,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "Vector Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Vine Spirit Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -12361,11 +12437,6 @@
       "reason": "No stats found or insufficient data"
     },
     {
-      "name": "White Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "White Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
@@ -12381,8 +12452,35 @@
       "reason": "No stats found or insufficient data"
     },
     {
+      "name": "Yellow Chao",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Yellow Dark Chao",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
       "name": "Yellow Electro Trail",
+      "rarity": "Common",
+      "image": "images/Yellow_Electro_Trail.png",
       "type": "Trails",
+      "reason": "Only level 1/base stats available"
+    },
+    {
+      "name": "Yellow Hero Chao",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Yellow Hoodie Chao",
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Yellow Racer Chao",
+      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
@@ -12402,11 +12500,6 @@
     },
     {
       "name": "Yellow Star Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Static Trail",
       "type": "Trails",
       "reason": "No stats found or insufficient data"
     },
@@ -12448,11 +12541,6 @@
     {
       "name": "Zebra Chao",
       "type": "Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Zebra Trail",
-      "type": "Trails",
       "reason": "No stats found or insufficient data"
     }
   ],
