@@ -1252,6 +1252,7 @@
         "stamina": 15
       },
       "abilities": [
+        "Hover",
         "Blaster Shot"
       ],
       "image": "images/Egg_Robo.png"
@@ -2914,6 +2915,7 @@
         "stamina": 25
       },
       "abilities": [
+        "Hover",
         "Blaster Shot"
       ],
       "image": "images/Missile_Egg_Robo.png"
@@ -4012,6 +4014,33 @@
         "stamina": 25
       },
       "abilities": [],
+      "image": null
+    },
+    {
+      "name": "Ruby Style Gemerl",
+      "rarity": "Limited",
+      "max": {
+        "luck": 25,
+        "magnet": 25,
+        "stamina": 25,
+        "air": "Infinity"
+      },
+      "abilities": [
+        "Glide"
+      ],
+      "image": null
+    },
+    {
+      "name": "Ruby Style Jet",
+      "rarity": "Limited",
+      "max": {
+        "luck": 25,
+        "magnet": 25,
+        "stamina": 25
+      },
+      "abilities": [
+        "Double Jump"
+      ],
       "image": null
     },
     {
@@ -13144,7 +13173,7 @@
         "xp": 9997,
         "rings": 4997,
         "damage": 2000,
-        "speed": 5,
+        "speed": 2,
         "magnet": 1,
         "air": 2
       },
