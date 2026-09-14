@@ -3879,10 +3879,10 @@
       "abilities": [
         "Super Boost",
         "Parry",
-        "Double Jump",
-        ":Category:Hoverboards",
         "Chaos Spear",
         "Chaos Blast",
+        "Double Jump",
+        ":Category:Hoverboards",
         "Water Run"
       ],
       "image": null
@@ -13324,7 +13324,7 @@
         "xp": 398665,
         "damage": 750190
       },
-      "image": null
+      "image": "images/Snowflake_Trail.png"
     },
     {
       "name": "Sonic And Knuckles Trail",
@@ -13504,7 +13504,7 @@
         "rings": 51250,
         "damage": 482270
       },
-      "image": null
+      "image": "images/Tails_Workshop_Trail.png"
     },
     {
       "name": "Tangle Blur Trail",
@@ -13519,7 +13519,7 @@
         "rings": 31890,
         "damage": 600155
       },
-      "image": null
+      "image": "images/Tangle_Blur_Trail.png"
     },
     {
       "name": "Toxic Trail",
@@ -13534,13 +13534,33 @@
     },
     {
       "name": "Trick O' Treat Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 190000,
+        "rings": 1200,
+        "damage": 480
+      },
+      "max_fused": {
+        "xp": 475000,
+        "rings": 3000,
+        "damage": 1200
+      },
+      "image": null
     },
     {
       "name": "Tropical Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Seasonal",
+      "max": {
+        "xp": 5300,
+        "rings": 3360,
+        "damage": 134
+      },
+      "max_fused": {
+        "xp": 13250,
+        "rings": 8400,
+        "damage": 335
+      },
+      "image": null
     },
     {
       "name": "Turbo Trail",
@@ -13559,13 +13579,33 @@
     },
     {
       "name": "VIP Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Exotic",
+      "max": {
+        "xp": 9600,
+        "rings": 4700,
+        "damage": 191
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 11750,
+        "damage": 477
+      },
+      "image": null
     },
     {
       "name": "Vector Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 1900,
+        "rings": 1500,
+        "damage": 150
+      },
+      "max_fused": {
+        "xp": 4750,
+        "rings": 3750,
+        "damage": 375
+      },
+      "image": null
     },
     {
       "name": "Vine Spirit Trail",
@@ -13598,8 +13638,10 @@
     },
     {
       "name": "Wave Blur Trail",
+      "rarity": "Legendary",
+      "image": "images/Wave_Blur_Trail.png",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Werehog Blur Trail",
@@ -13614,17 +13656,27 @@
         "rings": 109340,
         "damage": 257200
       },
-      "image": null
+      "image": "images/Werehog_Blur_Trail.png"
     },
     {
       "name": "White Electro Trail",
+      "rarity": "Uncommon",
+      "image": "images/White_Electro_Trail.png",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "White Pixel Crush Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 2800,
+        "rings": 2800
+      },
+      "max_fused": {
+        "xp": 7000,
+        "rings": 7000
+      },
+      "image": null
     },
     {
       "name": "White Square Trail",
@@ -13656,8 +13708,18 @@
     },
     {
       "name": "White Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Seasonal",
+      "max": {
+        "xp": 1300,
+        "rings": 3360,
+        "damage": 268
+      },
+      "max_fused": {
+        "xp": 3250,
+        "rings": 8400,
+        "damage": 670
+      },
+      "image": null
     },
     {
       "name": "White Trail",
@@ -13668,7 +13730,7 @@
         "damage": 27
       },
       "max_fused": {},
-      "image": null
+      "image": "images/White_Trail.png"
     },
     {
       "name": "White Wavy Trail",
@@ -13687,18 +13749,40 @@
     },
     {
       "name": "World Soccer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 835,
+        "rings": 416,
+        "damage": 166
+      },
+      "max_fused": {
+        "xp": 2087,
+        "rings": 1040,
+        "damage": 415
+      },
+      "image": null
     },
     {
       "name": "Yellow Electro Trail",
+      "rarity": "Common",
+      "image": "images/Yellow_Electro_Trail.png",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Yellow Speed Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Rare",
+      "max": {
+        "xp": 500,
+        "rings": 500,
+        "damage": 80
+      },
+      "max_fused": {
+        "xp": 1250,
+        "rings": 1250,
+        "damage": 200
+      },
+      "image": null
     },
     {
       "name": "Yellow Square Trail",
@@ -13743,8 +13827,16 @@
     },
     {
       "name": "Yellow Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Seasonal",
+      "max": {
+        "xp": 1600,
+        "damage": 336
+      },
+      "max_fused": {
+        "xp": 4000,
+        "damage": 840
+      },
+      "image": null
     },
     {
       "name": "Yellow Trail",
@@ -13761,13 +13853,29 @@
     },
     {
       "name": "Yellow Wavy Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Common",
+      "max": {
+        "xp": 15210,
+        "rings": 1512,
+        "damage": 3024
+      },
+      "max_fused": {},
+      "image": "images/Yellow_Wavy_Trail.png"
     },
     {
       "name": "Zebra Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Legendary",
+      "max": {
+        "xp": 1500,
+        "rings": 1500,
+        "damage": 240
+      },
+      "max_fused": {
+        "xp": 3750,
+        "rings": 3750,
+        "damage": 600
+      },
+      "image": null
     }
   ],
   "Errors": [
@@ -13884,26 +13992,6 @@
       "reason": "Only level 1/base stats available"
     },
     {
-      "name": "Trick O' Treat Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Tropical Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "VIP Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Vector Blur Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
       "name": "Vine Spirit Trail",
       "rarity": "Epic",
       "image": "images/Vine_Spirit_Trail.png",
@@ -13919,53 +14007,24 @@
     },
     {
       "name": "Wave Blur Trail",
+      "rarity": "Legendary",
+      "image": "images/Wave_Blur_Trail.png",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "White Electro Trail",
+      "rarity": "Uncommon",
+      "image": "images/White_Electro_Trail.png",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "White Pixel Crush Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "White Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "World Soccer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     },
     {
       "name": "Yellow Electro Trail",
+      "rarity": "Common",
+      "image": "images/Yellow_Electro_Trail.png",
       "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Speed Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Summer Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Yellow Wavy Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Zebra Trail",
-      "type": "Trails",
-      "reason": "No stats found or insufficient data"
+      "reason": "Only level 1/base stats available"
     }
   ],
   "error": true
