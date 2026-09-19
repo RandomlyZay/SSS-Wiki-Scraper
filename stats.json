@@ -12954,6 +12954,21 @@
       "image": null
     },
     {
+      "name": "Purple Static Trail",
+      "rarity": "Legendary",
+      "max": {
+        "xp": 9600,
+        "rings": 3600,
+        "damage": 144
+      },
+      "max_fused": {
+        "xp": 24000,
+        "rings": 9000,
+        "damage": 360
+      },
+      "image": null
+    },
+    {
       "name": "Purple Strike Trail",
       "rarity": "Exotic",
       "max": {
