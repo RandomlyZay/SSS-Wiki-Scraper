@@ -4064,6 +4064,17 @@
       "image": null
     },
     {
+      "name": "Ruby Style Blaze (Exotic)",
+      "rarity": "Exotic",
+      "max": {
+        "luck": 25,
+        "magnet": 25,
+        "stamina": 25
+      },
+      "abilities": [],
+      "image": null
+    },
+    {
       "name": "Ruby Style Gemerl",
       "rarity": "Limited",
       "max": {
@@ -4093,6 +4104,18 @@
     {
       "name": "Ruby Style Knuckles",
       "rarity": "Limited",
+      "max": {
+        "magnet": 30,
+        "event": 5
+      },
+      "abilities": [
+        "Glide"
+      ],
+      "image": null
+    },
+    {
+      "name": "Ruby Style Knuckles (Exotic)",
+      "rarity": "Exotic",
       "max": {
         "magnet": 30,
         "event": 5
@@ -4439,6 +4462,18 @@
         "magnet": 20,
         "stamina": 30,
         "air": "Infinity"
+      },
+      "abilities": [
+        "Water Run"
+      ],
+      "image": null
+    },
+    {
+      "name": "Sim Infinite",
+      "rarity": "Villain",
+      "max": {
+        "stamina": 50,
+        "event": 10
       },
       "abilities": [
         "Water Run"
