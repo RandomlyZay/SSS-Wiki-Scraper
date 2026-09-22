@@ -745,6 +745,7 @@
       "abilities": [
         "Super Boost",
         "Parry",
+        "Hoverstep",
         "Psycho Smash",
         "Water Run"
       ],
@@ -1183,7 +1184,8 @@
         "Super Boost",
         "Parry",
         "Water Run",
-        "Psycho Smash"
+        "Psycho Smash",
+        "Hoverstep"
       ],
       "image": "images/ESP_Silver.png"
     },
@@ -3145,7 +3147,8 @@
         "Super Boost",
         "Parry",
         "Water Run",
-        "Black Shield"
+        "Black Shield",
+        "Hoverstep"
       ],
       "image": "images/Overclocked_Metal_Sonic.png"
     },
@@ -3161,7 +3164,8 @@
         "Super Boost",
         "Parry",
         "Water Run",
-        "Black Shield"
+        "Black Shield",
+        "Hoverstep"
       ],
       "image": null
     },
@@ -3912,6 +3916,7 @@
       },
       "abilities": [
         "Double Jump",
+        "Electric Boost",
         "Voltaic Discharge",
         ":Category:Hoverboards"
       ],
@@ -4476,6 +4481,7 @@
         "event": 10
       },
       "abilities": [
+        "Hoverstep",
         "Water Run"
       ],
       "image": null
@@ -4511,7 +4517,8 @@
       "rarity": "Villain",
       "max": {
         "luck": 10,
-        "stamina": 30
+        "stamina": 30,
+        "air": "Infinity"
       },
       "abilities": [
         "Parry",
@@ -9572,14 +9579,8 @@
     },
     {
       "name": "Traveler Chao",
-      "rarity": "Epic",
-      "max": {
-        "xp": 2400
-      },
-      "max_fused": {
-        "xp": 6000
-      },
-      "image": null
+      "type": "Friends",
+      "reason": "No stats found or insufficient data"
     },
     {
       "name": "Tropical Chao",
@@ -12200,6 +12201,11 @@
     {
       "name": "Toy Robot Vampire Sonic",
       "type": "Fast Friends",
+      "reason": "No stats found or insufficient data"
+    },
+    {
+      "name": "Traveler Chao",
+      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
