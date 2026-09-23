@@ -322,8 +322,9 @@
       },
       "abilities": [
         "Thunder Rush",
-        "Super Boost",
         "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": null
@@ -360,9 +361,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
         "Inferno Wave",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": null
@@ -376,9 +378,10 @@
         "event": 10
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
         "Inferno Wave",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": null
@@ -743,10 +746,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
-        "Hoverstep",
         "Psycho Smash",
+        "Hoverstep",
+        "Parry",
+        "Super Boost",
         "Water Run"
       ],
       "image": null
@@ -809,9 +812,10 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
         "Thunder Rush",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": null
@@ -893,9 +897,9 @@
         "stamina": 35
       },
       "abilities": [
-        "Super Boost",
         "Chaos Blast",
-        "Parry"
+        "Parry",
+        "Super Boost"
       ],
       "image": "images/Dark_Shadow.png"
     },
@@ -907,9 +911,9 @@
         "stamina": 35
       },
       "abilities": [
-        "Super Boost",
         "Chaos Blast",
-        "Parry"
+        "Parry",
+        "Super Boost"
       ],
       "image": "images/Dark_Shadow_Tradeable.png"
     },
@@ -1181,11 +1185,11 @@
         "stamina": 25
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
-        "Water Run",
         "Psycho Smash",
-        "Hoverstep"
+        "Hoverstep",
+        "Parry",
+        "Super Boost",
+        "Water Run"
       ],
       "image": "images/ESP_Silver.png"
     },
@@ -1197,10 +1201,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Super Boost",
+        "Psycho Smash",
         "Parry",
-        "Water Run",
-        "Psycho Smash"
+        "Super Boost",
+        "Water Run"
       ],
       "image": "images/ESP_Silver_Tradeable.png"
     },
@@ -1254,7 +1258,7 @@
         "stamina": 15
       },
       "abilities": [
-        "Hover",
+        "Hover Jet",
         "Blaster Shot"
       ],
       "image": "images/Egg_Robo.png"
@@ -1979,10 +1983,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Chaos Spear",
-        "Super Boost",
         "Chaos Snap",
-        "Parry"
+        "Chaos Spear",
+        "Parry",
+        "Super Boost"
       ],
       "image": "images/Hero_Shadow.png"
     },
@@ -1994,10 +1998,10 @@
         "stamina": 25
       },
       "abilities": [
-        "Chaos Spear",
-        "Super Boost",
         "Chaos Snap",
-        "Parry"
+        "Chaos Spear",
+        "Parry",
+        "Super Boost"
       ],
       "image": "images/Hero_Shadow_Tradeable.png"
     },
@@ -2088,9 +2092,10 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
         "Thunder Rush",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": "images/Holiday_Cheer_Super_Sonic.png"
@@ -2239,7 +2244,7 @@
         "stamina": 25
       },
       "abilities": [
-        "Ascension"
+        "Hover Strife"
       ],
       "image": null
     },
@@ -2917,7 +2922,7 @@
         "stamina": 25
       },
       "abilities": [
-        "Hover",
+        "Hover Jet",
         "Blaster Shot"
       ],
       "image": "images/Missile_Egg_Robo.png"
@@ -2974,9 +2979,9 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost",
+        "Voltaic Discharge",
         "Parry",
-        "Voltaic Discharge"
+        "Super Boost"
       ],
       "image": "images/Neo_Metal_Sonic.png"
     },
@@ -2988,9 +2993,9 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost",
+        "Voltaic Discharge",
         "Parry",
-        "Voltaic Discharge"
+        "Super Boost"
       ],
       "image": null
     },
@@ -3144,11 +3149,11 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
-        "Water Run",
         "Black Shield",
-        "Hoverstep"
+        "Hoverstep",
+        "Parry",
+        "Super Boost",
+        "Water Run"
       ],
       "image": "images/Overclocked_Metal_Sonic.png"
     },
@@ -3161,11 +3166,11 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
-        "Water Run",
         "Black Shield",
-        "Hoverstep"
+        "Hoverstep",
+        "Parry",
+        "Super Boost",
+        "Water Run"
       ],
       "image": null
     },
@@ -3442,8 +3447,9 @@
         "stamina": 30
       },
       "abilities": [
-        "Super Boost",
         "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": null
@@ -3805,6 +3811,7 @@
       },
       "abilities": [
         "Double Jump",
+        "Hover Strife",
         ":Category:Hoverboards"
       ],
       "image": null
@@ -3881,13 +3888,14 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
-        "Chaos Spear",
         "Chaos Blast",
+        "Chaos Spear",
         "Double Jump",
-        ":Category:Hoverboards",
-        "Water Run"
+        "Parry",
+        "Super Boost",
+        "Super Flight",
+        "Water Run",
+        ":Category:Hoverboards"
       ],
       "image": null
     },
@@ -3899,12 +3907,13 @@
         "event": 5
       },
       "abilities": [
-        "Thunder Rush",
         "Double Jump",
-        "Super Boost",
+        "Thunder Rush",
         "Parry",
-        ":Category:Hoverboards",
-        "Water Run"
+        "Super Boost",
+        "Super Flight",
+        "Water Run",
+        ":Category:Hoverboards"
       ],
       "image": "images/Riders_Super_Sonic.png"
     },
@@ -4521,8 +4530,9 @@
         "air": "Infinity"
       },
       "abilities": [
-        "Parry",
         "Intercept Rush",
+        "Parry",
+        "Super Flight",
         "Water Run"
       ],
       "image": null
@@ -5005,10 +5015,11 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
-        "Chaos Spear",
         "Chaos Blast",
+        "Chaos Spear",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": "images/Super_Shadow.png"
@@ -5021,10 +5032,11 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
-        "Chaos Spear",
         "Chaos Blast",
+        "Chaos Spear",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": null
@@ -5037,11 +5049,12 @@
         "stamina": 40
       },
       "abilities": [
-        "Psycho Smash",
         "Meteor Smash",
+        "Psycho Smash",
+        "Parry",
         "Super Boost",
-        "Water Run",
-        "Parry"
+        "Super Flight",
+        "Water Run"
       ],
       "image": "images/Super_Silver.png"
     },
@@ -5053,11 +5066,12 @@
         "stamina": 40
       },
       "abilities": [
-        "Psycho Smash",
         "Meteor Smash",
+        "Psycho Smash",
+        "Parry",
         "Super Boost",
-        "Water Run",
-        "Parry"
+        "Super Flight",
+        "Water Run"
       ],
       "image": null
     },
@@ -5069,9 +5083,10 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
         "Thunder Rush",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": "images/Super_Sonic.png"
@@ -5084,9 +5099,10 @@
         "stamina": 40
       },
       "abilities": [
-        "Super Boost",
-        "Parry",
         "Thunder Rush",
+        "Parry",
+        "Super Boost",
+        "Super Flight",
         "Water Run"
       ],
       "image": "images/Super_Sonic_Tradeable.png"
