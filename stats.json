@@ -9595,8 +9595,14 @@
     },
     {
       "name": "Traveler Chao",
-      "type": "Friends",
-      "reason": "No stats found or insufficient data"
+      "rarity": "Epic",
+      "max": {
+        "xp": 2400
+      },
+      "max_fused": {
+        "xp": 6000
+      },
+      "image": null
     },
     {
       "name": "Tropical Chao",
@@ -12217,11 +12223,6 @@
     {
       "name": "Toy Robot Vampire Sonic",
       "type": "Fast Friends",
-      "reason": "No stats found or insufficient data"
-    },
-    {
-      "name": "Traveler Chao",
-      "type": "Friends",
       "reason": "No stats found or insufficient data"
     },
     {
